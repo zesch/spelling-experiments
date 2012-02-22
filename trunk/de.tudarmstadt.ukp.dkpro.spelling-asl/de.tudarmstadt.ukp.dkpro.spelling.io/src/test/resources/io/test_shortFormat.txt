@@ -1,0 +1,3 @@
+chance	70	change	People may have started farming because the weather and soil began to chance.
+tolerance	65	tolerant	They also chose plants that are more resistance to disease, more tolerance to drought, and those that are easier to harvest.
+goals	17	jails	By the 1780s the goals of England were so full that convicts were often chained up in rotting old ships.

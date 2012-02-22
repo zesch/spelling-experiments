@@ -1,0 +1,398 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="129" index="0004-0001" start="127" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="194" index="0004-0002" start="187" type="IN">
+    <corrections>
+      <correction/>
+      <correction>people</correction>
+    </corrections>
+    <original>persons</original>
+  </edit>
+  <edit end="309" index="0004-0003" start="307" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="353" index="0004-0004" start="349" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="393" index="0004-0005" start="388" type="UN">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>views</original>
+  </edit>
+  <edit end="1107" index="0004-0006" start="1107" type="MV">
+    <corrections>
+      <correction>is </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1406" index="0004-0007" start="1402" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="1546" index="0004-0008" start="1543" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>of </original>
+  </edit>
+  <edit end="1632" index="0004-0009" start="1632" type="MT">
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1743" index="0004-0010" start="1740" type="RD">
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="1820" index="0004-0011" start="1817" type="RD">
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="1978" index="0004-0012" start="1974" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="2128" index="0004-0013" start="2128" type="MV">
+    <corrections>
+      <correction>proposed </correction>
+      <correction>put forward </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2362" index="0004-0014" start="2360" type="RP">
+    <corrections>
+      <correction>if</correction>
+    </corrections>
+    <original>If</original>
+  </edit>
+  <edit end="2384" index="0004-0015" start="2381" type="R">
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+    <original>one</original>
+  </edit>
+  <edit end="2517" index="0004-0016" start="2515" type="RP">
+    <corrections>
+      <correction>if</correction>
+    </corrections>
+    <original>If</original>
+  </edit>
+  <edit end="2539" index="0004-0017" start="2536" type="R">
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+    <original>one</original>
+  </edit>
+  <edit end="2708" index="0004-0018" start="2708" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2783" index="0004-0019" start="2783" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3293" index="0004-0020" start="3252" type="CC">
+    <corrections>
+      <correction>respectively, for sentiment classification</correction>
+      <correction>for sentiment classification</correction>
+    </corrections>
+    <original>for sentiment classification respectively</original>
+  </edit>
+  <edit end="3373" index="0004-0021" start="3345" type="CC">
+    <corrections>
+      <correction>is inevitably some noise</correction>
+    </corrections>
+    <original>inevitably exist some noises</original>
+  </edit>
+  <edit end="3404" index="0004-0022" start="3402" type="R">
+    <corrections>
+      <correction>expressing</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="3557" index="0004-0023" start="3556" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>.</original>
+  </edit>
+  <edit end="3589" index="0004-0024" start="3587" type="W">
+    <corrections>
+      <correction>'.</correction>
+    </corrections>
+    <original>.'</original>
+  </edit>
+  <edit end="3605" index="0004-0025" start="3590" type="UY">
+    <corrections>
+      <correction/>
+      <correction>The</correction>
+    </corrections>
+    <original>Apparently, the</original>
+  </edit>
+  <edit cset="1" end="3646" index="0004-0026" start="3646" type="MN">
+    <corrections>
+      <correction>set</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3646" index="0004-0027" start="3646" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3679" index="0004-0028" start="3679" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="3692" index="0004-0029" start="3692" type="MN">
+    <corrections>
+      <correction>set</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="2" end="3892" index="0004-0030" start="3892" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="2" end="3895" index="0004-0031" start="3895" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4462" index="0004-0032" start="4462" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4475" index="0004-0033" start="4475" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4493" index="0004-0034" start="4493" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4552" index="0004-0035" start="4552" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4922" index="0004-0036" start="4922" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4926" index="0004-0037" start="4922" type="UC">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>and</original>
+  </edit>
+  <edit end="5396" index="0004-0038" start="5388" type="RV">
+    <corrections>
+      <correction>tested</correction>
+    </corrections>
+    <original>explored</original>
+  </edit>
+  <edit cset="3" end="5451" index="0004-0039" start="5447" type="FN">
+    <corrections>
+      <correction>books</correction>
+    </corrections>
+    <original>book</original>
+  </edit>
+  <edit cset="4" end="5456" index="0004-0040" start="5453" type="FN">
+    <corrections>
+      <correction>DVDs</correction>
+    </corrections>
+    <original>DVD</original>
+  </edit>
+  <edit cset="5" end="5468" index="0004-0041" start="5458" type="RJ">
+    <corrections>
+      <correction>electrical</correction>
+    </corrections>
+    <original>electronic</original>
+  </edit>
+  <edit cset="6" end="5516" index="0004-0042" start="5509" type="RN">
+    <corrections>
+      <correction>networking products</correction>
+    </corrections>
+    <original>network</original>
+  </edit>
+  <edit cset="7" end="5521" index="0004-0043" start="5518" type="FN">
+    <corrections>
+      <correction>pets</correction>
+    </corrections>
+    <original>pet</original>
+  </edit>
+  <edit cset="3" end="5588" index="0004-0044" start="5584" type="FN">
+    <corrections>
+      <correction>books</correction>
+    </corrections>
+    <original>book</original>
+  </edit>
+  <edit cset="4" end="5593" index="0004-0045" start="5590" type="FN">
+    <corrections>
+      <correction>DVDs</correction>
+    </corrections>
+    <original>DVD</original>
+  </edit>
+  <edit cset="5" end="5605" index="0004-0046" start="5595" type="RJ">
+    <corrections>
+      <correction>electrical</correction>
+    </corrections>
+    <original>electronic</original>
+  </edit>
+  <edit end="5605" index="0004-0047" start="5605" type="MN">
+    <corrections>
+      <correction>appliances</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5762" index="0004-0048" start="5755" type="RY">
+    <corrections>
+      <correction>In addition</correction>
+    </corrections>
+    <original>Besides</original>
+  </edit>
+  <edit end="5779" index="0004-0049" start="5772" type="TV">
+    <corrections>
+      <correction>collected</correction>
+    </corrections>
+    <original>collect</original>
+  </edit>
+  <edit end="5797" index="0004-0050" start="5792" type="RN">
+    <corrections>
+      <correction>reviews</correction>
+    </corrections>
+    <original>views</original>
+  </edit>
+  <edit end="5829" index="0004-0051" start="5829" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="6" end="5864" index="0004-0052" start="5857" type="RN">
+    <corrections>
+      <correction>networking products</correction>
+    </corrections>
+    <original>network</original>
+  </edit>
+  <edit cset="7" end="5869" index="0004-0053" start="5866" type="FN">
+    <corrections>
+      <correction>pets</correction>
+    </corrections>
+    <original>pet</original>
+  </edit>
+  <edit end="6275" index="0004-0054" start="6254" type="CC">
+    <corrections>
+      <correction>twice as large as that</correction>
+      <correction>twice that</correction>
+    </corrections>
+    <original>twice as many as that</original>
+  </edit>
+  <edit end="6399" index="0004-0055" start="6395" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="6456" index="0004-0056" start="6456" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+</edits>
