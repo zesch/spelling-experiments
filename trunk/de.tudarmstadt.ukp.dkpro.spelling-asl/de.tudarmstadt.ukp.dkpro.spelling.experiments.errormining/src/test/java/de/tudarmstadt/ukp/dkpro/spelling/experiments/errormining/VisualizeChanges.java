@@ -44,7 +44,7 @@ public class VisualizeChanges
 //  public static final String LANGUAGE_CODE = "en";
 
     @Test
-    public void visualizeChanges(String[] args) throws UIMAException, IOException
+    public void visualizeChanges() throws UIMAException, IOException
     {
       
           CollectionReader reader = null;
