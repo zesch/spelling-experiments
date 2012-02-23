@@ -15,14 +15,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining;
+package de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.apps;
 
 import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescription;
 import static org.uimafit.factory.CollectionReaderFactory.createCollectionReader;
 
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReader;
-import org.junit.Test;
 import org.uimafit.pipeline.SimplePipeline;
 
 import de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaReaderBase;
@@ -33,20 +32,20 @@ import de.tudarmstadt.ukp.wikipedia.api.WikiConstants.Language;
 public class DumpToXmi
 {
 
-    @Test
-    public void dumpToXMI() throws Exception
+    public static void main(String[] args)
+        throws Exception
     {
         dumpDe();
         dumpEn();
     }
     
-    private void dumpDe() throws Exception {
+    private static void dumpDe() throws Exception {
         CollectionReader readerDe = createCollectionReader(
                 WikipediaRevisionPairReader.class,
                 WikipediaReaderBase.PARAM_HOST,       "bender.ukp.informatik.tu-darmstadt.de",
                 WikipediaReaderBase.PARAM_DB,         "wiki_de_20100813_rev",
-                WikipediaReaderBase.PARAM_USER,       "student",
-                WikipediaReaderBase.PARAM_PASSWORD,   "student",
+                WikipediaReaderBase.PARAM_USER,       "",
+                WikipediaReaderBase.PARAM_PASSWORD,   "",
                 WikipediaReaderBase.PARAM_LANGUAGE,   Language.german.name(),
                 WikipediaRevisionPairReader.PARAM_MAX_CHANGE, 3
         );
@@ -63,13 +62,13 @@ public class DumpToXmi
         );
     }
 
-    private void dumpEn() throws Exception {
+    private static void dumpEn() throws Exception {
         CollectionReader readerEn = createCollectionReader(
                 WikipediaRevisionPairReader.class,
                 WikipediaReaderBase.PARAM_HOST,       "bender.ukp.informatik.tu-darmstadt.de",
                 WikipediaReaderBase.PARAM_DB,         "wikiapi_simple_20090119",
-                WikipediaReaderBase.PARAM_USER,       "student",
-                WikipediaReaderBase.PARAM_PASSWORD,   "student",
+                WikipediaReaderBase.PARAM_USER,       "",
+                WikipediaReaderBase.PARAM_PASSWORD,   "",
                 WikipediaReaderBase.PARAM_LANGUAGE,   Language.english.name(),
                 WikipediaRevisionPairReader.PARAM_MAX_CHANGE, 3
         );

@@ -15,19 +15,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining;
+package de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.apps;
 
 import static de.tudarmstadt.ukp.dkpro.core.api.io.ResourceCollectionReaderBase.INCLUDE_PREFIX;
 import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescription;
 import static org.uimafit.factory.CollectionReaderFactory.createCollectionReader;
 
-import java.io.IOException;
-
 import org.annolab.tt4j.TreeTaggerWrapper;
-import org.apache.uima.UIMAException;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReader;
-import org.junit.Test;
 import org.uimafit.factory.AggregateBuilder;
 import org.uimafit.pipeline.SimplePipeline;
 
@@ -36,6 +32,9 @@ import de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiReader;
 import de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiWriter;
 import de.tudarmstadt.ukp.dkpro.core.tokit.TokenFilter;
 import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosLemmaTT4J;
+import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.ChangeVisualizer;
+import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.SentenceAligner;
+import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.SentenceFilter;
 
 public class VisualizeChanges
 {
@@ -43,8 +42,9 @@ public class VisualizeChanges
     public static final String LANGUAGE_CODE = "de";
 //  public static final String LANGUAGE_CODE = "en";
 
-    @Test
-    public void visualizeChanges() throws UIMAException, IOException
+
+    public static void main(String[] args)
+        throws Exception
     {
       
           CollectionReader reader = null;

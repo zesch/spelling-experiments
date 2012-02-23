@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining;
+package de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.apps;
 
 import static de.tudarmstadt.ukp.dkpro.core.api.io.ResourceCollectionReaderBase.INCLUDE_PREFIX;
 import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescription;
@@ -23,16 +23,13 @@ import static org.uimafit.factory.CollectionReaderFactory.createCollectionReader
 import static org.uimafit.factory.ExternalResourceFactory.createExternalResourceDescription;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
 import org.annolab.tt4j.TreeTaggerWrapper;
-import org.apache.uima.UIMAException;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.resource.ExternalResourceDescription;
-import org.junit.Test;
 import org.uimafit.factory.AggregateBuilder;
 import org.uimafit.pipeline.SimplePipeline;
 
@@ -43,6 +40,9 @@ import de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiReader;
 import de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter;
 import de.tudarmstadt.ukp.dkpro.core.tokit.TokenFilter;
 import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosLemmaTT4J;
+import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.SentenceAligner;
+import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.SentenceFilter;
+import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.SpellingErrorFilter;
 
 @SuppressWarnings("serial")
 public class GetSpellingErrorsInContext
@@ -60,9 +60,9 @@ public class GetSpellingErrorsInContext
         put("en", "classpath:/blacklists/english_blacklist.txt");
         put("de", "classpath:/blacklists/german_blacklist.txt");
     }};
-    
-    @Test
-    public void getSpellingErrorsInContext() throws UIMAException, IOException
+
+    public static void main(String[] args)
+        throws Exception
     {
 
         String outputPath = "target/test/";
