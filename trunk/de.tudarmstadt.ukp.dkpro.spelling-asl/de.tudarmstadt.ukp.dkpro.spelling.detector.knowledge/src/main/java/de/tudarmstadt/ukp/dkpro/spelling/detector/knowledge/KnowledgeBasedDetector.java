@@ -157,7 +157,7 @@ public abstract class KnowledgeBasedDetector
         if (lemma != null) {
             for (String item : freqDistLemmas.getKeys()) {
 
-                // should not match with itself
+                // should not match with itself - this was already tested
                 if (item.equals(lemma)) {
                     continue;
                 }

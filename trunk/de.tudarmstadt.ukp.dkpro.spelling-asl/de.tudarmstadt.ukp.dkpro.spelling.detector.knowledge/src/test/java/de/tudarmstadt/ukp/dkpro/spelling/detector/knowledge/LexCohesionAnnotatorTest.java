@@ -26,8 +26,8 @@ import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescripti
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.jcas.JCas;
-import org.junit.Ignore;
 import org.junit.Test;
+import org.uimafit.factory.ExternalResourceFactory;
 import org.uimafit.util.JCasUtil;
 
 import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SpellingAnomaly;
@@ -36,11 +36,11 @@ import de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter;
 import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosLemmaTT4J;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.type.RWSECandidate;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.RWSECandidateAnnotator;
+import de.tudarmstadt.ukp.relatedness.api.resource.TestRelatednessResource;
 
 public class LexCohesionAnnotatorTest
 {
 
-    @Ignore
     @Test
     public void testProcess()
         throws Exception
@@ -61,12 +61,15 @@ public class LexCohesionAnnotatorTest
 
         AnalysisEngineDescription cohesion= createPrimitiveDescription(
                 LexCohesionDetector.class,
-                LexCohesionDetector.PARAM_VOCABULARY, "src/test/resources/vocabulary/test_vocabulary_lexcohesion.txt",
+                LexCohesionDetector.PARAM_VOCABULARY, "classpath:/vocabulary/en_US_dict.txt",
                 LexCohesionDetector.PARAM_LANGUAGE_CODE, "en",
                 LexCohesionDetector.PARAM_MIN_LENGTH, 2,
-                LexCohesionDetector.PARAM_THRESHOLD, 0.5f
+                LexCohesionDetector.PARAM_THRESHOLD, 0.35f,
+                LexCohesionDetector.SR_RESOURCE, ExternalResourceFactory.createExternalResourceDescription(
+                        TestRelatednessResource.class
+                )
         );
-
+        
         AnalysisEngineDescription aggr = createAggregateDescription(
                 segmenter,
                 tagger,
@@ -76,7 +79,7 @@ public class LexCohesionAnnotatorTest
                 
         AnalysisEngine engine = createAggregate(aggr);
         
-        String text = "this this is is his tis";
+        String text = "This is not a construcdion.";
         JCas jcas = engine.newJCas();
         jcas.setDocumentText(text);
         
@@ -91,7 +94,7 @@ public class LexCohesionAnnotatorTest
 
         int j=0;
         for (SpellingAnomaly anomaly : JCasUtil.select(jcas, SpellingAnomaly.class)) {
-            assertTrue(anomaly.getSuggestions(0).getReplacement().equals("this"));  
+            assertTrue(anomaly.getSuggestions(0).getReplacement().equals("construction"));  
             System.out.println(anomaly);
             j++;
         }
