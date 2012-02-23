@@ -29,9 +29,6 @@ import org.uimafit.util.JCasUtil;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.type.GoldSpellingAnomaly;
-import de.tudarmstadt.ukp.relatedness.api.RelatednessException;
-import de.tudarmstadt.ukp.relatedness.api.TextRelatednessMeasure;
-import de.tudarmstadt.ukp.relatedness.secondstring.LevenshteinSecondStringComparator;
 
 /**
  * Collects statistics about the dataset.
@@ -45,7 +42,7 @@ public class DatasetStatisticsCollector
     
     private static final String LF = System.getProperty("line.separator");
     
-    private TextRelatednessMeasure levenshteinComparator;
+    private LevenshteinDistance levenshteinComparator;
 
     private int nrOfItems;
     private int nrOfTokens;
@@ -58,7 +55,7 @@ public class DatasetStatisticsCollector
     {
         super.initialize(context);
 
-        levenshteinComparator = new LevenshteinSecondStringComparator();
+        levenshteinComparator = new LevenshteinDistance();
         
         nrOfItems = 0;
         nrOfTokens = 0;
@@ -73,15 +70,10 @@ public class DatasetStatisticsCollector
     {
         GoldSpellingAnomaly anomaly = JCasUtil.selectSingle(jcas, GoldSpellingAnomaly.class);
         
-        try {
-            distanceSum += levenshteinComparator.getRelatedness(
-                    anomaly.getCoveredText(),
-                    anomaly.getSuggestions(0).getReplacement()
-            );
-        }
-        catch (RelatednessException e) {
-            throw new AnalysisEngineProcessException(e);
-        }
+        distanceSum += levenshteinComparator.computeLevenshteinDistance(
+                anomaly.getCoveredText(),
+                anomaly.getSuggestions(0).getReplacement()
+        );
         
         Collection<Token> tokens = JCasUtil.select(jcas, Token.class);
         Collection<Sentence> sentences = JCasUtil.select(jcas, Sentence.class);
@@ -109,5 +101,32 @@ public class DatasetStatisticsCollector
         sb.append(LF);
         
         System.out.println(sb.toString());
+    }
+    
+    // from http://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance
+    class LevenshteinDistance {
+        private int minimum(int a, int b, int c) {
+                return Math.min(Math.min(a, b), c);
+        }
+ 
+        public int computeLevenshteinDistance(CharSequence str1, CharSequence str2) {
+                int[][] distance = new int[str1.length() + 1][str2.length() + 1];
+ 
+                for (int i = 0; i <= str1.length(); i++)
+                        distance[i][0] = i;
+                for (int j = 0; j <= str2.length(); j++)
+                        distance[0][j] = j;
+ 
+                for (int i = 1; i <= str1.length(); i++)
+                        for (int j = 1; j <= str2.length(); j++)
+                                distance[i][j] = minimum(
+                                                distance[i - 1][j] + 1,
+                                                distance[i][j - 1] + 1,
+                                                distance[i - 1][j - 1]
+                                                                + ((str1.charAt(i - 1) == str2.charAt(j - 1)) ? 0
+                                                                                : 1));
+ 
+                return distance[str1.length()][str2.length()];
+        }
     }
 }
