@@ -22,7 +22,6 @@ import static org.uimafit.factory.CollectionReaderFactory.createCollectionReader
 
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReader;
-import org.junit.Test;
 import org.uimafit.pipeline.SimplePipeline;
 
 import de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.NN;
@@ -49,8 +48,8 @@ public class CreateArtificialEvaluationDataset
     //     For example, any word could be a target word (Mays, Damerau & Mercer, 1991),
     //     or only words that can be found in WordNet (Wilcox-O'Hearn, Hirst & Budanitsky, 2008).
     
-    @Test
-    public void main() throws Exception
+    public static void main(String[] args)
+        throws Exception 
     {
         createEnglish(100000, "_100000");
         createEnglish(10000, "_10000");
@@ -75,7 +74,7 @@ public class CreateArtificialEvaluationDataset
         
         AnalysisEngineDescription errorAdder = createPrimitiveDescription(
                 SpellingErrorAdder.class,
-                SpellingErrorAdder.PARAM_VOCABULARY, "src/main/resources/vocabulary/brown_tei.txt",
+                SpellingErrorAdder.PARAM_VOCABULARY, "classpath:/vocabulary/brown_tei.txt",
                 SpellingErrorAdder.PARAM_TARGET_ANNOTATION_TYPE, TYPE,
                 SpellingErrorAdder.PARAM_MAX_ERRORS_PER_SENTENCE, 1,
                 SpellingErrorAdder.PARAM_MAX_ITEMS, nrOfItems,
@@ -111,7 +110,7 @@ public class CreateArtificialEvaluationDataset
 
         AnalysisEngineDescription errorAdder = createPrimitiveDescription(
                 SpellingErrorAdder.class,
-                SpellingErrorAdder.PARAM_VOCABULARY, "src/main/resources/vocabulary/tiger_export.txt",
+                SpellingErrorAdder.PARAM_VOCABULARY, "classpath:/vocabulary/tiger_export.txt",
                 SpellingErrorAdder.PARAM_TARGET_ANNOTATION_TYPE, TYPE,
                 SpellingErrorAdder.PARAM_MAX_ERRORS_PER_SENTENCE, 1,
                 SpellingErrorAdder.PARAM_MAX_ITEMS, nrOfItems,

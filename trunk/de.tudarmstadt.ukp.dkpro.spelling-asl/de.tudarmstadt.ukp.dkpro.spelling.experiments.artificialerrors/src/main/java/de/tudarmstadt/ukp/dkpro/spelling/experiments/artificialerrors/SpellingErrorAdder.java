@@ -17,8 +17,9 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.artificialerrors;
 
-import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
@@ -26,7 +27,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.cas.Type;
@@ -41,6 +42,7 @@ import org.uimafit.util.JCasUtil;
 import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SpellingAnomaly;
 import de.tudarmstadt.ukp.dkpro.core.api.featurepath.FeaturePathException;
 import de.tudarmstadt.ukp.dkpro.core.api.featurepath.FeaturePathInfo;
+import de.tudarmstadt.ukp.dkpro.core.api.resources.ResourceUtils;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.utils.SpellingUtils;
@@ -76,7 +78,7 @@ public class SpellingErrorAdder
      */
     public static final String PARAM_VOCABULARY = "VocabularyFile";
     @ConfigurationParameter(name = PARAM_VOCABULARY, mandatory=true)
-    private File vocabularyFile;
+    private String vocabularyFile;
 
     private Set<String> vocabulary;
     
@@ -150,11 +152,19 @@ public class SpellingErrorAdder
         
         String content;
         try {
-            content = FileUtils.readFileToString(vocabularyFile);
-            for (String item : content.split("\n")) {
-                if (!item.startsWith("#")) {
-                    vocabulary.add( item );
+            InputStream is = null;
+            try {
+                URL url = ResourceUtils.resolveLocation(vocabularyFile, this, getContext());
+                is = url.openStream();
+                content = IOUtils.toString(is, "UTF-8");
+                for (String item : content.split("\n")) {
+                    if (!item.startsWith("#")) {
+                        vocabulary.add( item );
+                    }
                 }
+            }
+            finally{
+                IOUtils.closeQuietly(is);
             }
         }
         catch (IOException e) {
