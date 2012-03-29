@@ -22,12 +22,14 @@ import static org.junit.Assert.assertEquals;
 import java.io.IOException;
 import java.util.Map.Entry;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.data.util.DataUtil;
 
 public class TestDatasets {
 
+	@Ignore
     @Test
     public void test() throws IOException {
         int i=0;
