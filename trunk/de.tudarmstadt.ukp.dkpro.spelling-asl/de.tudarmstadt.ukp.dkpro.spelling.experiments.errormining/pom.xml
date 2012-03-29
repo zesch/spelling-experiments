@@ -79,7 +79,6 @@
   	<dependency>
   		<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
   		<artifactId>de.tudarmstadt.ukp.dkpro.core.treetagger-asl</artifactId>
-  		<scope>test</scope>
   	</dependency>
   	<dependency>
   		<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
@@ -96,7 +95,6 @@
   	<dependency>
   		<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
   		<artifactId>de.tudarmstadt.ukp.dkpro.core.frequency-asl</artifactId>
-  		<scope>test</scope>
   	</dependency>
   	<dependency>
   		<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
@@ -107,7 +105,6 @@
   	<dependency>
   		<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
   		<artifactId>de.tudarmstadt.ukp.dkpro.core.io.xmi-asl</artifactId>
-  		<scope>test</scope>
   	</dependency>
   	<dependency>
   		<groupId>de.tudarmstadt.ukp.dkpro.spelling</groupId>
