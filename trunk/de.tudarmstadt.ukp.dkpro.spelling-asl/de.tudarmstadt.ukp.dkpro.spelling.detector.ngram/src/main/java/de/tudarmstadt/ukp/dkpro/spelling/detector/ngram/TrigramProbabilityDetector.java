@@ -40,7 +40,7 @@ public class TrigramProbabilityDetector
     extends LMBasedDetector
 {
 
-    JCas jcas;
+    private JCas jcas;
 
     // local cache, global cache for all files would be too big
     private Map<String,Long> countCache;
