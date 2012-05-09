@@ -1,0 +1,10 @@
+@relation test
+
+@attribute a1 {b,c,a,XXX}
+@attribute a2 numeric
+@attribute out {f,t}
+
+@data
+{0 a,1 10,2 t}
+{0 XXX,1 20}
+{0 c,1 20,2 t}

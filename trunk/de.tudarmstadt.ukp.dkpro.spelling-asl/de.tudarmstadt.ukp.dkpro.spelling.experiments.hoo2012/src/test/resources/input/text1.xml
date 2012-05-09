@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR798*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Chinese</LANGUAGE>
+      <AGE>16-20</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>P1.</P>
+      <P>P2.</P>
+    </PART>
+    <PART id="2">
+      <P>P3.</P>
+      <P>P4.</P>
+    </PART>
+  </BODY>
+</HOO>

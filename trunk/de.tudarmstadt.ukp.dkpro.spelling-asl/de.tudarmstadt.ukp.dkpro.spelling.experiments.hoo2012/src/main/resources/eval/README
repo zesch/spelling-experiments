@@ -1,0 +1,40 @@
+HOO Eval Tools Update Release 0.3
+8th March 2012
+Robert Dale
+
+These notes refer to evalfrag version 0.71 and evalrun version 0.6.
+The code has been changed in the following ways:
+
+1    Both programs now support a case option (-c) that allows
+     specification of whether the casing of the string contents of a
+     gold edit and a system edit should match.  The default is
+     nomatch; this means that, for example, systems do not have to
+     replicate the casing of sentence initial corrections.
+
+2    The handling of spurious edits when evaluation is restricted to a
+     subset of types usign the -t option has been changed.
+     Previously, the spurious edits listing in the results from
+     evalfrag would include any edit found in the system output that
+     did not correspond to an edit of the specified types in the gold
+     standard: so, for example, if you were testing performance on
+     errors of type A, but your system also identifies errors of type
+     B, the type B errors would be listed as spurious.  Now, the
+     spurious edits listing only lists edits of the specified types
+     that do not correspond to an edit in the gold standard: in the
+     example just given, only spurious edits of type A will be listed.
+
+3    If, for some reason, a gold edit has no index, previously this
+     caused an error.  This situation is now handled gracefully.
+     Note, however, that gold edits should always have indices.
+
+This version of the eval tools is provided with a types.config file
+that defines the types Prep and Det.  This means that, for example,
+one can test performance on Prep errors only (ie errors of type UT, MT
+and RT) by saying:
+
+    evalrun.py -t Prep Gold System
+
+where Gold and System are the directories containing the gold standard
+and system edit files respectively/
+
+----End
