@@ -1,0 +1,544 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="72" index="0049-0001" start="66" type="DY">
+    <corrections>
+      <correction>properly</correction>
+    </corrections>
+    <original>proper</original>
+  </edit>
+  <edit cset="1" end="95" index="0049-0002" start="88" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit end="130" index="0049-0003" start="118" type="CN">
+    <corrections>
+      <correction>punctuation</correction>
+      <correction>punctuation marks</correction>
+    </corrections>
+    <original>punctuations</original>
+  </edit>
+  <edit cset="1" end="194" index="0049-0004" start="187" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit end="268" index="0049-0005" start="255" type="UY">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>sufficiently </original>
+  </edit>
+  <edit end="287" index="0049-0006" start="278" type="RY">
+    <corrections>
+      <correction>especially</correction>
+    </corrections>
+    <original>specially</original>
+  </edit>
+  <edit end="389" index="0049-0007" start="389" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="393" index="0049-0008" start="390" type="L">
+    <corrections>
+      <correction>because</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="419" index="0049-0009" start="417" type="RT">
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="450" index="0049-0010" start="440" type="RN">
+    <corrections>
+      <correction>Design</correction>
+    </corrections>
+    <original>Conception</original>
+  </edit>
+  <edit end="533" index="0049-0011" start="527" type="RV">
+    <corrections>
+      <correction>is combined with</correction>
+      <correction>combines with</correction>
+    </corrections>
+    <original>joined</original>
+  </edit>
+  <edit end="552" index="0049-0012" start="549" type="MP">
+    <corrections>
+      <correction>i.e.</correction>
+    </corrections>
+    <original>ie.</original>
+  </edit>
+  <edit end="703" index="0049-0013" start="697" type="RV">
+    <original>called</original>
+  </edit>
+  <edit end="732" index="0049-0014" start="719" type="RY">
+    <original>transparently</original>
+  </edit>
+  <edit cset="1" end="1081" index="0049-0015" start="1074" type="RN">
+    <corrections>
+      <correction>Editing</correction>
+    </corrections>
+    <original>Edition</original>
+  </edit>
+  <edit end="1132" index="0049-0016" start="1124" type="S">
+    <corrections>
+      <correction>through</correction>
+    </corrections>
+    <original>throught</original>
+  </edit>
+  <edit end="1171" index="0049-0017" start="1149" type="R">
+    <corrections>
+      <correction>follow</correction>
+    </corrections>
+    <original>are in accordance with</original>
+  </edit>
+  <edit end="1237" index="0049-0018" start="1226" type="RN">
+    <corrections>
+      <correction>functionality</correction>
+    </corrections>
+    <original>functioning</original>
+  </edit>
+  <edit end="1263" index="0049-0019" start="1251" type="R">
+    <corrections>
+      <correction/>
+      <correction>the following</correction>
+    </corrections>
+    <original>what follows</original>
+  </edit>
+  <edit end="1459" index="0049-0020" start="1451" type="S">
+    <corrections>
+      <correction>Through</correction>
+    </corrections>
+    <original>Throught</original>
+  </edit>
+  <edit end="1590" index="0049-0021" start="1573" type="DY">
+    <corrections>
+      <correction>as best it can</correction>
+      <correction>as well as it can</correction>
+    </corrections>
+    <original>as best as it can</original>
+  </edit>
+  <edit cset="1" end="1613" index="0049-0022" start="1606" type="RN">
+    <corrections>
+      <correction>Editing</correction>
+    </corrections>
+    <original>Edition</original>
+  </edit>
+  <edit end="1674" index="0049-0023" start="1671" type="RP">
+    <corrections>
+      <correction>e.g.</correction>
+    </corrections>
+    <original>eg.</original>
+  </edit>
+  <edit end="1810" index="0049-0024" start="1803" type="RV">
+    <corrections>
+      <correction/>
+      <correction>reviewed</correction>
+    </corrections>
+    <original>revised</original>
+  </edit>
+  <edit end="1840" index="0049-0025" start="1817" type="W">
+    <corrections>
+      <correction/>
+      <correction>specified XML structure</correction>
+    </corrections>
+    <original>XML structure specified</original>
+  </edit>
+  <edit end="1993" index="0049-0026" start="1993" type="MD">
+    <corrections>
+      <correction/>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="2000" index="0049-0027" start="1993" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit end="2154" index="0049-0028" start="2114" type="AS">
+    <corrections>
+      <correction>a structure was initially established</correction>
+    </corrections>
+    <original>it was initially established a structure</original>
+  </edit>
+  <edit cset="1" end="2488" index="0049-0029" start="2481" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit end="2529" index="0049-0030" start="2507" type="R">
+    <corrections>
+      <correction/>
+      <correction>Editor's comments</correction>
+    </corrections>
+    <original>Comments of the editor</original>
+  </edit>
+  <edit end="2618" index="0049-0031" start="2615" type="RP">
+    <corrections>
+      <correction>e.g.</correction>
+    </corrections>
+    <original>eg.</original>
+  </edit>
+  <edit end="2648" index="0049-0032" start="2630" type="R">
+    <corrections>
+      <correction/>
+      <correction>on &quot;prologues&quot;</correction>
+    </corrections>
+    <original>of type &quot;prologue&quot;</original>
+  </edit>
+  <edit end="2706" index="0049-0033" start="2700" type="U">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>so as </original>
+  </edit>
+  <edit end="2736" index="0049-0034" start="2728" type="RN">
+    <corrections>
+      <correction>aspects</correction>
+    </corrections>
+    <original>contexts</original>
+  </edit>
+  <edit end="2747" index="0049-0035" start="2740" type="FN">
+    <corrections>
+      <correction>corpus</correction>
+    </corrections>
+    <original>corpora</original>
+  </edit>
+  <edit end="2854" index="0049-0036" start="2845" type="RJ">
+    <original>prominent</original>
+  </edit>
+  <edit cset="1" end="2888" index="0049-0037" start="2881" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit cset="2" end="2901" index="0049-0038" start="2899" type="RP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>; </original>
+  </edit>
+  <edit cset="2" end="2980" index="0049-0039" start="2979" type="RP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>;</original>
+  </edit>
+  <edit end="3138" index="0049-0040" start="3136" type="RT">
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+    <original>by</original>
+  </edit>
+  <edit end="3165" index="0049-0041" start="3157" type="S">
+    <corrections>
+      <correction>Through</correction>
+    </corrections>
+    <original>Throught</original>
+  </edit>
+  <edit end="3218" index="0049-0042" start="3215" type="RP">
+    <corrections>
+      <correction>e.g.</correction>
+    </corrections>
+    <original>eg.</original>
+  </edit>
+  <edit end="3396" index="0049-0043" start="3383" type="W">
+    <corrections>
+      <correction>automatic POS</correction>
+    </corrections>
+    <original>POS automatic</original>
+  </edit>
+  <edit end="3435" index="0049-0044" start="3422" type="W">
+    <corrections>
+      <correction>also provides</correction>
+    </corrections>
+    <original>provides also</original>
+  </edit>
+  <edit end="3504" index="0049-0045" start="3496" type="RN">
+    <corrections>
+      <correction>edited texts</correction>
+    </corrections>
+    <original>editions</original>
+  </edit>
+  <edit end="3577" index="0049-0046" start="3577" type="M">
+    <corrections>
+      <correction/>
+      <correction>we offer </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="3636" index="0049-0047" start="3629" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit end="3691" index="0049-0048" start="3681" type="RJ">
+    <corrections>
+      <correction>relevant</correction>
+    </corrections>
+    <original>respective</original>
+  </edit>
+  <edit end="3819" index="0049-0049" start="3815" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit cset="1" end="3966" index="0049-0050" start="3959" type="RN">
+    <corrections>
+      <correction>Editing</correction>
+    </corrections>
+    <original>Edition</original>
+  </edit>
+  <edit end="4009" index="0049-0051" start="4006" type="RP">
+    <corrections>
+      <correction>e.g.</correction>
+    </corrections>
+    <original>eg.</original>
+  </edit>
+  <edit cset="1" end="4062" index="0049-0052" start="4055" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit end="4127" index="0049-0053" start="4125" type="RT">
+    <corrections>
+      <correction>For</correction>
+    </corrections>
+    <original>To</original>
+  </edit>
+  <edit end="4193" index="0049-0054" start="4182" type="RV">
+    <corrections>
+      <correction/>
+      <correction>apply</correction>
+    </corrections>
+    <original>effectivate</original>
+  </edit>
+  <edit end="4212" index="0049-0055" start="4204" type="RN">
+    <corrections>
+      <correction>edits</correction>
+      <correction>editorial changes</correction>
+    </corrections>
+    <original>editions</original>
+  </edit>
+  <edit end="4338" index="0049-0056" start="4322" type="CC">
+    <corrections>
+      <correction>remainder of the</correction>
+      <correction>remaining</correction>
+    </corrections>
+    <original>remaining of the</original>
+  </edit>
+  <edit end="4394" index="0049-0057" start="4386" type="R">
+    <corrections>
+      <correction>POS-tag</correction>
+    </corrections>
+    <original>POS tags</original>
+  </edit>
+  <edit end="4422" index="0049-0058" start="4411" type="S">
+    <corrections>
+      <correction>difficulties</correction>
+    </corrections>
+    <original>dificulties</original>
+  </edit>
+  <edit end="4456" index="0049-0059" start="4455" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="4469" index="0049-0060" start="4463" type="RJ">
+    <corrections>
+      <correction>ordinary</correction>
+    </corrections>
+    <original>common</original>
+  </edit>
+  <edit end="4493" index="0049-0061" start="4484" type="TV">
+    <corrections>
+      <correction/>
+      <correction>showed</correction>
+    </corrections>
+    <original>had shown</original>
+  </edit>
+  <edit end="4562" index="0049-0062" start="4554" type="RJ">
+    <corrections>
+      <correction>user-friendly</correction>
+    </corrections>
+    <original>friendly</original>
+  </edit>
+  <edit end="4629" index="0049-0063" start="4622" type="FJ">
+    <corrections>
+      <correction>earliest</correction>
+    </corrections>
+    <original>earlier</original>
+  </edit>
+  <edit end="4635" index="0049-0064" start="4630" type="RN">
+    <corrections>
+      <correction>use</correction>
+    </corrections>
+    <original>usage</original>
+  </edit>
+  <edit end="4818" index="0049-0065" start="4807" type="IJ">
+    <corrections>
+      <correction>linguistic</correction>
+    </corrections>
+    <original>linguistics</original>
+  </edit>
+  <edit cset="1" end="4843" index="0049-0066" start="4836" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit end="5030" index="0049-0067" start="5027" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="5061" index="0049-0068" start="5055" type="RJ">
+    <corrections>
+      <correction/>
+      <correction>increased</correction>
+    </corrections>
+    <original>better</original>
+  </edit>
+  <edit end="5233" index="0049-0069" start="5227" type="RJ">
+    <corrections>
+      <correction>ordinary</correction>
+    </corrections>
+    <original>common</original>
+  </edit>
+  <edit cset="1" end="5241" index="0049-0070" start="5234" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit end="5398" index="0049-0071" start="5386" type="R">
+    <corrections>
+      <correction>one</correction>
+      <correction>a single</correction>
+    </corrections>
+    <original>one and only</original>
+  </edit>
+  <edit end="5433" index="0049-0072" start="5430" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="5462" index="0049-0073" start="5459" type="L">
+    <corrections>
+      <correction>because</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="5577" index="0049-0074" start="5564" type="RY">
+    <corrections>
+      <correction>intuitively</correction>
+    </corrections>
+    <original>transparently</original>
+  </edit>
+  <edit end="5598" index="0049-0075" start="5592" type="RY">
+    <corrections>
+      <correction>still</correction>
+      <correction>constantly</correction>
+      <correction>continually</correction>
+    </corrections>
+    <original>always</original>
+  </edit>
+  <edit cset="1" end="5855" index="0049-0076" start="5848" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit cset="1" end="5938" index="0049-0077" start="5931" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit cset="1" end="5994" index="0049-0078" start="5987" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit end="6021" index="0049-0079" start="6013" type="RN">
+    <corrections>
+      <correction/>
+      <correction>review</correction>
+    </corrections>
+    <original>revision</original>
+  </edit>
+  <edit end="6224" index="0049-0080" start="6219" type="RJ">
+    <corrections>
+      <correction>wide</correction>
+      <correction>broad</correction>
+      <correction>a lot of</correction>
+    </corrections>
+    <original>large</original>
+  </edit>
+  <edit end="6238" index="0049-0081" start="6236" type="RT">
+    <corrections>
+      <correction/>
+      <correction>of</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="6239" index="0049-0082" start="6239" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="6259" index="0049-0083" start="6252" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+  <edit end="6354" index="0049-0084" start="6349" type="RJ">
+    <corrections>
+      <correction>ultimate</correction>
+    </corrections>
+    <original>ideal</original>
+  </edit>
+  <edit cset="1" end="6476" index="0049-0085" start="6469" type="RN">
+    <corrections>
+      <correction>editing</correction>
+    </corrections>
+    <original>edition</original>
+  </edit>
+</edits>

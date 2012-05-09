@@ -1,0 +1,271 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="282" index="0015-0001" start="281" type="FD">
+    <corrections>
+      <correction>an</correction>
+    </corrections>
+    <original>a</original>
+  </edit>
+  <edit cset="1" end="414" index="0015-0002" start="410" type="RP">
+    <corrections>
+      <correction>. To</correction>
+    </corrections>
+    <original>; to</original>
+  </edit>
+  <edit end="429" index="0015-0003" start="428" type="FD">
+    <corrections>
+      <correction>an</correction>
+    </corrections>
+    <original>a</original>
+  </edit>
+  <edit cset="1" end="624" index="0015-0004" start="620" type="RP">
+    <corrections>
+      <correction>. To</correction>
+    </corrections>
+    <original>; to</original>
+  </edit>
+  <edit end="639" index="0015-0005" start="638" type="FD">
+    <corrections>
+      <correction>an</correction>
+    </corrections>
+    <original>a</original>
+  </edit>
+  <edit end="810" index="0015-0006" start="810" type="MP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="918" index="0015-0007" start="910" type="DY">
+    <corrections>
+      <correction>semantically</correction>
+    </corrections>
+    <original>semantic</original>
+  </edit>
+  <edit end="1143" index="0015-0008" start="1132" type="AGN">
+    <corrections>
+      <correction>explanations</correction>
+    </corrections>
+    <original>explanation</original>
+  </edit>
+  <edit end="1155" index="0015-0009" start="1151" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="1187" index="0015-0010" start="1180" type="AGN">
+    <corrections>
+      <correction>meanings</correction>
+    </corrections>
+    <original>meaning</original>
+  </edit>
+  <edit cset="2" end="1191" index="0015-0011" start="1187" type="R">
+    <corrections>
+      <correction>:</correction>
+    </corrections>
+    <original>, as</original>
+  </edit>
+  <edit cset="2" end="1234" index="0015-0012" start="1230" type="R">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>, as</original>
+  </edit>
+  <edit end="1239" index="0015-0013" start="1235" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit cset="2" end="1281" index="0015-0014" start="1274" type="R">
+    <corrections>
+      <correction>; and</correction>
+    </corrections>
+    <original>and as</original>
+  </edit>
+  <edit end="1734" index="0015-0015" start="1725" type="AGN">
+    <corrections>
+      <correction>relation</correction>
+    </corrections>
+    <original>relations</original>
+  </edit>
+  <edit end="2012" index="0015-0016" start="2009" type="RD">
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="2197" index="0015-0017" start="2197" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="3" end="2240" index="0015-0018" start="2220" type="MP">
+    <corrections>
+      <correction>semantic-relatedness</correction>
+    </corrections>
+    <original>semantic relatedness</original>
+  </edit>
+  <edit end="2257" index="0015-0019" start="2250" type="RY">
+    <original>Totally</original>
+  </edit>
+  <edit end="2340" index="0015-0020" start="2340" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2463" index="0015-0021" start="2460" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>as </original>
+  </edit>
+  <edit end="2512" index="0015-0022" start="2512" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2738" index="0015-0023" start="2722" type="DJ">
+    <corrections>
+      <correction>semantically related</correction>
+    </corrections>
+    <original>semantic-related</original>
+  </edit>
+  <edit end="2907" index="0015-0024" start="2904" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>as </original>
+  </edit>
+  <edit end="3065" index="0015-0025" start="3061" type="RP">
+    <corrections>
+      <correction>cf.</correction>
+    </corrections>
+    <original>e.g.</original>
+  </edit>
+  <edit end="3071" index="0015-0026" start="3067" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit cset="3" end="3502" index="0015-0027" start="3482" type="MP">
+    <corrections>
+      <correction>semantic-relatedness</correction>
+    </corrections>
+    <original>semantic relatedness</original>
+  </edit>
+  <edit end="3602" index="0015-0028" start="3602" type="MY">
+    <corrections>
+      <correction>how </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3706" index="0015-0029" start="3704" type="RT">
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="3821" index="0015-0030" start="3811" type="RY">
+    <original>Concretely</original>
+  </edit>
+  <edit end="4482" index="0015-0031" start="4482" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4566" index="0015-0032" start="4566" type="M">
+    <corrections>
+      <correction>types of </correction>
+      <correction>instances of </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4870" index="0015-0033" start="4868" type="TV">
+    <corrections>
+      <correction>has been</correction>
+    </corrections>
+    <original>is</original>
+  </edit>
+  <edit end="4891" index="0015-0034" start="4886" type="RJ">
+    <corrections>
+      <correction>previous</correction>
+    </corrections>
+    <original>prior</original>
+  </edit>
+  <edit end="4935" index="0015-0035" start="4931" type="FN">
+    <corrections>
+      <correction>tasks</correction>
+    </corrections>
+    <original>task</original>
+  </edit>
+  <edit end="4970" index="0015-0036" start="4963" type="AGV">
+    <corrections>
+      <correction>produces</correction>
+    </corrections>
+    <original>produce</original>
+  </edit>
+  <edit end="5020" index="0015-0037" start="5011" type="RP">
+    <corrections>
+      <correction>initially</correction>
+    </corrections>
+    <original>Initially</original>
+  </edit>
+  <edit end="5441" index="0015-0038" start="5441" type="M">
+    <corrections>
+      <correction>a method </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5479" index="0015-0039" start="5474" type="RJ">
+    <corrections>
+      <correction>previous</correction>
+    </corrections>
+    <original>prior</original>
+  </edit>
+  <edit end="5903" index="0015-0040" start="5896" type="FN">
+    <corrections>
+      <correction>Sections</correction>
+    </corrections>
+    <original>Section</original>
+  </edit>
+  <edit end="6397" index="0015-0041" start="6371" type="CC">
+    <corrections>
+      <correction>109 personal names in total</correction>
+    </corrections>
+    <original>totally 109 personal names</original>
+  </edit>
+</edits>

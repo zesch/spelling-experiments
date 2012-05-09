@@ -1,0 +1,421 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="28" index="0066-0001" start="28" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="283" index="0066-0002" start="270" type="RJ">
+    <corrections>
+      <correction>distinguishing</correction>
+    </corrections>
+    <original>distinguished</original>
+  </edit>
+  <edit end="365" index="0066-0003" start="356" type="FV">
+    <corrections>
+      <correction>involves</correction>
+    </corrections>
+    <original>involving</original>
+  </edit>
+  <edit end="606" index="0066-0004" start="602" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="620" index="0066-0005" start="607" type="CC">
+    <corrections>
+      <correction>the event trigger</correction>
+      <correction>event triggers</correction>
+    </corrections>
+    <original>event trigger</original>
+  </edit>
+  <edit end="707" index="0066-0006" start="707" type="MN">
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="797" index="0066-0007" start="782" type="RP">
+    <corrections>
+      <correction>; unfortunately</correction>
+      <correction>. Unfortunately</correction>
+    </corrections>
+    <original>, unfortunately</original>
+  </edit>
+  <edit end="828" index="0066-0008" start="823" type="RT">
+    <corrections>
+      <correction>between</correction>
+    </corrections>
+    <original>among</original>
+  </edit>
+  <edit end="893" index="0066-0009" start="886" type="RN">
+    <corrections>
+      <correction>technique</correction>
+    </corrections>
+    <original>problem</original>
+  </edit>
+  <edit end="1192" index="0066-0010" start="1186" type="RV">
+    <corrections>
+      <correction>carried out</correction>
+    </corrections>
+    <original>solved</original>
+  </edit>
+  <edit end="1232" index="0066-0011" start="1232" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1251" index="0066-0012" start="1251" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="2" end="1267" index="0066-0013" start="1252" type="R">
+    <corrections>
+      <correction>which represents</correction>
+    </corrections>
+    <original>by representing</original>
+  </edit>
+  <edit cset="2" end="1311" index="0066-0014" start="1302" type="FV">
+    <corrections>
+      <correction>computes</correction>
+    </corrections>
+    <original>computing</original>
+  </edit>
+  <edit end="1329" index="0066-0015" start="1327" type="RT">
+    <corrections>
+      <correction>between</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="1345" index="0066-0016" start="1345" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1360" index="0066-0017" start="1360" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1566" index="0066-0018" start="1566" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1585" index="0066-0019" start="1583" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>as</original>
+  </edit>
+  <edit end="1633" index="0066-0020" start="1620" type="RP">
+    <corrections>
+      <correction>onomatopoetic</correction>
+    </corrections>
+    <original>Onomatopoetic</original>
+  </edit>
+  <edit end="1909" index="0066-0021" start="1909" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1926" index="0066-0022" start="1926" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2047" index="0066-0023" start="2041" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>those </original>
+  </edit>
+  <edit end="2126" index="0066-0024" start="2126" type="MV">
+    <corrections>
+      <correction>to be </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2180" index="0066-0025" start="2180" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2387" index="0066-0026" start="2378" type="R">
+    <corrections>
+      <correction>more often than</correction>
+      <correction>more frequently than</correction>
+      <correction>above</correction>
+    </corrections>
+    <original>more than</original>
+  </edit>
+  <edit end="2425" index="0066-0027" start="2425" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2458" index="0066-0028" start="2458" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2516" index="0066-0029" start="2506" type="TV">
+    <corrections>
+      <correction>circumvented</correction>
+    </corrections>
+    <original>circumvent</original>
+  </edit>
+  <edit end="2644" index="0066-0030" start="2644" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="3" end="2912" index="0066-0031" start="2901" type="MP">
+    <corrections>
+      <correction>graph-based</correction>
+    </corrections>
+    <original>graph based</original>
+  </edit>
+  <edit end="2933" index="0066-0032" start="2933" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3051" index="0066-0033" start="3051" type="M">
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3219" index="0066-0034" start="3219" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3280" index="0066-0035" start="3280" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3297" index="0066-0036" start="3293" type="RQ">
+    <corrections>
+      <correction>certain</correction>
+    </corrections>
+    <original>some</original>
+  </edit>
+  <edit end="3498" index="0066-0037" start="3495" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>an </original>
+  </edit>
+  <edit cset="3" end="3640" index="0066-0038" start="3629" type="MP">
+    <corrections>
+      <correction>graph-based</correction>
+    </corrections>
+    <original>graph based</original>
+  </edit>
+  <edit cset="3" end="3757" index="0066-0039" start="3746" type="MP">
+    <corrections>
+      <correction>graph-based</correction>
+    </corrections>
+    <original>graph based</original>
+  </edit>
+  <edit end="3963" index="0066-0040" start="3961" type="RT">
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="4050" index="0066-0041" start="4041" type="MP">
+    <corrections>
+      <correction>five-part</correction>
+    </corrections>
+    <original>five part</original>
+  </edit>
+  <edit cset="1" end="4123" index="0066-0042" start="4122" type="RP">
+    <corrections>
+      <correction/>
+      <correction>:</correction>
+    </corrections>
+    <original>.</original>
+  </edit>
+  <edit cset="1" end="4127" index="0066-0043" start="4124" type="RP">
+    <corrections>
+      <correction/>
+      <correction>the</correction>
+    </corrections>
+    <original>The</original>
+  </edit>
+  <edit end="4200" index="0066-0044" start="4199" type="RP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="4292" index="0066-0045" start="4291" type="RP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="4373" index="0066-0046" start="4372" type="RP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="4640" index="0066-0047" start="4635" type="MD">
+    <corrections>
+      <correction>A graph</correction>
+    </corrections>
+    <original>Graph</original>
+  </edit>
+  <edit end="4743" index="0066-0048" start="4743" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4770" index="0066-0049" start="4769" type="R">
+    <corrections>
+      <correction>and</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="4771" index="0066-0050" start="4771" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4987" index="0066-0051" start="4983" type="RT">
+    <corrections>
+      <correction>by</correction>
+    </corrections>
+    <original>into</original>
+  </edit>
+  <edit end="5271" index="0066-0052" start="5254" type="CC">
+    <corrections>
+      <correction>a large-scale graph</correction>
+      <correction>large-scale graphs</correction>
+    </corrections>
+    <original>large scale graph</original>
+  </edit>
+  <edit end="5321" index="0066-0053" start="5321" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5595" index="0066-0054" start="5595" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5644" index="0066-0055" start="5618" type="CC">
+    <corrections>
+      <correction>the graph clustering algorithm</correction>
+      <correction>graph clustering algorithms</correction>
+    </corrections>
+    <original>graph clustering algorithm</original>
+  </edit>
+  <edit end="5728" index="0066-0056" start="5645" type="CC">
+    <corrections>
+      <correction>, which is becoming more important in social network studies, still needs to be explored</correction>
+    </corrections>
+    <original>still needs to be explored which is becoming more important in social network study</original>
+  </edit>
+  <edit end="6188" index="0066-0057" start="6173" type="R">
+    <corrections>
+      <correction>the personal name</correction>
+      <correction>the person's name</correction>
+      <correction>personal names</correction>
+    </corrections>
+    <original>the person name</original>
+  </edit>
+  <edit end="6194" index="0066-0058" start="6194" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6412" index="0066-0059" start="6402" type="CC">
+    <corrections>
+      <correction>about achieving</correction>
+    </corrections>
+    <original>to achieve</original>
+  </edit>
+  <edit end="6435" index="0066-0060" start="6422" type="MP">
+    <corrections>
+      <correction>person-search</correction>
+    </corrections>
+    <original>person search</original>
+  </edit>
+</edits>

@@ -1,0 +1,406 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="3" index="0046-0001" start="0" type="RT">
+    <corrections>
+      <correction>Because of</correction>
+      <correction>In view of</correction>
+    </corrections>
+    <original>For</original>
+  </edit>
+  <edit end="105" index="0046-0002" start="101" type="AGV">
+    <corrections>
+      <correction>was</correction>
+    </corrections>
+    <original>were</original>
+  </edit>
+  <edit end="203" index="0046-0003" start="199" type="RP">
+    <corrections>
+      <correction>Base</correction>
+    </corrections>
+    <original>base</original>
+  </edit>
+  <edit end="417" index="0046-0004" start="415" type="RT">
+    <corrections>
+      <correction>of</correction>
+      <correction>for</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="434" index="0046-0005" start="418" type="CC">
+    <corrections>
+      <correction>the Chinese language</correction>
+      <correction>Chinese</correction>
+    </corrections>
+    <original>Chinese language</original>
+  </edit>
+  <edit end="449" index="0046-0006" start="445" type="RA">
+    <corrections>
+      <correction>this</correction>
+    </corrections>
+    <original>that</original>
+  </edit>
+  <edit end="499" index="0046-0007" start="491" type="TV">
+    <corrections>
+      <correction>was</correction>
+    </corrections>
+    <original>had been</original>
+  </edit>
+  <edit end="538" index="0046-0008" start="512" type="R">
+    <corrections>
+      <correction>between 2004 and 2009</correction>
+    </corrections>
+    <original>from the year 2004 to 2009</original>
+  </edit>
+  <edit end="551" index="0046-0009" start="543" type="RV">
+    <corrections>
+      <correction>holds</correction>
+      <correction>includes</correction>
+      <correction>contains</correction>
+    </corrections>
+    <original>collects</original>
+  </edit>
+  <edit end="625" index="0046-0010" start="581" type="R">
+    <corrections>
+      <correction/>
+      <correction>additional semantic and pragmatic properties</correction>
+    </corrections>
+    <original>more semantic and pragmatic properties added</original>
+  </edit>
+  <edit end="637" index="0046-0011" start="637" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="822" index="0046-0012" start="819" type="RP">
+    <corrections>
+      <correction>-</correction>
+    </corrections>
+    <original>--</original>
+  </edit>
+  <edit end="872" index="0046-0013" start="867" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>about</original>
+  </edit>
+  <edit end="923" index="0046-0014" start="923" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1061" index="0046-0015" start="976" type="W">
+    <corrections>
+      <correction>, generally, a literal translation of an idiom will not reflect its metaphorical meaning</correction>
+      <correction>a literal translation of an idiom will not generally reflect its metaphorical meaning</correction>
+    </corrections>
+    <original>a literal translation of an idiom will not reflect its metaphorical meaning generally</original>
+  </edit>
+  <edit end="1115" index="0046-0016" start="1112" type="RV">
+    <corrections>
+      <correction>become</correction>
+    </corrections>
+    <original>get</original>
+  </edit>
+  <edit end="1253" index="0046-0017" start="1247" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>those </original>
+  </edit>
+  <edit end="1545" index="0046-0018" start="1532" type="U">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the year of  </original>
+  </edit>
+  <edit end="1553" index="0046-0019" start="1552" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>a</original>
+  </edit>
+  <edit end="1666" index="0046-0020" start="1633" type="CC">
+    <corrections>
+      <correction>categorized as</correction>
+      <correction>selected for a category named</correction>
+    </corrections>
+    <original>selected into a category named as</original>
+  </edit>
+  <edit cset="1" end="1726" index="0046-0021" start="1726" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="1733" index="0046-0022" start="1733" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1841" index="0046-0023" start="1833" type="RN">
+    <corrections>
+      <correction>categorization</correction>
+    </corrections>
+    <original>category</original>
+  </edit>
+  <edit end="2004" index="0046-0024" start="2001" type="RT">
+    <corrections>
+      <correction>because of</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="2008" index="0046-0025" start="2005" type="AGD">
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+    <original>its</original>
+  </edit>
+  <edit end="2066" index="0046-0026" start="2058" type="FV">
+    <corrections>
+      <correction>Building</correction>
+    </corrections>
+    <original>To build</original>
+  </edit>
+  <edit end="2167" index="0046-0027" start="2167" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2185" index="0046-0028" start="2178" type="R">
+    <corrections>
+      <correction>different</correction>
+    </corrections>
+    <original>another</original>
+  </edit>
+  <edit end="2336" index="0046-0029" start="2322" type="FN">
+    <corrections>
+      <correction>parts-of-speech</correction>
+    </corrections>
+    <original>part-of-speech</original>
+  </edit>
+  <edit end="2398" index="0046-0030" start="2395" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>its</original>
+  </edit>
+  <edit end="2482" index="0046-0031" start="2479" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>its</original>
+  </edit>
+  <edit end="2571" index="0046-0032" start="2563" type="R">
+    <corrections>
+      <correction>Upon</correction>
+      <correction>Since the</correction>
+    </corrections>
+    <original>Upon the</original>
+  </edit>
+  <edit end="2899" index="0046-0033" start="2888" type="L">
+    <corrections>
+      <correction/>
+      <correction>several</correction>
+      <correction>some</correction>
+    </corrections>
+    <original>a couple of</original>
+  </edit>
+  <edit end="2911" index="0046-0034" start="2909" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="3069" index="0046-0035" start="3037" type="R">
+    <corrections>
+      <correction>emotional classification of idioms</correction>
+      <correction>classification of emotion idioms</correction>
+    </corrections>
+    <original>emotion classification of idioms</original>
+  </edit>
+  <edit end="3074" index="0046-0036" start="3070" type="R">
+    <corrections>
+      <correction>using</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="3075" index="0046-0037" start="3075" type="MD">
+    <corrections>
+      <correction>the </correction>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3098" index="0046-0038" start="3098" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3106" index="0046-0039" start="3103" type="RD">
+    <corrections>
+      <correction>this</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="3353" index="0046-0040" start="3334" type="CC">
+    <corrections>
+      <correction>In this respect, </correction>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>With this respect, </original>
+  </edit>
+  <edit end="3495" index="0046-0041" start="3491" type="RT">
+    <corrections>
+      <correction>by</correction>
+      <correction>using</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="3496" index="0046-0042" start="3496" type="MD">
+    <corrections>
+      <correction>the </correction>
+      <correction>an </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3984" index="0046-0043" start="3980" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="4146" index="0046-0044" start="4084" type="W">
+    <corrections>
+      <correction/>
+      <correction>recently been a growing interest in idiom token identification</correction>
+    </corrections>
+    <original>been a growing interest in idiom token identification recently</original>
+  </edit>
+  <edit end="4285" index="0046-0045" start="4271" type="R">
+    <original>in this regard</original>
+  </edit>
+  <edit end="4349" index="0046-0046" start="4345" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="4860" index="0046-0047" start="4848" type="R">
+    <corrections>
+      <correction>Depending on</correction>
+    </corrections>
+    <original>According to</original>
+  </edit>
+  <edit end="4880" index="0046-0048" start="4880" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5020" index="0046-0049" start="5020" type="MC">
+    <corrections>
+      <correction>and </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5176" index="0046-0050" start="5161" type="MP">
+    <corrections>
+      <correction>knowledge-based</correction>
+    </corrections>
+    <original>knowledge based</original>
+  </edit>
+  <edit end="5211" index="0046-0051" start="5189" type="MP">
+    <corrections>
+      <correction>machine-learning-based</correction>
+    </corrections>
+    <original>machine learning based</original>
+  </edit>
+  <edit end="5532" index="0046-0052" start="5532" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5551" index="0046-0053" start="5546" type="S">
+    <corrections>
+      <correction>corpora</correction>
+    </corrections>
+    <original>copra</original>
+  </edit>
+  <edit end="5572" index="0046-0054" start="5570" type="RV">
+    <corrections>
+      <correction/>
+      <correction>conduct</correction>
+      <correction>carry out</correction>
+    </corrections>
+    <original>do</original>
+  </edit>
+  <edit end="5723" index="0046-0055" start="5723" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5979" index="0046-0056" start="5925" type="R">
+    <corrections>
+      <correction>so obvious an exaggerative and descriptive nature as</correction>
+      <correction>such obvious exaggerative and descriptive natures as</correction>
+    </corrections>
+    <original>so obvious an exaggerative and descriptive nature like</original>
+  </edit>
+  <edit end="6188" index="0046-0057" start="6181" type="R">
+    <corrections>
+      <correction>the neutral group</correction>
+    </corrections>
+    <original>neutral</original>
+  </edit>
+  <edit end="6344" index="0046-0058" start="6344" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+</edits>

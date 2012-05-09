@@ -1,0 +1,690 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="39" index="0054-0001" start="38" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>a</original>
+  </edit>
+  <edit end="53" index="0054-0002" start="53" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="92" index="0054-0003" start="92" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="157" index="0054-0004" start="149" type="RY">
+    <corrections>
+      <correction>first</correction>
+    </corrections>
+    <original>at first</original>
+  </edit>
+  <edit end="283" index="0054-0005" start="278" type="AGN">
+    <corrections>
+      <correction>word</correction>
+    </corrections>
+    <original>words</original>
+  </edit>
+  <edit end="310" index="0054-0006" start="298" type="FN">
+    <corrections>
+      <correction>segmentations</correction>
+    </corrections>
+    <original>segmentation</original>
+  </edit>
+  <edit end="351" index="0054-0007" start="335" type="RP">
+    <corrections>
+      <correction>maximal matching</correction>
+    </corrections>
+    <original>Maximal Matching</original>
+  </edit>
+  <edit end="412" index="0054-0008" start="375" type="W">
+    <corrections>
+      <correction>the most likely segmentation picked</correction>
+    </corrections>
+    <original>picked the mostly likely segmentation</original>
+  </edit>
+  <edit end="482" index="0054-0009" start="482" type="MD">
+    <corrections>
+      <correction/>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="550" index="0054-0010" start="550" type="MT">
+    <corrections>
+      <correction>from </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="682" index="0054-0011" start="682" type="MP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="702" index="0054-0012" start="702" type="MD">
+    <corrections>
+      <correction>the </correction>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="709" index="0054-0013" start="702" type="RP">
+    <corrections>
+      <correction>maximal</correction>
+    </corrections>
+    <original>Maximal</original>
+  </edit>
+  <edit end="954" index="0054-0014" start="951" type="RD">
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="1004" index="0054-0015" start="995" type="W">
+    <corrections>
+      <correction>string of</correction>
+    </corrections>
+    <original>of string</original>
+  </edit>
+  <edit end="1147" index="0054-0016" start="1147" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1255" index="0054-0017" start="1255" type="MP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1282" index="0054-0018" start="1276" type="AGN">
+    <corrections>
+      <correction>strings</correction>
+    </corrections>
+    <original>string</original>
+  </edit>
+  <edit end="1317" index="0054-0019" start="1317" type="MP">
+    <corrections>
+      <correction>:</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1348" index="0054-0020" start="1342" type="AGN">
+    <corrections>
+      <correction>strings</correction>
+    </corrections>
+    <original>string</original>
+  </edit>
+  <edit end="1410" index="0054-0021" start="1400" type="DN">
+    <corrections>
+      <correction>weight</correction>
+    </corrections>
+    <original>weight-age</original>
+  </edit>
+  <edit end="1441" index="0054-0022" start="1435" type="FN">
+    <corrections>
+      <correction>strings</correction>
+    </corrections>
+    <original>string</original>
+  </edit>
+  <edit end="1444" index="0054-0023" start="1442" type="RT">
+    <corrections>
+      <correction/>
+      <correction>by</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="1465" index="0054-0024" start="1455" type="RN">
+    <corrections>
+      <correction>weight</correction>
+    </corrections>
+    <original>weight-age</original>
+  </edit>
+  <edit end="1465" index="0054-0025" start="1465" type="MP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1508" index="0054-0026" start="1499" type="MP">
+    <corrections>
+      <correction>low-count</correction>
+    </corrections>
+    <original>low count</original>
+  </edit>
+  <edit end="1595" index="0054-0027" start="1580" type="MP">
+    <corrections>
+      <correction>above-mentioned</correction>
+    </corrections>
+    <original>above mentioned</original>
+  </edit>
+  <edit end="1771" index="0054-0028" start="1771" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1937" index="0054-0029" start="1937" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1962" index="0054-0030" start="1958" type="AGN">
+    <corrections>
+      <correction>words</correction>
+    </corrections>
+    <original>word</original>
+  </edit>
+  <edit end="2078" index="0054-0031" start="2078" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2162" index="0054-0032" start="2156" type="FN">
+    <corrections>
+      <correction>bigrams</correction>
+    </corrections>
+    <original>bigram</original>
+  </edit>
+  <edit end="2216" index="0054-0033" start="2202" type="RV">
+    <original>underestimates</original>
+  </edit>
+  <edit cset="1" end="2594" index="0054-0034" start="2588" type="RY">
+    <corrections>
+      <correction/>
+      <correction>upwards</correction>
+    </corrections>
+    <original>upward</original>
+  </edit>
+  <edit cset="1" end="2627" index="0054-0035" start="2618" type="RY">
+    <corrections>
+      <correction>downward</correction>
+      <correction/>
+    </corrections>
+    <original>downwards</original>
+  </edit>
+  <edit end="2633" index="0054-0036" start="2629" type="MT">
+    <corrections>
+      <correction>In this</correction>
+    </corrections>
+    <original>This</original>
+  </edit>
+  <edit end="2639" index="0054-0037" start="2639" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2742" index="0054-0038" start="2739" type="AGV">
+    <corrections>
+      <correction>is</correction>
+    </corrections>
+    <original>are</original>
+  </edit>
+  <edit end="2828" index="0054-0039" start="2820" type="TV">
+    <corrections>
+      <correction>was</correction>
+    </corrections>
+    <original>has been</original>
+  </edit>
+  <edit cset="2" end="2976" index="0054-0040" start="2976" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="2" end="2997" index="0054-0041" start="2997" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3099" index="0054-0042" start="3089" type="TV">
+    <corrections>
+      <correction>took</correction>
+    </corrections>
+    <original>have taken</original>
+  </edit>
+  <edit end="3111" index="0054-0043" start="3104" type="FN">
+    <corrections>
+      <correction>extracts</correction>
+    </corrections>
+    <original>extract</original>
+  </edit>
+  <edit end="3114" index="0054-0044" start="3112" type="RT">
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="3148" index="0054-0045" start="3145" type="RV">
+    <corrections>
+      <correction>might</correction>
+      <correction>would</correction>
+    </corrections>
+    <original>may</original>
+  </edit>
+  <edit end="3157" index="0054-0046" start="3157" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="3" end="3250" index="0054-0047" start="3250" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="3" end="3275" index="0054-0048" start="3275" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3279" index="0054-0049" start="3276" type="AGV">
+    <corrections>
+      <correction>is</correction>
+    </corrections>
+    <original>are</original>
+  </edit>
+  <edit end="3299" index="0054-0050" start="3293" type="RN">
+    <corrections>
+      <correction>study</correction>
+    </corrections>
+    <original>method</original>
+  </edit>
+  <edit end="3483" index="0054-0051" start="3334" type="CE">
+    <original>the symbol (') does not make the segmentation unit's mark, but (|) takes the segmentation unit's mark, despite its actual mark for comma or full_stop</original>
+  </edit>
+  <edit end="3552" index="0054-0052" start="3485" type="CC">
+    <corrections>
+      <correction>The whitespaces in the sentences are phrase boundaries or commas, and are</correction>
+      <correction>The whitespace in a sentence is a phrase boundary or a comma, and is</correction>
+    </corrections>
+    <original>The whitespace in the sentence are phrase boundary or comma, and is</original>
+  </edit>
+  <edit end="3603" index="0054-0053" start="3603" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3681" index="0054-0054" start="3673" type="CC">
+    <corrections>
+      <correction>a sentence</correction>
+      <correction>sentences</correction>
+    </corrections>
+    <original>sentence</original>
+  </edit>
+  <edit end="3787" index="0054-0055" start="3781" type="RY">
+    <original>simply</original>
+  </edit>
+  <edit end="3918" index="0054-0056" start="3913" type="AGN">
+    <corrections>
+      <correction>entries</correction>
+    </corrections>
+    <original>entry</original>
+  </edit>
+  <edit cset="4" end="3951" index="0054-0057" start="3935" type="CC">
+    <corrections>
+      <correction>the lexicon database</correction>
+      <correction>a lexicon database</correction>
+      <correction>lexicon databases</correction>
+    </corrections>
+    <original>lexicon database</original>
+  </edit>
+  <edit cset="4" end="3971" index="0054-0058" start="3955" type="CC">
+    <corrections>
+      <correction>the real application</correction>
+      <correction>a real application</correction>
+      <correction>real applications</correction>
+    </corrections>
+    <original>real application</original>
+  </edit>
+  <edit end="4018" index="0054-0059" start="4010" type="RV">
+    <corrections>
+      <correction/>
+      <correction>deteriorates</correction>
+    </corrections>
+    <original>degrades</original>
+  </edit>
+  <edit end="4105" index="0054-0060" start="4096" type="MD">
+    <corrections>
+      <correction>The following</correction>
+    </corrections>
+    <original>Following</original>
+  </edit>
+  <edit end="4212" index="0054-0061" start="4212" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4249" index="0054-0062" start="4239" type="DN">
+    <corrections>
+      <correction>incompleteness</correction>
+    </corrections>
+    <original>incomplete</original>
+  </edit>
+  <edit end="4395" index="0054-0063" start="4376" type="CC">
+    <corrections>
+      <correction>common nouns are</correction>
+      <correction>of the common nouns are</correction>
+    </corrections>
+    <original>of the common nouns</original>
+  </edit>
+  <edit end="4423" index="0054-0064" start="4423" type="MP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4468" index="0054-0065" start="4467" type="R">
+    <corrections>
+      <correction>and</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="4490" index="0054-0066" start="4489" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="4524" index="0054-0067" start="4508" type="W">
+    <corrections>
+      <correction/>
+      <correction>partially solved</correction>
+    </corrections>
+    <original>solved partially</original>
+  </edit>
+  <edit end="4532" index="0054-0068" start="4530" type="R">
+    <original>it</original>
+  </edit>
+  <edit end="4573" index="0054-0069" start="4552" type="CC">
+    <corrections>
+      <correction>the bigram technique</correction>
+      <correction>bigram techniques</correction>
+    </corrections>
+    <original>the bigram techniques</original>
+  </edit>
+  <edit end="4617" index="0054-0070" start="4575" type="W">
+    <corrections>
+      <correction>The solution to the following issues still</correction>
+    </corrections>
+    <original>Still the solution to the following issues</original>
+  </edit>
+  <edit end="4694" index="0054-0071" start="4694" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4773" index="0054-0072" start="4771" type="RT">
+    <corrections>
+      <correction/>
+      <correction>for</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="4835" index="0054-0073" start="4829" type="RN">
+    <corrections>
+      <correction>size</correction>
+    </corrections>
+    <original>number</original>
+  </edit>
+  <edit end="4839" index="0054-0074" start="4839" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4850" index="0054-0075" start="4846" type="AGV">
+    <corrections>
+      <correction>was</correction>
+    </corrections>
+    <original>were</original>
+  </edit>
+  <edit end="4885" index="0054-0076" start="4851" type="R">
+    <original>not very impressive for the method</original>
+  </edit>
+  <edit end="4914" index="0054-0077" start="4902" type="DN">
+    <corrections>
+      <correction>inconsistency</correction>
+    </corrections>
+    <original>inconsistent</original>
+  </edit>
+  <edit end="4917" index="0054-0078" start="4915" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="4918" index="0054-0079" start="4918" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4972" index="0054-0080" start="4963" type="TV">
+    <corrections>
+      <correction>resulted</correction>
+    </corrections>
+    <original>resulting</original>
+  </edit>
+  <edit end="5147" index="0054-0081" start="5135" type="CC">
+    <corrections>
+      <correction>a corpus entry</correction>
+      <correction>corpus entries</correction>
+    </corrections>
+    <original>corpus entry</original>
+  </edit>
+  <edit end="5194" index="0054-0082" start="5186" type="CC">
+    <corrections>
+      <correction>computers</correction>
+      <correction>by computer</correction>
+    </corrections>
+    <original>computer</original>
+  </edit>
+  <edit end="5321" index="0054-0083" start="5318" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>of </original>
+  </edit>
+  <edit end="5340" index="0054-0084" start="5337" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>of </original>
+  </edit>
+  <edit end="5379" index="0054-0085" start="5376" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>of </original>
+  </edit>
+  <edit end="5438" index="0054-0086" start="5432" type="CC">
+    <corrections>
+      <correction>not</correction>
+      <correction>not well</correction>
+    </corrections>
+    <original>not so</original>
+  </edit>
+  <edit end="5573" index="0054-0087" start="5560" type="R">
+    <corrections>
+      <correction>at segmenting</correction>
+      <correction>to segment</correction>
+    </corrections>
+    <original>in segmenting</original>
+  </edit>
+  <edit end="5660" index="0054-0088" start="5656" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="5851" index="0054-0089" start="5840" type="R">
+    <corrections>
+      <correction>discussion is needed</correction>
+    </corrections>
+    <original>discussions</original>
+  </edit>
+  <edit end="5871" index="0054-0090" start="5856" type="CC">
+    <corrections>
+      <correction>work also has</correction>
+    </corrections>
+    <original>works also have</original>
+  </edit>
+  <edit end="6054" index="0054-0091" start="6047" type="FN">
+    <corrections>
+      <correction>lexicons</correction>
+    </corrections>
+    <original>lexicon</original>
+  </edit>
+  <edit end="6064" index="0054-0092" start="6064" type="M">
+    <corrections>
+      <correction>fact that the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6126" index="0054-0093" start="6126" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6137" index="0054-0094" start="6137" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6369" index="0054-0095" start="6362" type="MP">
+    <corrections>
+      <correction>POS-Tag</correction>
+    </corrections>
+    <original>POS Tag</original>
+  </edit>
+  <edit end="6385" index="0054-0096" start="6383" type="RT">
+    <corrections>
+      <correction>to</correction>
+      <correction>using</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit cset="5" end="6403" index="0054-0097" start="6403" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="5" end="6471" index="0054-0098" start="6471" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6490" index="0054-0099" start="6486" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="6506" index="0054-0100" start="6506" type="MV">
+    <corrections>
+      <correction>increase </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+</edits>

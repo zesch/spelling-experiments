@@ -1,0 +1,506 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="11" index="0021-0001" start="0" type="MD">
+    <corrections>
+      <correction>The convolution </correction>
+      <correction>A convolution</correction>
+    </corrections>
+    <original>Convolution</original>
+  </edit>
+  <edit end="41" index="0021-0002" start="37" type="RN">
+    <corrections>
+      <correction>example</correction>
+      <correction>type</correction>
+    </corrections>
+    <original>case</original>
+  </edit>
+  <edit end="78" index="0021-0003" start="78" type="MD">
+    <corrections>
+      <correction>the </correction>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="136" index="0021-0004" start="118" type="W">
+    <corrections>
+      <correction/>
+      <correction>they theoretically</correction>
+    </corrections>
+    <original>theoretically they</original>
+  </edit>
+  <edit end="263" index="0021-0005" start="257" type="MD">
+    <corrections>
+      <correction>A forest</correction>
+    </corrections>
+    <original>Forest</original>
+  </edit>
+  <edit end="272" index="0021-0006" start="272" type="MD">
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="363" index="0021-0007" start="363" type="MD">
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="408" index="0021-0008" start="404" type="R">
+    <corrections>
+      <correction>the number extracted</correction>
+    </corrections>
+    <original>that</original>
+  </edit>
+  <edit end="473" index="0021-0009" start="471" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="484" index="0021-0010" start="478" type="RN">
+    <corrections>
+      <correction>number</correction>
+    </corrections>
+    <original>amount</original>
+  </edit>
+  <edit end="574" index="0021-0011" start="566" type="W">
+    <corrections>
+      <correction>can also</correction>
+    </corrections>
+    <original>also can</original>
+  </edit>
+  <edit end="634" index="0021-0012" start="634" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="684" index="0021-0013" start="684" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="731" index="0021-0014" start="731" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="793" index="0021-0015" start="793" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="875" index="0021-0016" start="848" type="CC">
+    <corrections>
+      <correction>a Direct Acyclic Graph (DAG)</correction>
+      <correction>Direct Acyclic Graphs (DAGs)</correction>
+    </corrections>
+    <original>Direct Acyclic Graphs (DAG)</original>
+  </edit>
+  <edit end="924" index="0021-0017" start="907" type="MP">
+    <corrections>
+      <correction>tree-kernel-based</correction>
+    </corrections>
+    <original>tree kernel-based</original>
+  </edit>
+  <edit end="949" index="0021-0018" start="942" type="RY">
+    <corrections>
+      <correction>significantly</correction>
+      <correction>greatly</correction>
+    </corrections>
+    <original>largely</original>
+  </edit>
+  <edit end="1118" index="0021-0019" start="1109" type="UJ">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>previous </original>
+  </edit>
+  <edit end="1123" index="0021-0020" start="1118" type="RN">
+    <corrections>
+      <correction>studies</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="1144" index="0021-0021" start="1124" type="R">
+    <corrections>
+      <correction>which generalize</correction>
+      <correction>on generalizing</correction>
+    </corrections>
+    <original>done by generalizing</original>
+  </edit>
+  <edit end="1264" index="0021-0022" start="1259" type="RN">
+    <corrections>
+      <correction>studies</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="1285" index="0021-0023" start="1285" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1312" index="0021-0024" start="1312" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1365" index="0021-0025" start="1343" type="ID">
+    <corrections>
+      <correction>Broadly speaking</correction>
+    </corrections>
+    <original>From a broad viewpoint</original>
+  </edit>
+  <edit end="1402" index="0021-0026" start="1399" type="RD">
+    <corrections>
+      <correction>this</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="1537" index="0021-0027" start="1534" type="RP">
+    <corrections>
+      <correction>eg</correction>
+      <correction>e.g.</correction>
+    </corrections>
+    <original>eg.</original>
+  </edit>
+  <edit end="1668" index="0021-0028" start="1668" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1693" index="0021-0029" start="1689" type="L">
+    <corrections>
+      <correction>information</correction>
+    </corrections>
+    <original>info</original>
+  </edit>
+  <edit end="1734" index="0021-0030" start="1729" type="FN">
+    <corrections>
+      <correction>case</correction>
+    </corrections>
+    <original>cases</original>
+  </edit>
+  <edit end="1756" index="0021-0031" start="1737" type="R">
+    <original>Following this line</original>
+  </edit>
+  <edit end="1827" index="0021-0032" start="1822" type="RN">
+    <corrections>
+      <correction>studies</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="1832" index="0021-0033" start="1828" type="RV">
+    <corrections>
+      <correction>conducted</correction>
+    </corrections>
+    <original>done</original>
+  </edit>
+  <edit end="1835" index="0021-0034" start="1833" type="RT">
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="1860" index="0021-0035" start="1855" type="DN">
+    <corrections>
+      <correction>noise</correction>
+    </corrections>
+    <original>noisy</original>
+  </edit>
+  <edit end="1880" index="0021-0036" start="1875" type="RN">
+    <corrections>
+      <correction>studies</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="1899" index="0021-0037" start="1881" type="R">
+    <corrections>
+      <correction>have not overlapped</correction>
+      <correction>do not overlap</correction>
+    </corrections>
+    <original>are not overlapped</original>
+  </edit>
+  <edit end="1924" index="0021-0038" start="1919" type="R">
+    <corrections>
+      <correction/>
+      <correction>they</correction>
+    </corrections>
+    <original>there</original>
+  </edit>
+  <edit end="1964" index="0021-0039" start="1961" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="2046" index="0021-0040" start="2041" type="UY">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>also </original>
+  </edit>
+  <edit end="2076" index="0021-0041" start="2070" type="MD">
+    <corrections>
+      <correction>The forest</correction>
+    </corrections>
+    <original>Forest</original>
+  </edit>
+  <edit end="2216" index="0021-0042" start="2215" type="RP">
+    <corrections>
+      <correction>:</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="2679" index="0021-0043" start="2679" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2946" index="0021-0044" start="2911" type="CC">
+    <corrections>
+      <correction>with the pruning threshold set as 8)</correction>
+      <correction>) and set the pruning threshold as 8</correction>
+    </corrections>
+    <original>and set the pruning threshold as 8</original>
+  </edit>
+  <edit end="3009" index="0021-0045" start="3009" type="M">
+    <corrections>
+      <correction>the aim of </correction>
+      <correction>the purpose of </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3470" index="0021-0046" start="3470" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3487" index="0021-0047" start="3470" type="MP">
+    <corrections>
+      <correction>tree-kernel-based</correction>
+    </corrections>
+    <original>tree kernel-based</original>
+  </edit>
+  <edit end="3672" index="0021-0048" start="3656" type="MP">
+    <corrections>
+      <correction>cross-validation</correction>
+    </corrections>
+    <original>cross validation</original>
+  </edit>
+  <edit end="3819" index="0021-0049" start="3815" type="MP">
+    <corrections>
+      <correction/>
+      <correction>4,400</correction>
+    </corrections>
+    <original>4400</original>
+  </edit>
+  <edit cset="1" end="4009" index="0021-0050" start="3989" type="CC">
+    <corrections>
+      <correction>complete constituents</correction>
+      <correction>a complete constituent</correction>
+      <correction>the complete-constituent</correction>
+    </corrections>
+    <original>complete constituent</original>
+  </edit>
+  <edit cset="2" end="4015" index="0021-0051" start="4015" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4019" index="0021-0052" start="4019" type="MV">
+    <corrections>
+      <correction>is </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="2" end="4030" index="0021-0053" start="4030" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="4061" index="0021-0054" start="4044" type="CC">
+    <corrections>
+      <correction>relation instances</correction>
+      <correction>a relation instance</correction>
+    </corrections>
+    <original>relation instance</original>
+  </edit>
+  <edit end="4303" index="0021-0055" start="4291" type="W">
+    <corrections>
+      <correction/>
+      <correction>parsing only</correction>
+    </corrections>
+    <original>only parsing</original>
+  </edit>
+  <edit end="4608" index="0021-0056" start="4600" type="RV">
+    <corrections>
+      <correction>proves</correction>
+    </corrections>
+    <original>verifies</original>
+  </edit>
+  <edit end="4885" index="0021-0057" start="4885" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5197" index="0021-0058" start="5168" type="MP">
+    <corrections>
+      <correction>grammatical-structure-related</correction>
+      <correction>and grammatical-structure-related</correction>
+    </corrections>
+    <original>grammatical structure-related</original>
+  </edit>
+  <edit end="5236" index="0021-0059" start="5236" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5289" index="0021-0060" start="5289" type="MN">
+    <corrections>
+      <correction>sets</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="3" end="5367" index="0021-0061" start="5349" type="CC">
+    <corrections>
+      <correction>convolution kernels</correction>
+      <correction>the convolution kernel</correction>
+    </corrections>
+    <original>convolution kernel</original>
+  </edit>
+  <edit cset="3" end="5383" index="0021-0062" start="5373" type="CC">
+    <corrections>
+      <correction>parse trees</correction>
+      <correction>the parse tree</correction>
+    </corrections>
+    <original>parse tree</original>
+  </edit>
+  <edit end="5433" index="0021-0063" start="5427" type="DY">
+    <corrections>
+      <correction>more richly</correction>
+    </corrections>
+    <original>richer</original>
+  </edit>
+  <edit end="5644" index="0021-0064" start="5640" type="RT">
+    <corrections>
+      <correction/>
+      <correction>for</correction>
+    </corrections>
+    <original>over</original>
+  </edit>
+  <edit end="5645" index="0021-0065" start="5645" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5741" index="0021-0066" start="5740" type="R">
+    <corrections>
+      <correction>and</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="5790" index="0021-0067" start="5790" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6052" index="0021-0068" start="6016" type="CC">
+    <corrections>
+      <correction/>
+      <correction>NLP applications with a broad potential</correction>
+      <correction>broad-potential NLP applications</correction>
+    </corrections>
+    <original>the broad potential NLP applications</original>
+  </edit>
+  <edit end="6100" index="0021-0069" start="6093" type="RJ">
+    <original>pointed</original>
+  </edit>
+  <edit end="6120" index="0021-0070" start="6114" type="RV">
+    <corrections>
+      <correction>test</correction>
+    </corrections>
+    <original>verify</original>
+  </edit>
+  <edit end="6281" index="0021-0071" start="6270" type="CC">
+    <corrections>
+      <correction>tree kernels</correction>
+      <correction>the tree kernel</correction>
+    </corrections>
+    <original>tree kernel</original>
+  </edit>
+  <edit end="6322" index="0021-0072" start="6316" type="RV">
+    <corrections>
+      <correction>test</correction>
+    </corrections>
+    <original>verify</original>
+  </edit>
+  <edit end="7084" index="0021-0073" start="7082" type="RT">
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+</edits>

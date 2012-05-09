@@ -1,0 +1,363 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="100" index="0020-0001" start="68" type="R">
+    <original>research progress at a fast pace</original>
+  </edit>
+  <edit end="216" index="0020-0002" start="216" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="259" index="0020-0003" start="231" type="R">
+    <corrections>
+      <correction>techniques for manual judging</correction>
+      <correction>manual judgment techniques</correction>
+    </corrections>
+    <original>techniques of manual judging</original>
+  </edit>
+  <edit end="510" index="0020-0004" start="508" type="RT">
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="716" index="0020-0005" start="692" type="CC">
+    <corrections>
+      <correction>which is well known in MT itself</correction>
+      <correction>for which MT itself is well known</correction>
+      <correction>which is well known in MT</correction>
+      <correction>for which MT is well known</correction>
+    </corrections>
+    <original>well known for MT itself</original>
+  </edit>
+  <edit end="789" index="0020-0006" start="787" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="867" index="0020-0007" start="864" type="RD">
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="895" index="0020-0008" start="876" type="CC">
+    <corrections>
+      <correction>comparable parts in</correction>
+      <correction>comparable parts between</correction>
+      <correction>agreement between</correction>
+      <correction>concord between</correction>
+    </corrections>
+    <original>comparable parts of</original>
+  </edit>
+  <edit cset="1" end="1028" index="0020-0009" start="1028" type="M">
+    <corrections>
+      <correction/>
+      <correction>which is </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1086" index="0020-0010" start="1086" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="1097" index="0020-0011" start="1087" type="R">
+    <corrections>
+      <correction>which performs</correction>
+      <correction>and which performs</correction>
+    </corrections>
+    <original>performing</original>
+  </edit>
+  <edit end="1111" index="0020-0012" start="1108" type="RT">
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="1152" index="0020-0013" start="1142" type="RT">
+    <corrections>
+      <correction>As well as</correction>
+      <correction>Besides</correction>
+    </corrections>
+    <original>Aside from</original>
+  </edit>
+  <edit end="1356" index="0020-0014" start="1354" type="RT">
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="1436" index="0020-0015" start="1418" type="MP">
+    <corrections>
+      <correction>better-correlating</correction>
+    </corrections>
+    <original>better correlating</original>
+  </edit>
+  <edit end="1450" index="0020-0016" start="1446" type="RP">
+    <corrections>
+      <correction>especially</correction>
+    </corrections>
+    <original>esp.</original>
+  </edit>
+  <edit end="1531" index="0020-0017" start="1472" type="W">
+    <corrections>
+      <correction/>
+      <correction>, usually employing language-specific tools, were found later</correction>
+    </corrections>
+    <original>were found later, usually employing language-specific tools</original>
+  </edit>
+  <edit end="1696" index="0020-0018" start="1694" type="RT">
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="1732" index="0020-0019" start="1730" type="RT">
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="1847" index="0020-0020" start="1847" type="MV">
+    <corrections>
+      <correction/>
+      <correction>is </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1862" index="0020-0021" start="1857" type="RJ">
+    <corrections>
+      <correction/>
+      <correction>lower</correction>
+    </corrections>
+    <original>worse</original>
+  </edit>
+  <edit end="2006" index="0020-0022" start="2005" type="RP">
+    <corrections>
+      <correction/>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="2069" index="0020-0023" start="2069" type="MP">
+    <corrections>
+      <correction/>
+      <correction>;</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2414" index="0020-0024" start="2414" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2877" index="0020-0025" start="2876" type="RP">
+    <corrections>
+      <correction>;</correction>
+      <correction>:</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="3000" index="0020-0026" start="2989" type="RT">
+    <corrections>
+      <correction>With</correction>
+    </corrections>
+    <original>In terms of</original>
+  </edit>
+  <edit end="3143" index="0020-0027" start="3140" type="RP">
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+    <original>For</original>
+  </edit>
+  <edit end="3170" index="0020-0028" start="3166" type="MP">
+    <corrections>
+      <correction/>
+      <correction>1,640</correction>
+    </corrections>
+    <original>1640</original>
+  </edit>
+  <edit end="3631" index="0020-0029" start="3619" type="MP">
+    <corrections>
+      <correction>n-gram-based</correction>
+    </corrections>
+    <original>n-gram based</original>
+  </edit>
+  <edit end="3812" index="0020-0030" start="3810" type="MP">
+    <corrections>
+      <correction>30%</correction>
+    </corrections>
+    <original>30</original>
+  </edit>
+  <edit end="3978" index="0020-0031" start="3976" type="RT">
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="4162" index="0020-0032" start="4160" type="RT">
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="4178" index="0020-0033" start="4178" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4237" index="0020-0034" start="4233" type="MP">
+    <corrections>
+      <correction/>
+      <correction>2,025</correction>
+    </corrections>
+    <original>2025</original>
+  </edit>
+  <edit end="4324" index="0020-0035" start="4324" type="MV">
+    <corrections>
+      <correction>paying </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4653" index="0020-0036" start="4635" type="R">
+    <corrections>
+      <correction>is very serious for</correction>
+      <correction>has a very severe effect on</correction>
+    </corrections>
+    <original>is very severe for</original>
+  </edit>
+  <edit end="4852" index="0020-0037" start="4850" type="RT">
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="4989" index="0020-0038" start="4989" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5108" index="0020-0039" start="5108" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5117" index="0020-0040" start="5108" type="L">
+    <corrections>
+      <correction/>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>so-called</original>
+  </edit>
+  <edit end="5317" index="0020-0041" start="5317" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5352" index="0020-0042" start="5352" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5647" index="0020-0043" start="5647" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5815" index="0020-0044" start="5804" type="W">
+    <corrections>
+      <correction>also offers</correction>
+    </corrections>
+    <original>offers also</original>
+  </edit>
+  <edit end="5851" index="0020-0045" start="5841" type="R">
+    <corrections>
+      <correction>which describes</correction>
+    </corrections>
+    <original>describing</original>
+  </edit>
+  <edit end="5903" index="0020-0046" start="5891" type="CC">
+    <corrections>
+      <correction>in a similar way to the way</correction>
+    </corrections>
+    <original>similarly as</original>
+  </edit>
+  <edit end="6079" index="0020-0047" start="6077" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>a </original>
+  </edit>
+  <edit end="6087" index="0020-0048" start="6087" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6392" index="0020-0049" start="6378" type="W">
+    <corrections>
+      <correction>also requiring</correction>
+    </corrections>
+    <original>requiring also</original>
+  </edit>
+  <edit end="6459" index="0020-0050" start="6459" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6502" index="0020-0051" start="6502" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+</edits>

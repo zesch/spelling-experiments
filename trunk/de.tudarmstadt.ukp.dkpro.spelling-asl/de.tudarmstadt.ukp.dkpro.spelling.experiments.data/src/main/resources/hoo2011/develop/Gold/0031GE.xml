@@ -1,0 +1,586 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="171" index="0031-0001" start="166" type="MP">
+    <corrections>
+      <correction>18,207</correction>
+    </corrections>
+    <original>18207</original>
+  </edit>
+  <edit end="338" index="0031-0002" start="330" type="DN">
+    <corrections>
+      <correction>tokenizer</correction>
+    </corrections>
+    <original>tokenize</original>
+  </edit>
+  <edit end="376" index="0031-0003" start="366" type="DN">
+    <corrections>
+      <correction>detokenizer</correction>
+    </corrections>
+    <original>detokenize</original>
+  </edit>
+  <edit end="890" index="0031-0004" start="890" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="903" index="0031-0005" start="895" type="DJ">
+    <corrections>
+      <correction>remaining</correction>
+    </corrections>
+    <original>remained</original>
+  </edit>
+  <edit cset="1" end="1459" index="0031-0006" start="1455" type="MP">
+    <corrections>
+      <correction/>
+      <correction>2,525</correction>
+    </corrections>
+    <original>2525</original>
+  </edit>
+  <edit cset="1" end="1549" index="0031-0007" start="1545" type="MP">
+    <corrections>
+      <correction/>
+      <correction>2,051</correction>
+    </corrections>
+    <original>2051</original>
+  </edit>
+  <edit end="1657" index="0031-0008" start="1657" type="M">
+    <corrections>
+      <correction>10 </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1805" index="0031-0009" start="1802" type="RV">
+    <corrections>
+      <correction>represent</correction>
+      <correction>show</correction>
+    </corrections>
+    <original>are</original>
+  </edit>
+  <edit end="1880" index="0031-0010" start="1876" type="RP">
+    <corrections>
+      <correction>. We</correction>
+    </corrections>
+    <original>, we</original>
+  </edit>
+  <edit end="1885" index="0031-0011" start="1881" type="RV">
+    <corrections>
+      <correction>can</correction>
+    </corrections>
+    <original>will</original>
+  </edit>
+  <edit end="2032" index="0031-0012" start="2021" type="RJ">
+    <corrections>
+      <correction>unsatisfactory</correction>
+    </corrections>
+    <original>unsatisfied</original>
+  </edit>
+  <edit end="2104" index="0031-0013" start="2094" type="AGV">
+    <corrections>
+      <correction>represent</correction>
+    </corrections>
+    <original>represents</original>
+  </edit>
+  <edit end="2176" index="0031-0014" start="2171" type="RP">
+    <corrections>
+      <correction>. The</correction>
+    </corrections>
+    <original>, the</original>
+  </edit>
+  <edit end="2370" index="0031-0015" start="2342" type="CC">
+    <corrections>
+      <correction>These sorts of results suggest</correction>
+      <correction>This sort of result suggests</correction>
+    </corrections>
+    <original>This sort of results suggest</original>
+  </edit>
+  <edit end="2526" index="0031-0016" start="2524" type="R">
+    <corrections>
+      <correction>are shown in</correction>
+    </corrections>
+    <original>as</original>
+  </edit>
+  <edit end="2587" index="0031-0017" start="2584" type="FN">
+    <corrections>
+      <correction/>
+      <correction>sets</correction>
+    </corrections>
+    <original>set</original>
+  </edit>
+  <edit end="2607" index="0031-0018" start="2604" type="FN">
+    <corrections>
+      <correction/>
+      <correction>sets</correction>
+    </corrections>
+    <original>set</original>
+  </edit>
+  <edit end="2658" index="0031-0019" start="2657" type="RP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="2750" index="0031-0020" start="2745" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>from</original>
+  </edit>
+  <edit end="2750" index="0031-0021" start="2750" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2793" index="0031-0022" start="2793" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2805" index="0031-0023" start="2800" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>from</original>
+  </edit>
+  <edit end="2805" index="0031-0024" start="2805" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2819" index="0031-0025" start="2819" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2929" index="0031-0026" start="2924" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>from</original>
+  </edit>
+  <edit end="2929" index="0031-0027" start="2929" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2994" index="0031-0028" start="2994" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3007" index="0031-0029" start="3002" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>from</original>
+  </edit>
+  <edit end="3007" index="0031-0030" start="3007" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3172" index="0031-0031" start="3172" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3209" index="0031-0032" start="3206" type="RD">
+    <corrections>
+      <correction/>
+      <correction>an</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="3228" index="0031-0033" start="3224" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="3240" index="0031-0034" start="3240" type="MN">
+    <corrections>
+      <correction>lines </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3352" index="0031-0035" start="3348" type="RT">
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="3363" index="0031-0036" start="3363" type="MN">
+    <corrections>
+      <correction>lines</correction>
+      <correction>ones</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3450" index="0031-0037" start="3386" type="CC">
+    <corrections>
+      <correction>performance levels of test sets and development sets are linked</correction>
+      <correction>performance levels of test sets and development sets are related</correction>
+    </corrections>
+    <original>good performance is mutual between test set and development sets</original>
+  </edit>
+  <edit end="3473" index="0031-0038" start="3468" type="W">
+    <corrections>
+      <correction>set A</correction>
+    </corrections>
+    <original>A set</original>
+  </edit>
+  <edit end="3484" index="0031-0039" start="3480" type="RV">
+    <corrections>
+      <correction>yield</correction>
+      <correction>give</correction>
+    </corrections>
+    <original>make</original>
+  </edit>
+  <edit end="3503" index="0031-0040" start="3487" type="CC">
+    <corrections>
+      <correction>better result than</correction>
+    </corrections>
+    <original>good result over</original>
+  </edit>
+  <edit end="3509" index="0031-0041" start="3504" type="W">
+    <corrections>
+      <correction>set B</correction>
+    </corrections>
+    <original>B set</original>
+  </edit>
+  <edit end="3601" index="0031-0042" start="3601" type="MD">
+    <corrections>
+      <correction/>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3657" index="0031-0043" start="3643" type="R">
+    <corrections>
+      <correction>sentence pair</correction>
+      <correction>pair of sentences</correction>
+    </corrections>
+    <original>sentences pair</original>
+  </edit>
+  <edit end="3699" index="0031-0044" start="3695" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="3709" index="0031-0045" start="3709" type="MD">
+    <corrections>
+      <correction>the </correction>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3804" index="0031-0046" start="3796" type="MP">
+    <corrections>
+      <correction>data-set</correction>
+    </corrections>
+    <original>data set</original>
+  </edit>
+  <edit end="3871" index="0031-0047" start="3868" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>as </original>
+  </edit>
+  <edit end="3871" index="0031-0048" start="3871" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3905" index="0031-0049" start="3905" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3978" index="0031-0050" start="3973" type="FV">
+    <corrections>
+      <correction>be</correction>
+    </corrections>
+    <original>to be</original>
+  </edit>
+  <edit end="4002" index="0031-0051" start="4002" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4046" index="0031-0052" start="4046" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4076" index="0031-0053" start="4055" type="R">
+    <corrections>
+      <correction>A problem arises</correction>
+      <correction>There is a problem</correction>
+    </corrections>
+    <original>There comes a problem</original>
+  </edit>
+  <edit end="4142" index="0031-0054" start="4142" type="M">
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4149" index="0031-0055" start="4145" type="RV">
+    <original>turn</original>
+  </edit>
+  <edit end="4190" index="0031-0056" start="4185" type="RD">
+    <corrections>
+      <correction>those</correction>
+    </corrections>
+    <original>whose</original>
+  </edit>
+  <edit end="4225" index="0031-0057" start="4212" type="CC">
+    <corrections>
+      <correction>a common n-gram</correction>
+      <correction>common n-grams</correction>
+    </corrections>
+    <original>common n-gram</original>
+  </edit>
+  <edit end="4350" index="0031-0058" start="4350" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4371" index="0031-0059" start="4371" type="MD">
+    <corrections>
+      <correction>the </correction>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4470" index="0031-0060" start="4451" type="R">
+    <corrections>
+      <correction>in the opposite way</correction>
+    </corrections>
+    <original>on the contrary way</original>
+  </edit>
+  <edit end="4510" index="0031-0061" start="4498" type="R">
+    <corrections>
+      <correction/>
+      <correction>F1-BLEU</correction>
+    </corrections>
+    <original>Then F1-BLEU</original>
+  </edit>
+  <edit end="4693" index="0031-0062" start="4683" type="CC">
+    <corrections>
+      <correction>in predicting</correction>
+    </corrections>
+    <original>to predict</original>
+  </edit>
+  <edit end="4706" index="0031-0063" start="4698" type="RN">
+    <corrections>
+      <correction>usefulness</correction>
+      <correction>precision</correction>
+      <correction>quality</correction>
+    </corrections>
+    <original>goodness</original>
+  </edit>
+  <edit end="4728" index="0031-0064" start="4727" type="RP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="4810" index="0031-0065" start="4787" type="CC">
+    <corrections>
+      <correction>a batch data-set sequence</correction>
+      <correction>batch data-set sequences</correction>
+    </corrections>
+    <original>batch data set sequence</original>
+  </edit>
+  <edit end="4857" index="0031-0066" start="4852" type="RP">
+    <corrections>
+      <correction>. The</correction>
+    </corrections>
+    <original>, the</original>
+  </edit>
+  <edit end="4930" index="0031-0067" start="4927" type="FV">
+    <corrections>
+      <correction>have</correction>
+    </corrections>
+    <original>has</original>
+  </edit>
+  <edit end="5032" index="0031-0068" start="5030" type="TV">
+    <corrections>
+      <correction>has been</correction>
+    </corrections>
+    <original>is</original>
+  </edit>
+  <edit end="5078" index="0031-0069" start="5070" type="RJ">
+    <corrections>
+      <correction>relevant</correction>
+    </corrections>
+    <original>relative</original>
+  </edit>
+  <edit cset="2" end="5118" index="0031-0070" start="5113" type="RN">
+    <corrections>
+      <correction>studies</correction>
+      <correction>experiments</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="5257" index="0031-0071" start="5250" type="CC">
+    <corrections>
+      <correction>most</correction>
+      <correction>most of the</correction>
+    </corrections>
+    <original>most of</original>
+  </edit>
+  <edit cset="2" end="5272" index="0031-0072" start="5267" type="RN">
+    <corrections>
+      <correction>studies</correction>
+      <correction>experiments</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit cset="3" end="5296" index="0031-0073" start="5282" type="CC">
+    <corrections>
+      <correction>the language model</correction>
+      <correction>language models</correction>
+    </corrections>
+    <original>language model</original>
+  </edit>
+  <edit cset="3" end="5322" index="0031-0074" start="5298" type="CC">
+    <corrections>
+      <correction>the translation phrase table</correction>
+      <correction>translation phrase tables</correction>
+    </corrections>
+    <original>translation phrase table</original>
+  </edit>
+  <edit cset="3" end="5338" index="0031-0075" start="5324" type="CC">
+    <corrections>
+      <correction>the lexicon model</correction>
+      <correction>lexicon models</correction>
+    </corrections>
+    <original>lexicons model</original>
+  </edit>
+  <edit cset="3" end="5369" index="0031-0076" start="5343" type="CC">
+    <corrections>
+      <correction>the factored translation model</correction>
+      <correction>factored translation models</correction>
+    </corrections>
+    <original>factored translation model</original>
+  </edit>
+  <edit end="5374" index="0031-0077" start="5369" type="RP">
+    <corrections>
+      <correction>. Few</correction>
+      <correction>; few</correction>
+    </corrections>
+    <original>, few</original>
+  </edit>
+  <edit end="5473" index="0031-0078" start="5465" type="TV">
+    <corrections>
+      <correction>are considering</correction>
+      <correction>will consider</correction>
+    </corrections>
+    <original>consider</original>
+  </edit>
+  <edit end="5480" index="0031-0079" start="5474" type="FV">
+    <corrections>
+      <correction>using</correction>
+    </corrections>
+    <original>to use</original>
+  </edit>
+  <edit end="5572" index="0031-0080" start="5568" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="5734" index="0031-0081" start="5727" type="RV">
+    <corrections>
+      <correction>conduct</correction>
+      <correction>carry out</correction>
+    </corrections>
+    <original>perform</original>
+  </edit>
+  <edit end="5835" index="0031-0082" start="5827" type="RP">
+    <corrections>
+      <correction>choosing</correction>
+    </corrections>
+    <original>Choosing</original>
+  </edit>
+  <edit end="5895" index="0031-0083" start="5892" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="5957" index="0031-0084" start="5957" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+</edits>

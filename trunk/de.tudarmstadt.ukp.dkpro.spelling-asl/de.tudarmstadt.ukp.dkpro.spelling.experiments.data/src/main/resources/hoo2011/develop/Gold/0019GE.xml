@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="147" index="0019-0001" start="143" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="494" index="0019-0002" start="494" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1164" index="0019-0003" start="1160" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="1246" index="0019-0004" start="1243" type="UV">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>be </original>
+  </edit>
+  <edit end="1484" index="0019-0005" start="1483" type="MP">
+    <corrections>
+      <correction>'a'</correction>
+    </corrections>
+    <original>a</original>
+  </edit>
+  <edit end="1506" index="0019-0006" start="1502" type="CQ">
+    <corrections>
+      <correction>fewer</correction>
+    </corrections>
+    <original>less</original>
+  </edit>
+  <edit end="1638" index="0019-0007" start="1630" type="TV">
+    <corrections>
+      <correction>were</correction>
+    </corrections>
+    <original>had been</original>
+  </edit>
+  <edit end="2373" index="0019-0008" start="2372" type="MP">
+    <corrections>
+      <correction>'m'</correction>
+    </corrections>
+    <original>m</original>
+  </edit>
+  <edit end="3547" index="0019-0009" start="3543" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="3861" index="0019-0010" start="3849" type="RV">
+    <corrections>
+      <correction/>
+      <correction>compiling</correction>
+    </corrections>
+    <original>constructing</original>
+  </edit>
+  <edit end="5600" index="0019-0011" start="5596" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="5897" index="0019-0012" start="5894" type="UV">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>be </original>
+  </edit>
+  <edit end="5917" index="0019-0013" start="5909" type="CC">
+    <corrections>
+      <correction/>
+      <correction>and state that</correction>
+      <correction>and</correction>
+    </corrections>
+    <original>and that</original>
+  </edit>
+  <edit end="5988" index="0019-0014" start="5988" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6259" index="0019-0015" start="6230" type="R">
+    <corrections>
+      <correction>improved alignment quality</correction>
+    </corrections>
+    <original>alignment quality improvement</original>
+  </edit>
+  <edit end="6522" index="0019-0016" start="6519" type="RV">
+    <corrections>
+      <correction>might</correction>
+    </corrections>
+    <original>may</original>
+  </edit>
+</edits>

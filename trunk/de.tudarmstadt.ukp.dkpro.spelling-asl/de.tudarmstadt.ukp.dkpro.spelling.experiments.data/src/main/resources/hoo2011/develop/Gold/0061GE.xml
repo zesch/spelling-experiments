@@ -1,0 +1,544 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="46" index="0061-0001" start="30" type="MP">
+    <corrections>
+      <correction>statistics-based</correction>
+    </corrections>
+    <original>statistics based</original>
+  </edit>
+  <edit end="66" index="0061-0002" start="53" type="W">
+    <corrections>
+      <correction/>
+      <correction>consider only</correction>
+    </corrections>
+    <original>only consider</original>
+  </edit>
+  <edit end="87" index="0061-0003" start="67" type="CC">
+    <corrections>
+      <correction>the co-occurrence aspect</correction>
+      <correction>co-occurrence aspects</correction>
+    </corrections>
+    <original>co-occurrence aspect</original>
+  </edit>
+  <edit end="156" index="0061-0004" start="156" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="228" index="0061-0005" start="223" type="AGV">
+    <corrections>
+      <correction>gain</correction>
+    </corrections>
+    <original>gains</original>
+  </edit>
+  <edit end="269" index="0061-0006" start="248" type="CC">
+    <corrections>
+      <correction>the query-suggestion task</correction>
+      <correction>query-suggestion tasks</correction>
+    </corrections>
+    <original>query suggestion task</original>
+  </edit>
+  <edit end="339" index="0061-0007" start="330" type="DJ">
+    <corrections>
+      <correction>statistical</correction>
+    </corrections>
+    <original>statistic</original>
+  </edit>
+  <edit end="457" index="0061-0008" start="457" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="600" index="0061-0009" start="596" type="RV">
+    <corrections>
+      <correction>achieve</correction>
+    </corrections>
+    <original>gain</original>
+  </edit>
+  <edit end="601" index="0061-0010" start="601" type="MD">
+    <corrections>
+      <correction/>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="736" index="0061-0011" start="736" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="758" index="0061-0012" start="736" type="MP">
+    <corrections>
+      <correction>related-word-retrieval</correction>
+    </corrections>
+    <original>related word retrieval</original>
+  </edit>
+  <edit end="959" index="0061-0013" start="955" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="990" index="0061-0014" start="990" type="MT">
+    <corrections>
+      <correction>by </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="996" index="0061-0015" start="996" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1149" index="0061-0016" start="1129" type="MP">
+    <corrections>
+      <correction/>
+      <correction>language-independent</correction>
+    </corrections>
+    <original>language independent</original>
+  </edit>
+  <edit end="1297" index="0061-0017" start="1292" type="RN">
+    <corrections>
+      <correction>studies</correction>
+      <correction>experiments</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="1372" index="0061-0018" start="1359" type="R">
+    <corrections>
+      <correction>related-word</correction>
+    </corrections>
+    <original>related words</original>
+  </edit>
+  <edit end="1442" index="0061-0019" start="1436" type="TV">
+    <corrections>
+      <correction>shown</correction>
+    </corrections>
+    <original>showed</original>
+  </edit>
+  <edit end="1511" index="0061-0020" start="1506" type="RV">
+    <corrections>
+      <correction>describes</correction>
+      <correction>suggests</correction>
+    </corrections>
+    <original>gives</original>
+  </edit>
+  <edit end="1529" index="0061-0021" start="1524" type="RN">
+    <corrections>
+      <correction>studies</correction>
+      <correction>experiments</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="1536" index="0061-0022" start="1536" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="1559" index="0061-0023" start="1536" type="MP">
+    <corrections>
+      <correction>related-word-retrieval</correction>
+    </corrections>
+    <original>related words retrieval</original>
+  </edit>
+  <edit end="1731" index="0061-0024" start="1723" type="RV">
+    <corrections>
+      <correction>yields</correction>
+      <correction>produces</correction>
+      <correction>returns</correction>
+    </corrections>
+    <original>performs</original>
+  </edit>
+  <edit end="1780" index="0061-0025" start="1764" type="CC">
+    <corrections>
+      <correction>the Chinese language</correction>
+      <correction>Chinese</correction>
+    </corrections>
+    <original>Chinese language</original>
+  </edit>
+  <edit end="1872" index="0061-0026" start="1859" type="R">
+    <corrections>
+      <correction>related-word</correction>
+    </corrections>
+    <original>related words</original>
+  </edit>
+  <edit end="1888" index="0061-0027" start="1883" type="RT">
+    <corrections>
+      <correction>in</correction>
+      <correction>using</correction>
+    </corrections>
+    <original>under</original>
+  </edit>
+  <edit end="2021" index="0061-0028" start="2021" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2214" index="0061-0029" start="2205" type="TV">
+    <corrections>
+      <correction>introduced</correction>
+    </corrections>
+    <original>introduce</original>
+  </edit>
+  <edit end="2232" index="0061-0030" start="2230" type="RT">
+    <corrections>
+      <correction>into</correction>
+      <correction>for</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="2233" index="0061-0031" start="2233" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2251" index="0061-0032" start="2233" type="MP">
+    <corrections>
+      <correction>new-word-detection</correction>
+    </corrections>
+    <original>new word detection</original>
+  </edit>
+  <edit end="2293" index="0061-0033" start="2287" type="RN">
+    <corrections>
+      <correction>method</correction>
+    </corrections>
+    <original>manner</original>
+  </edit>
+  <edit end="2323" index="0061-0034" start="2323" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="2345" index="0061-0035" start="2323" type="MP">
+    <corrections>
+      <correction>related-word-retrieval</correction>
+    </corrections>
+    <original>related word retrieval</original>
+  </edit>
+  <edit end="2425" index="0061-0036" start="2417" type="MP">
+    <corrections>
+      <correction>new-word</correction>
+    </corrections>
+    <original>new word</original>
+  </edit>
+  <edit cset="1" end="2462" index="0061-0037" start="2440" type="MP">
+    <corrections>
+      <correction>related-word-retrieval</correction>
+    </corrections>
+    <original>related word retrieval</original>
+  </edit>
+  <edit cset="2" end="2520" index="0061-0038" start="2495" type="CC">
+    <corrections>
+      <correction>a purely statistical method</correction>
+      <correction>purely statistical</correction>
+    </corrections>
+    <original>purely statistical method</original>
+  </edit>
+  <edit cset="2" end="2540" index="0061-0039" start="2521" type="R">
+    <corrections>
+      <correction>which does not consider</correction>
+      <correction>and does not consider</correction>
+    </corrections>
+    <original>without considering</original>
+  </edit>
+  <edit end="2575" index="0061-0040" start="2575" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="2597" index="0061-0041" start="2575" type="MP">
+    <corrections>
+      <correction>related-word-retrieval</correction>
+    </corrections>
+    <original>related word retrieval</original>
+  </edit>
+  <edit end="2606" index="0061-0042" start="2606" type="M">
+    <corrections>
+      <correction>a </correction>
+      <correction>involving the </correction>
+      <correction>based on the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2854" index="0061-0043" start="2853" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="2863" index="0061-0044" start="2863" type="MC">
+    <corrections>
+      <correction>and </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2876" index="0061-0045" start="2875" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="3013" index="0061-0046" start="3013" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3028" index="0061-0047" start="3025" type="RD">
+    <corrections>
+      <correction/>
+      <correction>their</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="3035" index="0061-0048" start="3029" type="FN">
+    <corrections>
+      <correction>results</correction>
+    </corrections>
+    <original>result</original>
+  </edit>
+  <edit end="3089" index="0061-0049" start="3089" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3113" index="0061-0050" start="3113" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3292" index="0061-0051" start="3289" type="R">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>can</original>
+  </edit>
+  <edit end="3481" index="0061-0052" start="3461" type="CC">
+    <corrections>
+      <correction>re-ranking frameworks</correction>
+      <correction>a re-ranking framework</correction>
+      <correction>the re-ranking framework</correction>
+    </corrections>
+    <original>re-ranking framework</original>
+  </edit>
+  <edit end="3556" index="0061-0053" start="3548" type="FN">
+    <corrections>
+      <correction>resources</correction>
+    </corrections>
+    <original>resource</original>
+  </edit>
+  <edit end="3581" index="0061-0054" start="3576" type="AGV">
+    <corrections>
+      <correction>come</correction>
+    </corrections>
+    <original>comes</original>
+  </edit>
+  <edit end="3587" index="0061-0055" start="3587" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3652" index="0061-0056" start="3649" type="RT">
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="3653" index="0061-0057" start="3653" type="MD">
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3870" index="0061-0058" start="3865" type="UN">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>side</original>
+  </edit>
+  <edit end="3934" index="0061-0059" start="3934" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4317" index="0061-0060" start="4309" type="RV">
+    <corrections>
+      <correction/>
+      <correction>considered</correction>
+    </corrections>
+    <original>supposed</original>
+  </edit>
+  <edit end="4559" index="0061-0061" start="4539" type="MP">
+    <corrections>
+      <correction>candidate-generation</correction>
+    </corrections>
+    <original>candidate generation</original>
+  </edit>
+  <edit end="4595" index="0061-0062" start="4591" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="4639" index="0061-0063" start="4630" type="RV">
+    <corrections>
+      <correction>employ</correction>
+      <correction>use</correction>
+    </corrections>
+    <original>carry out</original>
+  </edit>
+  <edit end="4781" index="0061-0064" start="4781" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4828" index="0061-0065" start="4810" type="MP">
+    <corrections>
+      <correction>feature-extraction</correction>
+    </corrections>
+    <original>feature extraction</original>
+  </edit>
+  <edit end="4867" index="0061-0066" start="4852" type="CC">
+    <corrections>
+      <correction>the input seed word</correction>
+      <correction>input seed words</correction>
+    </corrections>
+    <original>input seed word</original>
+  </edit>
+  <edit end="5037" index="0061-0067" start="5035" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="5132" index="0061-0068" start="5128" type="RV">
+    <corrections>
+      <correction>give</correction>
+    </corrections>
+    <original>make</original>
+  </edit>
+  <edit end="5159" index="0061-0069" start="5154" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>about</original>
+  </edit>
+  <edit end="5173" index="0061-0070" start="5160" type="R">
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+    <original>the mentioned</original>
+  </edit>
+  <edit end="5494" index="0061-0071" start="5494" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5544" index="0061-0072" start="5544" type="MP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5586" index="0061-0073" start="5586" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5614" index="0061-0074" start="5586" type="MP">
+    <corrections>
+      <correction>bipartite-graph-construction</correction>
+    </corrections>
+    <original>bipartite graph construction</original>
+  </edit>
+  <edit end="5904" index="0061-0075" start="5904" type="MN">
+    <corrections>
+      <correction>node </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5979" index="0061-0076" start="5979" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+</edits>

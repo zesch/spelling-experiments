@@ -1,0 +1,272 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="298" index="0001-0001" start="293" type="RP">
+    <corrections>
+      <correction/>
+      <correction>. The</correction>
+    </corrections>
+    <original>; the</original>
+  </edit>
+  <edit cset="1" end="329" index="0001-0002" start="322" type="RN">
+    <corrections>
+      <correction>output</correction>
+      <correction>results</correction>
+    </corrections>
+    <original>outcome</original>
+  </edit>
+  <edit end="378" index="0001-0003" start="378" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="629" index="0001-0004" start="629" type="MY">
+    <corrections>
+      <correction/>
+      <correction>both </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="716" index="0001-0005" start="711" type="RV">
+    <corrections>
+      <correction/>
+      <correction>contain</correction>
+    </corrections>
+    <original>carry</original>
+  </edit>
+  <edit end="780" index="0001-0006" start="769" type="IJ">
+    <corrections>
+      <correction>electronic</correction>
+    </corrections>
+    <original>electronics</original>
+  </edit>
+  <edit end="1384" index="0001-0007" start="1383" type="RP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>;</original>
+  </edit>
+  <edit end="1411" index="0001-0008" start="1401" type="RJ">
+    <corrections>
+      <correction>varying</correction>
+    </corrections>
+    <original>dissimilar</original>
+  </edit>
+  <edit end="1681" index="0001-0009" start="1679" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="1736" index="0001-0010" start="1734" type="RT">
+    <corrections>
+      <correction/>
+      <correction>about</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="1809" index="0001-0011" start="1805" type="CQ">
+    <corrections>
+      <correction>many</correction>
+    </corrections>
+    <original>much</original>
+  </edit>
+  <edit end="2024" index="0001-0012" start="2014" type="FN">
+    <corrections>
+      <correction/>
+      <correction>agreement</correction>
+    </corrections>
+    <original>agreements</original>
+  </edit>
+  <edit cset="1" end="2040" index="0001-0013" start="2032" type="RN">
+    <corrections>
+      <correction>output</correction>
+      <correction>results</correction>
+    </corrections>
+    <original>outcomes</original>
+  </edit>
+  <edit end="2110" index="0001-0014" start="2109" type="RP">
+    <corrections>
+      <correction/>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="2128" index="0001-0015" start="2124" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="2141" index="0001-0016" start="2128" type="FN">
+    <corrections>
+      <correction/>
+      <correction>consistency</correction>
+    </corrections>
+    <original>consistencies</original>
+  </edit>
+  <edit end="2154" index="0001-0017" start="2149" type="FN">
+    <corrections>
+      <correction>labels</correction>
+    </corrections>
+    <original>label</original>
+  </edit>
+  <edit end="2172" index="0001-0018" start="2162" type="RN">
+    <corrections>
+      <correction/>
+      <correction>agreement</correction>
+    </corrections>
+    <original>accordance</original>
+  </edit>
+  <edit end="2307" index="0001-0019" start="2297" type="AGN">
+    <corrections>
+      <correction>approach</correction>
+    </corrections>
+    <original>approaches</original>
+  </edit>
+  <edit end="2438" index="0001-0020" start="2438" type="M">
+    <corrections>
+      <correction>so </correction>
+      <correction>in order </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2848" index="0001-0021" start="2844" type="RT">
+    <corrections>
+      <correction/>
+      <correction>onto</correction>
+    </corrections>
+    <original>into</original>
+  </edit>
+  <edit end="2907" index="0001-0022" start="2901" type="RJ">
+    <corrections>
+      <correction>second</correction>
+    </corrections>
+    <original>latter</original>
+  </edit>
+  <edit end="3280" index="0001-0023" start="3266" type="CC">
+    <corrections>
+      <correction>with intensity annotations</correction>
+      <correction>intensity</correction>
+    </corrections>
+    <original>with intensity</original>
+  </edit>
+  <edit end="3307" index="0001-0024" start="3301" type="RJ">
+    <corrections>
+      <correction>second</correction>
+    </corrections>
+    <original>latter</original>
+  </edit>
+  <edit end="3480" index="0001-0025" start="3471" type="RJ">
+    <corrections>
+      <correction>unreliable</correction>
+    </corrections>
+    <original>uncertain</original>
+  </edit>
+  <edit end="3905" index="0001-0026" start="3905" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4164" index="0001-0027" start="4164" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4261" index="0001-0028" start="4261" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4732" index="0001-0029" start="4689" type="CC">
+    <corrections>
+      <correction>a corpus-based system and a lexicon-based system</correction>
+    </corrections>
+    <original>a corpus-based, and a lexicon-based systems</original>
+  </edit>
+  <edit end="4781" index="0001-0030" start="4781" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4802" index="0001-0031" start="4789" type="CC">
+    <corrections>
+      <correction>systems themselves</correction>
+    </corrections>
+    <original>system itself</original>
+  </edit>
+  <edit end="4802" index="0001-0032" start="4802" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5203" index="0001-0033" start="5195" type="TV">
+    <corrections>
+      <correction>is</correction>
+    </corrections>
+    <original>has been</original>
+  </edit>
+  <edit end="5779" index="0001-0034" start="5773" type="RN">
+    <original>states</original>
+  </edit>
+  <edit end="5858" index="0001-0035" start="5844" type="MP">
+    <corrections>
+      <correction>sentence-level</correction>
+    </corrections>
+    <original>sentence level</original>
+  </edit>
+  <edit end="6010" index="0001-0036" start="5973" type="CC">
+    <corrections>
+      <correction>is a relatively balanced corpus,</correction>
+      <correction>is relatively balanced,</correction>
+    </corrections>
+    <original>provides a relatively balanced corpus</original>
+  </edit>
+  <edit end="6577" index="0001-0037" start="6577" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6592" index="0001-0038" start="6592" type="MV">
+    <corrections>
+      <correction>is predicted </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6836" index="0001-0039" start="6832" type="MP">
+    <corrections>
+      <correction/>
+      <correction>6,885</correction>
+    </corrections>
+    <original>6885</original>
+  </edit>
+</edits>

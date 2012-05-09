@@ -1,0 +1,691 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="39" index="0044-0001" start="32" type="FV">
+    <corrections>
+      <correction>dealing</correction>
+    </corrections>
+    <original>to deal</original>
+  </edit>
+  <edit end="130" index="0044-0002" start="130" type="MT">
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="162" index="0044-0003" start="156" type="FN">
+    <corrections>
+      <correction>systems</correction>
+    </corrections>
+    <original>system</original>
+  </edit>
+  <edit end="162" index="0044-0004" start="162" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="227" index="0044-0005" start="218" type="RY">
+    <corrections>
+      <correction>extremely</correction>
+    </corrections>
+    <original>massively</original>
+  </edit>
+  <edit end="320" index="0044-0006" start="316" type="RV">
+    <corrections>
+      <correction/>
+      <correction>is</correction>
+    </corrections>
+    <original>says</original>
+  </edit>
+  <edit end="359" index="0044-0007" start="357" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="381" index="0044-0008" start="374" type="R">
+    <corrections>
+      <correction>Did he give</correction>
+    </corrections>
+    <original>He gave</original>
+  </edit>
+  <edit end="421" index="0044-0009" start="414" type="RC">
+    <corrections>
+      <correction>but</correction>
+      <correction>whereas</correction>
+    </corrections>
+    <original>however</original>
+  </edit>
+  <edit end="435" index="0044-0010" start="433" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="447" index="0044-0011" start="437" type="R">
+    <corrections>
+      <correction>Did she borrow</correction>
+    </corrections>
+    <original>She rented</original>
+  </edit>
+  <edit end="483" index="0044-0012" start="483" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="497" index="0044-0013" start="497" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="596" index="0044-0014" start="583" type="MP">
+    <corrections>
+      <correction>non-paraphrase</correction>
+    </corrections>
+    <original>nonparaphrase</original>
+  </edit>
+  <edit end="629" index="0044-0015" start="625" type="RN">
+    <corrections>
+      <correction>point of view</correction>
+    </corrections>
+    <original>view</original>
+  </edit>
+  <edit end="756" index="0044-0016" start="668" type="W">
+    <corrections>
+      <correction>can the shared/different meanings of &quot;He lent her a bicycle&quot; and &quot;He gave her a bicycle&quot;</correction>
+    </corrections>
+    <original>the shared/different meanings of &quot;He lent her a bicycle&quot; and &quot;He gave her a bicycle&quot; can</original>
+  </edit>
+  <edit end="861" index="0044-0017" start="859" type="RT">
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="985" index="0044-0018" start="978" type="TV">
+    <corrections>
+      <correction>is</correction>
+    </corrections>
+    <original>will be</original>
+  </edit>
+  <edit end="1322" index="0044-0019" start="1318" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>into</original>
+  </edit>
+  <edit end="1440" index="0044-0020" start="1417" type="R">
+    <corrections>
+      <correction>is</correction>
+      <correction>may be</correction>
+    </corrections>
+    <original>can be considered to be</original>
+  </edit>
+  <edit end="1566" index="0044-0021" start="1562" type="RN">
+    <corrections>
+      <correction>point of view</correction>
+    </corrections>
+    <original>view</original>
+  </edit>
+  <edit end="1610" index="0044-0022" start="1610" type="MY">
+    <corrections>
+      <correction/>
+      <correction>when </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1626" index="0044-0023" start="1618" type="W">
+    <corrections>
+      <correction>with the</correction>
+    </corrections>
+    <original>the with</original>
+  </edit>
+  <edit end="1781" index="0044-0024" start="1781" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1857" index="0044-0025" start="1853" type="RN">
+    <corrections>
+      <correction>study</correction>
+    </corrections>
+    <original>work</original>
+  </edit>
+  <edit end="2008" index="0044-0026" start="2005" type="RD">
+    <corrections>
+      <correction>this</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="2208" index="0044-0027" start="2208" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2270" index="0044-0028" start="2246" type="MP">
+    <corrections>
+      <correction>argument-structure level</correction>
+      <correction>argument-structure-level</correction>
+    </corrections>
+    <original>argument structure level</original>
+  </edit>
+  <edit end="2414" index="0044-0029" start="2401" type="DJ">
+    <corrections>
+      <correction>different</correction>
+      <correction>differentiated</correction>
+    </corrections>
+    <original>differenciate</original>
+  </edit>
+  <edit end="2422" index="0044-0030" start="2415" type="FN">
+    <corrections>
+      <correction>meanings</correction>
+    </corrections>
+    <original>meaning</original>
+  </edit>
+  <edit end="2587" index="0044-0031" start="2585" type="RT">
+    <corrections>
+      <correction>of</correction>
+      <correction>with</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="2791" index="0044-0032" start="2786" type="FN">
+    <corrections>
+      <correction>role</correction>
+    </corrections>
+    <original>roles</original>
+  </edit>
+  <edit end="2867" index="0044-0033" start="2863" type="FN">
+    <corrections>
+      <correction>kinds</correction>
+    </corrections>
+    <original>kind</original>
+  </edit>
+  <edit end="2932" index="0044-0034" start="2904" type="DN">
+    <corrections>
+      <correction>potential applications</correction>
+    </corrections>
+    <original>perspectives of applications</original>
+  </edit>
+  <edit end="2948" index="0044-0035" start="2944" type="RN">
+    <corrections>
+      <correction>point of view</correction>
+    </corrections>
+    <original>view</original>
+  </edit>
+  <edit end="2981" index="0044-0036" start="2979" type="RP">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>In</original>
+  </edit>
+  <edit end="3195" index="0044-0037" start="3188" type="RY">
+    <corrections>
+      <correction>In addition</correction>
+      <correction>Also</correction>
+    </corrections>
+    <original>Besides</original>
+  </edit>
+  <edit end="3195" index="0044-0038" start="3195" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3208" index="0044-0039" start="3205" type="RD">
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="3257" index="0044-0040" start="3257" type="M">
+    <corrections>
+      <correction/>
+      <correction>which aims </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3265" index="0044-0041" start="3265" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3286" index="0044-0042" start="3273" type="RJ">
+    <corrections>
+      <correction/>
+      <correction>descriptive</correction>
+    </corrections>
+    <original>descriptional</original>
+  </edit>
+  <edit end="3318" index="0044-0043" start="3300" type="MP">
+    <corrections>
+      <correction>predicate-argument</correction>
+    </corrections>
+    <original>predicate argument</original>
+  </edit>
+  <edit end="3418" index="0044-0044" start="3406" type="S">
+    <corrections>
+      <correction>PennDiscourse</correction>
+    </corrections>
+    <original>PennDiscouse</original>
+  </edit>
+  <edit end="3487" index="0044-0045" start="3486" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="3637" index="0044-0046" start="3633" type="RT">
+    <corrections>
+      <correction>in</correction>
+      <correction>using</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="3638" index="0044-0047" start="3638" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4081" index="0044-0048" start="4081" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4178" index="0044-0049" start="4174" type="RV">
+    <corrections>
+      <correction>would</correction>
+    </corrections>
+    <original>must</original>
+  </edit>
+  <edit end="4185" index="0044-0050" start="4179" type="W">
+    <corrections>
+      <correction>not be</correction>
+    </corrections>
+    <original>be not</original>
+  </edit>
+  <edit end="4240" index="0044-0051" start="4236" type="R">
+    <corrections>
+      <correction>while</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="4264" index="0044-0052" start="4261" type="RT">
+    <corrections>
+      <correction>between</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="4298" index="0044-0053" start="4298" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4434" index="0044-0054" start="4433" type="RP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>:</original>
+  </edit>
+  <edit end="4616" index="0044-0055" start="4612" type="UC">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>and </original>
+  </edit>
+  <edit end="4629" index="0044-0056" start="4616" type="MP">
+    <corrections>
+      <correction>wide-coverage</correction>
+    </corrections>
+    <original>wide coverage</original>
+  </edit>
+  <edit end="4862" index="0044-0057" start="4850" type="S">
+    <corrections>
+      <correction/>
+      <correction>ditransitive</correction>
+    </corrections>
+    <original>detransitive</original>
+  </edit>
+  <edit end="4972" index="0044-0058" start="4972" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5056" index="0044-0059" start="5053" type="TV">
+    <corrections>
+      <correction>have been</correction>
+      <correction>were</correction>
+    </corrections>
+    <original>are</original>
+  </edit>
+  <edit end="5109" index="0044-0060" start="5085" type="CC">
+    <corrections>
+      <correction>has currently published</correction>
+      <correction>contains</correction>
+    </corrections>
+    <original>currently published only</original>
+  </edit>
+  <edit end="5138" index="0044-0061" start="5131" type="RY">
+    <corrections>
+      <correction>In addition</correction>
+      <correction>Also</correction>
+    </corrections>
+    <original>Besides</original>
+  </edit>
+  <edit end="5138" index="0044-0062" start="5138" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5170" index="0044-0063" start="5165" type="MP">
+    <corrections>
+      <correction>87,000</correction>
+    </corrections>
+    <original>87000</original>
+  </edit>
+  <edit end="5186" index="0044-0064" start="5181" type="MP">
+    <corrections>
+      <correction>46,000</correction>
+    </corrections>
+    <original>46000</original>
+  </edit>
+  <edit end="5203" index="0044-0065" start="5194" type="RC">
+    <corrections>
+      <correction>, but</correction>
+      <correction>. However</correction>
+    </corrections>
+    <original>, however</original>
+  </edit>
+  <edit end="5237" index="0044-0066" start="5227" type="AGN">
+    <corrections>
+      <correction>difficulties</correction>
+    </corrections>
+    <original>difficulty</original>
+  </edit>
+  <edit end="5240" index="0044-0067" start="5238" type="RT">
+    <corrections>
+      <correction>with</correction>
+      <correction>in</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="5345" index="0044-0068" start="5332" type="W">
+    <corrections>
+      <correction>many existing</correction>
+    </corrections>
+    <original>existing many</original>
+  </edit>
+  <edit end="5379" index="0044-0069" start="5374" type="RV">
+    <corrections>
+      <correction/>
+      <correction>resolve</correction>
+    </corrections>
+    <original>solve</original>
+  </edit>
+  <edit end="5820" index="0044-0070" start="5820" type="MD">
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5828" index="0044-0071" start="5820" type="MP">
+    <corrections>
+      <correction>LCS-based</correction>
+    </corrections>
+    <original>LCSbased</original>
+  </edit>
+  <edit end="5913" index="0044-0072" start="5904" type="AGN">
+    <corrections>
+      <correction>structures</correction>
+    </corrections>
+    <original>structure</original>
+  </edit>
+  <edit end="5921" index="0044-0073" start="5914" type="R">
+    <corrections>
+      <correction>in the same way as</correction>
+    </corrections>
+    <original>such as</original>
+  </edit>
+  <edit end="5965" index="0044-0074" start="5961" type="RA">
+    <corrections>
+      <correction>It</correction>
+    </corrections>
+    <original>This</original>
+  </edit>
+  <edit end="5973" index="0044-0075" start="5966" type="RV">
+    <corrections>
+      <correction>is</correction>
+      <correction>will be</correction>
+    </corrections>
+    <original>must be</original>
+  </edit>
+  <edit end="5974" index="0044-0076" start="5974" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5978" index="0044-0077" start="5974" type="RJ">
+    <corrections>
+      <correction>great</correction>
+      <correction>major</correction>
+    </corrections>
+    <original>high</original>
+  </edit>
+  <edit end="6036" index="0044-0078" start="6032" type="RN">
+    <corrections>
+      <correction>point of view</correction>
+    </corrections>
+    <original>view</original>
+  </edit>
+  <edit end="6111" index="0044-0079" start="6111" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6116" index="0044-0080" start="6112" type="AGD">
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+    <original>this</original>
+  </edit>
+  <edit end="6166" index="0044-0081" start="6166" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="6211" index="0044-0082" start="6201" type="FN">
+    <corrections>
+      <correction/>
+      <correction>similarities</correction>
+    </corrections>
+    <original>similarity</original>
+  </edit>
+  <edit cset="1" end="6226" index="0044-0083" start="6216" type="FN">
+    <corrections>
+      <correction/>
+      <correction>differences</correction>
+    </corrections>
+    <original>difference</original>
+  </edit>
+  <edit end="6294" index="0044-0084" start="6289" type="RJ">
+    <corrections>
+      <correction>overall</correction>
+    </corrections>
+    <original>total</original>
+  </edit>
+  <edit end="6305" index="0044-0085" start="6305" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6368" index="0044-0086" start="6368" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6404" index="0044-0087" start="6397" type="RV">
+    <corrections>
+      <correction>proposed</correction>
+    </corrections>
+    <original>assumed</original>
+  </edit>
+  <edit end="6545" index="0044-0088" start="6523" type="CC">
+    <corrections>
+      <correction>a subordinate verb class</correction>
+      <correction>subordinate verb classes</correction>
+    </corrections>
+    <original>subordinate verb class</original>
+  </edit>
+  <edit end="6551" index="0044-0089" start="6551" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6712" index="0044-0090" start="6708" type="RT">
+    <corrections>
+      <correction>by</correction>
+    </corrections>
+    <original>from</original>
+  </edit>
+  <edit end="6794" index="0044-0091" start="6794" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6876" index="0044-0092" start="6876" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6956" index="0044-0093" start="6952" type="CC">
+    <corrections>
+      <correction>a verb</correction>
+      <correction>verbs</correction>
+    </corrections>
+    <original>verb</original>
+  </edit>
+  <edit end="7011" index="0044-0094" start="7006" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>with </original>
+  </edit>
+  <edit end="7133" index="0044-0095" start="7129" type="RT">
+    <corrections>
+      <correction>for</correction>
+      <correction>in terms of</correction>
+    </corrections>
+    <original>into</original>
+  </edit>
+  <edit end="7174" index="0044-0096" start="7173" type="RP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>;</original>
+  </edit>
+  <edit end="7227" index="0044-0097" start="7227" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="7251" index="0044-0098" start="7251" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="7362" index="0044-0099" start="7353" type="AGN">
+    <corrections>
+      <correction>structures</correction>
+    </corrections>
+    <original>structure</original>
+  </edit>
+</edits>

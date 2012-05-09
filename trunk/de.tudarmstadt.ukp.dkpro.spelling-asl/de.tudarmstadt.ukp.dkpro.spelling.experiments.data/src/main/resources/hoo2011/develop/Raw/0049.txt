@@ -1,0 +1,36 @@
+Unfortunately, all the cited tools lack the capability of dealing proper with levels of edition for tokens (words and punctuations) and an integrated environment for the whole process of edition. Thus, in spite of their amazing features, none of them was sufficiently suitable, specially concerning spelling modernization and normalization of graphematic aspects. In fact, this is expected for the tools are intended to broader purposes.
+
+
+Conception and development of a tool, E-Dictor, where the need for a WYSIWYG interface joined a second goal, ie., integrating the tasks of the whole process, which would then be performed inside the same environment, with any necessary external tools being called by the system, transparently.
+
+E-Dictor has been developed in Python and, today, has versions for both Linux and Windows (XP/Vista/7) platforms. A version for MacOS is planned for the future. It is currently at 1.0 beta version (not stable).
+
+As shown in Figure 1, the main interface has an application menu, a toolbar, a content area (divided into tabs: Transcription, Edition, and Morphology), and buttons to navigate throught pages. The tabs are in accordance with the flow of the encoding process. Many aspects of the functioning described in what follows are determined by the application preferences.
+
+In the 'Transcription' tab, the original text is transcribed "as is" (the user can view the facsimile image, while transcribing the text). Throught a menu option, E-Dictor will automatically apply an XML structure to the text, "guessing" its internal structure as best as it can. Then, in the 'Edition' tab, the user can edit any token or structural element (eg., paragraph). Finally, in the 'Morphology' tab, tokens and part-of-speech tags are displayed in token/TAG format, so they can be revised.
+
+The XML structure specified meets two main goals: (i) be as neutral as possible (in relation to the textual content encoded) and (ii) suit philological and linguistic needs, i.e., edition must be simple and efficient without losing information relevant to philological studies. In the context of CTB, it was initially established a structure to encode the following information:
+* Metadata: information about the source text, e.g., author information, state of processing, etc.
+* Delimitation of sections, pages, paragraphs, sentences, headers and footers, and tokens.
+* Class of tokens (part-of-speech tags) and phonological form for some tokens.
+* Types (levels) of edition for each token.
+* Comments of the editor.
+* Subtypes for some text elements, like sections, paragraphs, sentences and tokens (eg., a section of type "prologue").
+
+A key goal of E-Dictor is to be flexible enough so as to be useful in other contexts of corpora building. To achieve this, the user can customize the "preferences" of the application. The most prominent options are the levels of edition for tokens;  the subtypes for the elements 'section', 'paragraph', 'sentence', and 'token'; and the list of POS tags to be used in the morphological analysis. Finally, in the 'Metadata' tab, the user can create the suitable metadata fields needed by his/her project.
+
+Throught its menu, E-Dictor provides some common options (eg., Save As, Search &amp; Replace, Copy &amp; Paste, and many others) as well as those particular options intended for the encoding process (XML structure generation, POS automatic tagging, etc.). E-Dictor provides also an option for exporting the encoded text and the lexicon of editions in two different formats (HTML and TXT/CSV).
+
+To conclude this section, a brief comment about token (words and punctuation) edition, which is the main feature of E-Dictor. The respective interface is shown in Figure 2. When a token is selected, the user can: (i) in the "Properties" panel, specify the type of the token (according to the subtypes defined by the preferences), its foreign language, and format (bold, italic, and underlined); (ii) in the "Edition" panel, specify some other properties (eg., phonological form) of the token and include edition levels (according to the levels defined by the preferences).
+
+To each token, the user must click on "Apply changes" to effectivate (all) the editions made to it. The option "Replace all" tells E-Dictor to repeat the operation over all identical tokens in the remaining of the text (a similar functionality is available for POS tags revision).
+
+The dificulties of encoding ancient texts in XML, using common text editors, had shown that a tool was necessary to make the process efficient and friendly. This led to the development of E-Dictor, which, since its earlier usage, has shown promising results. Now, the user does not even have to know that the underlying encoding is XML. It is only necessary for him/her to know the (philological and linguistics) aspects of text edition.
+
+E-Dictor led to a decrease of about 50% in the time required for encoding and editing texts. The improvement may be even higher if we consider the revision time. One of the factors for this improvement is the better legibility the tool provides. The XML code is hidden, allowing one to practically read the text without any encoding. To illustrate the opposite, Figure 3 shows the common edition "interface", before E-Dictor. Note that the content being edited is just "Ex.mo Sr. Duque".
+
+Finally, the integration of the whole process into one and only environment is a second factor for the overall improvement, for it allows the user to move freely and quickly between "representations" and to access external tools transparently.
+
+E-Dictor is always under development, as we discuss its characteristics and receive feedback from users. There is already a list of future improvements that are being developed, such as extending the exporting routines, for example. A bigger goal is to incorporate an edition lexicon, which would be used by the tool for making suggestions during the edition process, or even to develop an "automatic token edition" system for later revision by the user.
+
+Besides CTB, E-Dictor is being used by the BBD project (BBD, 2010), and, recently, by various subgroups of the PHPB project (For a History of Portuguese in Brazil). These groups have large experience in philological edition of handwritten documents, and we hope their use of E-Dictor will help us improve it. The ideal goal of E-Dictor is to be capable of handling the whole flow of linguistic and philological tasks: transcription, edition, tagging, and parsing.

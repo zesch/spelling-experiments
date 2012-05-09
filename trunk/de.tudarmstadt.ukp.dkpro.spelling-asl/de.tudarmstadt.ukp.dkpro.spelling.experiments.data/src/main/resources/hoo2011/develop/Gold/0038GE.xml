@@ -1,0 +1,302 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="84" index="0038-0001" start="75" type="R">
+    <corrections>
+      <correction>lexicons</correction>
+    </corrections>
+    <original>a lexicon</original>
+  </edit>
+  <edit end="103" index="0038-0002" start="92" type="R">
+    <corrections>
+      <correction>ontologies</correction>
+    </corrections>
+    <original>an ontology</original>
+  </edit>
+  <edit end="329" index="0038-0003" start="321" type="RV">
+    <corrections>
+      <correction>grouping</correction>
+    </corrections>
+    <original>relating</original>
+  </edit>
+  <edit end="631" index="0038-0004" start="631" type="MV">
+    <corrections>
+      <correction/>
+      <correction>is </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="786" index="0038-0005" start="785" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="1163" index="0038-0006" start="1159" type="RQ">
+    <corrections>
+      <correction/>
+      <correction>a great deal of</correction>
+      <correction>a lot of</correction>
+    </corrections>
+    <original>much</original>
+  </edit>
+  <edit end="1258" index="0038-0007" start="1256" type="RT">
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="1294" index="0038-0008" start="1292" type="RC">
+    <corrections>
+      <correction>although</correction>
+    </corrections>
+    <original>if</original>
+  </edit>
+  <edit end="1523" index="0038-0009" start="1517" type="R">
+    <corrections>
+      <correction>the same</correction>
+      <correction>shared</correction>
+    </corrections>
+    <original>common</original>
+  </edit>
+  <edit cset="1" end="1642" index="0038-0010" start="1628" type="MP">
+    <corrections>
+      <correction>lexico-semantic</correction>
+    </corrections>
+    <original>lexicosemantic</original>
+  </edit>
+  <edit end="1704" index="0038-0011" start="1702" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="1737" index="0038-0012" start="1731" type="RJ">
+    <corrections>
+      <correction>various</correction>
+    </corrections>
+    <original>varied</original>
+  </edit>
+  <edit end="1804" index="0038-0013" start="1804" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1872" index="0038-0014" start="1872" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1948" index="0038-0015" start="1948" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1999" index="0038-0016" start="1994" type="RN">
+    <corrections>
+      <correction>experiments</correction>
+      <correction>projects</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="2096" index="0038-0017" start="2053" type="W">
+    <corrections>
+      <correction>to be seen earlier (Calzolari et al., 1973)</correction>
+    </corrections>
+    <original>earlier (Calzolari et al., 1973) to be seen</original>
+  </edit>
+  <edit cset="1" end="2168" index="0038-0018" start="2154" type="MP">
+    <corrections>
+      <correction>lexico-semantic</correction>
+    </corrections>
+    <original>lexicosemantic</original>
+  </edit>
+  <edit end="2862" index="0038-0019" start="2853" type="R">
+    <corrections>
+      <correction>recent</correction>
+    </corrections>
+    <original>the later</original>
+  </edit>
+  <edit end="3064" index="0038-0020" start="3062" type="RT">
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+    <original>by</original>
+  </edit>
+  <edit cset="2" end="3083" index="0038-0021" start="3083" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="2" end="3096" index="0038-0022" start="3096" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3117" index="0038-0023" start="3117" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3877" index="0038-0024" start="3872" type="UC">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>that</original>
+  </edit>
+  <edit end="3981" index="0038-0025" start="3981" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4019" index="0038-0026" start="4009" type="MP">
+    <corrections>
+      <correction/>
+      <correction>word-sense</correction>
+    </corrections>
+    <original>word sense</original>
+  </edit>
+  <edit end="4084" index="0038-0027" start="4079" type="FN">
+    <corrections>
+      <correction>time</correction>
+    </corrections>
+    <original>times</original>
+  </edit>
+  <edit end="4514" index="0038-0028" start="4492" type="R">
+    <corrections>
+      <correction>with the highest similarity</correction>
+      <correction>which is most similar</correction>
+    </corrections>
+    <original>with higher similarity</original>
+  </edit>
+  <edit end="4541" index="0038-0029" start="4536" type="RA">
+    <corrections>
+      <correction>which</correction>
+    </corrections>
+    <original>where</original>
+  </edit>
+  <edit end="4840" index="0038-0030" start="4831" type="RJ">
+    <corrections>
+      <correction>likely</correction>
+    </corrections>
+    <original>plausible</original>
+  </edit>
+  <edit end="5118" index="0038-0031" start="5113" type="RN">
+    <corrections>
+      <correction>experiments</correction>
+      <correction>projects</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="5265" index="0038-0032" start="5265" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5302" index="0038-0033" start="5293" type="RP">
+    <corrections>
+      <correction>Wikipedia</correction>
+    </corrections>
+    <original>wikipedia</original>
+  </edit>
+  <edit end="5854" index="0038-0034" start="5831" type="R">
+    <corrections>
+      <correction>reasonable accuracy</correction>
+    </corrections>
+    <original>relatively good quality</original>
+  </edit>
+  <edit end="5910" index="0038-0035" start="5894" type="RT">
+    <corrections>
+      <correction>Unlike</correction>
+      <correction>In contrast with</correction>
+    </corrections>
+    <original>In opposition to</original>
+  </edit>
+  <edit end="6173" index="0038-0036" start="6168" type="RN">
+    <corrections>
+      <correction>experiments</correction>
+      <correction>projects</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="6280" index="0038-0037" start="6280" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6295" index="0038-0038" start="6295" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6422" index="0038-0039" start="6417" type="RJ">
+    <corrections>
+      <correction>likely</correction>
+    </corrections>
+    <original>prone</original>
+  </edit>
+  <edit end="6533" index="0038-0040" start="6518" type="R">
+    <corrections>
+      <correction>part of</correction>
+      <correction>within the scope of</correction>
+    </corrections>
+    <original>in the scope of</original>
+  </edit>
+  <edit end="6666" index="0038-0041" start="6664" type="RT">
+    <corrections>
+      <correction/>
+      <correction>to</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="6879" index="0038-0042" start="6875" type="RQ">
+    <corrections>
+      <correction>a great deal of</correction>
+      <correction>a lot of</correction>
+    </corrections>
+    <original>much</original>
+  </edit>
+  <edit end="6916" index="0038-0043" start="6907" type="RJ">
+    <corrections>
+      <correction>varied</correction>
+    </corrections>
+    <original>different</original>
+  </edit>
+</edits>

@@ -1,0 +1,391 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="431" index="0062-0001" start="431" type="MC">
+    <corrections>
+      <correction>if </correction>
+      <correction>though </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="453" index="0062-0002" start="451" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>by</original>
+  </edit>
+  <edit end="789" index="0062-0003" start="789" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="826" index="0062-0004" start="824" type="AGV">
+    <corrections>
+      <correction>are</correction>
+    </corrections>
+    <original>is</original>
+  </edit>
+  <edit end="936" index="0062-0005" start="927" type="MP">
+    <corrections>
+      <correction>SMT-based</correction>
+    </corrections>
+    <original>SMT based</original>
+  </edit>
+  <edit end="1301" index="0062-0006" start="1297" type="RT">
+    <corrections>
+      <correction/>
+      <correction>in</correction>
+    </corrections>
+    <original>into</original>
+  </edit>
+  <edit end="1362" index="0062-0007" start="1316" type="R">
+    <corrections>
+      <correction>- in particular, if we could push the correct one to the top - </correction>
+    </corrections>
+    <original>, especially, push the correct one to the top,</original>
+  </edit>
+  <edit end="1739" index="0062-0008" start="1716" type="MP">
+    <corrections>
+      <correction>discriminative-learning</correction>
+    </corrections>
+    <original>discriminative learning</original>
+  </edit>
+  <edit end="1953" index="0062-0009" start="1953" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1990" index="0062-0010" start="1978" type="MP">
+    <corrections>
+      <correction/>
+      <correction>named-entity</correction>
+    </corrections>
+    <original>named entity</original>
+  </edit>
+  <edit end="2118" index="0062-0011" start="2117" type="RP">
+    <corrections>
+      <correction/>
+      <correction>:</correction>
+    </corrections>
+    <original>;</original>
+  </edit>
+  <edit end="2191" index="0062-0012" start="2191" type="M">
+    <corrections>
+      <correction>and is </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2406" index="0062-0013" start="2405" type="RP">
+    <corrections>
+      <correction/>
+      <correction>:</correction>
+    </corrections>
+    <original>;</original>
+  </edit>
+  <edit end="2435" index="0062-0014" start="2423" type="W">
+    <corrections>
+      <correction/>
+      <correction>applied only</correction>
+    </corrections>
+    <original>only applied</original>
+  </edit>
+  <edit cset="1" end="2599" index="0062-0015" start="2599" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="2637" index="0062-0016" start="2637" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2758" index="0062-0017" start="2755" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="2786" index="0062-0018" start="2772" type="MP">
+    <corrections>
+      <correction>higher-ordered</correction>
+    </corrections>
+    <original>higher ordered</original>
+  </edit>
+  <edit end="3128" index="0062-0019" start="3127" type="RP">
+    <corrections>
+      <correction/>
+      <correction>:</correction>
+    </corrections>
+    <original>;</original>
+  </edit>
+  <edit end="3143" index="0062-0020" start="3143" type="M">
+    <corrections>
+      <correction>calculated from </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3198" index="0062-0021" start="3197" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="3288" index="0062-0022" start="3287" type="RP">
+    <corrections>
+      <correction/>
+      <correction>:</correction>
+    </corrections>
+    <original>;</original>
+  </edit>
+  <edit end="3392" index="0062-0023" start="3391" type="RP">
+    <corrections>
+      <correction/>
+      <correction>:</correction>
+    </corrections>
+    <original>;</original>
+  </edit>
+  <edit end="3436" index="0062-0024" start="3433" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="3513" index="0062-0025" start="3475" type="R">
+    <original>what side the Chinese language is used</original>
+  </edit>
+  <edit end="3564" index="0062-0026" start="3558" type="RV">
+    <corrections>
+      <correction>are</correction>
+    </corrections>
+    <original>can be</original>
+  </edit>
+  <edit end="3652" index="0062-0027" start="3644" type="DJ">
+    <corrections>
+      <correction>resulting</correction>
+    </corrections>
+    <original>resulted</original>
+  </edit>
+  <edit end="3862" index="0062-0028" start="3858" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>into</original>
+  </edit>
+  <edit end="3902" index="0062-0029" start="3901" type="RP">
+    <corrections>
+      <correction/>
+      <correction>:</correction>
+    </corrections>
+    <original>;</original>
+  </edit>
+  <edit end="3908" index="0062-0030" start="3906" type="TV">
+    <corrections>
+      <correction>has been</correction>
+      <correction>was</correction>
+    </corrections>
+    <original>is</original>
+  </edit>
+  <edit end="4055" index="0062-0031" start="4049" type="RV">
+    <corrections>
+      <correction>penalize</correction>
+      <correction>penalise</correction>
+    </corrections>
+    <original>punish</original>
+  </edit>
+  <edit end="4090" index="0062-0032" start="4088" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>a </original>
+  </edit>
+  <edit end="4108" index="0062-0033" start="4104" type="FN">
+    <corrections>
+      <correction>words</correction>
+    </corrections>
+    <original>word</original>
+  </edit>
+  <edit end="4121" index="0062-0034" start="4113" type="RV">
+    <corrections>
+      <correction>containing</correction>
+    </corrections>
+    <original>carrying</original>
+  </edit>
+  <edit end="4152" index="0062-0035" start="4142" type="DN">
+    <corrections>
+      <correction>consistency</correction>
+    </corrections>
+    <original>consistent</original>
+  </edit>
+  <edit end="4161" index="0062-0036" start="4160" type="RP">
+    <corrections>
+      <correction/>
+      <correction>:</correction>
+    </corrections>
+    <original>;</original>
+  </edit>
+  <edit end="4558" index="0062-0037" start="4551" type="DQ">
+    <corrections>
+      <correction>both</correction>
+    </corrections>
+    <original>all two</original>
+  </edit>
+  <edit end="4574" index="0062-0038" start="4559" type="MP">
+    <corrections>
+      <correction>Chinese-related</correction>
+    </corrections>
+    <original>Chinese related</original>
+  </edit>
+  <edit cset="2" end="4681" index="0062-0039" start="4661" type="MP">
+    <corrections>
+      <correction>back-transliteration</correction>
+    </corrections>
+    <original>back transliteration</original>
+  </edit>
+  <edit end="4777" index="0062-0040" start="4776" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit cset="3" end="4897" index="0062-0041" start="4897" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="3" end="4918" index="0062-0042" start="4918" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5070" index="0062-0043" start="5069" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="5282" index="0062-0044" start="5277" type="RN">
+    <original>parts</original>
+  </edit>
+  <edit end="5452" index="0062-0045" start="5433" type="MP">
+    <corrections>
+      <correction>phonetic-equivalent</correction>
+    </corrections>
+    <original>phonetic equivalent</original>
+  </edit>
+  <edit cset="2" end="5571" index="0062-0046" start="5551" type="MP">
+    <corrections>
+      <correction>back-transliteration</correction>
+    </corrections>
+    <original>back transliteration</original>
+  </edit>
+  <edit end="5589" index="0062-0047" start="5589" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5845" index="0062-0048" start="5832" type="RJ">
+    <corrections>
+      <correction>challenging</correction>
+    </corrections>
+    <original>challengeable</original>
+  </edit>
+  <edit end="5883" index="0062-0049" start="5879" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>into</original>
+  </edit>
+  <edit cset="2" end="5958" index="0062-0050" start="5938" type="MP">
+    <corrections>
+      <correction>back-transliteration</correction>
+    </corrections>
+    <original>back transliteration</original>
+  </edit>
+  <edit end="6246" index="0062-0051" start="6224" type="MP">
+    <corrections>
+      <correction>multiple-feature-based</correction>
+    </corrections>
+    <original>multiple feature based</original>
+  </edit>
+  <edit end="6291" index="0062-0052" start="6289" type="R">
+    <corrections>
+      <correction>Our</correction>
+      <correction>The</correction>
+    </corrections>
+    <original>It</original>
+  </edit>
+  <edit end="6532" index="0062-0053" start="6528" type="R">
+    <corrections>
+      <correction>some</correction>
+    </corrections>
+    <original>part</original>
+  </edit>
+  <edit end="6648" index="0062-0054" start="6642" type="RY">
+    <corrections>
+      <correction>However</correction>
+    </corrections>
+    <original>Though</original>
+  </edit>
+  <edit end="6734" index="0062-0055" start="6705" type="CC">
+    <corrections>
+      <correction>the English and Chinese language</correction>
+      <correction>English and Chinese</correction>
+    </corrections>
+    <original>English and Chinese languages</original>
+  </edit>
+  <edit end="6735" index="0062-0056" start="6734" type="RP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="6839" index="0062-0057" start="6836" type="RN">
+    <corrections>
+      <correction/>
+      <correction>task</correction>
+    </corrections>
+    <original>job</original>
+  </edit>
+  <edit end="6878" index="0062-0058" start="6858" type="MP">
+    <corrections>
+      <correction>language-independent</correction>
+    </corrections>
+    <original>language independent</original>
+  </edit>
+</edits>

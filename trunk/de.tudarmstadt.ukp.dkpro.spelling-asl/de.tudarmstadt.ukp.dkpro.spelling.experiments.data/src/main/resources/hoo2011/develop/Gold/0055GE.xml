@@ -1,0 +1,624 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="147" index="0055-0001" start="147" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="162" index="0055-0002" start="152" type="RT">
+    <corrections>
+      <correction>in the interests of</correction>
+      <correction>for the sake of</correction>
+    </corrections>
+    <original>in view of</original>
+  </edit>
+  <edit end="263" index="0055-0003" start="263" type="MC">
+    <corrections>
+      <correction>and </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="314" index="0055-0004" start="307" type="DY">
+    <corrections>
+      <correction>in a similar way</correction>
+    </corrections>
+    <original>similar</original>
+  </edit>
+  <edit end="400" index="0055-0005" start="392" type="S">
+    <corrections>
+      <correction>modeled</correction>
+    </corrections>
+    <original>modelled</original>
+  </edit>
+  <edit end="433" index="0055-0006" start="433" type="MP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="499" index="0055-0007" start="499" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="558" index="0055-0008" start="549" type="MP">
+    <corrections>
+      <correction>all-words</correction>
+    </corrections>
+    <original>all words</original>
+  </edit>
+  <edit end="611" index="0055-0009" start="581" type="CC">
+    <corrections>
+      <correction>WordNet-based (Fellbaum, 1998)</correction>
+    </corrections>
+    <original>WordNet (Fellbaum, 1998) based</original>
+  </edit>
+  <edit end="636" index="0055-0010" start="636" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+      <correction>our </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="672" index="0055-0011" start="669" type="TV">
+    <corrections>
+      <correction>could</correction>
+    </corrections>
+    <original>can</original>
+  </edit>
+  <edit end="710" index="0055-0012" start="698" type="MD">
+    <corrections>
+      <correction>state-of-the-art</correction>
+    </corrections>
+    <original>state-of-art</original>
+  </edit>
+  <edit end="794" index="0055-0013" start="794" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="834" index="0055-0014" start="832" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>as</original>
+  </edit>
+  <edit end="880" index="0055-0015" start="880" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1002" index="0055-0016" start="1000" type="RT">
+    <corrections>
+      <correction>within</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="1147" index="0055-0017" start="1147" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1217" index="0055-0018" start="1213" type="R">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>and</original>
+  </edit>
+  <edit end="1475" index="0055-0019" start="1475" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1484" index="0055-0020" start="1482" type="AGV">
+    <corrections>
+      <correction>are</correction>
+    </corrections>
+    <original>is</original>
+  </edit>
+  <edit end="1486" index="0055-0021" start="1485" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>a</original>
+  </edit>
+  <edit end="1494" index="0055-0022" start="1494" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1557" index="0055-0023" start="1552" type="UV">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>used </original>
+  </edit>
+  <edit end="1557" index="0055-0024" start="1557" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1672" index="0055-0025" start="1672" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1703" index="0055-0026" start="1698" type="RT">
+    <corrections>
+      <correction>between</correction>
+    </corrections>
+    <original>among</original>
+  </edit>
+  <edit end="1926" index="0055-0027" start="1926" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1993" index="0055-0028" start="1964" type="CC">
+    <corrections>
+      <correction>experiments are carried out using</correction>
+      <correction>results are based on</correction>
+    </corrections>
+    <original>results are carried out using</original>
+  </edit>
+  <edit end="2213" index="0055-0029" start="2206" type="MD">
+    <corrections>
+      <correction>The results</correction>
+    </corrections>
+    <original>Results</original>
+  </edit>
+  <edit end="2295" index="0055-0030" start="2295" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2315" index="0055-0031" start="2315" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2360" index="0055-0032" start="2358" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>an</original>
+  </edit>
+  <edit end="2436" index="0055-0033" start="2414" type="CC">
+    <corrections>
+      <correction>a DCOP algorithm performs</correction>
+      <correction>the DCOP algorithm performs</correction>
+      <correction>DCOP algorithms perform</correction>
+    </corrections>
+    <original>DCOP algorithm perform</original>
+  </edit>
+  <edit end="2449" index="0055-0034" start="2449" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="2494" index="0055-0035" start="2483" type="MP">
+    <corrections>
+      <correction>graph-based</correction>
+    </corrections>
+    <original>graph based</original>
+  </edit>
+  <edit end="2535" index="0055-0036" start="2535" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="2591" index="0055-0037" start="2580" type="MP">
+    <corrections>
+      <correction>graph-based</correction>
+    </corrections>
+    <original>graph based</original>
+  </edit>
+  <edit end="2656" index="0055-0038" start="2655" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="2704" index="0055-0039" start="2689" type="MP">
+    <corrections>
+      <correction>knowledge-based</correction>
+    </corrections>
+    <original>knowledge based</original>
+  </edit>
+  <edit end="2884" index="0055-0040" start="2884" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2903" index="0055-0041" start="2884" type="MP">
+    <corrections>
+      <correction>sense-disambiguated</correction>
+    </corrections>
+    <original>sense disambiguated</original>
+  </edit>
+  <edit end="2909" index="0055-0042" start="2904" type="FN">
+    <corrections>
+      <correction>glosses</correction>
+    </corrections>
+    <original>gloss</original>
+  </edit>
+  <edit end="2931" index="0055-0043" start="2931" type="MP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3000" index="0055-0044" start="2993" type="RN">
+    <corrections>
+      <correction>processors</correction>
+    </corrections>
+    <original>process</original>
+  </edit>
+  <edit end="3009" index="0055-0045" start="3005" type="CC">
+    <corrections>
+      <correction>a 2GB</correction>
+      <correction>2GB of</correction>
+    </corrections>
+    <original>2 GB</original>
+  </edit>
+  <edit end="3041" index="0055-0046" start="3032" type="W">
+    <corrections>
+      <correction>took just</correction>
+    </corrections>
+    <original>just took</original>
+  </edit>
+  <edit end="3066" index="0055-0047" start="3066" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3115" index="0055-0048" start="3115" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3154" index="0055-0049" start="3146" type="RJ">
+    <corrections>
+      <correction>sizeable</correction>
+      <correction>significant</correction>
+    </corrections>
+    <original>singable</original>
+  </edit>
+  <edit end="3177" index="0055-0050" start="3177" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3195" index="0055-0051" start="3195" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3204" index="0055-0052" start="3195" type="MP">
+    <corrections>
+      <correction>page-rank</correction>
+    </corrections>
+    <original>page rank</original>
+  </edit>
+  <edit end="3311" index="0055-0053" start="3311" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3324" index="0055-0054" start="3316" type="FJ">
+    <corrections>
+      <correction>more powerful</correction>
+    </corrections>
+    <original>powerful</original>
+  </edit>
+  <edit end="3342" index="0055-0055" start="3337" type="CC">
+    <corrections>
+      <correction>a 16GB</correction>
+      <correction>16GB of</correction>
+    </corrections>
+    <original>16 GB</original>
+  </edit>
+  <edit end="3398" index="0055-0056" start="3398" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3497" index="0055-0057" start="3497" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3550" index="0055-0058" start="3545" type="RY">
+    <original>truly</original>
+  </edit>
+  <edit end="3572" index="0055-0059" start="3572" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3641" index="0055-0060" start="3632" type="DY">
+    <corrections>
+      <correction>in parallel</correction>
+    </corrections>
+    <original>parallely</original>
+  </edit>
+  <edit end="3724" index="0055-0061" start="3724" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3947" index="0055-0062" start="3943" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="3959" index="0055-0063" start="3947" type="MP">
+    <corrections>
+      <correction>sense-tagged</correction>
+    </corrections>
+    <original>sense tagged</original>
+  </edit>
+  <edit end="4071" index="0055-0064" start="4043" type="AS">
+    <corrections>
+      <correction>a classification problem for WSD</correction>
+    </corrections>
+    <original>WSD a classification problem</original>
+  </edit>
+  <edit end="4279" index="0055-0065" start="4279" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4346" index="0055-0066" start="4343" type="RP">
+    <corrections>
+      <correction>e.g.</correction>
+      <correction>eg</correction>
+    </corrections>
+    <original>e.g</original>
+  </edit>
+  <edit end="4364" index="0055-0067" start="4347" type="MP">
+    <corrections>
+      <correction>sense-relatedness</correction>
+    </corrections>
+    <original>sense relatedness</original>
+  </edit>
+  <edit end="4371" index="0055-0068" start="4366" type="RT">
+    <corrections>
+      <correction>between</correction>
+    </corrections>
+    <original>among</original>
+  </edit>
+  <edit cset="1" end="4494" index="0055-0069" start="4483" type="MP">
+    <corrections>
+      <correction>Graph-based</correction>
+    </corrections>
+    <original>Graph based</original>
+  </edit>
+  <edit end="4564" index="0055-0070" start="4542" type="CC">
+    <corrections>
+      <correction>a lexical knowledge base</correction>
+      <correction>lexical knowledge bases</correction>
+    </corrections>
+    <original>lexical knowledge base</original>
+  </edit>
+  <edit end="4858" index="0055-0071" start="4849" type="S">
+    <corrections>
+      <correction>modeling</correction>
+    </corrections>
+    <original>modelling</original>
+  </edit>
+  <edit end="4977" index="0055-0072" start="4977" type="MC">
+    <corrections>
+      <correction/>
+      <correction>and </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5076" index="0055-0073" start="5071" type="AGV">
+    <corrections>
+      <correction>lack</correction>
+    </corrections>
+    <original>lacks</original>
+  </edit>
+  <edit end="5133" index="0055-0074" start="5128" type="RP">
+    <corrections>
+      <correction>n-ary</correction>
+    </corrections>
+    <original>N-ary</original>
+  </edit>
+  <edit end="5349" index="0055-0075" start="5342" type="RV">
+    <corrections>
+      <correction>weighted</correction>
+    </corrections>
+    <original>weighed</original>
+  </edit>
+  <edit end="5413" index="0055-0076" start="5398" type="MP">
+    <corrections>
+      <correction>domain-specific</correction>
+    </corrections>
+    <original>domain specific</original>
+  </edit>
+  <edit end="5544" index="0055-0077" start="5537" type="RV">
+    <corrections>
+      <correction>weighted</correction>
+    </corrections>
+    <original>weighed</original>
+  </edit>
+  <edit end="5629" index="0055-0078" start="5618" type="FN">
+    <corrections>
+      <correction>combinations</correction>
+    </corrections>
+    <original>combination</original>
+  </edit>
+  <edit end="5683" index="0055-0079" start="5683" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6094" index="0055-0080" start="6086" type="AGV">
+    <corrections>
+      <correction>increases</correction>
+    </corrections>
+    <original>increase</original>
+  </edit>
+  <edit end="6122" index="0055-0081" start="6122" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6169" index="0055-0082" start="6169" type="MV">
+    <corrections>
+      <correction>needed </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6188" index="0055-0083" start="6188" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6332" index="0055-0084" start="6329" type="AGV">
+    <corrections>
+      <correction>uses</correction>
+    </corrections>
+    <original>use</original>
+  </edit>
+  <edit end="6333" index="0055-0085" start="6333" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6390" index="0055-0086" start="6390" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6471" index="0055-0087" start="6463" type="AGV">
+    <corrections>
+      <correction>exchanges</correction>
+    </corrections>
+    <original>exchange</original>
+  </edit>
+  <edit end="6472" index="0055-0088" start="6472" type="MD">
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+</edits>

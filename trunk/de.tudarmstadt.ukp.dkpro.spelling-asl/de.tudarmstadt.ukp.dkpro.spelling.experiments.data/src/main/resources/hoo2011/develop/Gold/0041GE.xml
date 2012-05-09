@@ -1,0 +1,570 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="41" index="0041-0001" start="40" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="207" index="0041-0002" start="207" type="MT">
+    <corrections>
+      <correction/>
+      <correction>about </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="208" index="0041-0003" start="207" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>a</original>
+  </edit>
+  <edit end="213" index="0041-0004" start="209" type="RJ">
+    <corrections>
+      <correction>successful</correction>
+    </corrections>
+    <original>good</original>
+  </edit>
+  <edit end="410" index="0041-0005" start="387" type="DN">
+    <corrections>
+      <correction>exports</correction>
+    </corrections>
+    <original>products of exportation</original>
+  </edit>
+  <edit end="525" index="0041-0006" start="508" type="CC">
+    <corrections>
+      <correction>in recent years</correction>
+    </corrections>
+    <original>in the last years</original>
+  </edit>
+  <edit end="548" index="0041-0007" start="530" type="CC">
+    <corrections>
+      <correction>caused developers to</correction>
+      <correction>made developers</correction>
+    </corrections>
+    <original>made developers to</original>
+  </edit>
+  <edit end="620" index="0041-0008" start="605" type="W">
+    <corrections>
+      <correction>they are often</correction>
+    </corrections>
+    <original>often, they are</original>
+  </edit>
+  <edit end="637" index="0041-0009" start="634" type="RT">
+    <corrections>
+      <correction>because of</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="701" index="0041-0010" start="697" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="720" index="0041-0011" start="716" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="861" index="0041-0012" start="861" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="867" index="0041-0013" start="862" type="UY">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>both </original>
+  </edit>
+  <edit end="1005" index="0041-0014" start="1003" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="1028" index="0041-0015" start="1018" type="RV">
+    <corrections>
+      <correction/>
+      <correction>developing</correction>
+    </corrections>
+    <original>growing up</original>
+  </edit>
+  <edit end="1069" index="0041-0016" start="1064" type="RV">
+    <corrections>
+      <correction>give</correction>
+      <correction>provide</correction>
+      <correction>present</correction>
+    </corrections>
+    <original>bring</original>
+  </edit>
+  <edit end="1121" index="0041-0017" start="1109" type="R">
+    <corrections>
+      <correction>It</correction>
+      <correction>The article</correction>
+    </corrections>
+    <original>This article</original>
+  </edit>
+  <edit end="1162" index="0041-0018" start="1151" type="UD">
+    <corrections>
+      <correction>Section</correction>
+    </corrections>
+    <original>The section</original>
+  </edit>
+  <edit end="1294" index="0041-0019" start="1283" type="UD">
+    <corrections>
+      <correction>Section</correction>
+    </corrections>
+    <original>The section</original>
+  </edit>
+  <edit end="1377" index="0041-0020" start="1373" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="1426" index="0041-0021" start="1416" type="RN">
+    <corrections>
+      <correction>trends</correction>
+    </corrections>
+    <original>tendencies</original>
+  </edit>
+  <edit end="1541" index="0041-0022" start="1525" type="R">
+    <corrections>
+      <correction>opinion of the author</correction>
+    </corrections>
+    <original>Author's opinion</original>
+  </edit>
+  <edit end="1629" index="0041-0023" start="1627" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="1762" index="0041-0024" start="1751" type="RV">
+    <corrections>
+      <correction>based on</correction>
+    </corrections>
+    <original>raised from</original>
+  </edit>
+  <edit end="1815" index="0041-0025" start="1811" type="RP">
+    <corrections>
+      <correction>'90s</correction>
+    </corrections>
+    <original>90's</original>
+  </edit>
+  <edit end="1820" index="0041-0026" start="1820" type="MV">
+    <corrections>
+      <correction>has </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1826" index="0041-0027" start="1820" type="RV">
+    <corrections>
+      <correction>aroused</correction>
+    </corrections>
+    <original>raised</original>
+  </edit>
+  <edit end="1839" index="0041-0028" start="1839" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1998" index="0041-0029" start="1953" type="CE">
+    <original>was not continued and well structured in time</original>
+  </edit>
+  <edit end="2100" index="0041-0030" start="2098" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="2184" index="0041-0031" start="2177" type="FV">
+    <corrections>
+      <correction>relating</correction>
+    </corrections>
+    <original>related</original>
+  </edit>
+  <edit end="2359" index="0041-0032" start="2352" type="RP">
+    <corrections>
+      <correction>. These</correction>
+    </corrections>
+    <original>, these</original>
+  </edit>
+  <edit end="2364" index="0041-0033" start="2364" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2540" index="0041-0034" start="2538" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="2555" index="0041-0035" start="2553" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="2593" index="0041-0036" start="2589" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>this</original>
+  </edit>
+  <edit end="2623" index="0041-0037" start="2621" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="2686" index="0041-0038" start="2653" type="R">
+    <original>as part of the academic structure</original>
+  </edit>
+  <edit end="2733" index="0041-0039" start="2688" type="CC">
+    <corrections>
+      <correction>This institution</correction>
+      <correction>This institution, as far as we know,</correction>
+    </corrections>
+    <original>This institution, as far as we are concerned,</original>
+  </edit>
+  <edit end="2752" index="0041-0040" start="2742" type="RN">
+    <corrections>
+      <correction>facilities</correction>
+    </corrections>
+    <original>structures</original>
+  </edit>
+  <edit end="2933" index="0041-0041" start="2931" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="2993" index="0041-0042" start="2990" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>in </original>
+  </edit>
+  <edit end="3068" index="0041-0043" start="3056" type="RV">
+    <corrections>
+      <correction>based</correction>
+    </corrections>
+    <original>concentrated</original>
+  </edit>
+  <edit end="3071" index="0041-0044" start="3069" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="3122" index="0041-0045" start="3120" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>at</original>
+  </edit>
+  <edit end="3300" index="0041-0046" start="3286" type="S">
+    <corrections>
+      <correction>responsibility</correction>
+    </corrections>
+    <original>responsability</original>
+  </edit>
+  <edit end="3375" index="0041-0047" start="3371" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>this</original>
+  </edit>
+  <edit cset="1" end="3428" index="0041-0048" start="3427" type="RP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>.</original>
+  </edit>
+  <edit cset="1" end="3434" index="0041-0049" start="3429" type="RP">
+    <corrections>
+      <correction>where</correction>
+    </corrections>
+    <original>Where</original>
+  </edit>
+  <edit end="3445" index="0041-0050" start="3437" type="MP">
+    <corrections>
+      <correction>two-year</correction>
+    </corrections>
+    <original>two year</original>
+  </edit>
+  <edit end="3494" index="0041-0051" start="3485" type="RP">
+    <corrections>
+      <correction>part-time</correction>
+    </corrections>
+    <original>part time</original>
+  </edit>
+  <edit end="3560" index="0041-0052" start="3555" type="RN">
+    <corrections>
+      <correction/>
+      <correction>foundations</correction>
+    </corrections>
+    <original>bases</original>
+  </edit>
+  <edit end="3585" index="0041-0053" start="3583" type="RT">
+    <corrections>
+      <correction>At</correction>
+    </corrections>
+    <original>In</original>
+  </edit>
+  <edit end="3774" index="0041-0054" start="3768" type="RV">
+    <corrections>
+      <correction>is</correction>
+    </corrections>
+    <original>exists</original>
+  </edit>
+  <edit end="3867" index="0041-0055" start="3859" type="R">
+    <corrections>
+      <correction>the funding is</correction>
+    </corrections>
+    <original>they are</original>
+  </edit>
+  <edit end="3928" index="0041-0056" start="3922" type="RT">
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+    <original>within</original>
+  </edit>
+  <edit end="3986" index="0041-0057" start="3984" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>a </original>
+  </edit>
+  <edit end="3995" index="0041-0058" start="3986" type="MP">
+    <corrections>
+      <correction>long-term</correction>
+    </corrections>
+    <original>long term</original>
+  </edit>
+  <edit end="4026" index="0041-0059" start="4013" type="RN">
+    <corrections>
+      <correction/>
+      <correction>planning</correction>
+    </corrections>
+    <original>planification</original>
+  </edit>
+  <edit end="4115" index="0041-0060" start="4110" type="RP">
+    <corrections>
+      <correction/>
+      <correction>. For</correction>
+    </corrections>
+    <original>, for</original>
+  </edit>
+  <edit end="4123" index="0041-0061" start="4123" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4320" index="0041-0062" start="4311" type="RV">
+    <corrections>
+      <correction>registered</correction>
+    </corrections>
+    <original>inscribed</original>
+  </edit>
+  <edit end="4323" index="0041-0063" start="4321" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="4336" index="0041-0064" start="4332" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>this</original>
+  </edit>
+  <edit end="4375" index="0041-0065" start="4373" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="4380" index="0041-0066" start="4376" type="AGD">
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+    <original>this</original>
+  </edit>
+  <edit end="4411" index="0041-0067" start="4407" type="RJ">
+    <corrections>
+      <correction>forthcoming</correction>
+    </corrections>
+    <original>next</original>
+  </edit>
+  <edit end="4473" index="0041-0068" start="4471" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="4673" index="0041-0069" start="4663" type="IN">
+    <corrections>
+      <correction>Linguistics</correction>
+    </corrections>
+    <original>Linguistic</original>
+  </edit>
+  <edit end="4698" index="0041-0070" start="4694" type="RP">
+    <corrections>
+      <correction>'90s</correction>
+    </corrections>
+    <original>90's</original>
+  </edit>
+  <edit end="4698" index="0041-0071" start="4698" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4890" index="0041-0072" start="4888" type="RV">
+    <corrections>
+      <correction/>
+      <correction>carry out</correction>
+      <correction>conduct</correction>
+    </corrections>
+    <original>do</original>
+  </edit>
+  <edit end="4942" index="0041-0073" start="4932" type="RP">
+    <corrections>
+      <correction>Costa Rican</correction>
+    </corrections>
+    <original>Costarican</original>
+  </edit>
+  <edit end="5052" index="0041-0074" start="5045" type="RN">
+    <corrections>
+      <correction>markets</correction>
+    </corrections>
+    <original>publics</original>
+  </edit>
+  <edit end="5099" index="0041-0075" start="5090" type="RV">
+    <corrections>
+      <correction>rely on</correction>
+      <correction>use</correction>
+    </corrections>
+    <original>appeal to</original>
+  </edit>
+  <edit end="5199" index="0041-0076" start="5197" type="RT">
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="5298" index="0041-0077" start="5267" type="CC">
+    <corrections>
+      <correction>Murillo and Sánchez (1993)</correction>
+      <correction>The Murillo and Sánchez (1993) project</correction>
+    </corrections>
+    <original>The Murillo and Sánchez (1993)</original>
+  </edit>
+  <edit end="5379" index="0041-0078" start="5377" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>a </original>
+  </edit>
+  <edit end="5406" index="0041-0079" start="5404" type="RT">
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="5514" index="0041-0080" start="5510" type="RV">
+    <corrections>
+      <correction>made</correction>
+      <correction>compiled</correction>
+      <correction>created</correction>
+    </corrections>
+    <original>done</original>
+  </edit>
+  <edit end="5613" index="0041-0081" start="5606" type="RV">
+    <corrections>
+      <correction>relied</correction>
+    </corrections>
+    <original>counted</original>
+  </edit>
+  <edit end="5643" index="0041-0082" start="5634" type="RJ">
+    <corrections>
+      <correction>significant</correction>
+    </corrections>
+    <original>important</original>
+  </edit>
+  <edit end="5766" index="0041-0083" start="5753" type="CC">
+    <corrections>
+      <correction>to develop</correction>
+    </corrections>
+    <original>of developing</original>
+  </edit>
+  <edit end="5826" index="0041-0084" start="5826" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6345" index="0041-0085" start="6336" type="U">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>in order </original>
+  </edit>
+  <edit end="6420" index="0041-0086" start="6418" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="6467" index="0041-0087" start="6458" type="RV">
+    <corrections>
+      <correction>undertaken</correction>
+      <correction>completed</correction>
+    </corrections>
+    <original>fulfilled</original>
+  </edit>
+</edits>
