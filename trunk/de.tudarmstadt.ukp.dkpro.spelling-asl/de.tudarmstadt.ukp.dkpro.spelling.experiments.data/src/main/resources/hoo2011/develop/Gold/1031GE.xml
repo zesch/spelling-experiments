@@ -1,0 +1,242 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="87" index="1031-0001" start="84" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="229" index="1031-0002" start="227" type="RT">
+    <corrections>
+      <correction/>
+      <correction>through</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="248" index="1031-0003" start="243" type="RT">
+    <corrections>
+      <correction>related to</correction>
+      <correction>connected with</correction>
+    </corrections>
+    <original>about</original>
+  </edit>
+  <edit end="591" index="1031-0004" start="588" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="619" index="1031-0005" start="619" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="905" index="1031-0006" start="874" type="CC">
+    <corrections>
+      <correction>{the use of different development sets</correction>
+      <correction>using different development sets</correction>
+    </corrections>
+    <original>different development sets used</original>
+  </edit>
+  <edit end="1118" index="1031-0007" start="1114" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="1119" index="1031-0008" start="1119" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1137" index="1031-0009" start="1128" type="TV">
+    <corrections>
+      <correction>helps</correction>
+    </corrections>
+    <original>will help</original>
+  </edit>
+  <edit end="1142" index="1031-0010" start="1138" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="1191" index="1031-0011" start="1187" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="1284" index="1031-0012" start="1284" type="MV">
+    <corrections>
+      <correction>be </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1430" index="1031-0013" start="1430" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1445" index="1031-0014" start="1445" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1466" index="1031-0015" start="1466" type="MN">
+    <corrections>
+      <correction>set</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1544" index="1031-0016" start="1524" type="U">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>which is the larger</original>
+  </edit>
+  <edit end="1555" index="1031-0017" start="1546" type="RY">
+    <corrections>
+      <correction>Specifically</correction>
+      <correction>To be precise</correction>
+    </corrections>
+    <original>In detail</original>
+  </edit>
+  <edit end="1603" index="1031-0018" start="1603" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1620" index="1031-0019" start="1620" type="MC">
+    <corrections>
+      <correction/>
+      <correction>and </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1665" index="1031-0020" start="1665" type="MV">
+    <corrections>
+      <correction>are </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1714" index="1031-0021" start="1714" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1732" index="1031-0022" start="1732" type="MV">
+    <corrections>
+      <correction/>
+      <correction>given </correction>
+      <correction>shown </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1869" index="1031-0023" start="1869" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1948" index="1031-0024" start="1939" type="FN">
+    <corrections>
+      <correction>alignments</correction>
+    </corrections>
+    <original>alignment</original>
+  </edit>
+  <edit end="2182" index="1031-0025" start="2180" type="RT">
+    <corrections>
+      <correction>based on</correction>
+      <correction>according to</correction>
+    </corrections>
+    <original>by</original>
+  </edit>
+  <edit end="2306" index="1031-0026" start="2306" type="MD">
+    <corrections>
+      <correction>the </correction>
+      <correction>an </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2348" index="1031-0027" start="2336" type="CC">
+    <corrections>
+      <correction>To train</correction>
+    </corrections>
+    <original>For training</original>
+  </edit>
+  <edit end="2417" index="1031-0028" start="2417" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2491" index="1031-0029" start="2484" type="RV">
+    <corrections>
+      <correction>contain</correction>
+    </corrections>
+    <original>include</original>
+  </edit>
+  <edit end="2499" index="1031-0030" start="2492" type="MP">
+    <corrections>
+      <correction>1,968,914</correction>
+    </corrections>
+    <original>1968914</original>
+  </edit>
+  <edit end="2531" index="1031-0031" start="2528" type="RC">
+    <corrections>
+      <correction/>
+      <correction>In addition</correction>
+    </corrections>
+    <original>And</original>
+  </edit>
+  <edit end="2531" index="1031-0032" start="2531" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+</edits>

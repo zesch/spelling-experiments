@@ -1,0 +1,519 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="20" index="1066-0001" start="0" type="RY">
+    <corrections>
+      <correction>Over the years</correction>
+    </corrections>
+    <original>In the passing years</original>
+  </edit>
+  <edit end="101" index="1066-0002" start="90" type="W">
+    <corrections>
+      <correction>done either</correction>
+    </corrections>
+    <original>either done</original>
+  </edit>
+  <edit end="378" index="1066-0003" start="374" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="599" index="1066-0004" start="593" type="RV">
+    <corrections>
+      <correction/>
+      <correction>attracted</correction>
+    </corrections>
+    <original>gained</original>
+  </edit>
+  <edit end="621" index="1066-0005" start="611" type="CN">
+    <corrections>
+      <correction>attention</correction>
+    </corrections>
+    <original>attentions</original>
+  </edit>
+  <edit end="627" index="1066-0006" start="627" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="651" index="1066-0007" start="641" type="IN">
+    <corrections>
+      <correction>Linguistics</correction>
+    </corrections>
+    <original>Linguistic</original>
+  </edit>
+  <edit end="754" index="1066-0008" start="754" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="790" index="1066-0009" start="774" type="R">
+    <corrections>
+      <correction>there has not been</correction>
+    </corrections>
+    <original>we have not seen</original>
+  </edit>
+  <edit end="804" index="1066-0010" start="804" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="878" index="1066-0011" start="871" type="RJ">
+    <corrections>
+      <correction/>
+      <correction>specific</correction>
+    </corrections>
+    <original>certain</original>
+  </edit>
+  <edit cset="2" end="972" index="1066-0012" start="954" type="CC">
+    <corrections>
+      <correction>the theoretical aspect</correction>
+      <correction>theoretical aspects</correction>
+    </corrections>
+    <original>theoretical aspect</original>
+  </edit>
+  <edit cset="2" end="993" index="1066-0013" start="977" type="CC">
+    <corrections>
+      <correction>the practical aspect</correction>
+      <correction>practical aspects</correction>
+    </corrections>
+    <original>practical aspect</original>
+  </edit>
+  <edit end="1304" index="1066-0014" start="1303" type="RP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="1393" index="1066-0015" start="1384" type="CC">
+    <corrections>
+      <correction>another</correction>
+    </corrections>
+    <original>the other</original>
+  </edit>
+  <edit end="1610" index="1066-0016" start="1607" type="RT">
+    <corrections>
+      <correction/>
+      <correction>of</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="1620" index="1066-0017" start="1611" type="MP">
+    <corrections>
+      <correction>so-called</correction>
+    </corrections>
+    <original>so called</original>
+  </edit>
+  <edit end="1769" index="1066-0018" start="1768" type="RP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="1802" index="1066-0019" start="1792" type="CC">
+    <corrections>
+      <correction>which optimizes</correction>
+    </corrections>
+    <original>optimizing</original>
+  </edit>
+  <edit end="1938" index="1066-0020" start="1938" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2194" index="1066-0021" start="2190" type="R">
+    <corrections>
+      <correction>that have been</correction>
+    </corrections>
+    <original>ever</original>
+  </edit>
+  <edit end="2233" index="1066-0022" start="2230" type="RT">
+    <corrections>
+      <correction>With regard to</correction>
+    </corrections>
+    <original>For</original>
+  </edit>
+  <edit end="2289" index="1066-0023" start="2287" type="R">
+    <corrections>
+      <correction>to solve</correction>
+      <correction>to answer</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit cset="3" end="2822" index="1066-0024" start="2807" type="CC">
+    <corrections>
+      <correction>firstly, because</correction>
+    </corrections>
+    <original>for one reason,</original>
+  </edit>
+  <edit end="2971" index="1066-0025" start="2950" type="CC set=&quot;3&quot;">
+    <corrections>
+      <correction>secondly, because</correction>
+    </corrections>
+    <original>for the other reason,</original>
+  </edit>
+  <edit end="3053" index="1066-0026" start="3051" type="RA">
+    <corrections>
+      <correction>this</correction>
+      <correction>that</correction>
+    </corrections>
+    <original>it</original>
+  </edit>
+  <edit end="3144" index="1066-0027" start="3140" type="R">
+    <corrections>
+      <correction>that have been</correction>
+    </corrections>
+    <original>ever</original>
+  </edit>
+  <edit end="3202" index="1066-0028" start="3196" type="RP">
+    <corrections>
+      <correction>(2008)</correction>
+    </corrections>
+    <original>, 2008</original>
+  </edit>
+  <edit end="3300" index="1066-0029" start="3292" type="RV">
+    <corrections>
+      <correction>posed</correction>
+    </corrections>
+    <original>proposed</original>
+  </edit>
+  <edit end="3329" index="1066-0030" start="3321" type="RV">
+    <corrections>
+      <correction>summarize</correction>
+    </corrections>
+    <original>conclude</original>
+  </edit>
+  <edit end="3492" index="1066-0031" start="3492" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3528" index="1066-0032" start="3524" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="3654" index="1066-0033" start="3654" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3665" index="1066-0034" start="3654" type="MP">
+    <corrections>
+      <correction>set-mapping</correction>
+    </corrections>
+    <original>set mapping</original>
+  </edit>
+  <edit end="3680" index="1066-0035" start="3680" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3703" index="1066-0036" start="3703" type="MP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3728" index="1066-0037" start="3728" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3741" index="1066-0038" start="3728" type="MP">
+    <corrections>
+      <correction>pair-counting</correction>
+    </corrections>
+    <original>pair counting</original>
+  </edit>
+  <edit end="3756" index="1066-0039" start="3756" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="4" end="3771" index="1066-0040" start="3769" type="MP">
+    <corrections>
+      <correction>vs.</correction>
+    </corrections>
+    <original>vs</original>
+  </edit>
+  <edit end="3824" index="1066-0041" start="3824" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3851" index="1066-0042" start="3851" type="MC">
+    <corrections>
+      <correction>and </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4007" index="1066-0043" start="4006" type="U">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>
+       
+    </original>
+  </edit>
+  <edit end="4090" index="1066-0044" start="4047" type="CC">
+    <corrections>
+      <correction>has been an increasing amount of interest</correction>
+    </corrections>
+    <original>have been an increasing amount of interests</original>
+  </edit>
+  <edit end="4452" index="1066-0045" start="4452" type="MT">
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4510" index="1066-0046" start="4507" type="RD">
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="4538" index="1066-0047" start="4538" type="MA">
+    <corrections>
+      <correction>them </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4603" index="1066-0048" start="4603" type="MC">
+    <corrections>
+      <correction/>
+      <correction>with </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="4765" index="1066-0049" start="4758" type="RJ">
+    <corrections>
+      <correction/>
+      <correction>specific</correction>
+    </corrections>
+    <original>certain</original>
+  </edit>
+  <edit end="5063" index="1066-0050" start="5056" type="AGV">
+    <corrections>
+      <correction>affect</correction>
+    </corrections>
+    <original>affects</original>
+  </edit>
+  <edit end="5068" index="1066-0051" start="5064" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="5080" index="1066-0052" start="5079" type="RP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>?</original>
+  </edit>
+  <edit end="5111" index="1066-0053" start="5085" type="CC">
+    <corrections>
+      <correction>whether the NLP problem favors</correction>
+    </corrections>
+    <original>Does the NLP problem favor</original>
+  </edit>
+  <edit end="5132" index="1066-0054" start="5125" type="FN">
+    <corrections>
+      <correction>measures</correction>
+    </corrections>
+    <original>measure</original>
+  </edit>
+  <edit end="5168" index="1066-0055" start="5159" type="FN">
+    <corrections>
+      <correction>algorithms</correction>
+    </corrections>
+    <original>algorithm</original>
+  </edit>
+  <edit end="5185" index="1066-0056" start="5181" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="5248" index="1066-0057" start="5220" type="CC">
+    <corrections>
+      <correction>does not provide answers to either of</correction>
+    </corrections>
+    <original>neither provides answers for</original>
+  </edit>
+  <edit end="5286" index="1066-0058" start="5278" type="RV">
+    <corrections>
+      <correction>review</correction>
+    </corrections>
+    <original>overview</original>
+  </edit>
+  <edit end="5565" index="1066-0059" start="5565" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5587" index="1066-0060" start="5587" type="MC">
+    <corrections>
+      <correction>or </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5664" index="1066-0061" start="5650" type="UD">
+    <corrections>
+      <correction>Approaches</correction>
+    </corrections>
+    <original>The approaches</original>
+  </edit>
+  <edit end="5748" index="1066-0062" start="5744" type="FV">
+    <corrections>
+      <correction>relying</correction>
+    </corrections>
+    <original>rely</original>
+  </edit>
+  <edit end="5817" index="1066-0063" start="5795" type="MP">
+    <corrections>
+      <correction>machine-learning-based</correction>
+    </corrections>
+    <original>machine-learning based</original>
+  </edit>
+  <edit end="5869" index="1066-0064" start="5860" type="TV">
+    <corrections>
+      <correction/>
+      <correction>have presented</correction>
+    </corrections>
+    <original>presented</original>
+  </edit>
+  <edit end="5892" index="1066-0065" start="5870" type="CC">
+    <corrections>
+      <correction>comprehensive surveys</correction>
+    </corrections>
+    <original>a comprehensive survey</original>
+  </edit>
+  <edit end="5948" index="1066-0066" start="5945" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="6058" index="1066-0067" start="6058" type="M">
+    <corrections>
+      <correction>it is that </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6238" index="1066-0068" start="6221" type="RY">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>In the past years</original>
+  </edit>
+  <edit end="6297" index="1066-0069" start="6288" type="S">
+    <corrections>
+      <correction>methodology</correction>
+    </corrections>
+    <original>methodogy</original>
+  </edit>
+  <edit end="6333" index="1066-0070" start="6333" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6366" index="1066-0071" start="6362" type="FN">
+    <corrections>
+      <correction>steps</correction>
+    </corrections>
+    <original>step</original>
+  </edit>
+  <edit end="6479" index="1066-0072" start="6478" type="R">
+    <corrections>
+      <correction>and</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="6612" index="1066-0073" start="6612" type="MC">
+    <corrections>
+      <correction>whether </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6647" index="1066-0074" start="6646" type="RP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="6882" index="1066-0075" start="6882" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+</edits>

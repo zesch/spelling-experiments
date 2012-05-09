@@ -1,0 +1,211 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="125" index="1038-0001" start="111" type="MP">
+    <corrections>
+      <correction>high-precision</correction>
+    </corrections>
+    <original>high precision</original>
+  </edit>
+  <edit end="182" index="1038-0002" start="173" type="FN">
+    <corrections>
+      <correction>thesauruses</correction>
+      <correction>thesauri</correction>
+    </corrections>
+    <original>thesaurus</original>
+  </edit>
+  <edit end="217" index="1038-0003" start="217" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="326" index="1038-0004" start="318" type="R">
+    <corrections>
+      <correction>As</correction>
+    </corrections>
+    <original>Likewise</original>
+  </edit>
+  <edit end="496" index="1038-0005" start="485" type="R">
+    <corrections>
+      <correction>Taking into account</correction>
+      <correction>Depending on</correction>
+    </corrections>
+    <original>Considering</original>
+  </edit>
+  <edit end="510" index="1038-0006" start="502" type="MP">
+    <corrections>
+      <correction>resource's</correction>
+    </corrections>
+    <original>resource</original>
+  </edit>
+  <edit end="746" index="1038-0007" start="744" type="RT">
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="1384" index="1038-0008" start="1372" type="RP">
+    <corrections>
+      <correction>WordNet-like</correction>
+    </corrections>
+    <original>wordnet-like</original>
+  </edit>
+  <edit end="2013" index="1038-0009" start="2008" type="FN">
+    <corrections>
+      <correction>work</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="2023" index="1038-0010" start="2023" type="MT">
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2273" index="1038-0011" start="2268" type="R">
+    <corrections>
+      <correction>in which</correction>
+    </corrections>
+    <original>where</original>
+  </edit>
+  <edit end="2536" index="1038-0012" start="2536" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2550" index="1038-0013" start="2541" type="TV">
+    <corrections>
+      <correction>used</correction>
+    </corrections>
+    <original>have used</original>
+  </edit>
+  <edit end="3184" index="1038-0014" start="3181" type="TV">
+    <corrections>
+      <correction>run</correction>
+    </corrections>
+    <original>ran</original>
+  </edit>
+  <edit end="3250" index="1038-0015" start="3250" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3310" index="1038-0016" start="3301" type="AGN">
+    <corrections>
+      <correction>thesauruses</correction>
+      <correction>thesauri</correction>
+    </corrections>
+    <original>thesaurus</original>
+  </edit>
+  <edit end="3664" index="1038-0017" start="3664" type="MT">
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4050" index="1038-0018" start="4041" type="AGN">
+    <corrections>
+      <correction>thesauruses</correction>
+      <correction>thesauri</correction>
+    </corrections>
+    <original>thesaurus</original>
+  </edit>
+  <edit end="4129" index="1038-0019" start="4124" type="RT">
+    <corrections>
+      <correction/>
+      <correction>on</correction>
+    </corrections>
+    <original>after</original>
+  </edit>
+  <edit end="4202" index="1038-0020" start="4202" type="MD">
+    <corrections>
+      <correction>their </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4243" index="1038-0021" start="4234" type="FN">
+    <corrections>
+      <correction>thesauruses</correction>
+      <correction>thesauri</correction>
+    </corrections>
+    <original>thesaurus</original>
+  </edit>
+  <edit end="4580" index="1038-0022" start="4570" type="RT">
+    <corrections>
+      <correction>relating to</correction>
+    </corrections>
+    <original>concerning</original>
+  </edit>
+  <edit end="4851" index="1038-0023" start="4849" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>by</original>
+  </edit>
+  <edit end="5243" index="1038-0024" start="5229" type="CC">
+    <corrections>
+      <correction>to create</correction>
+      <correction>creating</correction>
+    </corrections>
+    <original>giving rise to</original>
+  </edit>
+  <edit end="5373" index="1038-0025" start="5364" type="AGN">
+    <corrections>
+      <correction>thesauruses</correction>
+      <correction>thesauri</correction>
+    </corrections>
+    <original>thesaurus</original>
+  </edit>
+  <edit end="5403" index="1038-0026" start="5395" type="RN">
+    <corrections>
+      <correction>number</correction>
+    </corrections>
+    <original>quantity</original>
+  </edit>
+  <edit end="5539" index="1038-0027" start="5531" type="RN">
+    <corrections>
+      <correction>number</correction>
+    </corrections>
+    <original>quantity</original>
+  </edit>
+  <edit end="5773" index="1038-0028" start="5773" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6149" index="1038-0029" start="6143" type="FN">
+    <corrections>
+      <correction>triples</correction>
+    </corrections>
+    <original>triple</original>
+  </edit>
+  <edit end="6213" index="1038-0030" start="6209" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>from</original>
+  </edit>
+  <edit end="6264" index="1038-0031" start="6256" type="W">
+    <corrections>
+      <correction>50 other</correction>
+    </corrections>
+    <original>other 50</original>
+  </edit>
+</edits>

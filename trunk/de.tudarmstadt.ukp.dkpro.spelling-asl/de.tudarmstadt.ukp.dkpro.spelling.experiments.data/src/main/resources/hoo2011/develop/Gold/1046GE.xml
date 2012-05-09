@@ -1,0 +1,389 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="74" index="1046-0001" start="71" type="AGD">
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+    <original>its</original>
+  </edit>
+  <edit end="118" index="1046-0002" start="114" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>its </original>
+  </edit>
+  <edit end="362" index="1046-0003" start="322" type="R">
+    <corrections>
+      <correction>emotional classification of Chinese idioms</correction>
+      <correction>classification of Chinese emotion idioms</correction>
+    </corrections>
+    <original>emotion classification of Chinese idioms</original>
+  </edit>
+  <edit end="397" index="1046-0004" start="393" type="RV">
+    <corrections>
+      <correction>find out</correction>
+      <correction>learn</correction>
+    </corrections>
+    <original>know</original>
+  </edit>
+  <edit end="486" index="1046-0005" start="481" type="RY">
+    <corrections>
+      <correction>in such a way as</correction>
+    </corrections>
+    <original>so as</original>
+  </edit>
+  <edit end="804" index="1046-0006" start="796" type="RN">
+    <corrections>
+      <correction>legacy</correction>
+    </corrections>
+    <original>heritage</original>
+  </edit>
+  <edit end="1214" index="1046-0007" start="1205" type="RV">
+    <corrections>
+      <correction>constitute</correction>
+      <correction>make up</correction>
+    </corrections>
+    <original>construct</original>
+  </edit>
+  <edit end="1320" index="1046-0008" start="1318" type="R">
+    <corrections>
+      <correction>the idiom</correction>
+    </corrections>
+    <original>it</original>
+  </edit>
+  <edit end="1376" index="1046-0009" start="1365" type="R">
+    <corrections>
+      <correction>the sense of which</correction>
+    </corrections>
+    <original>whose sense</original>
+  </edit>
+  <edit end="1587" index="1046-0010" start="1584" type="RD">
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="1802" index="1046-0011" start="1802" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1835" index="1046-0012" start="1835" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1922" index="1046-0013" start="1908" type="R">
+    <corrections>
+      <correction>ordinary language</correction>
+    </corrections>
+    <original>the plain type</original>
+  </edit>
+  <edit end="1947" index="1046-0014" start="1936" type="FV">
+    <corrections>
+      <correction>classifying</correction>
+    </corrections>
+    <original>to classify</original>
+  </edit>
+  <edit end="1971" index="1046-0015" start="1968" type="AGD">
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+    <original>its</original>
+  </edit>
+  <edit end="2014" index="1046-0016" start="1972" type="CC">
+    <corrections>
+      <correction>emotional or descriptive properties</correction>
+    </corrections>
+    <original>emotional property or descriptive property</original>
+  </edit>
+  <edit end="2181" index="1046-0017" start="2180" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="2408" index="1046-0018" start="2390" type="U">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>with this respect </original>
+  </edit>
+  <edit end="2692" index="1046-0019" start="2652" type="W">
+    <corrections>
+      <correction>it is important for better understanding</correction>
+    </corrections>
+    <original>for better understanding it is important</original>
+  </edit>
+  <edit end="2789" index="1046-0020" start="2789" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2803" index="1046-0021" start="2799" type="RY">
+    <corrections>
+      <correction>absolutely</correction>
+    </corrections>
+    <original>very</original>
+  </edit>
+  <edit end="2825" index="1046-0022" start="2815" type="FV">
+    <corrections>
+      <correction>understanding</correction>
+    </corrections>
+    <original>understand</original>
+  </edit>
+  <edit end="3049" index="1046-0023" start="3049" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3227" index="1046-0024" start="3223" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="3252" index="1046-0025" start="3244" type="FN">
+    <corrections>
+      <correction>attitudes</correction>
+    </corrections>
+    <original>attitude</original>
+  </edit>
+  <edit end="3257" index="1046-0026" start="3253" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>from</original>
+  </edit>
+  <edit end="3282" index="1046-0027" start="3282" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3311" index="1046-0028" start="3311" type="MD">
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3338" index="1046-0029" start="3338" type="MA">
+    <corrections>
+      <correction>it </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3369" index="1046-0030" start="3353" type="CC">
+    <corrections>
+      <correction>humans to process</correction>
+    </corrections>
+    <original>human processing</original>
+  </edit>
+  <edit end="3541" index="1046-0031" start="3534" type="RJ">
+    <corrections>
+      <correction>various</correction>
+    </corrections>
+    <original>several</original>
+  </edit>
+  <edit end="3582" index="1046-0032" start="3573" type="RV">
+    <corrections>
+      <correction>summarizes</correction>
+      <correction>summarises</correction>
+    </corrections>
+    <original>concludes</original>
+  </edit>
+  <edit end="3644" index="1046-0033" start="3644" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3850" index="1046-0034" start="3844" type="FN">
+    <corrections>
+      <correction>results</correction>
+    </corrections>
+    <original>result</original>
+  </edit>
+  <edit end="3914" index="1046-0035" start="3914" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4045" index="1046-0036" start="4039" type="CC">
+    <corrections>
+      <correction>for use</correction>
+      <correction>to be used</correction>
+      <correction>used</correction>
+    </corrections>
+    <original>to use</original>
+  </edit>
+  <edit end="4109" index="1046-0037" start="4087" type="DN">
+    <corrections>
+      <correction>interlocutors</correction>
+    </corrections>
+    <original>conversational parties</original>
+  </edit>
+  <edit end="4285" index="1046-0038" start="4273" type="W">
+    <corrections>
+      <correction>is typically</correction>
+    </corrections>
+    <original>typically is</original>
+  </edit>
+  <edit end="4313" index="1046-0039" start="4304" type="W">
+    <corrections>
+      <correction>can often</correction>
+    </corrections>
+    <original>often can</original>
+  </edit>
+  <edit end="4382" index="1046-0040" start="4368" type="RP">
+    <corrections>
+      <correction>. Nevertheless</correction>
+    </corrections>
+    <original>; nevertheless</original>
+  </edit>
+  <edit end="4467" index="1046-0041" start="4467" type="MV">
+    <corrections>
+      <correction>can </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4526" index="1046-0042" start="4516" type="DJ">
+    <corrections>
+      <correction>metaphorical</correction>
+    </corrections>
+    <original>metaphoric</original>
+  </edit>
+  <edit end="4586" index="1046-0043" start="4570" type="RN">
+    <corrections>
+      <correction>conventional wisdom</correction>
+    </corrections>
+    <original>common knowledge</original>
+  </edit>
+  <edit end="4730" index="1046-0044" start="4722" type="CN">
+    <corrections>
+      <correction>speech</correction>
+    </corrections>
+    <original>speeches</original>
+  </edit>
+  <edit end="4887" index="1046-0045" start="4882" type="UY">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>over </original>
+  </edit>
+  <edit end="4929" index="1046-0046" start="4916" type="DV">
+    <corrections>
+      <correction>overstate</correction>
+    </corrections>
+    <original>over describe</original>
+  </edit>
+  <edit end="5008" index="1046-0047" start="4996" type="U">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>by accident</original>
+  </edit>
+  <edit end="5079" index="1046-0048" start="5079" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5324" index="1046-0049" start="5315" type="RV">
+    <corrections>
+      <correction>exceeds</correction>
+    </corrections>
+    <original>surpasses</original>
+  </edit>
+  <edit end="5428" index="1046-0050" start="5424" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="5504" index="1046-0051" start="5500" type="RV">
+    <corrections>
+      <correction>taken</correction>
+    </corrections>
+    <original>born</original>
+  </edit>
+  <edit end="5649" index="1046-0052" start="5649" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5685" index="1046-0053" start="5674" type="RY">
+    <corrections>
+      <correction>many times</correction>
+    </corrections>
+    <original>many a time</original>
+  </edit>
+  <edit end="5798" index="1046-0054" start="5798" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5869" index="1046-0055" start="5869" type="MT">
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5881" index="1046-0056" start="5869" type="W">
+    <corrections>
+      <correction>(Lo, 1997).</correction>
+    </corrections>
+    <original>. (Lo, 1997)</original>
+  </edit>
+</edits>

@@ -1,0 +1,321 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="144" index="1021-0001" start="131" type="RT">
+    <corrections>
+      <correction>Unlike</correction>
+    </corrections>
+    <original>As opposed to</original>
+  </edit>
+  <edit end="254" index="1021-0002" start="254" type="MC">
+    <corrections>
+      <correction>and </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="530" index="1021-0003" start="530" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="608" index="1021-0004" start="604" type="RY">
+    <corrections>
+      <correction>quickly</correction>
+    </corrections>
+    <original>fast</original>
+  </edit>
+  <edit end="939" index="1021-0005" start="912" type="W">
+    <corrections>
+      <correction>data structures widely used</correction>
+    </corrections>
+    <original>widely used data structures</original>
+  </edit>
+  <edit end="1103" index="1021-0006" start="1099" type="RY">
+    <corrections>
+      <correction/>
+      <correction>extensively</correction>
+    </corrections>
+    <original>well</original>
+  </edit>
+  <edit end="1112" index="1021-0007" start="1112" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1164" index="1021-0008" start="1164" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1169" index="1021-0009" start="1169" type="MV">
+    <corrections>
+      <correction>have </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1473" index="1021-0010" start="1455" type="CC">
+    <corrections>
+      <correction>convolution kernels</correction>
+      <correction>the convolution kernel</correction>
+      <correction>a convolution kernel</correction>
+    </corrections>
+    <original>convolution kernel</original>
+  </edit>
+  <edit end="1565" index="1021-0011" start="1563" type="RT">
+    <corrections>
+      <correction>at</correction>
+      <correction>for</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit cset="1" end="1635" index="1021-0012" start="1625" type="FN">
+    <corrections>
+      <correction>parse trees}</correction>
+    </corrections>
+    <original>parse tree</original>
+  </edit>
+  <edit cset="1" end="1653" index="1021-0013" start="1639" type="FN">
+    <corrections>
+      <correction>semantic graphs</correction>
+    </corrections>
+    <original>semantic graph</original>
+  </edit>
+  <edit end="1928" index="1021-0014" start="1903" type="R">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>(using subtree a feature)</original>
+  </edit>
+  <edit end="1950" index="1021-0015" start="1946" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>into</original>
+  </edit>
+  <edit end="2012" index="1021-0016" start="1976" type="MD">
+    <corrections>
+      <correction>A kernel-based machine learning method</correction>
+    </corrections>
+    <original>Kernel-based machine learning method</original>
+  </edit>
+  <edit end="2098" index="1021-0017" start="2094" type="RA">
+    <corrections>
+      <correction>which</correction>
+    </corrections>
+    <original>that</original>
+  </edit>
+  <edit end="2689" index="1021-0018" start="2685" type="RA">
+    <corrections>
+      <correction>which</correction>
+    </corrections>
+    <original>that</original>
+  </edit>
+  <edit end="2850" index="1021-0019" start="2848" type="RT">
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit cset="1" end="2916" index="1021-0020" start="2906" type="FN">
+    <corrections>
+      <correction>parse trees}</correction>
+    </corrections>
+    <original>parse tree</original>
+  </edit>
+  <edit end="2918" index="1021-0021" start="2918" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3158" index="1021-0022" start="3153" type="RV">
+    <corrections>
+      <correction/>
+      <correction>demonstrated</correction>
+    </corrections>
+    <original>shown</original>
+  </edit>
+  <edit end="3163" index="1021-0023" start="3159" type="R">
+    <corrections>
+      <correction>a great deal of</correction>
+      <correction>significant</correction>
+    </corrections>
+    <original>much</original>
+  </edit>
+  <edit end="3693" index="1021-0024" start="3693" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3735" index="1021-0025" start="3728" type="RY">
+    <corrections>
+      <correction>greatly</correction>
+      <correction>significantly</correction>
+      <correction>severely</correction>
+    </corrections>
+    <original>largely</original>
+  </edit>
+  <edit end="3766" index="1021-0026" start="3766" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3949" index="1021-0027" start="3949" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3972" index="1021-0028" start="3966" type="SX">
+    <corrections>
+      <correction>packed</correction>
+    </corrections>
+    <original>packet</original>
+  </edit>
+  <edit end="3998" index="1021-0029" start="3998" type="MD">
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4059" index="1021-0030" start="4049" type="TV">
+    <corrections>
+      <correction>contains</correction>
+    </corrections>
+    <original>containing</original>
+  </edit>
+  <edit end="4074" index="1021-0031" start="4070" type="DY">
+    <corrections>
+      <correction>richly</correction>
+    </corrections>
+    <original>rich</original>
+  </edit>
+  <edit end="4233" index="1021-0032" start="4222" type="UV">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>to be able </original>
+  </edit>
+  <edit end="4420" index="1021-0033" start="4419" type="RP">
+    <corrections>
+      <correction>:</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="4676" index="1021-0034" start="4676" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4740" index="1021-0035" start="4733" type="FN">
+    <corrections>
+      <correction>detail</correction>
+    </corrections>
+    <original>details</original>
+  </edit>
+  <edit end="4802" index="1021-0036" start="4791" type="MD">
+    <corrections>
+      <correction>The convolution</correction>
+      <correction>A convolution</correction>
+    </corrections>
+    <original>Convolution</original>
+  </edit>
+  <edit end="4954" index="1021-0037" start="4954" type="MV">
+    <corrections>
+      <correction>were </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5061" index="1021-0038" start="5061" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5084" index="1021-0039" start="5080" type="RT">
+    <corrections>
+      <correction/>
+      <correction>for</correction>
+    </corrections>
+    <original>over</original>
+  </edit>
+  <edit end="5194" index="1021-0040" start="5194" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5249" index="1021-0041" start="5245" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="5352" index="1021-0042" start="5350" type="RT">
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="5456" index="1021-0043" start="5451" type="RT">
+    <corrections>
+      <correction/>
+      <correction>in</correction>
+      <correction>according to</correction>
+    </corrections>
+    <original>under</original>
+  </edit>
+  <edit end="5766" index="1021-0044" start="5766" type="MD">
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6043" index="1021-0045" start="6037" type="R">
+    <corrections>
+      <correction>syntactic</correction>
+    </corrections>
+    <original>syntax</original>
+  </edit>
+</edits>

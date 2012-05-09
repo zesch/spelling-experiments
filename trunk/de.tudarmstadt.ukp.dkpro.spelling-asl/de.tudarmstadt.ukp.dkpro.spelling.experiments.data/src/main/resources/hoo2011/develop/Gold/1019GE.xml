@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="1084" index="1019-0001" start="1078" type="FN">
+    <corrections>
+      <correction>letters</correction>
+    </corrections>
+    <original>letter</original>
+  </edit>
+  <edit end="1675" index="1019-0002" start="1671" type="RT">
+    <corrections>
+      <correction/>
+      <correction>by means of</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="1960" index="1019-0003" start="1958" type="RT">
+    <corrections>
+      <correction/>
+      <correction>with</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="3179" index="1019-0004" start="3175" type="AGD">
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+    <original>this</original>
+  </edit>
+  <edit end="4315" index="1019-0005" start="4311" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="5205" index="1019-0006" start="5201" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="5393" index="1019-0007" start="5386" type="RY">
+    <corrections>
+      <correction>[much</correction>
+      <correction>significantly}</correction>
+    </corrections>
+    <original>clearly</original>
+  </edit>
+  <edit end="5406" index="1019-0008" start="5406" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5648" index="1019-0009" start="5647" type="RP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="5714" index="1019-0010" start="5712" type="RT">
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="5826" index="1019-0011" start="5824" type="RT">
+    <corrections>
+      <correction>by</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="5856" index="1019-0012" start="5850" type="RT">
+    <corrections>
+      <correction>Apart from</correction>
+    </corrections>
+    <original>Except</original>
+  </edit>
+  <edit end="5986" index="1019-0013" start="5976" type="RP">
+    <corrections>
+      <correction>McNemar's</correction>
+    </corrections>
+    <original>Mc-Nemar's</original>
+  </edit>
+  <edit end="6108" index="1019-0014" start="6096" type="UD">
+    <corrections>
+      <correction>Phonetic</correction>
+    </corrections>
+    <original>The phonetic</original>
+  </edit>
+  <edit end="6296" index="1019-0015" start="6292" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>The </original>
+  </edit>
+  <edit end="6412" index="1019-0016" start="6399" type="UD">
+    <corrections>
+      <correction>Alignment</correction>
+    </corrections>
+    <original>The alignment</original>
+  </edit>
+</edits>

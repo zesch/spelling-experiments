@@ -1,0 +1,263 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="148" index="1020-0001" start="148" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="479" index="1020-0002" start="470" type="RP">
+    <corrections>
+      <correction>four-grams</correction>
+      <correction>4-grams</correction>
+    </corrections>
+    <original>fourgrams</original>
+  </edit>
+  <edit end="931" index="1020-0003" start="925" type="MP">
+    <corrections>
+      <correction>metric's</correction>
+    </corrections>
+    <original>metric</original>
+  </edit>
+  <edit end="1142" index="1020-0004" start="1142" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1674" index="1020-0005" start="1667" type="RN">
+    <corrections>
+      <correction>percentage</correction>
+    </corrections>
+    <original>percent</original>
+  </edit>
+  <edit end="1682" index="1020-0006" start="1678" type="FN">
+    <corrections>
+      <correction>times</correction>
+    </corrections>
+    <original>time</original>
+  </edit>
+  <edit end="1885" index="1020-0007" start="1878" type="RP">
+    <corrections>
+      <correction>test set</correction>
+    </corrections>
+    <original>testset</original>
+  </edit>
+  <edit end="1938" index="1020-0008" start="1938" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1969" index="1020-0009" start="1961" type="RP">
+    <corrections>
+      <correction>test sets</correction>
+    </corrections>
+    <original>testsets</original>
+  </edit>
+  <edit end="1975" index="1020-0010" start="1975" type="MV">
+    <corrections>
+      <correction>contained </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2076" index="1020-0011" start="2076" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2135" index="1020-0012" start="2135" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2165" index="1020-0013" start="2165" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2189" index="1020-0014" start="2187" type="RT">
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+    <original>by</original>
+  </edit>
+  <edit end="2410" index="1020-0015" start="2410" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2414" index="1020-0016" start="2414" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2428" index="1020-0017" start="2428" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2565" index="1020-0018" start="2563" type="RT">
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="2594" index="1020-0019" start="2584" type="RC">
+    <corrections>
+      <correction>and</correction>
+    </corrections>
+    <original>as well as</original>
+  </edit>
+  <edit end="2722" index="1020-0020" start="2722" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3025" index="1020-0021" start="3025" type="MA">
+    <corrections>
+      <correction>it </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3294" index="1020-0022" start="3271" type="CC">
+    <corrections>
+      <correction>most likely translation</correction>
+    </corrections>
+    <original>translation most likely</original>
+  </edit>
+  <edit end="3347" index="1020-0023" start="3338" type="RJ">
+    <corrections>
+      <correction>significant</correction>
+    </corrections>
+    <original>important</original>
+  </edit>
+  <edit end="3450" index="1020-0024" start="3450" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3518" index="1020-0025" start="3518" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3707" index="1020-0026" start="3705" type="RT">
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="3749" index="1020-0027" start="3747" type="RT">
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="3766" index="1020-0028" start="3750" type="MP">
+    <corrections>
+      <correction>single-reference</correction>
+    </corrections>
+    <original>single reference</original>
+  </edit>
+  <edit end="3875" index="1020-0029" start="3875" type="MV">
+    <corrections>
+      <correction>being </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4016" index="1020-0030" start="4016" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4045" index="1020-0031" start="4043" type="RT">
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="4101" index="1020-0032" start="4100" type="RP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="4145" index="1020-0033" start="4145" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4190" index="1020-0034" start="4190" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4261" index="1020-0035" start="4259" type="RT">
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="4274" index="1020-0036" start="4272" type="RT">
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="4317" index="1020-0037" start="4307" type="DY">
+    <corrections>
+      <correction>comparably</correction>
+    </corrections>
+    <original>comparable</original>
+  </edit>
+</edits>

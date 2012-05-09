@@ -1,0 +1,307 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="56" index="1055-0001" start="17" type="CC">
+    <corrections>
+      <correction>the Word Sense Disambiguation (WSD problem</correction>
+      <correction>Word Sense Disambiguation</correction>
+    </corrections>
+    <original>Word Sense Disambiguation (WSD) problem</original>
+  </edit>
+  <edit end="269" index="1055-0002" start="250" type="CC">
+    <corrections>
+      <correction>of jointly maximizing</correction>
+    </corrections>
+    <original>to jointly maximize</original>
+  </edit>
+  <edit end="473" index="1055-0003" start="464" type="MP">
+    <corrections>
+      <correction>all-words</correction>
+    </corrections>
+    <original>all words</original>
+  </edit>
+  <edit end="549" index="1055-0004" start="537" type="MD">
+    <corrections>
+      <correction>state-of-the-art</correction>
+    </corrections>
+    <original>state-of-art</original>
+  </edit>
+  <edit end="565" index="1055-0005" start="550" type="MP">
+    <corrections>
+      <correction>knowledge-based</correction>
+    </corrections>
+    <original>knowledge based</original>
+  </edit>
+  <edit end="784" index="1055-0006" start="783" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>a</original>
+  </edit>
+  <edit end="1174" index="1055-0007" start="1174" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1186" index="1055-0008" start="1180" type="UP">
+    <corrections>
+      <correction>1950s</correction>
+    </corrections>
+    <original>1950's</original>
+  </edit>
+  <edit end="1460" index="1055-0009" start="1456" type="FN">
+    <corrections>
+      <correction>bases</correction>
+    </corrections>
+    <original>base</original>
+  </edit>
+  <edit end="1476" index="1055-0010" start="1468" type="FN">
+    <corrections>
+      <correction>taxonomies</correction>
+    </corrections>
+    <original>taxonomy</original>
+  </edit>
+  <edit end="1483" index="1055-0011" start="1478" type="FN">
+    <corrections>
+      <correction>glosses</correction>
+    </corrections>
+    <original>gloss</original>
+  </edit>
+  <edit end="1662" index="1055-0012" start="1661" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>.</original>
+  </edit>
+  <edit end="2005" index="1055-0013" start="2003" type="TV">
+    <corrections>
+      <correction>was</correction>
+    </corrections>
+    <original>is</original>
+  </edit>
+  <edit end="2126" index="1055-0014" start="2122" type="RV">
+    <corrections>
+      <correction>posit</correction>
+    </corrections>
+    <original>pose</original>
+  </edit>
+  <edit end="2208" index="1055-0015" start="2208" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2217" index="1055-0016" start="2215" type="AGV">
+    <corrections>
+      <correction>are</correction>
+    </corrections>
+    <original>is</original>
+  </edit>
+  <edit end="2422" index="1055-0017" start="2418" type="RA">
+    <corrections>
+      <correction>they</correction>
+    </corrections>
+    <original>this</original>
+  </edit>
+  <edit end="2427" index="1055-0018" start="2423" type="TV">
+    <corrections>
+      <correction>did</correction>
+    </corrections>
+    <original>does</original>
+  </edit>
+  <edit end="2545" index="1055-0019" start="2531" type="CC">
+    <corrections>
+      <correction>to formalize</correction>
+    </corrections>
+    <original>in formalizing</original>
+  </edit>
+  <edit end="2682" index="1055-0020" start="2682" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2803" index="1055-0021" start="2800" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="2873" index="1055-0022" start="2862" type="MP">
+    <corrections>
+      <correction>multi-agent</correction>
+    </corrections>
+    <original>multi agent</original>
+  </edit>
+  <edit end="2889" index="1055-0023" start="2889" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3299" index="1055-0024" start="3299" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3380" index="1055-0025" start="3370" type="DY">
+    <corrections>
+      <correction>in combination</correction>
+    </corrections>
+    <original>combinedly</original>
+  </edit>
+  <edit end="3443" index="1055-0026" start="3441" type="RT">
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="3629" index="1055-0027" start="3629" type="MD">
+    <corrections>
+      <correction>an </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3691" index="1055-0028" start="3691" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3776" index="1055-0029" start="3768" type="CC">
+    <corrections>
+      <correction>data sets</correction>
+    </corrections>
+    <original>data-set</original>
+  </edit>
+  <edit end="3779" index="1055-0030" start="3777" type="RT">
+    <corrections>
+      <correction/>
+      <correction>for</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="3780" index="1055-0031" start="3780" type="MD">
+    <corrections>
+      <correction>an </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3967" index="1055-0032" start="3965" type="RT">
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="4140" index="1055-0033" start="4131" type="RN">
+    <corrections>
+      <correction>sum</correction>
+    </corrections>
+    <original>summation</original>
+  </edit>
+  <edit end="4145" index="1055-0034" start="4141" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>over</original>
+  </edit>
+  <edit end="4349" index="1055-0035" start="4337" type="MD">
+    <corrections>
+      <correction>The collocations</correction>
+    </corrections>
+    <original>Collocations</original>
+  </edit>
+  <edit end="4413" index="1055-0036" start="4413" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4455" index="1055-0037" start="4455" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4474" index="1055-0038" start="4474" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4487" index="1055-0039" start="4480" type="CC">
+    <corrections>
+      <correction>co-occurs</correction>
+    </corrections>
+    <original>cooccur</original>
+  </edit>
+  <edit end="4533" index="1055-0040" start="4533" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4698" index="1055-0041" start="4698" type="MT">
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4760" index="1055-0042" start="4760" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4880" index="1055-0043" start="4880" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4958" index="1055-0044" start="4958" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+</edits>

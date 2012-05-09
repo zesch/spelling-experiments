@@ -1,0 +1,273 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="587" index="1001-0001" start="587" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="619" index="1001-0002" start="619" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="624" index="1001-0003" start="620" type="RA">
+    <corrections>
+      <correction>which</correction>
+    </corrections>
+    <original>that</original>
+  </edit>
+  <edit end="946" index="1001-0004" start="944" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>a </original>
+  </edit>
+  <edit end="1209" index="1001-0005" start="1205" type="RA">
+    <corrections>
+      <correction>where</correction>
+    </corrections>
+    <original>when</original>
+  </edit>
+  <edit cset="1" end="1231" index="1001-0006" start="1223" type="RN">
+    <corrections>
+      <correction>output</correction>
+      <correction>results</correction>
+    </corrections>
+    <original>outcomes</original>
+  </edit>
+  <edit end="1293" index="1001-0007" start="1285" type="TV">
+    <corrections>
+      <correction>is</correction>
+    </corrections>
+    <original>has been</original>
+  </edit>
+  <edit end="1320" index="1001-0008" start="1316" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="1478" index="1001-0009" start="1474" type="RY">
+    <corrections>
+      <correction/>
+      <correction>in addition</correction>
+    </corrections>
+    <original>also</original>
+  </edit>
+  <edit end="1478" index="1001-0010" start="1478" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1563" index="1001-0011" start="1554" type="CN">
+    <corrections>
+      <correction>feedback</correction>
+    </corrections>
+    <original>feedbacks</original>
+  </edit>
+  <edit end="1716" index="1001-0012" start="1713" type="AGD">
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+    <original>its</original>
+  </edit>
+  <edit cset="1" end="1835" index="1001-0013" start="1827" type="RN">
+    <corrections>
+      <correction>output</correction>
+      <correction>results</correction>
+    </corrections>
+    <original>outcomes</original>
+  </edit>
+  <edit end="1935" index="1001-0014" start="1929" type="CC">
+    <corrections>
+      <correction>was</correction>
+      <correction>were</correction>
+    </corrections>
+    <original>exists</original>
+  </edit>
+  <edit end="2008" index="1001-0015" start="2004" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="2233" index="1001-0016" start="2229" type="RT">
+    <corrections>
+      <correction>by</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="2272" index="1001-0017" start="2268" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>for </original>
+  </edit>
+  <edit end="2280" index="1001-0018" start="2272" type="FV">
+    <corrections>
+      <correction>to define</correction>
+    </corrections>
+    <original>defining</original>
+  </edit>
+  <edit end="2294" index="1001-0019" start="2285" type="FV">
+    <corrections>
+      <correction>measure</correction>
+    </corrections>
+    <original>measuring</original>
+  </edit>
+  <edit end="2548" index="1001-0020" start="2535" type="AGV">
+    <corrections>
+      <correction>distinguish</correction>
+    </corrections>
+    <original>distinguishes</original>
+  </edit>
+  <edit end="2603" index="1001-0021" start="2599" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="2996" index="1001-0022" start="2992" type="R">
+    <corrections>
+      <correction>using</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="3025" index="1001-0023" start="3009" type="MP">
+    <corrections>
+      <correction>freely-available</correction>
+    </corrections>
+    <original>freely available</original>
+  </edit>
+  <edit end="3056" index="1001-0024" start="3052" type="RQ">
+    <corrections>
+      <correction/>
+      <correction>A lot of</correction>
+    </corrections>
+    <original>Much</original>
+  </edit>
+  <edit end="3070" index="1001-0025" start="3066" type="AGV">
+    <corrections>
+      <correction>has</correction>
+    </corrections>
+    <original>have</original>
+  </edit>
+  <edit end="3166" index="1001-0026" start="3162" type="RJ">
+    <corrections>
+      <correction>ready</correction>
+      <correction>easy</correction>
+    </corrections>
+    <original>high</original>
+  </edit>
+  <edit end="3376" index="1001-0027" start="3376" type="MC">
+    <corrections>
+      <correction/>
+      <correction>and </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3780" index="1001-0028" start="3772" type="FN">
+    <corrections>
+      <correction>lexicon</correction>
+    </corrections>
+    <original>lexicons</original>
+  </edit>
+  <edit end="4687" index="1001-0029" start="4668" type="DN">
+    <corrections>
+      <correction>lexicon translation</correction>
+    </corrections>
+    <original>translating lexicon</original>
+  </edit>
+  <edit end="5295" index="1001-0030" start="5283" type="W">
+    <corrections>
+      <correction>al.'s (2008)</correction>
+    </corrections>
+    <original>al. (2008)'s</original>
+  </edit>
+  <edit cset="2" end="5311" index="1001-0031" start="5303" type="TV">
+    <corrections>
+      <correction/>
+      <correction>analyzed</correction>
+    </corrections>
+    <original>analyzes</original>
+  </edit>
+  <edit cset="2" end="5388" index="1001-0032" start="5380" type="TV">
+    <corrections>
+      <correction>adjusts</correction>
+      <correction/>
+    </corrections>
+    <original>adjusted</original>
+  </edit>
+  <edit end="5416" index="1001-0033" start="5416" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5614" index="1001-0034" start="5607" type="RJ">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>current</original>
+  </edit>
+  <edit end="6048" index="1001-0035" start="6048" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6048" index="1001-0036" start="6048" type="M">
+    <corrections>
+      <correction>it is</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6605" index="1001-0037" start="6599" type="RT">
+    <corrections>
+      <correction>based on</correction>
+      <correction>with regard to</correction>
+    </corrections>
+    <original>across</original>
+  </edit>
+  <edit end="6914" index="1001-0038" start="6908" type="FV">
+    <corrections>
+      <correction>to extend</correction>
+    </corrections>
+    <original>extend</original>
+  </edit>
+  <edit end="7139" index="1001-0039" start="7127" type="RP">
+    <corrections>
+      <correction>classifier's</correction>
+    </corrections>
+    <original>classifiers'</original>
+  </edit>
+</edits>

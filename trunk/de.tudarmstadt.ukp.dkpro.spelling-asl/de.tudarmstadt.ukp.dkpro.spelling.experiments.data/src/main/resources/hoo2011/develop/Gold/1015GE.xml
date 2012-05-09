@@ -1,0 +1,469 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit cset="1" end="14" index="1015-0001" start="0" type="CC">
+    <corrections>
+      <correction>The name-ambiguity</correction>
+    </corrections>
+    <original>Name ambiguity</original>
+  </edit>
+  <edit end="33" index="1015-0002" start="27" type="RV">
+    <corrections>
+      <correction>given rise to</correction>
+    </corrections>
+    <original>raised</original>
+  </edit>
+  <edit end="246" index="1015-0003" start="239" type="TV">
+    <corrections>
+      <correction>has created</correction>
+    </corrections>
+    <original>creates</original>
+  </edit>
+  <edit end="280" index="1015-0004" start="276" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit cset="2" end="382" index="1015-0005" start="375" type="RY">
+    <corrections>
+      <correction>to the full</correction>
+    </corrections>
+    <original>at best</original>
+  </edit>
+  <edit end="671" index="1015-0006" start="667" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="731" index="1015-0007" start="727" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="863" index="1015-0008" start="854" type="MP">
+    <corrections>
+      <correction>BOW-based</correction>
+    </corrections>
+    <original>BOW based</original>
+  </edit>
+  <edit end="896" index="1015-0009" start="876" type="MP">
+    <corrections>
+      <correction>social-network-based</correction>
+    </corrections>
+    <original>social network based</original>
+  </edit>
+  <edit end="947" index="1015-0010" start="943" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="1004" index="1015-0011" start="977" type="W">
+    <corrections>
+      <correction>8.7% and 14.7% respectively</correction>
+    </corrections>
+    <original>respectively 8.7% and 14.7%</original>
+  </edit>
+  <edit cset="1" end="1021" index="1015-0012" start="1007" type="CC">
+    <corrections>
+      <correction>The name-ambiguity</correction>
+    </corrections>
+    <original>Name ambiguity</original>
+  </edit>
+  <edit end="1123" index="1015-0013" start="1116" type="L">
+    <corrections>
+      <correction>people</correction>
+    </corrections>
+    <original>persons</original>
+  </edit>
+  <edit end="1131" index="1015-0014" start="1127" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="1228" index="1015-0015" start="1228" type="MP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1271" index="1015-0016" start="1271" type="MP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1307" index="1015-0017" start="1307" type="MP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1317" index="1015-0018" start="1309" type="UD">
+    <corrections>
+      <correction>Name</correction>
+    </corrections>
+    <original>The name</original>
+  </edit>
+  <edit end="1372" index="1015-0019" start="1364" type="RJ">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>relevant</original>
+  </edit>
+  <edit end="1514" index="1015-0020" start="1514" type="MD">
+    <corrections>
+      <correction>a </correction>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1758" index="1015-0021" start="1751" type="RV">
+    <corrections>
+      <correction/>
+      <correction>searching for</correction>
+      <correction>looking for</correction>
+    </corrections>
+    <original>seeking</original>
+  </edit>
+  <edit end="1767" index="1015-0022" start="1760" type="RY">
+    <corrections>
+      <correction>Moreover</correction>
+    </corrections>
+    <original>Besides</original>
+  </edit>
+  <edit end="1816" index="1015-0023" start="1798" type="MP">
+    <corrections>
+      <correction>question-answering</correction>
+    </corrections>
+    <original>question answering</original>
+  </edit>
+  <edit end="1843" index="1015-0024" start="1821" type="MP">
+    <corrections>
+      <correction>information-extraction</correction>
+    </corrections>
+    <original>information extraction</original>
+  </edit>
+  <edit end="2038" index="1015-0025" start="2038" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2143" index="1015-0026" start="2143" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2403" index="1015-0027" start="2403" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2592" index="1015-0028" start="2590" type="RA">
+    <corrections>
+      <correction>she/he</correction>
+      <correction>he/she</correction>
+      <correction>(s)he</correction>
+    </corrections>
+    <original>he</original>
+  </edit>
+  <edit end="2633" index="1015-0029" start="2622" type="W">
+    <corrections>
+      <correction>not only on</correction>
+    </corrections>
+    <original>on not only</original>
+  </edit>
+  <edit end="2661" index="1015-0030" start="2661" type="MT">
+    <corrections>
+      <correction>on </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2665" index="1015-0031" start="2661" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="2806" index="1015-0032" start="2802" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit cset="3" end="2840" index="1015-0033" start="2824" type="RP">
+    <corrections>
+      <correction>Machine Learning</correction>
+    </corrections>
+    <original>Machine learning</original>
+  </edit>
+  <edit cset="3" end="2864" index="1015-0034" start="2848" type="RP">
+    <corrections>
+      <correction>Machine Learning</correction>
+    </corrections>
+    <original>Machine learning</original>
+  </edit>
+  <edit end="2871" index="1015-0035" start="2868" type="RD">
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+    <original>the</original>
+  </edit>
+  <edit end="2882" index="1015-0036" start="2872" type="MP">
+    <corrections>
+      <correction>sub-domain</correction>
+    </corrections>
+    <original>sub domain</original>
+  </edit>
+  <edit end="2902" index="1015-0037" start="2886" type="RP">
+    <corrections>
+      <correction>Computer Science</correction>
+    </corrections>
+    <original>Computer science</original>
+  </edit>
+  <edit cset="4" end="2960" index="1015-0038" start="2954" type="AGN">
+    <corrections>
+      <correction>Jordans</correction>
+    </corrections>
+    <original>Jordan</original>
+  </edit>
+  <edit cset="4" end="3097" index="1015-0039" start="3091" type="AGN">
+    <corrections>
+      <correction>Jordans</correction>
+    </corrections>
+    <original>Jordan</original>
+  </edit>
+  <edit end="3324" index="1015-0040" start="3320" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="3355" index="1015-0041" start="3346" type="RN">
+    <corrections>
+      <correction>humans</correction>
+    </corrections>
+    <original>humankind</original>
+  </edit>
+  <edit end="3355" index="1015-0042" start="3355" type="MV">
+    <corrections>
+      <correction>do</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3377" index="1015-0043" start="3373" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="3484" index="1015-0044" start="3472" type="MP">
+    <corrections>
+      <correction>bag-of-words</correction>
+    </corrections>
+    <original>bag of words</original>
+  </edit>
+  <edit end="3743" index="1015-0045" start="3736" type="W">
+    <corrections>
+      <correction/>
+      <correction>only on</correction>
+    </corrections>
+    <original>on only</original>
+  </edit>
+  <edit end="4049" index="1015-0046" start="4049" type="MN">
+    <corrections>
+      <correction>technology </correction>
+      <correction>applications </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4060" index="1015-0047" start="4056" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="4119" index="1015-0048" start="4116" type="RT">
+    <corrections>
+      <correction>towards</correction>
+      <correction>in</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="4558" index="1015-0049" start="4554" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit cset="2" end="4682" index="1015-0050" start="4675" type="RY">
+    <corrections>
+      <correction>to the full</correction>
+    </corrections>
+    <original>at best</original>
+  </edit>
+  <edit end="4699" index="1015-0051" start="4697" type="RT">
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="4761" index="1015-0052" start="4756" type="RP">
+    <corrections>
+      <correction/>
+      <correction>i.e.</correction>
+    </corrections>
+    <original>e.g.,</original>
+  </edit>
+  <edit end="5100" index="1015-0053" start="5096" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="5169" index="1015-0054" start="5159" type="FV">
+    <corrections>
+      <correction>exploiting</correction>
+    </corrections>
+    <original>to exploit</original>
+  </edit>
+  <edit end="5259" index="1015-0055" start="5257" type="RT">
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="5522" index="1015-0056" start="5511" type="W">
+    <corrections>
+      <correction>are usually</correction>
+    </corrections>
+    <original>usually are</original>
+  </edit>
+  <edit end="5534" index="1015-0057" start="5523" type="RJ">
+    <corrections>
+      <correction/>
+      <correction>specific</correction>
+    </corrections>
+    <original>specialized</original>
+  </edit>
+  <edit end="5670" index="1015-0058" start="5666" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="5738" index="1015-0059" start="5734" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="5953" index="1015-0060" start="5949" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="6199" index="1015-0061" start="6199" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6210" index="1015-0062" start="6203" type="RP">
+    <corrections>
+      <correction>section</correction>
+    </corrections>
+    <original>Section</original>
+  </edit>
+  <edit end="6212" index="1015-0063" start="6212" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="6334" index="1015-0064" start="6322" type="RV">
+    <corrections>
+      <correction>shown</correction>
+      <correction>given</correction>
+      <correction>described</correction>
+    </corrections>
+    <original>demonstrated</original>
+  </edit>
+  <edit end="6346" index="1015-0065" start="6338" type="CC">
+    <corrections>
+      <correction>section</correction>
+    </corrections>
+    <original>Sections</original>
+  </edit>
+  <edit end="6443" index="1015-0066" start="6439" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+</edits>

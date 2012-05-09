@@ -1,0 +1,203 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="121" index="1048-0001" start="121" type="MC">
+    <corrections>
+      <correction>but </correction>
+      <correction>and </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="176" index="1048-0002" start="176" type="MN">
+    <corrections>
+      <correction>confidence-weighted classification </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="391" index="1048-0003" start="381" type="RJ">
+    <corrections>
+      <correction/>
+      <correction>dominant</correction>
+    </corrections>
+    <original>dominating</original>
+  </edit>
+  <edit end="412" index="1048-0004" start="403" type="TV">
+    <corrections>
+      <correction>are</correction>
+    </corrections>
+    <original>have been</original>
+  </edit>
+  <edit end="475" index="1048-0005" start="475" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="698" index="1048-0006" start="693" type="RP">
+    <corrections>
+      <correction>: for</correction>
+    </corrections>
+    <original>. For</original>
+  </edit>
+  <edit end="703" index="1048-0007" start="699" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="714" index="1048-0008" start="714" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="805" index="1048-0009" start="805" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1529" index="1048-0010" start="1529" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1948" index="1048-0011" start="1948" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2219" index="1048-0012" start="2212" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>amongst</original>
+  </edit>
+  <edit end="2387" index="1048-0013" start="2387" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2418" index="1048-0014" start="2418" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2472" index="1048-0015" start="2472" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2574" index="1048-0016" start="2574" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2724" index="1048-0017" start="2724" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3020" index="1048-0018" start="3003" type="RP">
+    <corrections>
+      <correction>online classifiers</correction>
+    </corrections>
+    <original>onlineclassifiers</original>
+  </edit>
+  <edit end="3082" index="1048-0019" start="3078" type="AGV">
+    <corrections>
+      <correction>use</correction>
+    </corrections>
+    <original>uses</original>
+  </edit>
+  <edit end="3257" index="1048-0020" start="3255" type="RC">
+    <corrections>
+      <correction/>
+      <correction>whether</correction>
+    </corrections>
+    <original>if</original>
+  </edit>
+  <edit end="3377" index="1048-0021" start="3367" type="RN">
+    <corrections>
+      <correction>estimate</correction>
+    </corrections>
+    <original>estimation</original>
+  </edit>
+  <edit end="3483" index="1048-0022" start="3483" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3519" index="1048-0023" start="3519" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3534" index="1048-0024" start="3524" type="RN">
+    <corrections>
+      <correction>estimate</correction>
+    </corrections>
+    <original>estimation</original>
+  </edit>
+  <edit end="4095" index="1048-0025" start="4095" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4281" index="1048-0026" start="4245" type="W">
+    <corrections>
+      <correction>in this setting the classifiers also</correction>
+    </corrections>
+    <original>also in this setting the classifiers</original>
+  </edit>
+  <edit end="5432" index="1048-0027" start="5423" type="RP">
+    <corrections>
+      <correction>pair-wise</correction>
+      <correction>pairwise</correction>
+    </corrections>
+    <original>pair wise</original>
+  </edit>
+</edits>

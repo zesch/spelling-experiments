@@ -1,0 +1,643 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="26" index="1041-0001" start="26" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="55" index="1041-0002" start="53" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="82" index="1041-0003" start="82" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="93" index="1041-0004" start="93" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="99" index="1041-0005" start="97" type="TV">
+    <corrections>
+      <correction>has been</correction>
+    </corrections>
+    <original>is</original>
+  </edit>
+  <edit end="110" index="1041-0006" start="110" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="171" index="1041-0007" start="150" type="CC">
+    <corrections>
+      <correction>Master of Linguistics degree</correction>
+      <correction>Master's degree in Linguistics</correction>
+    </corrections>
+    <original>Master on Linguistics</original>
+  </edit>
+  <edit end="189" index="1041-0008" start="187" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="251" index="1041-0009" start="247" type="TV">
+    <corrections>
+      <correction>have been</correction>
+    </corrections>
+    <original>were</original>
+  </edit>
+  <edit end="290" index="1041-0010" start="273" type="R">
+    <corrections>
+      <correction>on offer</correction>
+    </corrections>
+    <original>part of the offer</original>
+  </edit>
+  <edit end="392" index="1041-0011" start="391" type="FD">
+    <corrections>
+      <correction>an</correction>
+    </corrections>
+    <original>a</original>
+  </edit>
+  <edit end="490" index="1041-0012" start="481" type="S">
+    <corrections>
+      <correction>researcher</correction>
+    </corrections>
+    <original>resarcher</original>
+  </edit>
+  <edit end="598" index="1041-0013" start="595" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>for</original>
+  </edit>
+  <edit end="665" index="1041-0014" start="658" type="RC">
+    <corrections>
+      <correction/>
+      <correction>since</correction>
+      <correction>in view of the fact that</correction>
+    </corrections>
+    <original>because</original>
+  </edit>
+  <edit end="677" index="1041-0015" start="675" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="723" index="1041-0016" start="721" type="RT">
+    <corrections>
+      <correction>of</correction>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="818" index="1041-0017" start="812" type="TV">
+    <corrections>
+      <correction>shown</correction>
+    </corrections>
+    <original>showed</original>
+  </edit>
+  <edit end="836" index="1041-0018" start="834" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="850" index="1041-0019" start="848" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>at</original>
+  </edit>
+  <edit end="948" index="1041-0020" start="946" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="980" index="1041-0021" start="980" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1053" index="1041-0022" start="1050" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>of </original>
+  </edit>
+  <edit end="1066" index="1041-0023" start="1061" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>about</original>
+  </edit>
+  <edit end="1074" index="1041-0024" start="1071" type="FN">
+    <corrections>
+      <correction>jobs</correction>
+    </corrections>
+    <original>job</original>
+  </edit>
+  <edit end="1102" index="1041-0025" start="1097" type="FN">
+    <corrections>
+      <correction>work</correction>
+    </corrections>
+    <original>works</original>
+  </edit>
+  <edit end="1188" index="1041-0026" start="1186" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="1222" index="1041-0027" start="1212" type="AGV">
+    <corrections>
+      <correction>illustrates</correction>
+    </corrections>
+    <original>illustrate</original>
+  </edit>
+  <edit end="1260" index="1041-0028" start="1258" type="RT">
+    <corrections>
+      <correction>For</correction>
+    </corrections>
+    <original>At</original>
+  </edit>
+  <edit end="1297" index="1041-0029" start="1290" type="TV">
+    <corrections>
+      <correction>has started</correction>
+    </corrections>
+    <original>started</original>
+  </edit>
+  <edit end="1332" index="1041-0030" start="1330" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="1338" index="1041-0031" start="1336" type="RT">
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+    <original>at</original>
+  </edit>
+  <edit end="1366" index="1041-0032" start="1364" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="1437" index="1041-0033" start="1413" type="CC">
+    <corrections>
+      <correction>Off campus</correction>
+    </corrections>
+    <original>Off universities' campus</original>
+  </edit>
+  <edit end="1662" index="1041-0034" start="1650" type="DN">
+    <corrections>
+      <correction>modeling</correction>
+    </corrections>
+    <original>modelisation</original>
+  </edit>
+  <edit end="2005" index="1041-0035" start="1994" type="RN">
+    <corrections>
+      <correction>institute</correction>
+    </corrections>
+    <original>institution</original>
+  </edit>
+  <edit end="2008" index="1041-0036" start="2006" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="2026" index="1041-0037" start="2009" type="DN">
+    <corrections>
+      <correction>supercomputing</correction>
+    </corrections>
+    <original>super computation</original>
+  </edit>
+  <edit end="2102" index="1041-0038" start="2095" type="AGQ">
+    <corrections>
+      <correction>other</correction>
+    </corrections>
+    <original>another</original>
+  </edit>
+  <edit end="2146" index="1041-0039" start="2141" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>about</original>
+  </edit>
+  <edit end="2239" index="1041-0040" start="2230" type="RJ">
+    <corrections>
+      <correction>graduate</correction>
+    </corrections>
+    <original>graduated</original>
+  </edit>
+  <edit end="2306" index="1041-0041" start="2295" type="MP">
+    <corrections>
+      <correction>NLP-related</correction>
+    </corrections>
+    <original>NLP related</original>
+  </edit>
+  <edit end="2412" index="1041-0042" start="2368" type="W">
+    <corrections>
+      <correction>Spanish-English machine translation software</correction>
+    </corrections>
+    <original>machine translation software Spanish-English</original>
+  </edit>
+  <edit end="2438" index="1041-0043" start="2435" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>an </original>
+  </edit>
+  <edit end="2560" index="1041-0044" start="2551" type="RV">
+    <corrections>
+      <correction>draw on</correction>
+    </corrections>
+    <original>appeal to</original>
+  </edit>
+  <edit end="2589" index="1041-0045" start="2579" type="AGN">
+    <corrections>
+      <correction>Enterprises</correction>
+    </corrections>
+    <original>Enterprise</original>
+  </edit>
+  <edit end="2603" index="1041-0046" start="2599" type="TV">
+    <corrections>
+      <correction>making</correction>
+    </corrections>
+    <original>make</original>
+  </edit>
+  <edit end="2622" index="1041-0047" start="2604" type="R">
+    <corrections>
+      <correction>their presence felt</correction>
+    </corrections>
+    <original>themselves present</original>
+  </edit>
+  <edit end="2638" index="1041-0048" start="2636" type="RT">
+    <corrections>
+      <correction>with</correction>
+      <correction>through</correction>
+    </corrections>
+    <original>by</original>
+  </edit>
+  <edit end="2657" index="1041-0049" start="2656" type="RP">
+    <corrections>
+      <correction>;</correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit end="2694" index="1041-0050" start="2694" type="MT">
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2773" index="1041-0051" start="2767" type="S">
+    <corrections>
+      <correction>Language</correction>
+    </corrections>
+    <original>Langue</original>
+  </edit>
+  <edit end="2785" index="1041-0052" start="2776" type="RY">
+    <corrections>
+      <correction>At present</correction>
+      <correction>Currently</correction>
+    </corrections>
+    <original>Presently</original>
+  </edit>
+  <edit end="2835" index="1041-0053" start="2830" type="TV">
+    <corrections>
+      <correction>will</correction>
+    </corrections>
+    <original>would</original>
+  </edit>
+  <edit end="3279" index="1041-0054" start="3273" type="S">
+    <corrections>
+      <correction>corpora</correction>
+    </corrections>
+    <original>copora</original>
+  </edit>
+  <edit end="3454" index="1041-0055" start="3444" type="RV">
+    <corrections>
+      <correction>establish</correction>
+    </corrections>
+    <original>accomplish</original>
+  </edit>
+  <edit end="3529" index="1041-0056" start="3521" type="CN">
+    <corrections>
+      <correction>funding</correction>
+    </corrections>
+    <original>fundings</original>
+  </edit>
+  <edit end="3569" index="1041-0057" start="3565" type="RN">
+    <corrections>
+      <correction>way</correction>
+    </corrections>
+    <original>path</original>
+  </edit>
+  <edit end="3578" index="1041-0058" start="3574" type="RD">
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+    <original>this</original>
+  </edit>
+  <edit end="3585" index="1041-0059" start="3585" type="MP">
+    <corrections>
+      <correction/>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3635" index="1041-0060" start="3632" type="TV">
+    <corrections>
+      <correction>have seen</correction>
+    </corrections>
+    <original>saw</original>
+  </edit>
+  <edit end="3654" index="1041-0061" start="3643" type="W">
+    <corrections>
+      <correction>are already</correction>
+    </corrections>
+    <original>already are</original>
+  </edit>
+  <edit end="3674" index="1041-0062" start="3666" type="RN">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>products</original>
+  </edit>
+  <edit end="3692" index="1041-0063" start="3683" type="DY">
+    <corrections>
+      <correction>eventually</correction>
+    </corrections>
+    <original>eventualy</original>
+  </edit>
+  <edit end="3703" index="1041-0064" start="3694" type="RJ">
+    <corrections>
+      <correction>graduate</correction>
+    </corrections>
+    <original>graduated</original>
+  </edit>
+  <edit end="3752" index="1041-0065" start="3750" type="RT">
+    <corrections>
+      <correction>At</correction>
+    </corrections>
+    <original>In</original>
+  </edit>
+  <edit end="3813" index="1041-0066" start="3810" type="UY">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>up</original>
+  </edit>
+  <edit end="3856" index="1041-0067" start="3854" type="RT">
+    <corrections>
+      <correction/>
+      <correction>within</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="3866" index="1041-0068" start="3859" type="S">
+    <corrections>
+      <correction>specific</correction>
+    </corrections>
+    <original>specifc</original>
+  </edit>
+  <edit end="3883" index="1041-0069" start="3871" type="MP">
+    <corrections>
+      <correction>well-defined</correction>
+    </corrections>
+    <original>well defined</original>
+  </edit>
+  <edit end="3889" index="1041-0070" start="3884" type="RN">
+    <corrections>
+      <correction>framework</correction>
+    </corrections>
+    <original>frame</original>
+  </edit>
+  <edit end="3941" index="1041-0071" start="3937" type="RT">
+    <corrections>
+      <correction>as result of</correction>
+      <correction>in response to</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit end="3964" index="1041-0072" start="3959" type="RN">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>offer</original>
+  </edit>
+  <edit end="3982" index="1041-0073" start="3975" type="S">
+    <corrections>
+      <correction>tendency</correction>
+    </corrections>
+    <original>tendecy</original>
+  </edit>
+  <edit end="3986" index="1041-0074" start="3983" type="RV">
+    <corrections>
+      <correction>may</correction>
+    </corrections>
+    <original>can</original>
+  </edit>
+  <edit end="4008" index="1041-0075" start="4008" type="MQ">
+    <corrections>
+      <correction>few </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4030" index="1041-0076" start="4016" type="CC">
+    <corrections>
+      <correction>At the moment</correction>
+    </corrections>
+    <original>In this moment</original>
+  </edit>
+  <edit end="4102" index="1041-0077" start="4100" type="RA">
+    <corrections>
+      <correction>one</correction>
+    </corrections>
+    <original>it</original>
+  </edit>
+  <edit end="4136" index="1041-0078" start="4130" type="RN">
+    <corrections>
+      <correction/>
+      <correction>foundation</correction>
+    </corrections>
+    <original>ground</original>
+  </edit>
+  <edit end="4142" index="1041-0079" start="4137" type="R">
+    <corrections>
+      <correction>on which</correction>
+    </corrections>
+    <original>where</original>
+  </edit>
+  <edit end="4179" index="1041-0080" start="4176" type="UY">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>up</original>
+  </edit>
+  <edit end="4275" index="1041-0081" start="4270" type="TV">
+    <corrections>
+      <correction>are beginning</correction>
+    </corrections>
+    <original>begin</original>
+  </edit>
+  <edit end="4313" index="1041-0082" start="4311" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="4412" index="1041-0083" start="4408" type="RJ">
+    <corrections>
+      <correction>forthcoming</correction>
+    </corrections>
+    <original>next</original>
+  </edit>
+  <edit end="4500" index="1041-0084" start="4498" type="RT">
+    <corrections>
+      <correction>at</correction>
+      <correction>of</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="4556" index="1041-0085" start="4552" type="RV">
+    <corrections>
+      <correction>solve</correction>
+    </corrections>
+    <original>fill</original>
+  </edit>
+  <edit end="4586" index="1041-0086" start="4582" type="RV">
+    <corrections>
+      <correction>{conduct</correction>
+      <correction>carry out</correction>
+      <correction>do</correction>
+    </corrections>
+    <original>make</original>
+  </edit>
+  <edit end="4598" index="1041-0087" start="4596" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="4628" index="1041-0088" start="4626" type="RT">
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+    <original>of</original>
+  </edit>
+  <edit end="4669" index="1041-0089" start="4661" type="RV">
+    <corrections>
+      <correction>remain</correction>
+    </corrections>
+    <original>be there</original>
+  </edit>
+  <edit end="4751" index="1041-0090" start="4749" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="4785" index="1041-0091" start="4785" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4856" index="1041-0092" start="4842" type="CC">
+    <corrections>
+      <correction>participate in</correction>
+      <correction>sign up to</correction>
+    </corrections>
+    <original>incorporate to</original>
+  </edit>
+  <edit end="4916" index="1041-0093" start="4914" type="RT">
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="4932" index="1041-0094" start="4925" type="CC">
+    <corrections>
+      <correction>become</correction>
+      <correction>are</correction>
+    </corrections>
+    <original>will be</original>
+  </edit>
+  <edit end="4939" index="1041-0095" start="4933" type="RJ">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>normal</original>
+  </edit>
+  <edit end="4979" index="1041-0096" start="4979" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5048" index="1041-0097" start="5039" type="MP">
+    <corrections>
+      <correction>full-time</correction>
+    </corrections>
+    <original>full time</original>
+  </edit>
+  <edit end="5061" index="1041-0098" start="5059" type="RT">
+    <corrections>
+      <correction>in</correction>
+      <correction>of</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+</edits>
