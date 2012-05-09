@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0845">
+  <edit end="125" file="0845" index="0001" part="1" start="125" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="270" file="0845" index="0002" part="4" start="269" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="604" file="0845" index="0003" part="4" start="601" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

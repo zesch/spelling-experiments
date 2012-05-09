@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0819">
+  <edit end="175" file="0819" index="0001" part="1" start="173" type="RD">
+    <original>my</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="743" file="0819" index="0002" part="1" start="737" type="RT">
+    <original>due to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="85" file="0819" index="0003" part="2" start="83" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="208" file="0819" index="0004" part="2" start="206" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="278" file="0819" index="0005" part="2" start="278" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="612" file="0819" index="0006" part="2" start="608" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

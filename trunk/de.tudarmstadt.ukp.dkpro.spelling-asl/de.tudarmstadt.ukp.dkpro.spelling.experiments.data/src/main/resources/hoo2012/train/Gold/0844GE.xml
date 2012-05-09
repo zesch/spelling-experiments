@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0844">
+  <edit end="169" file="0844" index="0001" part="1" start="165" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="214" file="0844" index="0002" part="1" start="214" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>your </correction>
+    </corrections>
+  </edit>
+  <edit end="225" file="0844" index="0003" part="1" start="223" type="RT">
+    <original>On</original>
+    <corrections>
+      <correction>In</correction>
+    </corrections>
+  </edit>
+  <edit end="556" file="0844" index="0004" part="1" start="554" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="618" file="0844" index="0005" part="1" start="616" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="703" file="0844" index="0006" part="1" start="703" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="770" file="0844" index="0007" part="1" start="770" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="290" file="0844" index="0008" part="2" start="290" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="371" file="0844" index="0009" part="2" start="371" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="448" file="0844" index="0010" part="2" start="445" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="456" file="0844" index="0011" part="2" start="452" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="538" file="0844" index="0012" part="2" start="536" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="637" file="0844" index="0013" part="2" start="633" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="676" file="0844" index="0014" part="2" start="673" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1016" file="0844" index="0015" part="2" start="1016" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="1035" file="0844" index="0016" part="2" start="1031" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="1078" file="0844" index="0017" part="2" start="1074" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+</edits>

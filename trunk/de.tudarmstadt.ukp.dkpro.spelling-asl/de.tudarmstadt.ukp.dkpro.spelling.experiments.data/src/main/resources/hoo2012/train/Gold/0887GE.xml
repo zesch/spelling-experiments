@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0887">
+  <edit end="222" file="0887" index="0001" part="1" start="222" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="226" file="0887" index="0002" part="1" start="222" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="343" file="0887" index="0003" part="1" start="339" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="524" file="0887" index="0004" part="1" start="517" type="RT">
+    <original>against</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="807" file="0887" index="0005" part="1" start="803" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="291" file="0887" index="0006" part="3" start="291" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>

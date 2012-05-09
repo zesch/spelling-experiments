@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0879">
+  <edit end="236" file="0879" index="0001" part="1" start="233" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="637" file="0879" index="0002" part="1" start="637" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>my </correction>
+    </corrections>
+  </edit>
+  <edit end="751" file="0879" index="0003" part="1" start="751" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>as </correction>
+    </corrections>
+  </edit>
+  <edit end="763" file="0879" index="0004" part="1" start="763" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+  <edit end="283" file="0879" index="0005" part="2" start="280" type="UT">
+    <original>at </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="314" file="0879" index="0006" part="2" start="312" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="559" file="0879" index="0007" part="2" start="555" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>between</correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0857">
+  <edit end="306" file="0857" index="0001" part="1" start="302" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="731" file="0857" index="0002" part="1" start="728" type="UT">
+    <original> on</original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="258" file="0857" index="0003" part="3" start="255" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="379" file="0857" index="0004" part="3" start="379" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="437" file="0857" index="0005" part="3" start="432" type="RD">
+    <original>these</original>
+    <corrections>
+      <correction>those</correction>
+    </corrections>
+  </edit>
+</edits>

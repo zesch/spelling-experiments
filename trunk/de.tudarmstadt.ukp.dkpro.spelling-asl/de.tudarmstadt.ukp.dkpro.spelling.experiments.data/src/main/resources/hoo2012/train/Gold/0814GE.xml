@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0814">
+  <edit end="267" file="0814" index="0001" part="1" start="264" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="379" file="0814" index="0002" part="1" start="379" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="476" file="0814" index="0003" part="1" start="476" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="578" file="0814" index="0004" part="1" start="578" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+  </edit>
+  <edit end="594" file="0814" index="0005" part="1" start="594" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="716" file="0814" index="0006" part="1" start="716" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>my </correction>
+    </corrections>
+  </edit>
+</edits>

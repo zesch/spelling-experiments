@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0825">
+  <edit end="97" file="0825" index="0001" part="1" start="85" type="RT">
+    <original>according to</original>
+    <corrections>
+      <correction>regarding</correction>
+    </corrections>
+  </edit>
+  <edit end="151" file="0825" index="0002" part="1" start="149" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="248" file="0825" index="0003" part="1" start="246" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="343" file="0825" index="0004" part="1" start="343" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="477" file="0825" index="0005" part="1" start="472" type="UT">
+    <original>till </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="675" file="0825" index="0006" part="1" start="675" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="768" file="0825" index="0007" part="1" start="766" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+</edits>

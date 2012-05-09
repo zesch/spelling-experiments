@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0843">
+  <edit end="54" file="0843" index="0001" part="1" start="52" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="672" file="0843" index="0002" part="1" start="672" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="675" file="0843" index="0003" part="1" start="672" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="825" file="0843" index="0004" part="1" start="821" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="163" file="0843" index="0005" part="3" start="160" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="267" file="0843" index="0006" part="3" start="263" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>off</correction>
+    </corrections>
+  </edit>
+  <edit end="412" file="0843" index="0007" part="3" start="410" type="RD">
+    <original>an</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="444" file="0843" index="0008" part="3" start="444" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>in </correction>
+    </corrections>
+  </edit>
+  <edit end="652" file="0843" index="0009" part="3" start="650" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

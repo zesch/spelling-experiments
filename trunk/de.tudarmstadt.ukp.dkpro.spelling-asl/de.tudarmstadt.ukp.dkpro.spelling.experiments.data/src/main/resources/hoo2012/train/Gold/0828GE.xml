@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0828">
+  <edit end="71" file="0828" index="0001" part="1" start="69" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="75" file="0828" index="0002" part="1" start="72" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>your</correction>
+    </corrections>
+  </edit>
+  <edit end="480" file="0828" index="0003" part="1" start="477" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="441" file="0828" index="0004" part="2" start="439" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="442" file="0828" index="0005" part="2" start="442" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="563" file="0828" index="0006" part="2" start="560" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="584" file="0828" index="0007" part="2" start="582" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="585" file="0828" index="0008" part="2" start="585" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0856">
+  <edit end="379" file="0856" index="0001" part="1" start="375" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="467" file="0856" index="0002" part="1" start="467" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="1163" file="0856" index="0003" part="1" start="1159" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+  </edit>
+  <edit end="318" file="0856" index="0004" part="4" start="315" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+  </edit>
+  <edit end="1728" file="0856" index="0005" part="4" start="1726" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+</edits>

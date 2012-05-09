@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0829">
+  <edit end="462" file="0829" index="0001" part="1" start="460" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="524" file="0829" index="0002" part="1" start="521" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

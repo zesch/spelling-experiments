@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0874">
+  <edit end="133" file="0874" index="0001" part="1" start="129" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="349" file="0874" index="0002" part="1" start="349" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1011" file="0874" index="0003" part="1" start="1011" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="230" file="0874" index="0004" part="3" start="230" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="334" file="0874" index="0005" part="3" start="329" type="RD">
+    <original>those</original>
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+  </edit>
+  <edit end="371" file="0874" index="0006" part="3" start="368" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="618" file="0874" index="0007" part="3" start="614" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="628" file="0874" index="0008" part="3" start="626" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+</edits>

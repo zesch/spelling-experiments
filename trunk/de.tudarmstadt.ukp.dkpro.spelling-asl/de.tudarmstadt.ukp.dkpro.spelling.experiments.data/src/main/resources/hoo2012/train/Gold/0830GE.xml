@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0830">
+  <edit end="462" file="0830" index="0001" part="1" start="458" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="763" file="0830" index="0002" part="1" start="761" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="861" file="0830" index="0003" part="1" start="861" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="965" file="0830" index="0004" part="1" start="960" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="1017" file="0830" index="0005" part="1" start="1012" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="76" file="0830" index="0006" part="3" start="73" type="UT">
+    <original> to</original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="217" file="0830" index="0007" part="3" start="213" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="487" file="0830" index="0008" part="3" start="481" type="UD">
+    <original>those </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="517" file="0830" index="0009" part="3" start="517" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>about </correction>
+    </corrections>
+  </edit>
+  <edit end="651" file="0830" index="0010" part="3" start="649" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>according to</correction>
+    </corrections>
+  </edit>
+</edits>

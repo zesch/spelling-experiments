@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0899">
+  <edit end="106" file="0899" index="0001" part="2" start="101" type="UD">
+    <original>such </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="204" file="0899" index="0002" part="2" start="202" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="225" file="0899" index="0003" part="2" start="222" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="632" file="0899" index="0004" part="2" start="630" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+  </edit>
+  <edit end="715" file="0899" index="0005" part="2" start="713" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="808" file="0899" index="0006" part="2" start="808" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>my </correction>
+    </corrections>
+  </edit>
+  <edit end="870" file="0899" index="0007" part="2" start="870" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+  <edit end="903" file="0899" index="0008" part="2" start="899" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="970" file="0899" index="0009" part="2" start="968" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1110" file="0899" index="0010" part="2" start="1108" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="1131" file="0899" index="0011" part="2" start="1131" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+  </edit>
+  <edit end="1183" file="0899" index="0012" part="2" start="1180" type="UT">
+    <original>in </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

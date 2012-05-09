@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0878">
+  <edit end="88" file="0878" index="0001" part="1" start="86" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="160" file="0878" index="0002" part="1" start="156" type="RT">
+    <original>like</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="685" file="0878" index="0003" part="1" start="685" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="972" file="0878" index="0004" part="1" start="970" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="168" file="0878" index="0005" part="4" start="166" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="335" file="0878" index="0006" part="4" start="335" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="423" file="0878" index="0007" part="4" start="417" type="UT">
+    <original>about </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="439" file="0878" index="0008" part="4" start="439" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>like </correction>
+    </corrections>
+  </edit>
+  <edit end="611" file="0878" index="0009" part="4" start="609" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="1153" file="0878" index="0010" part="4" start="1147" type="UT">
+    <original>about </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1174" file="0878" index="0011" part="4" start="1174" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>like </correction>
+    </corrections>
+  </edit>
+</edits>
