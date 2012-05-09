@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR800*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Spanish</LANGUAGE>
+      <AGE>26-30</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Mrs Ryan:</P>
+      <P>I am so happy to know that I have won first prize in your competition.</P>
+      <P>As you asked me to send you further information about three points, I am sending you my preferences as follows:</P>
+      <P>1. - I would prefer long cabins rather than tents, because it is much more comfortable.</P>
+      <P>2. - I have chosen singing and painting as activities, because I love painting moreover, I am very good at it, and singing because is one of my talents.</P>
+      <P>3. - I would prefer to travel only in July because at the moment I am alone at home and I have to take care of my little sister.</P>
+      <P>I would like to know, what kind of clothes do I have to take with me and How much money will I need as well?</P>
+      <P>Thanks in advance for you advice.</P>
+      <P>yours sinicrely</P>
+      <P>Bety</P>
+    </PART>
+    <PART id="4">
+      <P>Dear Kim:</P>
+      <P>I am writing to you to tell you what an impressing experience I have had, helping at a pop concert.</P>
+      <P>I will start telling you how crowded it was, the people was so excited that they were screaming from the beginning to the end. I couldn't even hear my own voice.</P>
+      <P>I cleared the stage before the concert, but you don't imagine how it looked like after it?!!! full of flowers, T. shirts, hats, underwear, etc etc etc. I didn't feel my feet the next day, I was very tired.!! Anyway, I also laughed a lot, the music was fantastic, and the stars were really nice to every one.</P>
+      <P>I tried to take a photo of everyone, but sometimes it was not possible. I will send you a copy of the best pictures the next time.</P>
+      <P>bye-bye.</P>
+      <P>Bety</P>
+    </PART>
+  </BODY>
+</HOO>
