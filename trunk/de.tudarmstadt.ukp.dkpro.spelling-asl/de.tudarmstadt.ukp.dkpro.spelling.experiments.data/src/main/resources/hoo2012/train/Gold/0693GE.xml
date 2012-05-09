@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0693">
+  <edit end="96" file="0693" index="0001" part="1" start="94" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="230" file="0693" index="0002" part="1" start="228" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="470" file="0693" index="0003" part="1" start="465" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="632" file="0693" index="0004" part="1" start="628" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="804" file="0693" index="0005" part="1" start="802" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="653" file="0693" index="0006" part="4" start="653" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="826" file="0693" index="0007" part="4" start="826" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1038" file="0693" index="0008" part="4" start="1036" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+</edits>

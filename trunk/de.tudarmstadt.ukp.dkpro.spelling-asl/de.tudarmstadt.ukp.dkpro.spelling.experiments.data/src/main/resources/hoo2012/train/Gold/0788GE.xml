@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0788">
+  <edit end="334" file="0788" index="0001" part="1" start="334" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>in </correction>
+    </corrections>
+  </edit>
+  <edit end="573" file="0788" index="0002" part="1" start="570" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>this</correction>
+    </corrections>
+  </edit>
+  <edit end="324" file="0788" index="0003" part="2" start="322" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>through</correction>
+    </corrections>
+  </edit>
+  <edit end="656" file="0788" index="0004" part="2" start="654" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+</edits>

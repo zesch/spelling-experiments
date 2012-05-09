@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0793">
+  <edit end="187" file="0793" index="0001" part="1" start="187" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="282" file="0793" index="0002" part="1" start="282" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="559" file="0793" index="0003" part="1" start="559" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="654" file="0793" index="0004" part="1" start="654" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="78" file="0793" index="0005" part="4" start="75" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="753" file="0793" index="0006" part="4" start="751" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="897" file="0793" index="0007" part="4" start="897" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>

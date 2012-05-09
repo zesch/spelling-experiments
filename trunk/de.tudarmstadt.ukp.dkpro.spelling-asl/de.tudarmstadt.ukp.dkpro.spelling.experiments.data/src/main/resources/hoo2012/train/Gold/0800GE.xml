@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0800">
+  <edit end="253" file="0800" index="0001" part="1" start="249" type="RT">
+    <original>From</original>
+    <corrections>
+      <correction>In</correction>
+    </corrections>
+  </edit>
+  <edit end="581" file="0800" index="0002" part="1" start="578" type="UT">
+    <original> so</original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="93" file="0800" index="0003" part="3" start="89" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="245" file="0800" index="0004" part="3" start="242" type="UT">
+    <original>in </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="543" file="0800" index="0005" part="3" start="543" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>

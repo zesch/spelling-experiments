@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0789">
+  <edit end="234" file="0789" index="0001" part="1" start="232" type="RT">
+    <original>On</original>
+    <corrections>
+      <correction>In</correction>
+    </corrections>
+  </edit>
+  <edit end="489" file="0789" index="0002" part="1" start="489" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="263" file="0789" index="0003" part="3" start="261" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="405" file="0789" index="0004" part="3" start="402" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="652" file="0789" index="0005" part="3" start="652" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+</edits>

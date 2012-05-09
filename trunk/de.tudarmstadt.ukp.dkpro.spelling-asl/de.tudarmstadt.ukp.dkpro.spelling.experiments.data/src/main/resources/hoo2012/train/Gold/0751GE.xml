@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0751">
+  <edit end="74" file="0751" index="0001" part="1" start="72" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="237" file="0751" index="0002" part="1" start="235" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="441" file="0751" index="0003" part="1" start="439" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="442" file="0751" index="0004" part="1" start="442" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="471" file="0751" index="0005" part="1" start="468" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="845" file="0751" index="0006" part="1" start="843" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="57" file="0751" index="0007" part="3" start="57" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="279" file="0751" index="0008" part="3" start="277" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="326" file="0751" index="0009" part="3" start="322" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="511" file="0751" index="0010" part="3" start="508" type="UD">
+    <original>an </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="547" file="0751" index="0011" part="3" start="545" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="770" file="0751" index="0012" part="3" start="768" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+</edits>

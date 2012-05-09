@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0740">
+  <edit end="577" file="0740" index="0001" part="1" start="577" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="875" file="0740" index="0002" part="1" start="870" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>concerning</correction>
+    </corrections>
+  </edit>
+  <edit end="246" file="0740" index="0003" part="4" start="243" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+  </edit>
+  <edit end="256" file="0740" index="0004" part="4" start="253" type="UT">
+    <original>by </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="266" file="0740" index="0005" part="4" start="261" type="RT">
+    <original>under</original>
+    <corrections>
+      <correction>below</correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0765">
+  <edit end="80" file="0765" index="0001" part="1" start="76" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="398" file="0765" index="0002" part="1" start="396" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="402" file="0765" index="0003" part="1" start="399" type="RD">
+    <original>one</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="427" file="0765" index="0004" part="1" start="425" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="431" file="0765" index="0005" part="1" start="428" type="RD">
+    <original>one</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="80" file="0765" index="0006" part="2+3+4" start="77" type="RD">
+    <original>one</original>
+    <corrections>
+      <correction>any</correction>
+    </corrections>
+  </edit>
+  <edit end="89" file="0765" index="0007" part="2+3+4" start="87" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="377" file="0765" index="0008" part="2+3+4" start="373" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="398" file="0765" index="0009" part="2+3+4" start="398" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="484" file="0765" index="0010" part="2+3+4" start="480" type="RT">
+    <original>like</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="485" file="0765" index="0011" part="2+3+4" start="485" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="495" file="0765" index="0012" part="2+3+4" start="495" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="543" file="0765" index="0013" part="2+3+4" start="541" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="544" file="0765" index="0014" part="2+3+4" start="544" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="605" file="0765" index="0015" part="2+3+4" start="605" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>in </correction>
+    </corrections>
+  </edit>
+  <edit end="684" file="0765" index="0016" part="2+3+4" start="684" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+</edits>

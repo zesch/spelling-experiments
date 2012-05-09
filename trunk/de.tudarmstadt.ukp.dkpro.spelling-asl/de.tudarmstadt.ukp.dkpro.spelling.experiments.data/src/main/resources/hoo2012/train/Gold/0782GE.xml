@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0782">
+  <edit end="117" file="0782" index="0001" part="1" start="114" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="242" file="0782" index="0002" part="1" start="235" type="UT">
+    <original>during </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="273" file="0782" index="0003" part="1" start="261" type="RT">
+    <original>according to</original>
+    <corrections>
+      <correction>regarding</correction>
+    </corrections>
+  </edit>
+  <edit end="353" file="0782" index="0004" part="1" start="350" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="611" file="0782" index="0005" part="1" start="609" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="837" file="0782" index="0006" part="1" start="833" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="980" file="0782" index="0007" part="4" start="980" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>like </correction>
+    </corrections>
+  </edit>
+  <edit end="1064" file="0782" index="0008" part="4" start="1061" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1161" file="0782" index="0009" part="4" start="1161" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+</edits>

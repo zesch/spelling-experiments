@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0742">
+  <edit end="169" file="0742" index="0001" part="1" start="167" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="274" file="0742" index="0002" part="1" start="272" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="379" file="0742" index="0003" part="1" start="379" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="641" file="0742" index="0004" part="1" start="637" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="808" file="0742" index="0005" part="1" start="808" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="163" file="0742" index="0006" part="2" start="161" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>concerning</correction>
+    </corrections>
+  </edit>
+  <edit end="647" file="0742" index="0007" part="2" start="647" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="773" file="0742" index="0008" part="2" start="773" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="784" file="0742" index="0009" part="2" start="781" type="UT">
+    <original>on </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="800" file="0742" index="0010" part="2" start="800" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>
