@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1812">
+  <edit end="681" file="1812" index="0001" part="1" start="679" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="698" file="1812" index="0002" part="1" start="695" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="751" file="1812" index="0003" part="1" start="751" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2361">
+  <edit end="384" file="2361" index="0001" part="1" start="380" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="548" file="2361" index="0002" part="1" start="536" type="RT">
+    <original>According to</original>
+    <corrections>
+      <correction>Considering</correction>
+    </corrections>
+  </edit>
+  <edit end="628" file="2361" index="0003" part="1" start="627" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="996" file="2361" index="0004" part="1" start="992" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="110" file="2361" index="0005" part="3" start="100" type="RT">
+    <original>because of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="666" file="2361" index="0006" part="3" start="665" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="679" file="2361" index="0007" part="3" start="675" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="965" file="2361" index="0008" part="3" start="965" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="999" file="2361" index="0009" part="3" start="998" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+</edits>

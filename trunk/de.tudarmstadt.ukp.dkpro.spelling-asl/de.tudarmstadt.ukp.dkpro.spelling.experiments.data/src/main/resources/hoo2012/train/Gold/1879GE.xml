@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1879">
+  <edit end="74" file="1879" index="0001" part="1" start="69" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="157" file="1879" index="0002" part="1" start="155" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="304" file="1879" index="0003" part="1" start="299" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="339" file="1879" index="0004" part="1" start="334" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>because of</correction>
+    </corrections>
+  </edit>
+  <edit end="390" file="1879" index="0005" part="1" start="388" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="1014" file="1879" index="0006" part="2" start="1012" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+</edits>

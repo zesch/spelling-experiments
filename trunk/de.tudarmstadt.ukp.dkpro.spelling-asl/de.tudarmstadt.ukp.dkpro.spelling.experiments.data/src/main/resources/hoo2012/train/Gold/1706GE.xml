@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1706">
+  <edit end="196" file="1706" index="0001" part="1" start="194" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>after</correction>
+    </corrections>
+  </edit>
+  <edit end="241" file="1706" index="0002" part="1" start="237" type="RD">
+    <original>That</original>
+    <corrections>
+      <correction>The</correction>
+    </corrections>
+  </edit>
+  <edit end="288" file="1706" index="0003" part="1" start="286" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="1131" file="1706" index="0004" part="1" start="1131" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="0" file="1706" index="0005" part="4" start="0" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>For </correction>
+    </corrections>
+  </edit>
+  <edit end="121" file="1706" index="0006" part="4" start="121" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="274" file="1706" index="0007" part="4" start="274" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="367" file="1706" index="0008" part="4" start="365" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="390" file="1706" index="0009" part="4" start="390" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>In </correction>
+    </corrections>
+  </edit>
+</edits>

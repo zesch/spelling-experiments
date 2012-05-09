@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1672">
+  <edit end="587" file="1672" index="0001" part="1" start="584" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>an</correction>
+    </corrections>
+  </edit>
+  <edit end="843" file="1672" index="0002" part="1" start="843" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="514" file="1672" index="0003" part="2" start="512" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="992" file="1672" index="0004" part="2" start="992" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>her </correction>
+    </corrections>
+  </edit>
+</edits>

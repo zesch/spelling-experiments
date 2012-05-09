@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2440">
+  <edit end="49" file="2440" index="0001" part="1" start="47" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="317" file="2440" index="0002" part="1" start="317" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="341" file="2440" index="0003" part="1" start="338" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="350" file="2440" index="0004" part="1" start="348" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="510" file="2440" index="0005" part="1" start="510" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="739" file="2440" index="0006" part="1" start="736" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>during</correction>
+    </corrections>
+  </edit>
+  <edit end="312" file="2440" index="0007" part="3" start="308" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="741" file="2440" index="0008" part="3" start="737" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="802" file="2440" index="0009" part="3" start="795" type="RT">
+    <original>against</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="909" file="2440" index="0010" part="3" start="909" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1049" file="2440" index="0011" part="3" start="1049" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1058" file="2440" index="0012" part="3" start="1055" type="UT">
+    <original>in </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1143" file="2440" index="0013" part="3" start="1143" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+</edits>

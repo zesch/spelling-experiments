@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2472">
+  <edit end="174" file="2472" index="0001" part="1" start="170" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="175" file="2472" index="0002" part="1" start="175" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="473" file="2472" index="0003" part="1" start="468" type="RT">
+    <original>until</original>
+    <corrections>
+      <correction>before</correction>
+    </corrections>
+  </edit>
+  <edit end="577" file="2472" index="0004" part="1" start="575" type="RD">
+    <original>an</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="889" file="2472" index="0005" part="1" start="886" type="UT">
+    <original>as </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="961" file="2472" index="0006" part="1" start="960" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="498" file="2472" index="0007" part="2" start="495" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="589" file="2472" index="0008" part="2" start="587" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="901" file="2472" index="0009" part="2" start="901" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+</edits>

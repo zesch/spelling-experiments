@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2362">
+  <edit end="573" file="2362" index="0001" part="1" start="571" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="662" file="2362" index="0002" part="1" start="658" type="RD">
+    <original>each</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+</edits>

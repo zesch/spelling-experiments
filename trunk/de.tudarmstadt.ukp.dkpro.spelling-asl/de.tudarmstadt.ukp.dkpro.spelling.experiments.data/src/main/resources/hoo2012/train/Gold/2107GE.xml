@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2107">
+  <edit end="39" file="2107" index="0001" part="1" start="37" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="52" file="2107" index="0002" part="1" start="50" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="286" file="2107" index="0003" part="2" start="284" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="342" file="2107" index="0004" part="2" start="339" type="RD">
+    <original>his</original>
+    <corrections>
+      <correction>her</correction>
+    </corrections>
+  </edit>
+  <edit end="699" file="2107" index="0005" part="2" start="695" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="841" file="2107" index="0006" part="2" start="837" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

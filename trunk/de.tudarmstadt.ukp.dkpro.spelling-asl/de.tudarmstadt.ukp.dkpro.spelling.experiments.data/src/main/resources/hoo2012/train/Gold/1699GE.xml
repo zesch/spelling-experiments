@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1699">
+  <edit end="91" file="1699" index="0001" part="1" start="85" type="RT">
+    <original>during</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="807" file="1699" index="0002" part="1" start="805" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="112" file="1699" index="0003" part="2" start="110" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="630" file="1699" index="0004" part="2" start="630" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>about </correction>
+    </corrections>
+  </edit>
+</edits>

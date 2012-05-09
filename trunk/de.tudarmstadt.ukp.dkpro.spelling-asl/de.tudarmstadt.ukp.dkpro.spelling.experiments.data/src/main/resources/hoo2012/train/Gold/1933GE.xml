@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1933">
+  <edit end="308" file="1933" index="0001" part="1" start="302" type="RT">
+    <original>during</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="479" file="1933" index="0002" part="1" start="477" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="704" file="1933" index="0003" part="1" start="702" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="251" file="1933" index="0004" part="2" start="249" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="615" file="1933" index="0005" part="2" start="615" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="631" file="1933" index="0006" part="2" start="631" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>about </correction>
+    </corrections>
+  </edit>
+  <edit end="792" file="1933" index="0007" part="2" start="790" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2017">
+  <edit end="157" file="2017" index="0001" part="1" start="155" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="384" file="2017" index="0002" part="3" start="382" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="531" file="2017" index="0003" part="3" start="529" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="895" file="2017" index="0004" part="3" start="895" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>on </correction>
+    </corrections>
+  </edit>
+</edits>

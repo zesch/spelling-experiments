@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2006">
+  <edit end="326" file="2006" index="0001" part="1" start="324" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="755" file="2006" index="0002" part="1" start="751" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="960" file="2006" index="0003" part="1" start="956" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1099" file="2006" index="0004" part="1" start="1095" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="201" file="2006" index="0005" part="3" start="197" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="235" file="2006" index="0006" part="3" start="231" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="689" file="2006" index="0007" part="3" start="686" type="UT">
+    <original>by </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="762" file="2006" index="0008" part="3" start="758" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="803" file="2006" index="0009" part="3" start="801" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="867" file="2006" index="0010" part="3" start="865" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="1026" file="2006" index="0011" part="3" start="1021" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+</edits>

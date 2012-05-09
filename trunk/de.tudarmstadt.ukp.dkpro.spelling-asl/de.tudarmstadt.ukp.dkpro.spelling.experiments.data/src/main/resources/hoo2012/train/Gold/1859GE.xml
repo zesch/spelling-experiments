@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1859">
+  <edit end="52" file="1859" index="0001" part="4" start="48" type="UD">
+    <original>The </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="75" file="1859" index="0002" part="4" start="75" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="168" file="1859" index="0003" part="4" start="164" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="169" file="1859" index="0004" part="4" start="169" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="216" file="1859" index="0005" part="4" start="212" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>over</correction>
+    </corrections>
+  </edit>
+  <edit end="217" file="1859" index="0006" part="4" start="217" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="276" file="1859" index="0007" part="4" start="276" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>on </correction>
+    </corrections>
+  </edit>
+  <edit end="413" file="1859" index="0008" part="4" start="413" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="513" file="1859" index="0009" part="4" start="513" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="777" file="1859" index="0010" part="4" start="773" type="UD">
+    <original>The </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="899" file="1859" index="0011" part="4" start="899" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="909" file="1859" index="0012" part="4" start="909" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>The </correction>
+    </corrections>
+  </edit>
+  <edit end="949" file="1859" index="0013" part="4" start="947" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+</edits>

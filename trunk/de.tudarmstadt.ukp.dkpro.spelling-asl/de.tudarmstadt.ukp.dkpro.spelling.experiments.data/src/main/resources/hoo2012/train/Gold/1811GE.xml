@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1811">
+  <edit end="44" file="1811" index="0001" part="1" start="30" type="RT">
+    <original>in the name of</original>
+    <corrections>
+      <correction>on behalf of</correction>
+    </corrections>
+  </edit>
+  <edit end="278" file="1811" index="0002" part="1" start="276" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="110" file="1811" index="0003" part="3" start="108" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="150" file="1811" index="0004" part="3" start="146" type="RT">
+    <original>into</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="179" file="1811" index="0005" part="3" start="175" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="380" file="1811" index="0006" part="3" start="377" type="UT">
+    <original>by </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="534" file="1811" index="0007" part="3" start="532" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="737" file="1811" index="0008" part="3" start="733" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="925" file="1811" index="0009" part="3" start="923" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+</edits>

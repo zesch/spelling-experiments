@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1696">
+  <edit end="131" file="1696" index="0001" part="1" start="129" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="186" file="1696" index="0002" part="1" start="180" type="RT">
+    <original>during</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="239" file="1696" index="0003" part="1" start="233" type="RT">
+    <original>during</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="309" file="1696" index="0004" part="1" start="309" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="397" file="1696" index="0005" part="1" start="394" type="UT">
+    <original>at </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="502" file="1696" index="0006" part="1" start="502" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="690" file="1696" index="0007" part="1" start="690" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>into </correction>
+    </corrections>
+  </edit>
+  <edit end="791" file="1696" index="0008" part="1" start="791" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="83" file="1696" index="0009" part="3" start="78" type="UT">
+    <original>with </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="561" file="1696" index="0010" part="3" start="561" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="688" file="1696" index="0011" part="3" start="688" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="725" file="1696" index="0012" part="3" start="725" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+</edits>

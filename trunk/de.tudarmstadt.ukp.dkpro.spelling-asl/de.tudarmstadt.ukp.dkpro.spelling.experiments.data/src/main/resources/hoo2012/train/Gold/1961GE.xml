@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1961">
+  <edit end="314" file="1961" index="0001" part="1" start="314" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="593" file="1961" index="0002" part="1" start="589" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="661" file="1961" index="0003" part="1" start="659" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="685" file="1961" index="0004" part="1" start="685" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+  <edit end="1041" file="1961" index="0005" part="1" start="1037" type="RT">
+    <original>From</original>
+    <corrections>
+      <correction>For</correction>
+    </corrections>
+  </edit>
+  <edit end="116" file="1961" index="0006" part="2" start="113" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="383" file="1961" index="0007" part="2" start="381" type="RT">
+    <original>By</original>
+    <corrections>
+      <correction>In</correction>
+    </corrections>
+  </edit>
+  <edit end="388" file="1961" index="0008" part="2" start="384" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="453" file="1961" index="0009" part="2" start="453" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="558" file="1961" index="0010" part="2" start="558" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="579" file="1961" index="0011" part="2" start="576" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>her</correction>
+    </corrections>
+  </edit>
+  <edit end="764" file="1961" index="0012" part="2" start="760" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="794" file="1961" index="0013" part="2" start="794" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="884" file="1961" index="0014" part="2" start="882" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+</edits>

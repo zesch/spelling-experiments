@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2197">
+  <edit end="843" file="2197" index="0001" part="1" start="839" type="RD">
+    <original>some</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="107" file="2197" index="0002" part="3" start="100" type="RT">
+    <original>through</original>
+    <corrections>
+      <correction>over</correction>
+    </corrections>
+  </edit>
+  <edit end="196" file="2197" index="0003" part="3" start="191" type="UT">
+    <original>like </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="714" file="2197" index="0004" part="3" start="710" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="901" file="2197" index="0005" part="3" start="901" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1048" file="2197" index="0006" part="3" start="1042" type="UT">
+    <original>about </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

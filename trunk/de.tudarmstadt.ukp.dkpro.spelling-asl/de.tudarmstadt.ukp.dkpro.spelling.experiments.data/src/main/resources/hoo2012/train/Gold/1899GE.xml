@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1899">
+  <edit end="40" file="1899" index="0001" part="1" start="40" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="403" file="1899" index="0002" part="1" start="403" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+  <edit end="567" file="1899" index="0003" part="1" start="563" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+  </edit>
+  <edit end="401" file="1899" index="0004" part="2" start="401" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction> to</correction>
+    </corrections>
+  </edit>
+  <edit end="701" file="1899" index="0005" part="2" start="701" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="735" file="1899" index="0006" part="2" start="733" type="RT">
+    <original>as</original>
+    <corrections>
+      <correction>like</correction>
+    </corrections>
+  </edit>
+</edits>

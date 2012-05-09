@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1944">
+  <edit end="148" file="1944" index="0001" part="1" start="143" type="RD">
+    <original>these</original>
+    <corrections>
+      <correction>this</correction>
+    </corrections>
+  </edit>
+  <edit end="246" file="1944" index="0002" part="1" start="244" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="314" file="1944" index="0003" part="1" start="311" type="UT">
+    <original>in </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="489" file="1944" index="0004" part="1" start="489" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="607" file="1944" index="0005" part="1" start="603" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="465" file="1944" index="0006" part="3" start="463" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="636" file="1944" index="0007" part="3" start="636" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+  <edit end="672" file="1944" index="0008" part="3" start="669" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1826">
+  <edit end="171" file="1826" index="0001" part="1" start="166" type="UT">
+    <original>into </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="461" file="1826" index="0002" part="1" start="458" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="483" file="1826" index="0003" part="1" start="480" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="816" file="1826" index="0004" part="1" start="811" type="UT">
+    <original>with </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="495" file="1826" index="0005" part="2" start="492" type="RD">
+    <original>her</original>
+    <corrections>
+      <correction>his</correction>
+    </corrections>
+  </edit>
+  <edit end="598" file="1826" index="0006" part="2" start="595" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>this</correction>
+    </corrections>
+  </edit>
+  <edit end="665" file="1826" index="0007" part="2" start="662" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="747" file="1826" index="0008" part="2" start="744" type="UD">
+    <original>an </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1005" file="1826" index="0009" part="2" start="1005" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="1079" file="1826" index="0010" part="2" start="1076" type="RD">
+    <original>not</original>
+    <corrections>
+      <correction>no</correction>
+    </corrections>
+  </edit>
+</edits>

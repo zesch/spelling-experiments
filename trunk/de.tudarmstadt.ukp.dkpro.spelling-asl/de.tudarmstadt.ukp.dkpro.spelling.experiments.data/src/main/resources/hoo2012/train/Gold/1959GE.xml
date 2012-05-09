@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1959">
+  <edit end="154" file="1959" index="0001" part="1" start="152" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="230" file="1959" index="0002" part="1" start="226" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="527" file="1959" index="0003" part="1" start="527" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="835" file="1959" index="0004" part="1" start="830" type="UT">
+    <original>from </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="919" file="1959" index="0005" part="1" start="915" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1211" file="1959" index="0006" part="1" start="1208" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>our</correction>
+    </corrections>
+  </edit>
+</edits>

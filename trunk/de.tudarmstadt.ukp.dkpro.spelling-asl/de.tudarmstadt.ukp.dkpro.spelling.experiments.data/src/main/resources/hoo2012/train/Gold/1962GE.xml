@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1962">
+  <edit end="342" file="1962" index="0001" part="1" start="339" type="UT">
+    <original>in </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="345" file="1962" index="0002" part="1" start="342" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="908" file="1962" index="0003" part="1" start="905" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>this</correction>
+    </corrections>
+  </edit>
+  <edit end="196" file="1962" index="0004" part="4" start="196" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="596" file="1962" index="0005" part="4" start="596" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>about </correction>
+    </corrections>
+  </edit>
+  <edit end="761" file="1962" index="0006" part="4" start="757" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="868" file="1962" index="0007" part="4" start="862" type="UT">
+    <original>about </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

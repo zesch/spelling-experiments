@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2023">
+  <edit end="140" file="2023" index="0001" part="1" start="140" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>like </correction>
+    </corrections>
+  </edit>
+  <edit end="655" file="2023" index="0002" part="1" start="651" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="227" file="2023" index="0003" part="4" start="223" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>by</correction>
+    </corrections>
+  </edit>
+  <edit end="325" file="2023" index="0004" part="4" start="322" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="428" file="2023" index="0005" part="4" start="424" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="761" file="2023" index="0006" part="4" start="757" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="827" file="2023" index="0007" part="4" start="825" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>via</correction>
+    </corrections>
+  </edit>
+  <edit end="860" file="2023" index="0008" part="4" start="856" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1359" file="2023" index="0009" part="4" start="1355" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1369" file="2023" index="0010" part="4" start="1366" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

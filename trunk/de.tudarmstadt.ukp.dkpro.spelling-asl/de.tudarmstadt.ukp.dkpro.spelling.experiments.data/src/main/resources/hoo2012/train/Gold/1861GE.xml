@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1861">
+  <edit end="154" file="1861" index="0001" part="1" start="152" type="UT">
+    <original>to</original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="622" file="1861" index="0002" part="1" start="620" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="1034" file="1861" index="0003" part="1" start="1032" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="227" file="1861" index="0004" part="2" start="222" type="UT">
+    <original>with </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="313" file="1861" index="0005" part="2" start="309" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="436" file="1861" index="0006" part="2" start="429" type="UT">
+    <original>around </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="770" file="1861" index="0007" part="2" start="766" type="RT">
+    <original>over</original>
+    <corrections>
+      <correction>by</correction>
+    </corrections>
+  </edit>
+  <edit end="1061" file="1861" index="0008" part="2" start="1054" type="RT">
+    <original>through</original>
+    <corrections>
+      <correction>down</correction>
+    </corrections>
+  </edit>
+</edits>

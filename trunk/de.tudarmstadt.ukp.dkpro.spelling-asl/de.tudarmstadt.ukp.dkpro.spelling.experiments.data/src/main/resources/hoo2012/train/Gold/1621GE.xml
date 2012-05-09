@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1621">
+  <edit end="34" file="1621" index="0001" part="1" start="34" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>about </correction>
+    </corrections>
+  </edit>
+  <edit end="58" file="1621" index="0002" part="1" start="53" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="195" file="1621" index="0003" part="1" start="195" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="258" file="1621" index="0004" part="1" start="255" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+  </edit>
+  <edit end="343" file="1621" index="0005" part="1" start="331" type="RT">
+    <original>According to</original>
+    <corrections>
+      <correction>Concerning</correction>
+    </corrections>
+  </edit>
+  <edit end="459" file="1621" index="0006" part="1" start="456" type="UT">
+    <original>in </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="479" file="1621" index="0007" part="1" start="479" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="624" file="1621" index="0008" part="1" start="620" type="RT">
+    <original>From</original>
+    <corrections>
+      <correction>At</correction>
+    </corrections>
+  </edit>
+  <edit end="845" file="1621" index="0009" part="1" start="845" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1144" file="1621" index="0010" part="1" start="1144" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1295" file="1621" index="0011" part="1" start="1295" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1311" file="1621" index="0012" part="1" start="1311" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1358" file="1621" index="0013" part="1" start="1358" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="695" file="1621" index="0014" part="4" start="695" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="758" file="1621" index="0015" part="4" start="755" type="UT">
+    <original>in </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="942" file="1621" index="0016" part="4" start="942" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="1076" file="1621" index="0017" part="4" start="1071" type="UT">
+    <original>like </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

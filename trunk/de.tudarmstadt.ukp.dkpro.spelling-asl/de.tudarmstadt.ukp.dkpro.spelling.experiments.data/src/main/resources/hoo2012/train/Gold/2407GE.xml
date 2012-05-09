@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2407">
+  <edit end="332" file="2407" index="0001" part="1" start="330" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="531" file="2407" index="0002" part="1" start="521" type="RT">
+    <original>because of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="95" file="2407" index="0003" part="3" start="93" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="178" file="2407" index="0004" part="3" start="178" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="222" file="2407" index="0005" part="3" start="219" type="RT">
+    <original>For</original>
+    <corrections>
+      <correction>Concerning</correction>
+    </corrections>
+  </edit>
+  <edit end="276" file="2407" index="0006" part="3" start="272" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="489" file="2407" index="0007" part="3" start="489" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>As </correction>
+    </corrections>
+  </edit>
+  <edit end="518" file="2407" index="0008" part="3" start="514" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="673" file="2407" index="0009" part="3" start="669" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

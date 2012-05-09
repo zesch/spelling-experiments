@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2012">
+  <edit end="166" file="2012" index="0001" part="1" start="165" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="269" file="2012" index="0002" part="1" start="268" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="348" file="2012" index="0003" part="1" start="347" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>one</correction>
+    </corrections>
+  </edit>
+  <edit end="367" file="2012" index="0004" part="1" start="367" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="519" file="2012" index="0005" part="1" start="519" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="131" file="2012" index="0006" part="3" start="128" type="UT">
+    <original>by </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="500" file="2012" index="0007" part="3" start="500" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>these </correction>
+    </corrections>
+  </edit>
+  <edit end="655" file="2012" index="0008" part="3" start="652" type="UT">
+    <original>as </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

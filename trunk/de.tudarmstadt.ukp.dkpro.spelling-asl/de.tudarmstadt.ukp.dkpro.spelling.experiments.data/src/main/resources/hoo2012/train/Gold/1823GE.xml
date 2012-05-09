@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1823">
+  <edit end="458" file="1823" index="0001" part="1" start="456" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="624" file="1823" index="0002" part="1" start="620" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="845" file="1823" index="0003" part="1" start="845" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="1122" file="1823" index="0004" part="1" start="1119" type="UT">
+    <original>By </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="440" file="1823" index="0005" part="2" start="440" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>in order </correction>
+    </corrections>
+  </edit>
+  <edit end="925" file="1823" index="0006" part="2" start="923" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+</edits>

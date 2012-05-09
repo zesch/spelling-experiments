@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1911">
+  <edit end="171" file="1911" index="0001" part="1" start="169" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="485" file="1911" index="0002" part="1" start="483" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="486" file="1911" index="0003" part="1" start="486" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="563" file="1911" index="0004" part="1" start="561" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="583" file="1911" index="0005" part="1" start="573" type="RT">
+    <original>Because of</original>
+    <corrections>
+      <correction>For</correction>
+    </corrections>
+  </edit>
+  <edit end="190" file="1911" index="0006" part="4" start="182" type="RT">
+    <original>all over</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="774" file="1911" index="0007" part="4" start="774" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+</edits>

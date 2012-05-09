@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2218">
+  <edit end="67" file="2218" index="0001" part="1" start="50" type="RT">
+    <original>with reference to</original>
+    <corrections>
+      <correction>concerning</correction>
+    </corrections>
+  </edit>
+  <edit end="105" file="2218" index="0002" part="2" start="101" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="306" file="2218" index="0003" part="2" start="304" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="366" file="2218" index="0004" part="2" start="361" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="367" file="2218" index="0005" part="2" start="367" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="424" file="2218" index="0006" part="2" start="421" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+  </edit>
+  <edit end="437" file="2218" index="0007" part="2" start="435" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="923" file="2218" index="0008" part="2" start="923" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>

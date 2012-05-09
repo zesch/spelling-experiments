@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2202">
+  <edit end="102" file="2202" index="0001" part="1" start="100" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="593" file="2202" index="0002" part="1" start="591" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="671" file="2202" index="0003" part="1" start="669" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="672" file="2202" index="0004" part="1" start="672" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="853" file="2202" index="0005" part="1" start="850" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="1009" file="2202" index="0006" part="1" start="1003" type="RT">
+    <original>due to</original>
+    <corrections>
+      <correction>because of</correction>
+    </corrections>
+  </edit>
+  <edit end="284" file="2202" index="0007" part="4" start="282" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="499" file="2202" index="0008" part="4" start="497" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="525" file="2202" index="0009" part="4" start="523" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="817" file="2202" index="0010" part="4" start="814" type="UT">
+    <original>at </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="856" file="2202" index="0011" part="4" start="852" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>against</correction>
+    </corrections>
+  </edit>
+  <edit end="861" file="2202" index="0012" part="4" start="857" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="907" file="2202" index="0013" part="4" start="905" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="1022" file="2202" index="0014" part="4" start="1019" type="UT">
+    <original>at </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1164" file="2202" index="0015" part="4" start="1159" type="UT">
+    <original>with </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2096">
+  <edit end="45" file="2096" index="0001" part="1" start="42" type="RT">
+    <original>FOR</original>
+    <corrections>
+      <correction>ABOUT</correction>
+    </corrections>
+  </edit>
+  <edit end="137" file="2096" index="0002" part="1" start="135" type="RT">
+    <original>ON</original>
+    <corrections>
+      <correction>IN</correction>
+    </corrections>
+  </edit>
+  <edit end="248" file="2096" index="0003" part="1" start="248" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>ABOUT </correction>
+    </corrections>
+  </edit>
+  <edit end="477" file="2096" index="0004" part="1" start="474" type="RD">
+    <original>NOT</original>
+    <corrections>
+      <correction>NO</correction>
+    </corrections>
+  </edit>
+  <edit end="187" file="2096" index="0005" part="2" start="187" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>A </correction>
+    </corrections>
+  </edit>
+  <edit end="228" file="2096" index="0006" part="2" start="224" type="UD">
+    <original>THE </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="347" file="2096" index="0007" part="2" start="344" type="RT">
+    <original>FOR</original>
+    <corrections>
+      <correction>BECAUSE OF</correction>
+    </corrections>
+  </edit>
+  <edit end="427" file="2096" index="0008" part="2" start="423" type="UD">
+    <original>THE </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="639" file="2096" index="0009" part="2" start="636" type="RD">
+    <original>THE</original>
+    <corrections>
+      <correction>THIS</correction>
+    </corrections>
+  </edit>
+</edits>

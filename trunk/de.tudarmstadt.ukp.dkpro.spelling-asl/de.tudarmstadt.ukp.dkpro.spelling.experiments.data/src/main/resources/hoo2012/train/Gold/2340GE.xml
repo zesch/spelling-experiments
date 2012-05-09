@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2340">
+  <edit end="388" file="2340" index="0001" part="1" start="388" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>over </correction>
+    </corrections>
+  </edit>
+  <edit end="656" file="2340" index="0002" part="1" start="654" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1032" file="2340" index="0003" part="1" start="1030" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="362" file="2340" index="0004" part="4" start="360" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="412" file="2340" index="0005" part="4" start="410" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="452" file="2340" index="0006" part="4" start="452" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="571" file="2340" index="0007" part="4" start="571" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="894" file="2340" index="0008" part="4" start="892" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>throughout</correction>
+    </corrections>
+  </edit>
+  <edit end="993" file="2340" index="0009" part="4" start="990" type="UT">
+    <original>at </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

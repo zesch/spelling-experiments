@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1784">
+  <edit end="382" file="1784" index="0001" part="1" start="380" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>regarding</correction>
+    </corrections>
+  </edit>
+  <edit end="531" file="1784" index="0002" part="1" start="531" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="724" file="1784" index="0003" part="1" start="724" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="741" file="1784" index="0004" part="1" start="739" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="780" file="1784" index="0005" part="1" start="778" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="892" file="1784" index="0006" part="1" start="890" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="1142" file="1784" index="0007" part="1" start="1140" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="1192" file="1784" index="0008" part="1" start="1190" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="1409" file="1784" index="0009" part="1" start="1409" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>on </correction>
+    </corrections>
+  </edit>
+  <edit end="1433" file="1784" index="0010" part="1" start="1433" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="44" file="1784" index="0011" part="4" start="44" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="137" file="1784" index="0012" part="4" start="135" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="493" file="1784" index="0013" part="4" start="490" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="635" file="1784" index="0014" part="4" start="633" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="914" file="1784" index="0015" part="4" start="914" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="974" file="1784" index="0016" part="4" start="972" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="1448" file="1784" index="0017" part="4" start="1444" type="RT">
+    <original>into</original>
+    <corrections>
+      <correction>onto</correction>
+    </corrections>
+  </edit>
+  <edit end="1601" file="1784" index="0018" part="4" start="1599" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="1626" file="1784" index="0019" part="4" start="1623" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

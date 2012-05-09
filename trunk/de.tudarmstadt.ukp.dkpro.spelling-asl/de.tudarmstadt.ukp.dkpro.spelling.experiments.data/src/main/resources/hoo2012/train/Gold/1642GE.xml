@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1642">
+  <edit end="106" file="1642" index="0001" part="1" start="103" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>your</correction>
+    </corrections>
+  </edit>
+  <edit end="666" file="1642" index="0002" part="1" start="666" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>like</correction>
+    </corrections>
+  </edit>
+  <edit end="681" file="1642" index="0003" part="1" start="675" type="RT">
+    <original>during</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="686" file="1642" index="0004" part="1" start="682" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="709" file="1642" index="0005" part="1" start="705" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="773" file="1642" index="0006" part="1" start="770" type="UT">
+    <original>in </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="115" file="1642" index="0007" part="3" start="112" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="233" file="1642" index="0008" part="3" start="231" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="372" file="1642" index="0009" part="3" start="370" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+</edits>

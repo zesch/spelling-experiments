@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1692">
+  <edit end="1032" file="1692" index="0001" part="1" start="1028" type="UD">
+    <original>THE </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1114" file="1692" index="0002" part="1" start="1112" type="RT">
+    <original>AT</original>
+    <corrections>
+      <correction>OVER</correction>
+    </corrections>
+  </edit>
+  <edit end="736" file="1692" index="0003" part="3" start="734" type="RT">
+    <original>IN</original>
+    <corrections>
+      <correction>FROM</correction>
+    </corrections>
+  </edit>
+  <edit end="868" file="1692" index="0004" part="3" start="868" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>A </correction>
+    </corrections>
+  </edit>
+  <edit end="1071" file="1692" index="0005" part="3" start="1069" type="RT">
+    <original>OF</original>
+    <corrections>
+      <correction>FOR</correction>
+    </corrections>
+  </edit>
+  <edit end="1216" file="1692" index="0006" part="3" start="1216" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>A </correction>
+    </corrections>
+  </edit>
+  <edit end="1652" file="1692" index="0007" part="3" start="1650" type="UD">
+    <original>A </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

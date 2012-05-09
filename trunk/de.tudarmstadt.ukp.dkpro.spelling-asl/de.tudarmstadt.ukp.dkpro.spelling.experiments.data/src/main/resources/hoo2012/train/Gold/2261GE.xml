@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2261">
+  <edit end="664" file="2261" index="0001" part="1" start="660" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="147" file="2261" index="0002" part="5a" start="145" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>by</correction>
+    </corrections>
+  </edit>
+  <edit end="657" file="2261" index="0003" part="5a" start="652" type="RT">
+    <original>since</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+</edits>

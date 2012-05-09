@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1870">
+  <edit end="136" file="1870" index="0001" part="1" start="134" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="202" file="1870" index="0002" part="1" start="199" type="UD">
+    <original>my </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="223" file="1870" index="0003" part="1" start="221" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="360" file="1870" index="0004" part="1" start="359" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="468" file="1870" index="0005" part="1" start="464" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="571" file="1870" index="0006" part="1" start="569" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="881" file="1870" index="0007" part="1" start="881" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="1110" file="1870" index="0008" part="1" start="1108" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="247" file="1870" index="0009" part="4" start="245" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="339" file="1870" index="0010" part="4" start="335" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+  </edit>
+  <edit end="1016" file="1870" index="0011" part="4" start="1014" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1084" file="1870" index="0012" part="4" start="1081" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="1133" file="1870" index="0013" part="4" start="1131" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1379" file="1870" index="0014" part="4" start="1379" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>their </correction>
+    </corrections>
+  </edit>
+  <edit end="1424" file="1870" index="0015" part="4" start="1422" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>during</correction>
+    </corrections>
+  </edit>
+</edits>

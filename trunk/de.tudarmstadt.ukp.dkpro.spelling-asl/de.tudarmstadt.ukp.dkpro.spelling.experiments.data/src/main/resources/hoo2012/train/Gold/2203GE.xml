@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2203">
+  <edit end="102" file="2203" index="0001" part="1" start="100" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="725" file="2203" index="0002" part="1" start="725" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="37" file="2203" index="0003" part="4" start="32" type="RD">
+    <original>those</original>
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+  </edit>
+  <edit end="264" file="2203" index="0004" part="4" start="264" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="342" file="2203" index="0005" part="4" start="342" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="450" file="2203" index="0006" part="4" start="446" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="498" file="2203" index="0007" part="4" start="498" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>The </correction>
+    </corrections>
+  </edit>
+  <edit end="682" file="2203" index="0008" part="4" start="677" type="UT">
+    <original>like </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="761" file="2203" index="0009" part="4" start="754" type="RT">
+    <original>like in</original>
+    <corrections>
+      <correction>as with</correction>
+    </corrections>
+  </edit>
+</edits>

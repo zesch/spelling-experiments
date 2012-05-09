@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1837">
+  <edit end="440" file="1837" index="0001" part="1" start="436" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>after</correction>
+    </corrections>
+  </edit>
+  <edit end="537" file="1837" index="0002" part="1" start="527" type="RT">
+    <original>because of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="593" file="1837" index="0003" part="1" start="591" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="763" file="1837" index="0004" part="1" start="763" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="770" file="1837" index="0005" part="1" start="770" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="34" file="1837" index="0006" part="4" start="32" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="422" file="1837" index="0007" part="4" start="419" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="757" file="1837" index="0008" part="4" start="754" type="UT">
+    <original>on </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="802" file="1837" index="0009" part="4" start="800" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+</edits>

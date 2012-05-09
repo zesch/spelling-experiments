@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2370">
+  <edit end="140" file="2370" index="0001" part="1" start="137" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="266" file="2370" index="0002" part="1" start="261" type="UD">
+    <original>Your </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="227" file="2370" index="0003" part="5b" start="224" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="428" file="2370" index="0004" part="5b" start="426" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>towards</correction>
+    </corrections>
+  </edit>
+</edits>

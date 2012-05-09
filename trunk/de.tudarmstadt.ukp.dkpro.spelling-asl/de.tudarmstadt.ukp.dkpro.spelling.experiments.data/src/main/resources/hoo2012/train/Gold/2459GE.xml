@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2459">
+  <edit end="231" file="2459" index="0001" part="1" start="229" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="368" file="2459" index="0002" part="1" start="366" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="431" file="2459" index="0003" part="1" start="431" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>as </correction>
+    </corrections>
+  </edit>
+  <edit end="684" file="2459" index="0004" part="1" start="684" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="63" file="2459" index="0005" part="4" start="59" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="329" file="2459" index="0006" part="4" start="327" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+  </edit>
+  <edit end="446" file="2459" index="0007" part="4" start="444" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="463" file="2459" index="0008" part="4" start="461" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="747" file="2459" index="0009" part="4" start="743" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="801" file="2459" index="0010" part="4" start="797" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="879" file="2459" index="0011" part="4" start="876" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+  </edit>
+  <edit end="919" file="2459" index="0012" part="4" start="914" type="UT">
+    <original>with </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

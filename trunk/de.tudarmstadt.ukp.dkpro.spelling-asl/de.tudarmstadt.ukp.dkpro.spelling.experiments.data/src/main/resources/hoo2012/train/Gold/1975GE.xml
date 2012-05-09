@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1975">
+  <edit end="211" file="1975" index="0001" part="1" start="207" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="728" file="1975" index="0002" part="1" start="726" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="82" file="1975" index="0003" part="2" start="80" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+  </edit>
+  <edit end="290" file="1975" index="0004" part="2" start="285" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="531" file="1975" index="0005" part="2" start="531" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+</edits>

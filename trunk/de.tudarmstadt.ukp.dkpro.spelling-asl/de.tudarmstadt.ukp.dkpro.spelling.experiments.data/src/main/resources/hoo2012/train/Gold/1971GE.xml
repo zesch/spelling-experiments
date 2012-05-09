@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1971">
+  <edit end="52" file="1971" index="0001" part="1" start="50" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="62" file="1971" index="0002" part="1" start="62" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="323" file="1971" index="0003" part="1" start="320" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="342" file="1971" index="0004" part="1" start="342" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+  </edit>
+  <edit end="461" file="1971" index="0005" part="1" start="461" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="540" file="1971" index="0006" part="1" start="540" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="167" file="1971" index="0007" part="3" start="167" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction> from</correction>
+    </corrections>
+  </edit>
+  <edit end="510" file="1971" index="0008" part="3" start="510" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>by </correction>
+    </corrections>
+  </edit>
+</edits>

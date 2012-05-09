@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1707">
+  <edit end="65" file="1707" index="0001" part="1" start="62" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="286" file="1707" index="0002" part="1" start="284" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="343" file="1707" index="0003" part="1" start="343" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+  </edit>
+  <edit end="187" file="1707" index="0004" part="2" start="185" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+</edits>

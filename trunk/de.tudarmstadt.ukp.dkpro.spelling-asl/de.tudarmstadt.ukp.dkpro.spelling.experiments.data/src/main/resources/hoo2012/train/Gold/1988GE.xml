@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1988">
+  <edit end="72" file="1988" index="0001" part="1" start="69" type="UT">
+    <original>on </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="99" file="1988" index="0002" part="1" start="99" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="153" file="1988" index="0003" part="1" start="151" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="220" file="1988" index="0004" part="1" start="220" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="223" file="1988" index="0005" part="1" start="220" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="671" file="1988" index="0006" part="1" start="669" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="692" file="1988" index="0007" part="1" start="692" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="763" file="1988" index="0008" part="1" start="763" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="985" file="1988" index="0009" part="1" start="981" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1010" file="1988" index="0010" part="1" start="1007" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="1153" file="1988" index="0011" part="1" start="1153" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="231" file="1988" index="0012" part="2" start="231" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="253" file="1988" index="0013" part="2" start="251" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="671" file="1988" index="0014" part="2" start="671" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="752" file="1988" index="0015" part="2" start="752" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="865" file="1988" index="0016" part="2" start="863" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="866" file="1988" index="0017" part="2" start="866" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1282" file="1988" index="0018" part="2" start="1282" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>A </correction>
+    </corrections>
+  </edit>
+  <edit end="1348" file="1988" index="0019" part="2" start="1346" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1996">
+  <edit end="48" file="1996" index="0001" part="1" start="44" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="284" file="1996" index="0002" part="1" start="280" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="348" file="1996" index="0003" part="1" start="346" type="RT">
+    <original>In</original>
+    <corrections>
+      <correction>As to</correction>
+    </corrections>
+  </edit>
+  <edit end="395" file="1996" index="0004" part="1" start="395" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="776" file="1996" index="0005" part="1" start="771" type="RD">
+    <original>those</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="415" file="1996" index="0006" part="4" start="411" type="UD">
+    <original>all </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="646" file="1996" index="0007" part="4" start="643" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="787" file="1996" index="0008" part="4" start="784" type="UD">
+    <original>an </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

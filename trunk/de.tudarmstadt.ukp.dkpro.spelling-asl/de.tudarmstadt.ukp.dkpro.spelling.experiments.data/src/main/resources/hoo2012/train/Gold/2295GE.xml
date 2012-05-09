@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2295">
+  <edit end="202" file="2295" index="0001" part="1" start="200" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="741" file="2295" index="0002" part="1" start="736" type="RT">
+    <original>since</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="1141" file="2295" index="0003" part="1" start="1141" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>on </correction>
+    </corrections>
+  </edit>
+  <edit end="1195" file="2295" index="0004" part="1" start="1193" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1354" file="2295" index="0005" part="1" start="1352" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="338" file="2295" index="0006" part="3" start="334" type="RT">
+    <original>like</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="566" file="2295" index="0007" part="3" start="566" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="604" file="2295" index="0008" part="3" start="600" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>those</correction>
+    </corrections>
+  </edit>
+</edits>

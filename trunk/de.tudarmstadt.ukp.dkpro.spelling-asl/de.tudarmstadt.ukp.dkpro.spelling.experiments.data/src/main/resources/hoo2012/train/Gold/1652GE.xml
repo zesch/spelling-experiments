@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1652">
+  <edit end="106" file="1652" index="0001" part="1" start="106" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>A </correction>
+    </corrections>
+  </edit>
+  <edit end="144" file="1652" index="0002" part="1" start="142" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="452" file="1652" index="0003" part="1" start="447" type="RT">
+    <original>until</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="694" file="1652" index="0004" part="1" start="692" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="812" file="1652" index="0005" part="1" start="809" type="UD">
+    <original>my </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="253" file="1652" index="0006" part="2" start="251" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="446" file="1652" index="0007" part="2" start="442" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="668" file="1652" index="0008" part="2" start="665" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="762" file="1652" index="0009" part="2" start="759" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="793" file="1652" index="0010" part="2" start="789" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="901" file="1652" index="0011" part="2" start="898" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

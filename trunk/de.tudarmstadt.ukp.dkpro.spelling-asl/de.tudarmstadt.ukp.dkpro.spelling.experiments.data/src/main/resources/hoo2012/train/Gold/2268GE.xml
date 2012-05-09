@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2268">
+  <edit end="111" file="2268" index="0001" part="1" start="107" type="UD">
+    <original>THE </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="128" file="2268" index="0002" part="1" start="126" type="RT">
+    <original>IN</original>
+    <corrections>
+      <correction>AT</correction>
+    </corrections>
+  </edit>
+  <edit end="267" file="2268" index="0003" part="1" start="261" type="RT">
+    <original>DURING</original>
+    <corrections>
+      <correction>FOR</correction>
+    </corrections>
+  </edit>
+  <edit end="408" file="2268" index="0004" part="1" start="404" type="RT">
+    <original>WITH</original>
+    <corrections>
+      <correction>WITHOUT</correction>
+    </corrections>
+  </edit>
+  <edit end="506" file="2268" index="0005" part="1" start="506" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>OF </correction>
+    </corrections>
+  </edit>
+  <edit end="516" file="2268" index="0006" part="1" start="514" type="RT">
+    <original>ON</original>
+    <corrections>
+      <correction>IN</correction>
+    </corrections>
+  </edit>
+  <edit end="559" file="2268" index="0007" part="1" start="556" type="UT">
+    <original>TO </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="769" file="2268" index="0008" part="1" start="767" type="RT">
+    <original>ON</original>
+    <corrections>
+      <correction>IN</correction>
+    </corrections>
+  </edit>
+  <edit end="990" file="2268" index="0009" part="1" start="990" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>TO </correction>
+    </corrections>
+  </edit>
+  <edit end="1032" file="2268" index="0010" part="1" start="1032" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>FOR </correction>
+    </corrections>
+  </edit>
+  <edit end="1049" file="2268" index="0011" part="1" start="1049" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>FOR </correction>
+    </corrections>
+  </edit>
+  <edit end="546" file="2268" index="0012" part="2" start="544" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="601" file="2268" index="0013" part="2" start="599" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="654" file="2268" index="0014" part="2" start="652" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="701" file="2268" index="0015" part="2" start="699" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="1014" file="2268" index="0016" part="2" start="1014" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>by </correction>
+    </corrections>
+  </edit>
+</edits>

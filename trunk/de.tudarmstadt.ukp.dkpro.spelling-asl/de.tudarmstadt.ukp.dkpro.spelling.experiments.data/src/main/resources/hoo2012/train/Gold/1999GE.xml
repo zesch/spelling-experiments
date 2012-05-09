@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1999">
+  <edit end="20" file="1999" index="0001" part="1" start="18" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="342" file="1999" index="0002" part="1" start="340" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="719" file="1999" index="0003" part="1" start="716" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="277" file="1999" index="0004" part="2" start="275" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="660" file="1999" index="0005" part="2" start="658" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="788" file="1999" index="0006" part="2" start="786" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="872" file="1999" index="0007" part="2" start="869" type="UT">
+    <original>at </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="890" file="1999" index="0008" part="2" start="887" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

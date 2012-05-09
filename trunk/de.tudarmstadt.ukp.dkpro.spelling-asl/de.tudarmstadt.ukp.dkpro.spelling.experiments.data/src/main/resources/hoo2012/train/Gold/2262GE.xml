@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="2262">
+  <edit end="41" file="2262" index="0001" part="1" start="38" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="195" file="2262" index="0002" part="1" start="190" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="248" file="2262" index="0003" part="1" start="244" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="574" file="2262" index="0004" part="1" start="571" type="UT">
+    <original>at </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1076" file="2262" index="0005" part="1" start="1073" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="173" file="2262" index="0006" part="4" start="168" type="RD">
+    <original>these</original>
+    <corrections>
+      <correction>this</correction>
+    </corrections>
+  </edit>
+  <edit end="941" file="2262" index="0007" part="4" start="938" type="UD">
+    <original>my </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1271" file="2262" index="0008" part="4" start="1268" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1275" file="2262" index="0009" part="4" start="1271" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1287" file="2262" index="0010" part="4" start="1284" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1551" file="2262" index="0011" part="4" start="1548" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1618">
+  <edit end="930" file="1618" index="0001" part="1" start="928" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="1061" file="1618" index="0002" part="1" start="1056" type="RD">
+    <original>which</original>
+    <corrections>
+      <correction>what</correction>
+    </corrections>
+  </edit>
+  <edit end="197" file="1618" index="0003" part="4" start="195" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="1077" file="1618" index="0004" part="4" start="1070" type="RT">
+    <original>through</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+</edits>
