@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR901*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>French</LANGUAGE>
+      <AGE>16-20</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Madam Ryan,</P>
+      <P>I am very happy to have won the first prize in your competition. It is a wonderful surprise.</P>
+      <P>I can go to the Camp California only in July, because I have school in June and I must work in my father's bookshop in August.</P>
+      <P>At the Camp I want to live in a log cabin. I do not like the tents; one can find insects in them and they are not as comfortable as log cabins.</P>
+      <P>For the two activities I can choose, I would like to play tennis: I have some experience in this sport, because I played tennis during seven years and it is still my favourite activity. I would try to do some painting, too, but I have never painted.</P>
+      <P>I would like to know what sort of clothes I have to take (if it is going to rainy or to be sunny) and how much money I must have with me. Could you tell me what sort of material I will have to bring to do the activities?</P>
+      <P>Yours sincerely</P>
+      <P>Odette Douai Luna</P>
+    </PART>
+    <PART id="4">
+      <P>Dear Kim,</P>
+      <P>Do you know last week I have been to a pop concert to help my uncle, who is the director of the stadium of Lugano. It was very interresting, because I did different things. I cooked a meal for the artists, I spoke with the manager of Bruce Springsteen and I helped a technician to install his material: the lights.</P>
+      <P>The best part of the day was after the concert, when I met the group "U2". I was very excited, because this is my favourite group: I'm always hearing their songs. I took some photographies and I'll show them to you when you come next week</P>
+      <P>I had a talk with Santana, the best guitarist in the world, too. He's quite old, but very attractive. I would like playing guitar like him.</P>
+      <P>What a great day it was. The next concert is on 19th June and I will be here.</P>
+      <P>See you soon.</P>
+      <P>Yours</P>
+      <P>Odette</P>
+    </PART>
+  </BODY>
+</HOO>

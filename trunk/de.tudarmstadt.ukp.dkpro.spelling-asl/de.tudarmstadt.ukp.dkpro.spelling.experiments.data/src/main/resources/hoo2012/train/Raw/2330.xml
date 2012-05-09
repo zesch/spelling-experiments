@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR934*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Polish</LANGUAGE>
+      <AGE>16-20</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Madam,</P>
+      <P>I am very happy to hear that I've won first prize in your competition. Below I provide you with the information that you asked me for. I would like to travel in July. I already have plans for my holiday and July suits me the best. As for accomodation I would prefer log cabins, because I belive they are more comfortable then tents.</P>
+      <P>The activities I would like to do during my stay are golf and surfing.</P>
+      <P>I never tried those sports, because they are quite expensive.</P>
+      <P>I have two questions. Could you tell me what are the weather conditions in California at that time of year, because I want to know what clothes to take. Am I supposed to take an outfit for sports as well?</P>
+      <P>The other question is about money. Will I be given any pocket-money or do I need to bring my own money to cover additional expences?</P>
+      <P>Yours sincerely</P>
+      <P>Adalbert Turnau</P>
+    </PART>
+    <PART id="2">
+      <P>First I would like to say that doing a video about daily life at our school is great idea. Some people may think that school is boring and nothing interesting ever happens there. I hope that after seeing this video most people will change their view on that topic. To make that happen, we have to find some interesting activities to film.</P>
+      <P>Below are my suggestions of what should be filmed.</P>
+      <P>The first thing to be filmed is our English lesson, because our teacher Mr. S. has a lot of weird ideas and we could get a lot of fun moments on tape. The chemistry lesson should be filmed because we do a lot of interesting experiments there. The computer class can be also there, because program and internet surfing is quite interesting.</P>
+      <P>As for other activities, there is a Jiu-Jitsu class after regular lessons. Martial arts are realy exciting and are a great thing to film.</P>
+    </PART>
+  </BODY>
+</HOO>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR99*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>French</LANGUAGE>
+      <AGE>16-20</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Helen Ryan,</P>
+      <P>I am writing this letter to tell you the informations you need and to ask you one or two questions.</P>
+      <P>I would like to come in july because I work in a big company where you have to take your holiday in this month.</P>
+      <P>For the accomodation at Camp California, I will prefer to have a log cabin because I think it is more comfortable than a tent, and in case it has a big storm with a heavy rain it's more resistant than a tent.</P>
+      <P>For the activities, I chose climbing because I took cours during 2 weeks last year and now I have a good level, for the other one I chose photography but I am not a proffesional, I just take some pictures in my holiday!</P>
+      <P>I have a little question, could you tell me if and how money I need to take with me, and which kind of clothes?</P>
+      <P>I look forward to hearing from you.</P>
+      <P>Yours sincerely</P>
+    </PART>
+    <PART id="4">
+      <P>Dear Kim,</P>
+      <P>I'm writing this letter to tell you my good experience at a pop concert, last month.</P>
+      <P>When I came, I was a bit afraid because I did not know what I had to do, but a very nice girl told me that my first job was looking for people whose felt bad and to guide them to the nursery. I did that two hours, this first job was sometimes a bit boring but I felt like someone who save people, so I was really happy!</P>
+      <P>My second was to take the money at the bars and to bring them in a little room where I could see the pop star walked in the corridor. I was very excited when I could see a star! The next weekend I have an appointment with one them, but I don't tell you the name because you'll fell jalous! Maybe I will tell you on the next letter!</P>
+      <P>See you soon</P>
+      <P>Best wishes</P>
+    </PART>
+  </BODY>
+</HOO>
