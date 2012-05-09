@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR701*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Portuguese</LANGUAGE>
+      <AGE>&lt;16</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Helen Ryan,</P>
+      <P>I was really glad to receive your letter and find out that I won the competition. I am writing this letter to give you all the necessary details.</P>
+      <P>First of all, you have asked me when I would like to travel. Actually, I could only travel in July, when I am having my school vacations and I will be totally free.</P>
+      <P>As you have asked me about the accommodation, I would be grateful if I could stay in a tent - as it seems to be more practical and comfortable.</P>
+      <P>Among the activities, I would choose painting - which I am keen on and I have done several courses -,and Photography - from which I know just the basical skills.</P>
+      <P>I would like to know if I should take winter-clothes, and I would be grateful if you could tell me how much money is necessary for the trip.</P>
+      <P>Thank you for your attention. I am looking forward to hearing from you.</P>
+      <P>Yours sincerely</P>
+      <P>Natalia Lopes</P>
+    </PART>
+    <PART id="3">
+      <P>Shopping is not always enjoyable</P>
+      <P>With the increasing of violence, more and more people are leaving the streets to spend their free time shopping - usually in shopping centres.</P>
+      <P>Shopping may be very enjoyable, in fact, as people get in contact with new products, take a look at shops, buy some things or just walk around. But it can also be dangerous.</P>
+      <P>First, most part of shoping centres uses artificial illumination and refiguration, which are bad for our health. Queues and lots of people going round can be stressful and tiring.</P>
+      <P>Besides, it was confirmed by scientists that consumism may develop to a compulsion. There are cases of people that can not spend one day without buying anything.</P>
+      <P>After all that we can notice that shopping can be a good option as long as we can choose other enjoyable activities for our free time.</P>
+    </PART>
+  </BODY>
+</HOO>
