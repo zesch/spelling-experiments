@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR666*0102*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Japanese</LANGUAGE>
+      <AGE>26-30</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Sir/Madam</P>
+      <P>I am writing to express how I was dissatisfied with OVER THE RAINBOW which was presented by the Circle Theatre.</P>
+      <P>First of all, the reason why I bought the ticket was Danny Brook, who is my favorite star, and was going to play for the show. However, there was a different actor instead of him, and this was most my disappointment.</P>
+      <P>Moreover, as your advertisement, we would get discount price for the ticket, but it was not available.</P>
+      <P>Although the show was supposed to start at 19=30, it started at 20=15, so I had to wait for an hour.</P>
+      <P>To make matters worse, because of the late starting, the theatre restaurant had already closed after the show finished.</P>
+      <P>I wonder if you could give me a refund for that, because the show was extremely different which I was expected.</P>
+      <P>I hope you would take immediate action for that. I look forward to hearing from you in the future.</P>
+      <P>Yours faithfuly</P>
+    </PART>
+    <PART id="4">
+      <P>Our daily life with modern technology</P>
+      <P>Science and technology are necessary for our life. I could say that we can not servive without them.</P>
+      <P>Nowadays, especially computer technology is improving, therefore, we can get any. It is getting more convinient. Further more, it is possible to cure many patients who have serious desease more effectively, if we use modern technology for medical science.</P>
+      <P>However, if we rely on modern technology too much, it is difficult to be independent, otherwise we will tend to not consider or solve a problem by ourselves.</P>
+      <P>From my point of view, it is great that science and technology improve for our life. Because of convinience, we can spend time more effectively, but we should not be rely on these too much.</P>
+    </PART>
+  </BODY>
+</HOO>
