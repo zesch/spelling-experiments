@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR534*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Russian</LANGUAGE>
+      <AGE>&lt;16</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Ms Ryan,</P>
+      <P>I am the person who won your competition and I am writing in reply to your letter.</P>
+      <P>First of all, I can travel only in july because that is the only time when I am free from my examinations.</P>
+      <P>I prefer staying in a tent as I am used to it and find it more comfortable.</P>
+      <P>The two activities I would like to do in the camp are swimming and photography. I am a good swimmer and I had some expirience in photography however I have very much to learn.</P>
+      <P>Finally, I have got two questions to ask you. How much money and clothes should I take with me?</P>
+      <P>I am very grateful for your prize and looking forward to visiting the camp.</P>
+      <P>Yours sincerely</P>
+    </PART>
+    <PART id="2">
+      <P>I think that bits from the whole school day should be filmed. This will show how the school lives.</P>
+      <P>In the morning prefects make sure that everybody is awake and already up. At the assembly students are told about changes in the timetable and activities for the whole day.</P>
+      <P>In the computing department student learn about informational technologies. The main job of the head of the computing department is not to teach but to keep the computers working properly.</P>
+      <P>Maths is the most popular subject in the school. Mathematics teachers do great deal of work and have almost no time to prepare lessons.</P>
+      <P>In the chemistry lab experiments are often set up. The teacher looks after the pupil while they are investigating the topic of the lesson.</P>
+      <P>Meals are very important. Kitchen staff works hard to provide students with variety of food.</P>
+      <P>The video can be finished with a view of the school from outside.</P>
+    </PART>
+  </BODY>
+</HOO>

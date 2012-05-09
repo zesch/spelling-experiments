@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR409*0102*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Turkish</LANGUAGE>
+      <AGE>&lt;16</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>17/6/2000</P>
+      <P>Saturday </P>
+      <P>Dear Sir or Madam,</P>
+      <P>I am writing to inform you about my disappointing evening I spent at the play "Over The Rainbow" presented by The Circle Theatre.</P>
+      <P>The problems started at the beginning. Although it was written 19.30 in the advertisement, the play began at 20.15. In addition, a different actor was starring instead of Danny Brooks and this was the most disappointing thing that evening for me and my friends.</P>
+      <P>I was told to be able to get discounts, however, I could not get any. I also went to your theatre restaurant after the show, but it was closed because it was being redecorated. As a result, I could not have my perfect evening out.</P>
+      <P>For all the reasons I have mentioned above, I would like to get at least half of my money back.</P>
+      <P>I am looking forward to hearing from you.</P>
+      <P>Yours faithfully,</P>
+    </PART>
+    <PART id="2">
+      <P>17/6/2000</P>
+      <P>SECRETS' DAMAGE</P>
+      <P>Unfortunately, Pam wasn't very good at keeping secrets, and this made her lose her friends, her job and everything she had.</P>
+      <P>From the time she began the university, the problems began. She was telling secrets of her friends to the others. One day, her friends got fed up with this and ended their friendship. Pam was sorry but there was nothing she could do about this.</P>
+      <P>Then she began to work at a company. One day, she again told the secret formula or a production to a friend of hers. Unfortunately, this friend told this to some other people and when it was understood that Pam was guilty, she was fired.</P>
+      <P>Life and harder than anytime for Pam then. She had no friends. Nobody wanted to talk to her either. One day, she moved to a farm and nobody has heard from her since then.</P>
+    </PART>
+  </BODY>
+</HOO>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR412*0102*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Russian</LANGUAGE>
+      <AGE>16-20</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear manager,</P>
+      <P>I am writing to complain about the musical show that has recently taken place at the Circle Theatre. The advirtisement I had read did not match the performance.</P>
+      <P>First of all, Danny Brook was not starring and was replaced by a different actor. That was very disappointing. The performance started fourty five minutes later. Moreover, I was unpleasantly amazed no discounts were available.</P>
+      <P>Furthermore, I would not have complained if the theatre restaurant had been open. According to the advertisement, I could visit it after the show, but it was closed because of the lack of customers.</P>
+      <P>My "perfect evening out" was not so perfect and could not satisfy me in any way. From my point of view, the partial refund of the cost of the tickets, which are enclosed with this letter, would completely satisfy my interests. I look forward to hearing from you soon.</P>
+      <P>Yours faithfully,</P>
+    </PART>
+    <PART id="4">
+      <P>How has modern technology changed my daily life?</P>
+      <P>Modern technology has variety of uses and its possibilities are being widened more and more. Today it is used practically in all spheres and its influence on people is not unnoticable.</P>
+      <P>Personally I feel the greatest influence from the side of personal computers. Their popularity could be explained by their comfort and easy use. With the help of "Internet" it is possible to get much objective and useful information you are interested in. Computers take the major part of my free time and this is the reason of disagreements between me and my parents. They would like me to go for a walk more often or to help them in their daily routine. I am completely satisfied with the way I spend my freetime, but they have another opinion.</P>
+      <P>In conclusion, modern technology affects everybody, but in different ways. The only effect on me is more often disagreements with my parents.</P>
+    </PART>
+  </BODY>
+</HOO>

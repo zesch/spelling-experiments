@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR51*0102*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Italian</LANGUAGE>
+      <AGE>26-30</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Sir/Madam,</P>
+      <P>I'm writing to complain about the musical show which I've recently seen at your theatre.</P>
+      <P>I was enthusiastic about the special event. The advertisement shew two actors but I was surprised to see as the main caracter a different person. As well as this, to my horror, the performance didn't start at 19.30 but forthy five minutes later. In addition to this, the theatre restaurant was closed for lack of servants. No discounts were available!</P>
+      <P>So, I'm sure you will understand why I'm feeling so annoyed by the whole incident. I hope you will give me back the prize of my ticket!</P>
+      <P>I look forward to hearing from you in the near future.</P>
+      <P>Yours faithfully,</P>
+    </PART>
+    <PART id="4">
+      <P>Introduction: It seems to me that modern technology has deeply changed our daily life. The computer is everywhere and it's available for everyone.</P>
+      <P>An usefull help: The personal computer can fastly help you in lots of situations. Moreover, a variety of micro computers are now everywhere such as in your car, on your radio and so on.</P>
+      <P>Have a good feeling with it!: On one side, the modern technology is extremely important, on the other hand you shouldn't abuse of it.</P>
+      <P>Conclusion: I do think, however, the modern technology is essential for human being nowadays. Although the world of computers will develop day by day, I lively hope we (human being) could mantain our personality of seeing things.</P>
+    </PART>
+  </BODY>
+</HOO>

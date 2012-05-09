@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR40*0102*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>French</LANGUAGE>
+      <AGE>21-25</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Manager of the Circle Theatre</P>
+      <P>17th June 2000</P>
+      <P>Dear Sir,</P>
+      <P>I am waiting this letter re fearing to the show "over the Rainbow" you presented the 10 of this month.</P>
+      <P>I read your advertissement five days before, and I was realy impressed by it. But, the quality of this show wasn't what you let understand, an I feel realy disappointed by it. I want to give you some details about my feelings.</P>
+      <P>First of all, you presented a starring composed with Danny Brook, but he wasn't there! Secondly, the show should start at 19.30, and in fact it started 45 minutes late. Then, I am a student, and when I bought my ticket, there wasn't any discounts. Finally, I hoped that I could have a diner in the restaurant after the show, but, to make my totally disappointed, it was closed, and I had to find another restaurant at 22.00.</P>
+      <P>So you can imagine how I am satisfied by your pretending "Perfect Evening".</P>
+      <P>For all these reasons, and if you want to keep me a costumer, I would be gratfull if you give me some or all my money back.</P>
+      <P>Looking forward to hearing from you,</P>
+      <P>Yours sincerly,</P>
+    </PART>
+    <PART id="2">
+      <P>Unfortunately, Pat wasn't very good at keeping secrets.</P>
+      <P>My marks wasn't good enought to obtain my degree in Computer Science, and the exam session was finished. There was no solutions to finally obtain the diploma.</P>
+      <P>You need more explanations about me to understand my motivations at the end of this story. In fact, I did this kind of studies because of my interests in programming. The problem is that I can't keep calm during an exam to succeed.</P>
+      <P>That's why I decided to hack the teacher's computers to change all my marks.</P>
+      <P>I never talked about this project to anyone, exept my best friend Pat.</P>
+      <P>At the end of the exam session, all students and teachers meet together for a big party, to celebrate it.</P>
+      <P>During this party, Pat drank too much. And when he was totally drunk, he started speaking. Then, the teachers made copies of their file, and my project wasn't possible anymore.</P>
+      <P>So congratulation everybody. And I think I will still be there next year.</P>
+    </PART>
+  </BODY>
+</HOO>

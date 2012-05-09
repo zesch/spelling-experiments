@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR518*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>French</LANGUAGE>
+      <AGE>16-20</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Ms Ryan,</P>
+      <P>I am writing to you in reply of our letter, that had let me know I am the winner of the first prize of your competition.</P>
+      <P>First of all, I am very happy to spent two weeks at Camp California in the USA. Yet, I could only travel July because I am a student and so my holidays begin on July.</P>
+      <P>In addition, I would rather sleep in a tent since I like being near nature and especially singing birds. Thus, I enjoy sports and I would like to practice swimming and climbing. I am not too bad at these sports.</P>
+      <P>To conclude, will you kindly let my know if I need some money and what sort of clothes I should bring with me.</P>
+      <P>Yours Faithfully</P>
+    </PART>
+    <PART id="2">
+      <P>This year, our English class has decided to make a short video about daily life at our school. (It is a graduate engineer school where we are studying mecanics and energetics.) That is why we have to single out wich lessons and other activities should be filmed.</P>
+      <P>On one hand, we should be interested in the lessons. At first, the research and design courses are exiting since we are studying how cars are built. Secondly, we should interview the teacher of heat transfert since his courses are rally breathtaking. That seems to be quite surprising, yet this teacher manages to convey his knowledge.</P>
+      <P>On the other hand, we should be interested in the other activities such as sports wich could appeal more students in our school. For example, our basketball team has won a local championship.</P>
+      <P>To conclude, in this short video, we must show that thanks to our school we are able to make come out the best of ourselves.</P>
+    </PART>
+  </BODY>
+</HOO>

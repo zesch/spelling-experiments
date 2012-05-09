@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR82*0102*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Portuguese</LANGUAGE>
+      <AGE>26-30</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear manager,</P>
+      <P>I am writing this letter to inform you that the advertisement for the musical show was with wrong information.</P>
+      <P>Firstly, the actors were different from the ones written in the advertisement which was very disappointing for me. Furthermore, according to the advertisement I was supposed to begin at 14.30 and 19.30 but it started at 20.15. Moreover, when I bought the tickets I was expecting discounts available, however, there were no discounts available and the tickets were more expensive than the price written in the advertisement.</P>
+      <P>When the show ended I went to visit the theatre restaurant I could not get in because it was closed as the chef of the restaurant was not there.</P>
+      <P>I did not have a perfect evening out and I would like to have my money back.</P>
+      <P>I am looking forward to hearing from you as soon as possible.</P>
+      <P>Sincerely,</P>
+    </PART>
+    <PART id="4">
+      <P>How has modern technology changed your daily life?</P>
+      <P>Technology has changed our life forever. Nowadays life is much easier than in the old days.</P>
+      <P>Firstly, we can cook our meals an electrical stove or in a microwave and it takes just a few minutes to get ready. We do not need to lit fire in order to cook as in the old days.</P>
+      <P>Secondly, the doctors have found the cure for many diseases and many operations have been done in less time and in a painless way, by using especial machines doctors have be able to save more lives than in the past.</P>
+      <P>For those who need to travel in order to make business with other people abroad can fly by plane and arrive in their destination safely or have their problems solved through telephone.</P>
+      <P>To sum up, technology has been a great help to all of us. In the future, it will be able to help people even more since it has been increasing its capacity day after day.</P>
+    </PART>
+  </BODY>
+</HOO>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR790*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Turkish</LANGUAGE>
+      <AGE>21-25</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Mrs Ryan,</P>
+      <P>I have recently received your letter informing I won a two-week-holiday prize at the Camp California. Enclosing information you asked for, there are some points, I want to point out.</P>
+      <P>First of all, I will not have finished my university course until the end of the June so I can only travel in July. I would prefer to stay in tents than log cabins. Since I was a child, I have been intrested in camping and sleeping under the tents.</P>
+      <P>If I can participate on swimming and photography groups, I will be grateful. I have been swimming for 8 years for a club and enjoying a lot. I am afraid, I am not good at photography but I want to improve it.</P>
+      <P>I need some more information about the camp life and also I would like to know what I need to take with me. For exemple, how much pocket money will be enough and which kind of clothes I should wear..</P>
+      <P>I hope to receive your reply soon. I am really looking forward to going this camp.</P>
+      <P>Yours sincerely</P>
+    </PART>
+    <PART id="2">
+      <P>Subject: Suggestion about lessons and activities should be filmed.</P>
+      <P>A - Lessons</P>
+      <P>English</P>
+      <P>It is one of the most popular subject in the school. Also, because this video is their project, it should be filmed.</P>
+      <P>Drama</P>
+      <P>Seeing that this is the first year of the drama lessons, it is not very well known. Also they are showing their first play on the 2nd of July. Part of the show can be filmed.</P>
+      <P>Maths</P>
+      <P>Regarding that the school's maths team won the this year's city's maths competition and is going to the national school's maths championship, it will be good idea to film some of their training course and also ordinary maths lesson where the majority of the students attend.</P>
+      <P>B- Social Activities</P>
+      <P>To show the life at the school is not only lessons and exams, the video should be inclued the annual summer Fete, school's weekend trip which is on Friday 7th of July and also the dance which is organized on the last day of the school year.</P>
+    </PART>
+  </BODY>
+</HOO>
