@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1002">
+  <edit end="295" file="1002" index="0001" part="1" start="295" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+  <edit end="473" file="1002" index="0002" part="1" start="468" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="1049" file="1002" index="0003" part="1" start="1047" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="721" file="1002" index="0004" part="3" start="721" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1048">
+  <edit end="249" file="1048" index="0001" part="1" start="245" type="RT">
+    <original>like</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="381" file="1048" index="0002" part="1" start="381" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="435" file="1048" index="0003" part="1" start="433" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="359" file="1048" index="0004" part="2" start="359" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="515" file="1048" index="0005" part="2" start="513" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+</edits>

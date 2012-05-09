@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1082">
+  <edit end="145" file="1082" index="0001" part="1" start="143" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="221" file="1082" index="0002" part="1" start="217" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="318" file="1082" index="0003" part="1" start="316" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="10" file="1082" index="0004" part="3" start="6" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="48" file="1082" index="0005" part="3" start="45" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="60" file="1082" index="0006" part="3" start="56" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="629" file="1082" index="0007" part="3" start="627" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="684" file="1082" index="0008" part="3" start="680" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="968" file="1082" index="0009" part="3" start="968" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="1045" file="1082" index="0010" part="3" start="1043" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+</edits>

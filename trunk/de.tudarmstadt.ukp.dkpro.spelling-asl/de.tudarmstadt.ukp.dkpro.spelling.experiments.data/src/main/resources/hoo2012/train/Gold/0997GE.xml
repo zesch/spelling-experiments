@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0997">
+  <edit end="280" file="0997" index="0001" part="1" start="277" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>an</correction>
+    </corrections>
+  </edit>
+  <edit end="410" file="0997" index="0002" part="1" start="410" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="791" file="0997" index="0003" part="1" start="791" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="295" file="0997" index="0004" part="3" start="295" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="305" file="0997" index="0005" part="3" start="301" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="334" file="0997" index="0006" part="3" start="334" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="441" file="0997" index="0007" part="3" start="441" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="505" file="0997" index="0008" part="3" start="503" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="588" file="0997" index="0009" part="3" start="584" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="602" file="0997" index="0010" part="3" start="599" type="RD">
+    <original>The</original>
+    <corrections>
+      <correction>Our</correction>
+    </corrections>
+  </edit>
+  <edit end="766" file="0997" index="0011" part="3" start="766" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="928" file="0997" index="0012" part="3" start="926" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+</edits>

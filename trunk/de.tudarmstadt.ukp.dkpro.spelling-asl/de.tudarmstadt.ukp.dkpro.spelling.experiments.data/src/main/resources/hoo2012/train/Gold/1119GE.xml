@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1119">
+  <edit end="122" file="1119" index="0001" part="1" start="119" type="RT">
+    <original>FOR</original>
+    <corrections>
+      <correction>THROUGH</correction>
+    </corrections>
+  </edit>
+  <edit end="237" file="1119" index="0002" part="1" start="232" type="RT">
+    <original>ABOUT</original>
+    <corrections>
+      <correction>REGARDING</correction>
+    </corrections>
+  </edit>
+  <edit end="419" file="1119" index="0003" part="1" start="419" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>OF </correction>
+    </corrections>
+  </edit>
+  <edit end="374" file="1119" index="0004" part="4" start="370" type="UT">
+    <original>FOR </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="384" file="1119" index="0005" part="4" start="380" type="UD">
+    <original>THE </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="403" file="1119" index="0006" part="4" start="400" type="RT">
+    <original>FOR</original>
+    <corrections>
+      <correction>BECAUSE OF</correction>
+    </corrections>
+  </edit>
+  <edit end="480" file="1119" index="0007" part="4" start="476" type="UD">
+    <original>THE </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="518" file="1119" index="0008" part="4" start="514" type="UD">
+    <original>THE </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

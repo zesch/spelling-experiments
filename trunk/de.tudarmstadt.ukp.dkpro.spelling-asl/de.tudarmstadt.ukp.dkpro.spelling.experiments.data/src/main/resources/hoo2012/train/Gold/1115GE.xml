@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1115">
+  <edit end="499" file="1115" index="0001" part="1" start="499" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>as </correction>
+    </corrections>
+  </edit>
+  <edit end="534" file="1115" index="0002" part="1" start="534" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>about </correction>
+    </corrections>
+  </edit>
+  <edit end="550" file="1115" index="0003" part="1" start="546" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="252" file="1115" index="0004" part="4" start="248" type="RT">
+    <original>into</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="395" file="1115" index="0005" part="4" start="395" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="542" file="1115" index="0006" part="4" start="539" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="546" file="1115" index="0007" part="4" start="542" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

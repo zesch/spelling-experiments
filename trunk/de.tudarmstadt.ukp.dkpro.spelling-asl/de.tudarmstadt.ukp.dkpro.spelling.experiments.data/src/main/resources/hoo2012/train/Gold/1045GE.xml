@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1045">
+  <edit end="48" file="1045" index="0001" part="1" start="48" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="222" file="1045" index="0002" part="1" start="222" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="400" file="1045" index="0003" part="1" start="400" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="570" file="1045" index="0004" part="1" start="568" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="932" file="1045" index="0005" part="1" start="928" type="UT">
+    <original>out </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1045" file="1045" index="0006" part="1" start="1044" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="335" file="1045" index="0007" part="3" start="332" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="621" file="1045" index="0008" part="3" start="617" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="650" file="1045" index="0009" part="3" start="648" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+</edits>

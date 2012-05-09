@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1141">
+  <edit end="487" file="1141" index="0001" part="1" start="487" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="755" file="1141" index="0002" part="1" start="753" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="770" file="1141" index="0003" part="1" start="766" type="RD">
+    <original>your</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="14" file="1141" index="0004" part="4" start="10" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="126" file="1141" index="0005" part="4" start="122" type="UD">
+    <original>our </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="286" file="1141" index="0006" part="4" start="283" type="UT">
+    <original>at </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="431" file="1141" index="0007" part="4" start="429" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="727" file="1141" index="0008" part="4" start="723" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="796" file="1141" index="0009" part="4" start="790" type="UD">
+    <original>these </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1020" file="1141" index="0010" part="4" start="1018" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="1061" file="1141" index="0011" part="4" start="1055" type="UT">
+    <original>about </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

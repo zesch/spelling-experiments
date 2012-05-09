@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1026">
+  <edit end="602" file="1026" index="0001" part="1" start="599" type="UT">
+    <original>as </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="514" file="1026" index="0002" part="2" start="499" type="RT">
+    <original>at the front of</original>
+    <corrections>
+      <correction>in front of</correction>
+    </corrections>
+  </edit>
+  <edit end="588" file="1026" index="0003" part="2" start="585" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="650" file="1026" index="0004" part="2" start="650" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="666" file="1026" index="0005" part="2" start="664" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="715" file="1026" index="0006" part="2" start="713" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+</edits>

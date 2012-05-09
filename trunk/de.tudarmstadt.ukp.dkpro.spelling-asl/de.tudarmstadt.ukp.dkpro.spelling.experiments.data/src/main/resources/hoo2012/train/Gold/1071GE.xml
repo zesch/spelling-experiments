@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1071">
+  <edit end="74" file="1071" index="0001" part="1" start="74" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>by </correction>
+    </corrections>
+  </edit>
+  <edit end="124" file="1071" index="0002" part="1" start="121" type="UT">
+    <original>on </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="178" file="1071" index="0003" part="1" start="178" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="190" file="1071" index="0004" part="1" start="190" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="454" file="1071" index="0005" part="1" start="451" type="UT">
+    <original>as </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="472" file="1071" index="0006" part="1" start="472" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+  <edit end="513" file="1071" index="0007" part="1" start="513" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+  <edit end="579" file="1071" index="0008" part="1" start="577" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="699" file="1071" index="0009" part="1" start="699" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="920" file="1071" index="0010" part="1" start="920" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>with </correction>
+    </corrections>
+  </edit>
+  <edit end="951" file="1071" index="0011" part="1" start="951" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>my </correction>
+    </corrections>
+  </edit>
+  <edit end="1062" file="1071" index="0012" part="1" start="1058" type="UT">
+    <original>from</original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="14" file="1071" index="0013" part="4" start="14" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="272" file="1071" index="0014" part="4" start="272" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="298" file="1071" index="0015" part="4" start="298" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="357" file="1071" index="0016" part="4" start="357" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="689" file="1071" index="0017" part="4" start="689" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="713" file="1071" index="0018" part="4" start="713" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="784" file="1071" index="0019" part="4" start="784" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="878" file="1071" index="0020" part="4" start="878" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="897" file="1071" index="0021" part="4" start="897" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>in </correction>
+    </corrections>
+  </edit>
+  <edit end="952" file="1071" index="0022" part="4" start="948" type="UT">
+    <original>from</original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>
