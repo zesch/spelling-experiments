@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0579">
+  <edit end="664" file="0579" index="0001" part="1" start="662" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>over</correction>
+    </corrections>
+  </edit>
+  <edit end="775" file="0579" index="0002" part="1" start="771" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="812" file="0579" index="0003" part="1" start="810" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="847" file="0579" index="0004" part="1" start="845" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="1117" file="0579" index="0005" part="1" start="1115" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="1248" file="0579" index="0006" part="1" start="1244" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="112" file="0579" index="0007" part="2" start="110" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="609" file="0579" index="0008" part="2" start="609" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="907" file="0579" index="0009" part="2" start="905" type="RT">
+    <original>as</original>
+    <corrections>
+      <correction>like</correction>
+    </corrections>
+  </edit>
+</edits>

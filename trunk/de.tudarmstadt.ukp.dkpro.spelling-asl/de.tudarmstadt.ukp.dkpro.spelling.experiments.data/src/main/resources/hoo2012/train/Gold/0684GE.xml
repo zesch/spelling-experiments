@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0684">
+  <edit end="476" file="0684" index="0001" part="1" start="473" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>after</correction>
+    </corrections>
+  </edit>
+  <edit end="832" file="0684" index="0002" part="1" start="831" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="852" file="0684" index="0003" part="1" start="849" type="UT">
+    <original>as </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="138" file="0684" index="0004" part="2" start="134" type="RD">
+    <original>such</original>
+    <corrections>
+      <correction>that</correction>
+    </corrections>
+  </edit>
+  <edit end="228" file="0684" index="0005" part="2" start="224" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="822" file="0684" index="0006" part="2" start="818" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="963" file="0684" index="0007" part="2" start="960" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>my</correction>
+    </corrections>
+  </edit>
+  <edit end="998" file="0684" index="0008" part="2" start="996" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="1109" file="0684" index="0009" part="2" start="1105" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

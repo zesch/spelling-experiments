@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0587">
+  <edit end="141" file="0587" index="0001" part="1" start="137" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="352" file="0587" index="0002" part="1" start="352" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="469" file="0587" index="0003" part="4" start="462" type="RT">
+    <original>through</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="470" file="0587" index="0004" part="4" start="470" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>

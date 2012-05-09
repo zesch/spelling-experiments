@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0593">
+  <edit end="182" file="0593" index="0001" part="1" start="182" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="229" file="0593" index="0002" part="1" start="227" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="230" file="0593" index="0003" part="1" start="230" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="309" file="0593" index="0004" part="1" start="307" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="343" file="0593" index="0005" part="1" start="343" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="427" file="0593" index="0006" part="1" start="427" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="462" file="0593" index="0007" part="1" start="462" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="530" file="0593" index="0008" part="1" start="525" type="RT">
+    <original>among</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0601">
+  <edit end="66" file="0601" index="0001" part="1" start="52" type="RT">
+    <original>in the name of</original>
+    <corrections>
+      <correction>on behalf of</correction>
+    </corrections>
+  </edit>
+  <edit end="558" file="0601" index="0002" part="1" start="556" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="599" file="0601" index="0003" part="1" start="595" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="4" file="0601" index="0004" part="2" start="0" type="UD">
+    <original>The </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="171" file="0601" index="0005" part="2" start="171" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>as </correction>
+    </corrections>
+  </edit>
+  <edit end="618" file="0601" index="0006" part="2" start="616" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="681" file="0601" index="0007" part="2" start="678" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+  </edit>
+  <edit end="712" file="0601" index="0008" part="2" start="709" type="UT">
+    <original>on </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="855" file="0601" index="0009" part="2" start="851" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

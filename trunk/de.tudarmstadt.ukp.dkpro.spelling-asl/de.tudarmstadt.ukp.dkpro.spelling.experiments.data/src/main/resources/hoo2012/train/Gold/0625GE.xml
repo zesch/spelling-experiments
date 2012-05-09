@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0625">
+  <edit end="181" file="0625" index="0001" part="4" start="178" type="UD">
+    <original>an </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="261" file="0625" index="0002" part="4" start="257" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="544" file="0625" index="0003" part="4" start="537" type="RT">
+    <original>against</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="588" file="0625" index="0004" part="4" start="584" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="715" file="0625" index="0005" part="4" start="711" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="734" file="0625" index="0006" part="4" start="734" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>
