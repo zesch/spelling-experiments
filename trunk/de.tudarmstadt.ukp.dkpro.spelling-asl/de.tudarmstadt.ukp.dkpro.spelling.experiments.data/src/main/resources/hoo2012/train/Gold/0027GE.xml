@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0027">
+  <edit end="167" file="0027" index="0001" part="1" start="164" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="313" file="0027" index="0002" part="1" start="311" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="318" file="0027" index="0003" part="1" start="314" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="672" file="0027" index="0004" part="1" start="669" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="151" file="0027" index="0005" part="3" start="151" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="324" file="0027" index="0006" part="3" start="322" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="489" file="0027" index="0007" part="3" start="487" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="494" file="0027" index="0008" part="3" start="490" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="743" file="0027" index="0009" part="3" start="741" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+</edits>

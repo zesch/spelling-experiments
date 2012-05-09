@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0072">
+  <edit end="200" file="0072" index="0001" part="1" start="197" type="UT">
+    <original>at </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="222" file="0072" index="0002" part="1" start="219" type="UT">
+    <original>at </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="303" file="0072" index="0003" part="1" start="301" type="RT">
+    <original>as</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="445" file="0072" index="0004" part="1" start="443" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="504" file="0072" index="0005" part="1" start="502" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="658" file="0072" index="0006" part="1" start="653" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="889" file="0072" index="0007" part="1" start="889" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="90" file="0072" index="0008" part="3" start="88" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="235" file="0072" index="0009" part="3" start="233" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="280" file="0072" index="0010" part="3" start="278" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="366" file="0072" index="0011" part="3" start="363" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="400" file="0072" index="0012" part="3" start="400" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="508" file="0072" index="0013" part="3" start="508" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="617" file="0072" index="0014" part="3" start="615" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="684" file="0072" index="0015" part="3" start="682" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="795" file="0072" index="0016" part="3" start="795" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>their </correction>
+    </corrections>
+  </edit>
+  <edit end="1026" file="0072" index="0017" part="3" start="1025" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="1040" file="0072" index="0018" part="3" start="1040" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1074" file="0072" index="0019" part="3" start="1074" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="1219" file="0072" index="0020" part="3" start="1215" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+</edits>

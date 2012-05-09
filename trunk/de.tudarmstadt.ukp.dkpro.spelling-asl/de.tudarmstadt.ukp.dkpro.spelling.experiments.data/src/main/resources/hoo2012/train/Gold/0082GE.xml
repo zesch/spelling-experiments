@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0082">
+  <edit end="67" file="0082" index="0001" part="1" start="64" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="126" file="0082" index="0002" part="1" start="126" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>about </correction>
+    </corrections>
+  </edit>
+  <edit end="153" file="0082" index="0003" part="1" start="153" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>about </correction>
+    </corrections>
+  </edit>
+  <edit end="155" file="0082" index="0004" part="1" start="153" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="193" file="0082" index="0005" part="1" start="191" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="259" file="0082" index="0006" part="1" start="259" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>Regarding </correction>
+    </corrections>
+  </edit>
+  <edit end="565" file="0082" index="0007" part="1" start="561" type="RT">
+    <original>like</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="492" file="0082" index="0008" part="4" start="487" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="571" file="0082" index="0009" part="4" start="568" type="RD">
+    <original>any</original>
+    <corrections>
+      <correction>an</correction>
+    </corrections>
+  </edit>
+</edits>

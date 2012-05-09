@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0100">
+  <edit end="231" file="0100" index="0001" part="1" start="231" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction> in</correction>
+    </corrections>
+  </edit>
+  <edit end="464" file="0100" index="0002" part="1" start="464" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="634" file="0100" index="0003" part="1" start="631" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="801" file="0100" index="0004" part="1" start="791" type="RT">
+    <original>Because of</original>
+    <corrections>
+      <correction>For</correction>
+    </corrections>
+  </edit>
+  <edit end="837" file="0100" index="0005" part="1" start="837" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+  </edit>
+  <edit end="918" file="0100" index="0006" part="1" start="915" type="UD">
+    <original>an </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="953" file="0100" index="0007" part="1" start="953" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="87" file="0100" index="0008" part="3" start="87" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="350" file="0100" index="0009" part="3" start="350" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="632" file="0100" index="0010" part="3" start="632" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>in </correction>
+    </corrections>
+  </edit>
+  <edit end="940" file="0100" index="0011" part="3" start="936" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

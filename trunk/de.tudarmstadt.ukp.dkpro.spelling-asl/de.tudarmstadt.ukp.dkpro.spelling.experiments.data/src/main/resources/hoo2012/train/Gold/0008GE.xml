@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0008">
+  <edit end="112" file="0008" index="0001" part="1" start="110" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>during</correction>
+    </corrections>
+  </edit>
+  <edit end="67" file="0008" index="0002" part="3" start="63" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="313" file="0008" index="0003" part="3" start="313" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="632" file="0008" index="0004" part="3" start="632" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="725" file="0008" index="0005" part="3" start="725" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>in </correction>
+    </corrections>
+  </edit>
+  <edit end="867" file="0008" index="0006" part="3" start="865" type="RT">
+    <original>as</original>
+    <corrections>
+      <correction>like</correction>
+    </corrections>
+  </edit>
+</edits>

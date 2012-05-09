@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0024">
+  <edit end="98" file="0024" index="0001" part="1" start="98" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="147" file="0024" index="0002" part="1" start="142" type="RT">
+    <original>About</original>
+    <corrections>
+      <correction>Regarding</correction>
+    </corrections>
+  </edit>
+  <edit end="233" file="0024" index="0003" part="1" start="223" type="RT">
+    <original>because of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="286" file="0024" index="0004" part="1" start="286" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="549" file="0024" index="0005" part="1" start="545" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="662" file="0024" index="0006" part="4" start="660" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+  </edit>
+  <edit end="809" file="0024" index="0007" part="4" start="809" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+</edits>
