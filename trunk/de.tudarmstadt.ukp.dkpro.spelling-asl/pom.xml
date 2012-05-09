@@ -78,5 +78,6 @@
   	<module>de.tudarmstadt.ukp.dkpro.spelling.experiments.core</module>
   	<module>de.tudarmstadt.ukp.dkpro.spelling.experiments.artificialerrors</module>
   	<module>de.tudarmstadt.ukp.dkpro.spelling.experiments.eacl2012</module>
+  	<module>de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2011</module>
   </modules>
 </project>
