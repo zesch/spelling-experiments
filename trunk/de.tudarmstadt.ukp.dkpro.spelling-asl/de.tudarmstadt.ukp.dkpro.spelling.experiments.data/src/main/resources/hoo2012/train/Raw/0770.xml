@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR303*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>French</LANGUAGE>
+      <AGE>16-20</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Madam,</P>
+      <P>I was very happy to know that I have won the first prize in your competition and it will be a good opportunity for me to go to the U.S.A.</P>
+      <P>If it is possible, I would like to travel in July. I will be working until the end of June and I am going to start university in August.</P>
+      <P>I would prefer to sleep in a tent, because, in my opinion, it is easier to make friends and I like camping as well.</P>
+      <P>I have chosen photography and climbing for activities. I am a beginner in photography but I am really interested in. I have a medium level in climbing and I would like to climb the Californian mountains.</P>
+      <P>Can you tell me how much money I have to take, if I have to take winter clothes and if it is possible to rent a car there.</P>
+      <P>Thank you for this opportunity.</P>
+      <P>Yours faithfully,</P>
+    </PART>
+    <PART id="3">
+      <P>I like shopping. Some people when they are tired relax spleeping, reading a book or watching television but not me. Walking along the crowded streets of my city is my way of relaxing.</P>
+      <P>I have been working in a shop for a long time and I have noticed that I am not the only one in this case. There were always, at the end of the afternoon, some well-dressed women coming from their offices and they just spent one hour in the shop whithout buying anything.</P>
+      <P>However it is true that shopping is not always enjoyable for example before Christmas or during some special salles. In these periods of the year, the supermarkets and the shops are full of stressed adults and tired children trying to walk in a warm and noisy place.</P>
+      <P>In conclusion, you have to know when and where to shop quietly but in my opinion spending money in a crowded shop is the most enjoyable thing in the world.</P>
+    </PART>
+  </BODY>
+</HOO>

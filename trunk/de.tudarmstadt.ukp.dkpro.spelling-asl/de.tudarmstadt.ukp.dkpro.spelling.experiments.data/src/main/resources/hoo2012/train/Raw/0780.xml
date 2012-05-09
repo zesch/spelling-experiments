@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR309*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>French</LANGUAGE>
+      <AGE>21-25</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Hello Helen,</P>
+      <P>I have recived your exiting letter, informing me that I have won two weeks at Camp California in the USA. I will answer your questions in this letter begining with the best moment for the Camp.</P>
+      <P>Because of my study I will not be free to travel until july and schools goes on in August again so I hope July will be fine.</P>
+      <P>I much prefer sleeping in tents, it seems more friendly and realy sounds like holydays.</P>
+      <P>Choosing only two activities in such a bunch of interesting ones was quite hard, but I decided to take the two I've never tried, Climbing and Surfing.</P>
+      <P>I would like to know what kind of clothes should I bring and wether I can wash it or not, and I'd like to know how much money will I need for extras?</P>
+      <P>Thank you very much</P>
+      <P>Yours sincerely</P>
+      <P>Andre Michel</P>
+    </PART>
+    <PART id="4">
+      <P>Hello Kim,</P>
+      <P>How are you?</P>
+      <P>Excuse me for the long time I left you without any news. I wrote you last time that I was going to give a hand for the installation and preparation of "Garbage's" concert and you asked me to tell you how it has been.</P>
+      <P>So one week befor the concert I went at "L'Arena" to meet the other worker and receive the instructions. I've had the hounour to help their sound engeineer and branchggitares.</P>
+      <P>We realy started to work like ants the morning befor the show. It was exiting looking all three mens working together and building a scene, and it was interresting to help the sound engineer to check the sound and configuring his computers to get the best sound possible.</P>
+      <P>About two hours befor the beginning of the show, we met the band and recieved tickets to backstage, that was wonderful, maybe better than the concert itself!</P>
+      <P>And the next morning, I was here again to help them folding their stuffs.</P>
+      <P>That's a great experienc!</P>
+      <P>Now Kim, tell me about your side of the show</P>
+      <P>Yours Andre</P>
+    </PART>
+  </BODY>
+</HOO>

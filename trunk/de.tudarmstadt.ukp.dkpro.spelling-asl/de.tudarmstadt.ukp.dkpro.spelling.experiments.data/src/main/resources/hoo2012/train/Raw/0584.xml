@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR29*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>German</LANGUAGE>
+      <AGE>16-20</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Mrs. Ryan,</P>
+      <P>Thank you for your letter. I was very surprised that I have won the first prize in your competition. First I would like to mention that I can only travel in July, because I will work in August in a web designer studio. So I am unable to go on holiday to another time. I would prefer to stay in a tent because I like camping very much. I think it's more exciting to be in a tent than in a log cabin.</P>
+      <P>I was very surprised that you offer such a great variety of sports and courses.</P>
+      <P>I would like to do Basketball and Painting.</P>
+      <P>I played Basketball at school for about two years. I am rather good in it. I also had Painting as main subject at school for five years. I like painting very much, and I think I am good in Painting. I paint a lot in my free time. I prefer painting landscapes and fantasy-pictures.</P>
+      <P>I would like to ask you, how much money will we need? Which clothes should we take with us?</P>
+      <P>I hope to hear from you soon.</P>
+      <P>Yours sincerely</P>
+    </PART>
+    <PART id="2">
+      <P>First I would like to point out, that this was a good idea to present our school in a short film.</P>
+      <P>I think first of all we should film an english lesson, where pupils could prepare some group work or information-boards. I think it is also important to present a comercial english lesson, maybe the pupils could write "offers and orders" or enquiries on the blackboard.</P>
+      <P>Next I would film a BWPM lesson. This subject teachs the pupils how to make good presentations. They go together in groups, then they prepare power point presentations and at least they present it in front of the other pupils and teachers.</P>
+      <P>It would be also very interesting to film the situation during the brake. The smokers in the school yard, the buffett and the other pupils, who are sitting in front of their tables writing their homework.</P>
+      <P>I think then we should film an informatic-lesson. It would be funny to present the computers, which are often overcharged, or often the netserver is spinning. It's really funny to see the helpless teacher, who wants to go on writing in excel or a word text, while the computers do not work or brake down.</P>
+      <P>I think that would be all for our video. In my opinion this are the most interesting things in our school.</P>
+    </PART>
+  </BODY>
+</HOO>

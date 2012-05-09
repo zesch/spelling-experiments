@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR299*0102*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Spanish</LANGUAGE>
+      <AGE>16-20</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Manager,</P>
+      <P>With this letter I want to show you some problems I had last week in your theatre with your show. First of all, I want to introduce myself. I'm Francesco Schein, I'm 18 years old and I went last week to see your musical show "Over the Rainbow". I was very upset because the show had many problems.</P>
+      <P>First the actor was changed and his performance was very poor and disappointing. Then, the show began 45 minutes later, so we had to wait very long. The advertisement said there were discounts available, which were not. At the end you said it will be a Restaurant, but it was closed, so we couldn't eat anything untill we got home.</P>
+      <P>I hope you understand your faults and I'm asking you for the money back.</P>
+      <P>Faithfully Yours</P>
+    </PART>
+    <PART id="4">
+      <P>I don't know if technology has totally changed my life, because I was born with it and I have learned it since I was a little boy. For example, I was born knowing the man has stepped on the moon.</P>
+      <P>There are some machines which have helped in my development, and others which help me to make my life easier. The computer for example makes communication much easier and faster then in past time, when everything was send by common mail, and it took weeks till it got the right place.</P>
+      <P>There are other machines which are bad for the environment. Many industries throw their contaminated air away, without cleaning it before. Technology has to move further so it can solve problems as pollution, so we can live better and longer.</P>
+    </PART>
+  </BODY>
+</HOO>

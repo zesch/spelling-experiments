@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR300*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>Spanish</LANGUAGE>
+      <AGE>26-30</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Helen</P>
+      <P>I am very surprised for have received your letter in which you explained to me that I have won prize in your competition. After that, I would like to say Thanks, I never have won any price at all.</P>
+      <P>Now, I will answer your requests. In reference about the date of the travel, I would like to travel in July because at the moment I am working at the University and I only have July to take my holidays.</P>
+      <P>As state in your letter I have to choose the accommodation type. I would prefer to stay in tents because since I was a child I have being using this type of accommodation. I used to go to campings.</P>
+      <P>About camp activities I would prefer to do basketball and photography. I have choosen these activities because actually I am playing with university team, and photography is my favoorate hobby. I have recently bought a new camera.</P>
+      <P>Finally let me know what kind of clothes will be the most suitable at camp. Is necesarilly bring to me money in there?</P>
+      <P>I look forward to hearing from you</P>
+      <P>Yours sincerely</P>
+    </PART>
+    <PART id="4">
+      <P>Dear Kim</P>
+      <P>I am writen to you telling about my experience at a pop concert.</P>
+      <P>It began when ours common friends Martha, ofered me to be a organization member at the concert, obviously I accepted. Now I can tell you that it was an amaizing challange for me because I never did anything like that.</P>
+      <P>My duties like a organization member were diferent, the firts day I had to pick the bands up at the airport, for it I hired a van. The following day I was the person who provide the meals for all the organization staff and besides every day I was at the back-stage supporting the catering staff.</P>
+      <P>Particularly I am pleased to had know the most popular pop stars in the world.</P>
+      <P>Hopping to hear from you</P>
+      <P>Best wishes</P>
+    </PART>
+  </BODY>
+</HOO>
