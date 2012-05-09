@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1541">
+  <edit end="448" file="1541" index="0001" part="1" start="444" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="727" file="1541" index="0002" part="1" start="724" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>my</correction>
+    </corrections>
+  </edit>
+  <edit end="752" file="1541" index="0003" part="1" start="746" type="UD">
+    <original>these </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="797" file="1541" index="0004" part="1" start="793" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="375" file="1541" index="0005" part="2" start="374" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="439" file="1541" index="0006" part="2" start="437" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="501" file="1541" index="0007" part="2" start="496" type="UT">
+    <original>with </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="610" file="1541" index="0008" part="2" start="609" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+  </edit>
+  <edit end="624" file="1541" index="0009" part="2" start="620" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+</edits>

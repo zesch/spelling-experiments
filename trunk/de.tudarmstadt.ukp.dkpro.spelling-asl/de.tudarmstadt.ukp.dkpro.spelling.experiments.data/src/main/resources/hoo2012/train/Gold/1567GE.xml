@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1567">
+  <edit end="769" file="1567" index="0001" part="1" start="765" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="106" file="1567" index="0002" part="4" start="102" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="522" file="1567" index="0003" part="4" start="522" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="597" file="1567" index="0004" part="4" start="593" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="623" file="1567" index="0005" part="4" start="619" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="880" file="1567" index="0006" part="4" start="876" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="885" file="1567" index="0007" part="4" start="881" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

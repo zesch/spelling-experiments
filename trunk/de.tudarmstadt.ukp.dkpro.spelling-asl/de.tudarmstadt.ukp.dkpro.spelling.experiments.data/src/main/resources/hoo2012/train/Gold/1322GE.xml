@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1322">
+  <edit end="52" file="1322" index="0001" part="1" start="49" type="RD">
+    <original>our</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="551" file="1322" index="0002" part="1" start="551" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="620" file="1322" index="0003" part="1" start="616" type="UD">
+    <original>The </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="385" file="1322" index="0004" part="4" start="382" type="RD">
+    <original>One</original>
+    <corrections>
+      <correction>A</correction>
+    </corrections>
+  </edit>
+</edits>

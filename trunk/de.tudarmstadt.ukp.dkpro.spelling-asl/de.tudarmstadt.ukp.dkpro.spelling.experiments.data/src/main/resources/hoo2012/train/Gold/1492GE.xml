@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1492">
+  <edit end="38" file="1492" index="0001" part="1" start="38" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="108" file="1492" index="0002" part="1" start="108" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="332" file="1492" index="0003" part="1" start="332" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="367" file="1492" index="0004" part="1" start="367" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="743" file="1492" index="0005" part="1" start="743" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>in </correction>
+    </corrections>
+  </edit>
+  <edit end="226" file="1492" index="0006" part="3" start="225" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="301" file="1492" index="0007" part="3" start="301" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="540" file="1492" index="0008" part="3" start="540" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>

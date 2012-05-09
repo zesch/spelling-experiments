@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1595">
+  <edit end="243" file="1595" index="0001" part="1" start="241" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="540" file="1595" index="0002" part="1" start="538" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="553" file="1595" index="0003" part="1" start="551" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="705" file="1595" index="0004" part="1" start="703" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="752" file="1595" index="0005" part="1" start="750" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="106" file="1595" index="0006" part="3" start="106" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1336">
+  <edit end="244" file="1336" index="0001" part="1" start="242" type="RT">
+    <original>By</original>
+    <corrections>
+      <correction>Regarding</correction>
+    </corrections>
+  </edit>
+  <edit end="804" file="1336" index="0002" part="1" start="804" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="87" file="1336" index="0003" part="3" start="82" type="RD">
+    <original>their</original>
+    <corrections>
+      <correction>her</correction>
+    </corrections>
+  </edit>
+  <edit end="473" file="1336" index="0004" part="3" start="473" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="609" file="1336" index="0005" part="3" start="609" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="681" file="1336" index="0006" part="3" start="677" type="RD">
+    <original>That</original>
+    <corrections>
+      <correction>Those</correction>
+    </corrections>
+  </edit>
+</edits>

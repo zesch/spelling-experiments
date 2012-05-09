@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1529">
+  <edit end="390" file="1529" index="0001" part="1" start="386" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="555" file="1529" index="0002" part="1" start="545" type="RT">
+    <original>because of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="560" file="1529" index="0003" part="1" start="556" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="372" file="1529" index="0004" part="3" start="370" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="581" file="1529" index="0005" part="3" start="577" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="676" file="1529" index="0006" part="3" start="674" type="RT">
+    <original>as</original>
+    <corrections>
+      <correction>like</correction>
+    </corrections>
+  </edit>
+</edits>

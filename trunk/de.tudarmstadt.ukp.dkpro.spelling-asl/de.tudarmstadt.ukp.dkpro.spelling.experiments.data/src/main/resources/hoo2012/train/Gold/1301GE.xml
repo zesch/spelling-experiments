@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1301">
+  <edit end="513" file="1301" index="0001" part="1" start="506" type="RT">
+    <original>against</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="802" file="1301" index="0002" part="1" start="800" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="227" file="1301" index="0003" part="3" start="224" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="911" file="1301" index="0004" part="3" start="909" type="UT">
+    <original>to</original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="995" file="1301" index="0005" part="3" start="993" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+</edits>

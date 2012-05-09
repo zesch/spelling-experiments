@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1353">
+  <edit end="2" file="1353" index="0001" part="1" start="0" type="RT">
+    <original>To</original>
+    <corrections>
+      <correction>For</correction>
+    </corrections>
+  </edit>
+  <edit end="1331" file="1353" index="0002" part="1" start="1328" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="246" file="1353" index="0003" part="2" start="243" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="1022" file="1353" index="0004" part="2" start="1019" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+</edits>

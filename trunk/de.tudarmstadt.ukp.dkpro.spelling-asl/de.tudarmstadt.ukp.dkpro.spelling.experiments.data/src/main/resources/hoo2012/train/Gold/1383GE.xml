@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1383">
+  <edit end="97" file="1383" index="0001" part="1" start="94" type="RD">
+    <original>our</original>
+    <corrections>
+      <correction>your</correction>
+    </corrections>
+  </edit>
+  <edit end="510" file="1383" index="0002" part="1" start="508" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="56" file="1383" index="0003" part="2" start="54" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="128" file="1383" index="0004" part="2" start="125" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>an</correction>
+    </corrections>
+  </edit>
+  <edit end="284" file="1383" index="0005" part="2" start="282" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="720" file="1383" index="0006" part="2" start="717" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>an</correction>
+    </corrections>
+  </edit>
+  <edit end="733" file="1383" index="0007" part="2" start="729" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

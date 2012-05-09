@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1429">
+  <edit end="458" file="1429" index="0001" part="1" start="455" type="RD">
+    <original>not</original>
+    <corrections>
+      <correction>no</correction>
+    </corrections>
+  </edit>
+  <edit end="491" file="1429" index="0002" part="1" start="488" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>or</correction>
+    </corrections>
+  </edit>
+  <edit end="815" file="1429" index="0003" part="1" start="811" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="224" file="1429" index="0004" part="2" start="220" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="534" file="1429" index="0005" part="2" start="528" type="RT">
+    <original>during</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+</edits>

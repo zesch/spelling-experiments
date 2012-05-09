@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1585">
+  <edit end="116" file="1585" index="0001" part="1" start="115" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="126" file="1585" index="0002" part="1" start="123" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="182" file="1585" index="0003" part="1" start="176" type="RT">
+    <original>Due to</original>
+    <corrections>
+      <correction>Because of</correction>
+    </corrections>
+  </edit>
+  <edit end="219" file="1585" index="0004" part="1" start="215" type="RD">
+    <original>that</original>
+    <corrections>
+      <correction>this</correction>
+    </corrections>
+  </edit>
+  <edit end="507" file="1585" index="0005" part="1" start="504" type="UT">
+    <original>on </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="713" file="1585" index="0006" part="1" start="712" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="992" file="1585" index="0007" part="1" start="992" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>regarding </correction>
+    </corrections>
+  </edit>
+  <edit end="1113" file="1585" index="0008" part="1" start="1110" type="RD">
+    <original>any</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="251" file="1585" index="0009" part="4" start="250" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="728" file="1585" index="0010" part="4" start="725" type="UT">
+    <original>on </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1079" file="1585" index="0011" part="4" start="1079" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+</edits>

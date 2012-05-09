@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1472">
+  <edit end="744" file="1472" index="0001" part="1" start="739" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="4" file="1472" index="0002" part="4" start="0" type="UD">
+    <original>The </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="321" file="1472" index="0003" part="4" start="321" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="397" file="1472" index="0004" part="4" start="393" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>
