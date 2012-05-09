@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR994*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>French</LANGUAGE>
+      <AGE>21-25</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Bernard Moreau</P>
+      <P>place de la Madeleine</P>
+      <P>87022 PARIS</P>
+      <P>Competition Organiser</P>
+      <P>Helen Ryan</P>
+      <P>Dear Mrs. Ryan,</P>
+      <P>You have sent me a letter about the competition first prize I have won. You asked me about some further information.</P>
+      <P>First, I'd like to travel on July at any time from the first to the 30st because of my vacation period. I'd rather have a few days at the beginning of July to prepare me.</P>
+      <P>Second, I'd prefer have a log cabin where I could let some stuff.</P>
+      <P>Finaly, I'd like to practice tennis and to try climbing. Is there any ability required?</P>
+      <P>Could you send me a note about travelling in California which could help me?</P>
+      <P>Yours sincerely</P>
+      <P>Bernard Moreau</P>
+    </PART>
+    <PART id="5b">
+      <P>The Old Man and the Sea</P>
+      <P>This book stays one of the best american litterature book. It is classified as one of the ten books that should figure in your own library. But it is also the most famous short story from Ernest Hemingway. Based on a very simple story, the story of an old man fishing, it allows a deep reflexion about oldness.</P>
+      <P>A veteran fisher takes his boat and goes fishing to convine himself and other mans that he is still able to do that. Then, Hemingway paints a marvellous description of fishing act and of the great fight between the fish and the old man. The 24-hour fight is described in a so peacful, faithful way that it callas a though about life and death. I recommand this book a lot both to discover Hemingway and american litterature.</P>
+    </PART>
+  </BODY>
+</HOO>

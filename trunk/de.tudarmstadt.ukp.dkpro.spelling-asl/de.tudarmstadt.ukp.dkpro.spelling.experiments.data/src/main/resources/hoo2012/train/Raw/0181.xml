@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HOO version="2.1">
+  <HEAD sortkey="TR69*0100*2000*01" sourcetype="FCE">
+    <CANDIDATE>
+      <LANGUAGE>French</LANGUAGE>
+      <AGE>21-25</AGE>
+    </CANDIDATE>
+  </HEAD>
+  <BODY>
+    <PART id="1">
+      <P>Dear Ms Ryan,</P>
+      <P>I am writing to you regarding the letter you sent me, about the two weeks at Camp California that I won.</P>
+      <P>Firstly, I would like to travel in July because I have 2 weeks off in the beginning of the month.</P>
+      <P>For the accommodation, I would prefer in tents because I like adventure and simplicity.</P>
+      <P>Concerning the available activities, firstly, I would choose climbing because I have practised it for many years. Secondely, I am interested in discovering something that I have never done, so I would like to do sailing.</P>
+      <P>Finally, I was wondering if some special clothes are required and how much pocket money I need for this trip?</P>
+      <P>I thank you in advanced and looking forward to your reply.</P>
+      <P>Yours sincerely</P>
+    </PART>
+    <PART id="4">
+      <P>Dear Kim,</P>
+      <P>I'm writing to you to relate my experience in helping at a pop concert last month.</P>
+      <P>First of all, I would like to tell you that I've never had a such good time in my life!</P>
+      <P>The day one consisted in surrounding the festival's place with fences.</P>
+      <P>The second day objective was to install the scene,with. This job was quite hard, but we took enough time to be not exhausted!</P>
+      <P>The last day, in fact the concert day was absolutely fantastic. The public was so excited to see the concert that we had to place some bouncer front of the scene, to avoid the people coming on the concert floor. Finally, the concert was exactly that the people were expected.</P>
+      <P>I hop that the next time you will come with me!</P>
+      <P>I'm looking forward to hearing your impressions about this!</P>
+      <P>See you soon.</P>
+    </PART>
+  </BODY>
+</HOO>
