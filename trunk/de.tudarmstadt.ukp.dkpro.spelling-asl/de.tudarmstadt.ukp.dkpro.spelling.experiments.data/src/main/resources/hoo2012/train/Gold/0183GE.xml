@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0183">
+  <edit end="473" file="0183" index="0001" part="1" start="468" type="RT">
+    <original>Among</original>
+    <corrections>
+      <correction>From</correction>
+    </corrections>
+  </edit>
+  <edit end="591" file="0183" index="0002" part="1" start="587" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="54" file="0183" index="0003" part="3" start="52" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="366" file="0183" index="0004" part="3" start="364" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="595" file="0183" index="0005" part="3" start="593" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>into</correction>
+    </corrections>
+  </edit>
+</edits>

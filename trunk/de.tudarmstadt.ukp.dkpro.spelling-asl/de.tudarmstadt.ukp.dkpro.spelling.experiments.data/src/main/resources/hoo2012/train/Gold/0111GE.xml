@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0111">
+  <edit end="48" file="0111" index="0001" part="1" start="44" type="RD">
+    <original>your</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="131" file="0111" index="0002" part="1" start="121" type="RT">
+    <original>concerning</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="390" file="0111" index="0003" part="1" start="385" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="395" file="0111" index="0004" part="1" start="391" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="463" file="0111" index="0005" part="1" start="461" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="663" file="0111" index="0006" part="4" start="658" type="RT">
+    <original>since</original>
+    <corrections>
+      <correction>till</correction>
+    </corrections>
+  </edit>
+  <edit end="755" file="0111" index="0007" part="4" start="752" type="RD">
+    <original>her</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="835" file="0111" index="0008" part="4" start="835" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+</edits>

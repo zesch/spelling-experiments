@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0107">
+  <edit end="170" file="0107" index="0001" part="1" start="167" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="206" file="0107" index="0002" part="1" start="206" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="471" file="0107" index="0003" part="1" start="471" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="627" file="0107" index="0004" part="1" start="621" type="UT">
+    <original>about </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="627" file="0107" index="0005" part="1" start="627" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="745" file="0107" index="0006" part="1" start="742" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="841" file="0107" index="0007" part="1" start="841" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="69" file="0107" index="0008" part="3" start="69" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>our </correction>
+    </corrections>
+  </edit>
+  <edit end="89" file="0107" index="0009" part="3" start="87" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="89" file="0107" index="0010" part="3" start="89" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>by </correction>
+    </corrections>
+  </edit>
+  <edit end="283" file="0107" index="0011" part="3" start="281" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="341" file="0107" index="0012" part="3" start="339" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="511" file="0107" index="0013" part="3" start="511" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="538" file="0107" index="0014" part="3" start="534" type="RD">
+    <original>your</original>
+    <corrections>
+      <correction>our</correction>
+    </corrections>
+  </edit>
+  <edit end="788" file="0107" index="0015" part="3" start="784" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>
