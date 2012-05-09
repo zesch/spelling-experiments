@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0226">
+  <edit end="178" file="0226" index="0001" part="1" start="174" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="875" file="0226" index="0002" part="1" start="871" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="459" file="0226" index="0003" part="2" start="455" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="644" file="0226" index="0004" part="2" start="642" type="RT">
+    <original>In</original>
+    <corrections>
+      <correction>Among</correction>
+    </corrections>
+  </edit>
+  <edit end="723" file="0226" index="0005" part="2" start="719" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

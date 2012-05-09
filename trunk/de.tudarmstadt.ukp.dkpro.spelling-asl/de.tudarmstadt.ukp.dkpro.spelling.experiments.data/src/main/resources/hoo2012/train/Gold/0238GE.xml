@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0238">
+  <edit end="1018" file="0238" index="0001" part="1" start="1017" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="1108" file="0238" index="0002" part="1" start="1105" type="RD">
+    <original>one</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="562" file="0238" index="0003" part="4" start="562" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>as regards </correction>
+    </corrections>
+  </edit>
+</edits>

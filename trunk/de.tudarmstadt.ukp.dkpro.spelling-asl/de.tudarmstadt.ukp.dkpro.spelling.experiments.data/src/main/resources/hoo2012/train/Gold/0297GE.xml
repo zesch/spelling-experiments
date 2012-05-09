@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0297">
+  <edit end="518" file="0297" index="0001" part="1" start="514" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="193" file="0297" index="0002" part="3" start="189" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>than</correction>
+    </corrections>
+  </edit>
+  <edit end="329" file="0297" index="0003" part="3" start="325" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="469" file="0297" index="0004" part="3" start="467" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="507" file="0297" index="0005" part="3" start="507" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>

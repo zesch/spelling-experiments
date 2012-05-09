@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0235">
+  <edit end="107" file="0235" index="0001" part="1" start="105" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="545" file="0235" index="0002" part="1" start="545" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="554" file="0235" index="0003" part="1" start="554" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>on </correction>
+    </corrections>
+  </edit>
+  <edit end="663" file="0235" index="0004" part="1" start="659" type="RT">
+    <original>like</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="787" file="0235" index="0005" part="1" start="787" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+  </edit>
+  <edit end="458" file="0235" index="0006" part="2" start="458" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="672" file="0235" index="0007" part="2" start="672" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="721" file="0235" index="0008" part="2" start="717" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="848" file="0235" index="0009" part="2" start="844" type="RT">
+    <original>like</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="901" file="0235" index="0010" part="2" start="897" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+</edits>

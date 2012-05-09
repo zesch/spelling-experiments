@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0350">
+  <edit end="87" file="0350" index="0001" part="1" start="85" type="RD">
+    <original>an</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="116" file="0350" index="0002" part="1" start="114" type="RD">
+    <original>an</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="352" file="0350" index="0003" part="5a" start="345" type="RT">
+    <original>despite</original>
+    <corrections>
+      <correction>regardless of</correction>
+    </corrections>
+  </edit>
+  <edit end="727" file="0350" index="0004" part="5a" start="727" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>our </correction>
+    </corrections>
+  </edit>
+  <edit end="1095" file="0350" index="0005" part="5a" start="1095" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+  </edit>
+</edits>

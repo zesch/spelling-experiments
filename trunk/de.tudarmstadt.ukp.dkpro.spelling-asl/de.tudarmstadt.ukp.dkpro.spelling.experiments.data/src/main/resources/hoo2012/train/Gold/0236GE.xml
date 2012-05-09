@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0236">
+  <edit end="58" file="0236" index="0001" part="1" start="58" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="176" file="0236" index="0002" part="1" start="176" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="449" file="0236" index="0003" part="1" start="449" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="523" file="0236" index="0004" part="1" start="519" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+  </edit>
+  <edit end="625" file="0236" index="0005" part="1" start="623" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="712" file="0236" index="0006" part="1" start="712" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>on </correction>
+    </corrections>
+  </edit>
+  <edit end="712" file="0236" index="0007" part="1" start="712" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="807" file="0236" index="0008" part="1" start="807" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="165" file="0236" index="0009" part="2" start="163" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="241" file="0236" index="0010" part="2" start="237" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="263" file="0236" index="0011" part="2" start="261" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="734" file="0236" index="0012" part="2" start="732" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+</edits>

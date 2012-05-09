@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0290">
+  <edit end="66" file="0290" index="0001" part="1" start="61" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="167" file="0290" index="0002" part="1" start="166" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="523" file="0290" index="0003" part="1" start="523" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="647" file="0290" index="0004" part="1" start="645" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="195" file="0290" index="0005" part="2" start="191" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1028" file="0290" index="0006" part="2" start="1025" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="1088" file="0290" index="0007" part="2" start="1086" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1104" file="0290" index="0008" part="2" start="1102" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+  <edit end="1105" file="0290" index="0009" part="2" start="1105" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>

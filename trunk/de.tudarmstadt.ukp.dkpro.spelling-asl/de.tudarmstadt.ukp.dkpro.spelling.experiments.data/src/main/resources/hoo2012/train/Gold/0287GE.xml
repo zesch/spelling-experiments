@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0287">
+  <edit end="57" file="0287" index="0001" part="1" start="57" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>about </correction>
+    </corrections>
+  </edit>
+  <edit end="240" file="0287" index="0002" part="4" start="238" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="366" file="0287" index="0003" part="4" start="366" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="444" file="0287" index="0004" part="4" start="444" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="596" file="0287" index="0005" part="4" start="593" type="UT">
+    <original>by </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="604" file="0287" index="0006" part="4" start="604" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>with </correction>
+    </corrections>
+  </edit>
+  <edit end="830" file="0287" index="0007" part="4" start="826" type="RT">
+    <original>into</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="835" file="0287" index="0008" part="4" start="831" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1103" file="0287" index="0009" part="4" start="1099" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1143" file="0287" index="0010" part="4" start="1139" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1162" file="0287" index="0011" part="4" start="1158" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0257">
+  <edit end="215" file="0257" index="0001" part="1" start="215" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="315" file="0257" index="0002" part="1" start="315" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="479" file="0257" index="0003" part="1" start="479" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="650" file="0257" index="0004" part="1" start="646" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="699" file="0257" index="0005" part="1" start="699" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="791" file="0257" index="0006" part="1" start="791" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="922" file="0257" index="0007" part="1" start="922" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="71" file="0257" index="0008" part="3" start="69" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>from around</correction>
+    </corrections>
+  </edit>
+  <edit end="513" file="0257" index="0009" part="3" start="510" type="RD">
+    <original>his</original>
+    <corrections>
+      <correction>their</correction>
+    </corrections>
+  </edit>
+</edits>

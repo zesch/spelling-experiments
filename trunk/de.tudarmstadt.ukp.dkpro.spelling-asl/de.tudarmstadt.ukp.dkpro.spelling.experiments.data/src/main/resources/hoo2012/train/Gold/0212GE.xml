@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0212">
+  <edit end="268" file="0212" index="0001" part="1" start="268" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="552" file="0212" index="0002" part="1" start="552" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="578" file="0212" index="0003" part="1" start="573" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="816" file="0212" index="0004" part="1" start="813" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="923" file="0212" index="0005" part="1" start="918" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="31" file="0212" index="0006" part="4" start="27" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="422" file="0212" index="0007" part="4" start="420" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="694" file="0212" index="0008" part="4" start="692" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+</edits>

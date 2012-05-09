@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0419">
+  <edit end="395" file="0419" index="0001" part="1" start="395" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+  <edit end="464" file="0419" index="0002" part="1" start="464" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+  <edit end="457" file="0419" index="0003" part="4" start="453" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="492" file="0419" index="0004" part="4" start="488" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="519" file="0419" index="0005" part="4" start="519" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+  </edit>
+  <edit end="570" file="0419" index="0006" part="4" start="570" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="629" file="0419" index="0007" part="4" start="627" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="847" file="0419" index="0008" part="4" start="847" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>own </correction>
+    </corrections>
+  </edit>
+  <edit end="901" file="0419" index="0009" part="4" start="901" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+</edits>

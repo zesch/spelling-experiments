@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0279">
+  <edit end="134" file="0279" index="0001" part="1" start="130" type="RT">
+    <original>like</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="175" file="0279" index="0002" part="1" start="175" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>as </correction>
+    </corrections>
+  </edit>
+  <edit end="266" file="0279" index="0003" part="2" start="262" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+</edits>

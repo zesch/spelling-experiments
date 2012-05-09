@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0383">
+  <edit end="283" file="0383" index="0001" part="1" start="283" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="345" file="0383" index="0002" part="1" start="343" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="430" file="0383" index="0003" part="1" start="428" type="RT">
+    <original>as</original>
+    <corrections>
+      <correction>like</correction>
+    </corrections>
+  </edit>
+  <edit end="650" file="0383" index="0004" part="1" start="647" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="685" file="0383" index="0005" part="1" start="683" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="690" file="0383" index="0006" part="1" start="686" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="720" file="0383" index="0007" part="1" start="718" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="730" file="0383" index="0008" part="1" start="725" type="RD">
+    <original>those</original>
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+  </edit>
+  <edit end="101" file="0383" index="0009" part="2" start="94" type="RT">
+    <original>against</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="173" file="0383" index="0010" part="2" start="170" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="451" file="0383" index="0011" part="2" start="447" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="456" file="0383" index="0012" part="2" start="452" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="468" file="0383" index="0013" part="2" start="464" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="507" file="0383" index="0014" part="2" start="505" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="719" file="0383" index="0015" part="2" start="715" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="724" file="0383" index="0016" part="2" start="720" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="739" file="0383" index="0017" part="2" start="735" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

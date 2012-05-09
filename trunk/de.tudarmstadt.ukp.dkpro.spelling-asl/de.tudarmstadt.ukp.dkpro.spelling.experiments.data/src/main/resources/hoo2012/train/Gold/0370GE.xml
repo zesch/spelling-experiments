@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0370">
+  <edit end="207" file="0370" index="0001" part="1" start="203" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="458" file="0370" index="0002" part="1" start="454" type="RT">
+    <original>then</original>
+    <corrections>
+      <correction>before</correction>
+    </corrections>
+  </edit>
+  <edit end="474" file="0370" index="0003" part="2" start="470" type="RT">
+    <original>over</original>
+    <corrections>
+      <correction>by</correction>
+    </corrections>
+  </edit>
+  <edit end="842" file="0370" index="0004" part="2" start="838" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>
