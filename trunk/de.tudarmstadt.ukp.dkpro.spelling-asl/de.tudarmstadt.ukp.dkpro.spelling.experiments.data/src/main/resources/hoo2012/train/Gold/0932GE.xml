@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0932">
+  <edit end="110" file="0932" index="0001" part="1" start="110" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction> for</correction>
+    </corrections>
+  </edit>
+  <edit end="318" file="0932" index="0002" part="1" start="318" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="466" file="0932" index="0003" part="1" start="464" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="528" file="0932" index="0004" part="1" start="526" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="652" file="0932" index="0005" part="1" start="650" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="1064" file="0932" index="0006" part="1" start="1064" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+</edits>

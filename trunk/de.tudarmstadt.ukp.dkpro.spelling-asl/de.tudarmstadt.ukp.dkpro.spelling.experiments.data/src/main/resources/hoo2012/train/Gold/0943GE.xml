@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0943">
+  <edit end="48" file="0943" index="0001" part="1" start="45" type="UT">
+    <original>of </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="303" file="0943" index="0002" part="1" start="297" type="RT">
+    <original>due to</original>
+    <corrections>
+      <correction>because of</correction>
+    </corrections>
+  </edit>
+  <edit end="529" file="0943" index="0003" part="1" start="527" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="976" file="0943" index="0004" part="1" start="974" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="25" file="0943" index="0005" part="5b" start="23" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>by</correction>
+    </corrections>
+  </edit>
+  <edit end="145" file="0943" index="0006" part="5b" start="143" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="210" file="0943" index="0007" part="5b" start="208" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>by</correction>
+    </corrections>
+  </edit>
+  <edit end="842" file="0943" index="0008" part="5b" start="838" type="RT">
+    <original>into</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+</edits>

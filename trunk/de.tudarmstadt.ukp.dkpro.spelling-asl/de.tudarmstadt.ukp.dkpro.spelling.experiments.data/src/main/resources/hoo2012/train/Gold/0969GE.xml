@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0969">
+  <edit end="334" file="0969" index="0001" part="1" start="334" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="343" file="0969" index="0002" part="1" start="343" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="542" file="0969" index="0003" part="1" start="542" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="807" file="0969" index="0004" part="1" start="805" type="RD">
+    <original>an</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="65" file="0969" index="0005" part="3" start="62" type="RD">
+    <original>her</original>
+    <corrections>
+      <correction>his</correction>
+    </corrections>
+  </edit>
+  <edit end="97" file="0969" index="0006" part="3" start="94" type="RD">
+    <original>her</original>
+    <corrections>
+      <correction>his</correction>
+    </corrections>
+  </edit>
+  <edit end="221" file="0969" index="0007" part="3" start="219" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="329" file="0969" index="0008" part="3" start="327" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="535" file="0969" index="0009" part="3" start="535" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="564" file="0969" index="0010" part="3" start="564" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="690" file="0969" index="0011" part="3" start="688" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>out of</correction>
+    </corrections>
+  </edit>
+</edits>

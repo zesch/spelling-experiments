@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0933">
+  <edit end="498" file="0933" index="0001" part="1" start="496" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="498" file="0933" index="0002" part="5b" start="493" type="RD">
+    <original>these</original>
+    <corrections>
+      <correction>those</correction>
+    </corrections>
+  </edit>
+</edits>

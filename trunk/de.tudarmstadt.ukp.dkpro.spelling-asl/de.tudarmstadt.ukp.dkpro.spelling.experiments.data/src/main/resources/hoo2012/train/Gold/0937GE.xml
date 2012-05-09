@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0937">
+  <edit end="142" file="0937" index="0001" part="1" start="140" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="378" file="0937" index="0002" part="1" start="375" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="631" file="0937" index="0003" part="1" start="629" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="636" file="0937" index="0004" part="1" start="632" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="114" file="0937" index="0005" part="3" start="112" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="119" file="0937" index="0006" part="3" start="115" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="181" file="0937" index="0007" part="3" start="178" type="UT">
+    <original>in </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="291" file="0937" index="0008" part="3" start="291" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>For </correction>
+    </corrections>
+  </edit>
+  <edit end="304" file="0937" index="0009" part="3" start="302" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="309" file="0937" index="0010" part="3" start="305" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="483" file="0937" index="0011" part="3" start="479" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="736" file="0937" index="0012" part="3" start="736" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>His </correction>
+    </corrections>
+  </edit>
+</edits>

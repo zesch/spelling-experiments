@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0925">
+  <edit end="58" file="0925" index="0001" part="1" start="58" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="90" file="0925" index="0002" part="1" start="90" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+  <edit end="157" file="0925" index="0003" part="1" start="157" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="235" file="0925" index="0004" part="1" start="233" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="451" file="0925" index="0005" part="1" start="451" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>with </correction>
+    </corrections>
+  </edit>
+  <edit end="517" file="0925" index="0006" part="1" start="517" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>from </correction>
+    </corrections>
+  </edit>
+  <edit end="533" file="0925" index="0007" part="1" start="529" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="696" file="0925" index="0008" part="1" start="691" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="700" file="0925" index="0009" part="1" start="697" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+  </edit>
+  <edit end="96" file="0925" index="0010" part="3" start="96" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="167" file="0925" index="0011" part="3" start="167" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="341" file="0925" index="0012" part="3" start="338" type="UT">
+    <original>on </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="519" file="0925" index="0013" part="3" start="519" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+  <edit end="582" file="0925" index="0014" part="3" start="582" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="672" file="0925" index="0015" part="3" start="672" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>about </correction>
+    </corrections>
+  </edit>
+  <edit end="764" file="0925" index="0016" part="3" start="762" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="864" file="0925" index="0017" part="3" start="860" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>by</correction>
+    </corrections>
+  </edit>
+  <edit end="869" file="0925" index="0018" part="3" start="865" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="880" file="0925" index="0019" part="3" start="880" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="1009" file="0925" index="0020" part="3" start="1009" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+</edits>

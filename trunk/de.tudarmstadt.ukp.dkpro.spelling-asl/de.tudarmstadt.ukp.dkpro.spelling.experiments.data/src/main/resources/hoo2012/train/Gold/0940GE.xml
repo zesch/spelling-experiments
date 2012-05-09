@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0940">
+  <edit end="386" file="0940" index="0001" part="1" start="386" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>like </correction>
+    </corrections>
+  </edit>
+  <edit end="500" file="0940" index="0002" part="1" start="498" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="626" file="0940" index="0003" part="1" start="626" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="645" file="0940" index="0004" part="1" start="645" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="723" file="0940" index="0005" part="1" start="723" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="202" file="0940" index="0006" part="2" start="200" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="264" file="0940" index="0007" part="2" start="264" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+</edits>

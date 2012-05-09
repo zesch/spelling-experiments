@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0944">
+  <edit end="54" file="0944" index="0001" part="1" start="52" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="321" file="0944" index="0002" part="1" start="317" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="976" file="0944" index="0003" part="1" start="976" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="125" file="0944" index="0004" part="4" start="123" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="272" file="0944" index="0005" part="4" start="270" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>for</correction>
+    </corrections>
+  </edit>
+  <edit end="355" file="0944" index="0006" part="4" start="353" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="447" file="0944" index="0007" part="4" start="447" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+</edits>
