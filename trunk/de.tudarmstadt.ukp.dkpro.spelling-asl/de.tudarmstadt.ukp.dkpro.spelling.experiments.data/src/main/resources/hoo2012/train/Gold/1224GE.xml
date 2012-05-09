@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1224">
+  <edit end="78" file="1224" index="0001" part="1" start="78" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>about </correction>
+    </corrections>
+  </edit>
+  <edit end="133" file="1224" index="0002" part="1" start="129" type="RD">
+    <original>that</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="171" file="1224" index="0003" part="1" start="166" type="UT">
+    <original>about</original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="635" file="1224" index="0004" part="1" start="631" type="RT">
+    <original>like</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="767" file="1224" index="0005" part="1" start="765" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>under</correction>
+    </corrections>
+  </edit>
+  <edit end="115" file="1224" index="0006" part="2" start="111" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="139" file="1224" index="0007" part="2" start="137" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>beside</correction>
+    </corrections>
+  </edit>
+  <edit end="218" file="1224" index="0008" part="2" start="214" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="318" file="1224" index="0009" part="2" start="315" type="RD">
+    <original>his</original>
+    <corrections>
+      <correction>her</correction>
+    </corrections>
+  </edit>
+  <edit end="579" file="1224" index="0010" part="2" start="576" type="RD">
+    <original>his</original>
+    <corrections>
+      <correction>her</correction>
+    </corrections>
+  </edit>
+  <edit end="600" file="1224" index="0011" part="2" start="600" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="921" file="1224" index="0012" part="2" start="921" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="982" file="1224" index="0013" part="2" start="976" type="RT">
+    <original>within</original>
+    <corrections>
+      <correction>without</correction>
+    </corrections>
+  </edit>
+</edits>

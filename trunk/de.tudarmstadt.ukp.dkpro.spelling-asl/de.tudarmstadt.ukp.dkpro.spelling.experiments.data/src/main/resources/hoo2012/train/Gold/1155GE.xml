@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1155">
+  <edit end="373" file="1155" index="0001" part="1" start="371" type="RT">
+    <original>as</original>
+    <corrections>
+      <correction>like</correction>
+    </corrections>
+  </edit>
+  <edit end="795" file="1155" index="0002" part="1" start="795" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="558" file="1155" index="0003" part="2" start="555" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="715" file="1155" index="0004" part="2" start="712" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="903" file="1155" index="0005" part="2" start="903" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>with </correction>
+    </corrections>
+  </edit>
+</edits>

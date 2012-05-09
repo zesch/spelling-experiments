@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1164">
+  <edit end="63" file="1164" index="0001" part="1" start="60" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="239" file="1164" index="0002" part="1" start="237" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="629" file="1164" index="0003" part="1" start="626" type="UT">
+    <original>by </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="864" file="1164" index="0004" part="1" start="861" type="RT">
+    <original>for</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="950" file="1164" index="0005" part="1" start="947" type="UT">
+    <original>in </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1046" file="1164" index="0006" part="1" start="1043" type="RD">
+    <original>not</original>
+    <corrections>
+      <correction>no</correction>
+    </corrections>
+  </edit>
+  <edit end="401" file="1164" index="0007" part="4" start="401" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>as </correction>
+    </corrections>
+  </edit>
+  <edit end="518" file="1164" index="0008" part="4" start="516" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="1261" file="1164" index="0009" part="4" start="1259" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

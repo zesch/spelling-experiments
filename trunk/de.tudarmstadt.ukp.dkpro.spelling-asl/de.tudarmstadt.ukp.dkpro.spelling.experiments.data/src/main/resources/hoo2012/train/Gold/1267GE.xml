@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1267">
+  <edit end="120" file="1267" index="0001" part="1" start="118" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="212" file="1267" index="0002" part="1" start="208" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>during</correction>
+    </corrections>
+  </edit>
+  <edit end="294" file="1267" index="0003" part="1" start="294" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="153" file="1267" index="0004" part="2" start="151" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="383" file="1267" index="0005" part="2" start="379" type="RD">
+    <original>that</original>
+    <corrections>
+      <correction>this</correction>
+    </corrections>
+  </edit>
+</edits>

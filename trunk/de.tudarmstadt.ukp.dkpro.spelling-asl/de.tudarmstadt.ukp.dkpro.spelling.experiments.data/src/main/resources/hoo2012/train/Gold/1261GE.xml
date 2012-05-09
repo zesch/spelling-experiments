@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1261">
+  <edit end="399" file="1261" index="0001" part="1" start="395" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="425" file="1261" index="0002" part="1" start="421" type="RT">
+    <original>from</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="683" file="1261" index="0003" part="1" start="681" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="763" file="1261" index="0004" part="1" start="763" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="3" file="1261" index="0005" part="3" start="0" type="UT">
+    <original>In </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="779" file="1261" index="0006" part="3" start="774" type="RD">
+    <original>their</original>
+    <corrections>
+      <correction>his</correction>
+    </corrections>
+  </edit>
+</edits>

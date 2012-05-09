@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1233">
+  <edit end="85" file="1233" index="0001" part="1" start="85" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="807" file="1233" index="0002" part="1" start="807" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="290" file="1233" index="0003" part="4" start="288" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="346" file="1233" index="0004" part="4" start="344" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="431" file="1233" index="0005" part="4" start="431" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="757" file="1233" index="0006" part="4" start="757" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>except </correction>
+    </corrections>
+  </edit>
+  <edit end="898" file="1233" index="0007" part="4" start="895" type="UT">
+    <original>as </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1175">
+  <edit end="291" file="1175" index="0001" part="1" start="288" type="RD">
+    <original>the</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="477" file="1175" index="0002" part="1" start="475" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="76" file="1175" index="0003" part="3" start="74" type="RT">
+    <original>by</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="153" file="1175" index="0004" part="3" start="151" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="236" file="1175" index="0005" part="3" start="234" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="289" file="1175" index="0006" part="3" start="287" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="407" file="1175" index="0007" part="3" start="405" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="412" file="1175" index="0008" part="3" start="408" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="639" file="1175" index="0009" part="3" start="635" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>to</correction>
+    </corrections>
+  </edit>
+  <edit end="681" file="1175" index="0010" part="3" start="677" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

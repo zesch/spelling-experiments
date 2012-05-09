@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1197">
+  <edit end="373" file="1197" index="0001" part="2" start="371" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="521" file="1197" index="0002" part="2" start="518" type="RD">
+    <original>one</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="780" file="1197" index="0003" part="2" start="775" type="UT">
+    <original> over</original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+</edits>

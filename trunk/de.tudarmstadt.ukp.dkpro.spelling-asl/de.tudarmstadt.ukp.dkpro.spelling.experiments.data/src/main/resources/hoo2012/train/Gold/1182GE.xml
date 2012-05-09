@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1182">
+  <edit end="316" file="1182" index="0001" part="1" start="312" type="UD">
+    <original>one </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="432" file="1182" index="0002" part="1" start="428" type="RD">
+    <original>that</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="666" file="1182" index="0003" part="1" start="663" type="UT">
+    <original>up </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="701" file="1182" index="0004" part="1" start="697" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="354" file="1182" index="0005" part="3" start="352" type="RT">
+    <original>on</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="355" file="1182" index="0006" part="3" start="355" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+</edits>

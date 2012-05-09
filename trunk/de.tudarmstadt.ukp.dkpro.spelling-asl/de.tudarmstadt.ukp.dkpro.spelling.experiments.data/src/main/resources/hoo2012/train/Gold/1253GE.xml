@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="1253">
+  <edit end="21" file="1253" index="0001" part="1" start="9" type="RT">
+    <original>According to</original>
+    <corrections>
+      <correction>On</correction>
+    </corrections>
+  </edit>
+  <edit end="179" file="1253" index="0002" part="1" start="175" type="RT">
+    <original>like</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="227" file="1253" index="0003" part="1" start="222" type="RT">
+    <original>about</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="807" file="1253" index="0004" part="1" start="807" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="21" file="1253" index="0005" part="3" start="21" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>The </correction>
+    </corrections>
+  </edit>
+  <edit end="90" file="1253" index="0006" part="3" start="86" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="172" file="1253" index="0007" part="3" start="168" type="UD">
+    <original>The </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="584" file="1253" index="0008" part="3" start="582" type="RT">
+    <original>at</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="585" file="1253" index="0009" part="3" start="585" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>an </correction>
+    </corrections>
+  </edit>
+  <edit end="596" file="1253" index="0010" part="3" start="596" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>The</correction>
+    </corrections>
+  </edit>
+</edits>
