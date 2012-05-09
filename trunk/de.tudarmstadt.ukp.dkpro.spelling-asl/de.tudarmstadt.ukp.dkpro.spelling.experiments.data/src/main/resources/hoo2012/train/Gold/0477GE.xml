@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0477">
+  <edit end="309" file="0477" index="0001" part="1" start="308" type="RD">
+    <original>a</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="801" file="0477" index="0002" part="1" start="799" type="UD">
+    <original>a </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="926" file="0477" index="0003" part="1" start="926" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="80" file="0477" index="0004" part="3" start="78" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>about</correction>
+    </corrections>
+  </edit>
+  <edit end="204" file="0477" index="0005" part="3" start="201" type="RD">
+    <original>any</original>
+    <corrections>
+      <correction>a</correction>
+    </corrections>
+  </edit>
+  <edit end="486" file="0477" index="0006" part="3" start="482" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="806" file="0477" index="0007" part="3" start="803" type="UT">
+    <original>In </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="813" file="0477" index="0008" part="3" start="811" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>within</correction>
+    </corrections>
+  </edit>
+</edits>

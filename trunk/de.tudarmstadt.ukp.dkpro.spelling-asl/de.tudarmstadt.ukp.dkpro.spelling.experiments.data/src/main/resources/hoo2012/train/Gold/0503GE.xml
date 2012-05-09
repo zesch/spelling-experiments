@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0503">
+  <edit end="85" file="0503" index="0001" part="1" start="85" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="546" file="0503" index="0002" part="1" start="546" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>to </correction>
+    </corrections>
+  </edit>
+  <edit end="612" file="0503" index="0003" part="1" start="610" type="RT">
+    <original>as</original>
+    <corrections>
+      <correction>of</correction>
+    </corrections>
+  </edit>
+  <edit end="196" file="0503" index="0004" part="2" start="193" type="UT">
+    <original>to </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="284" file="0503" index="0005" part="2" start="279" type="RT">
+    <original>since</original>
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+  </edit>
+</edits>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0480">
+  <edit end="711" file="0480" index="0001" part="1" start="709" type="RT">
+    <original>of</original>
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+  </edit>
+  <edit end="1179" file="0480" index="0002" part="1" start="1175" type="UT">
+    <original>for </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1233" file="0480" index="0003" part="1" start="1233" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>off </correction>
+    </corrections>
+  </edit>
+</edits>

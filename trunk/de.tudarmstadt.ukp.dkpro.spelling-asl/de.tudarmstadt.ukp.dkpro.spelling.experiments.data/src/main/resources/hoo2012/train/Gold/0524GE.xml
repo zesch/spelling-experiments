@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0524">
+  <edit end="9" file="0524" index="0001" part="1" start="5" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="50" file="0524" index="0002" part="1" start="47" type="UT">
+    <original>as </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="186" file="0524" index="0003" part="1" start="184" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>on</correction>
+    </corrections>
+  </edit>
+  <edit end="191" file="0524" index="0004" part="1" start="187" type="UD">
+    <original>the </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="199" file="0524" index="0005" part="1" start="199" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>at </correction>
+    </corrections>
+  </edit>
+</edits>

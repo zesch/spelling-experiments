@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0516">
+  <edit end="95" file="0516" index="0001" part="1" start="95" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+  </edit>
+  <edit end="363" file="0516" index="0002" part="3" start="358" type="RD">
+    <original>these</original>
+    <corrections>
+      <correction>those</correction>
+    </corrections>
+  </edit>
+  <edit end="710" file="0516" index="0003" part="3" start="705" type="UT">
+    <original>from </original>
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+  </edit>
+  <edit end="1804" file="0516" index="0004" part="3" start="1802" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>with</correction>
+    </corrections>
+  </edit>
+  <edit end="1856" file="0516" index="0005" part="3" start="1852" type="RD">
+    <original>this</original>
+    <corrections>
+      <correction>these</correction>
+    </corrections>
+  </edit>
+  <edit end="1930" file="0516" index="0006" part="3" start="1930" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>of </correction>
+    </corrections>
+  </edit>
+</edits>

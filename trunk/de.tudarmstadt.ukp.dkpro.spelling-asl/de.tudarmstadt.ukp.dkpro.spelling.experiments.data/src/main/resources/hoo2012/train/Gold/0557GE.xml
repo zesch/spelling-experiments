@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edits file="0557">
+  <edit end="189" file="0557" index="0001" part="1" start="189" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>these </correction>
+    </corrections>
+  </edit>
+  <edit end="438" file="0557" index="0002" part="1" start="436" type="RT">
+    <original>in</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="439" file="0557" index="0003" part="1" start="439" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="655" file="0557" index="0004" part="1" start="651" type="RT">
+    <original>with</original>
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+  </edit>
+  <edit end="764" file="0557" index="0005" part="1" start="764" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>for </correction>
+    </corrections>
+  </edit>
+  <edit end="309" file="0557" index="0006" part="4" start="309" type="MD">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+  </edit>
+  <edit end="625" file="0557" index="0007" part="4" start="623" type="RD">
+    <original>my</original>
+    <corrections>
+      <correction>the</correction>
+    </corrections>
+  </edit>
+  <edit end="675" file="0557" index="0008" part="4" start="673" type="RT">
+    <original>to</original>
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+  </edit>
+  <edit end="1075" file="0557" index="0009" part="4" start="1075" type="MT">
+    <original>
+      <empty/>
+    </original>
+    <corrections>
+      <correction>in </correction>
+    </corrections>
+  </edit>
+</edits>
