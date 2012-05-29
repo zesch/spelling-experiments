@@ -1,0 +1,662 @@
+<?xml version="1.0" ?>
+<edits>
+  <edit end="64" index="0005-0001" start="60" type="FN">
+    <corrections>
+      <correction>units</correction>
+    </corrections>
+    <original>unit</original>
+  </edit>
+  <edit end="524" index="0005-0002" start="494" type="CC">
+    <corrections>
+      <correction>an intractable estimation problem</correction>
+      <correction>intractable estimation problems</correction>
+    </corrections>
+    <original>intractable estimation problem</original>
+  </edit>
+  <edit end="667" index="0005-0003" start="658" type="RN">
+    <corrections>
+      <correction>way</correction>
+    </corrections>
+    <original>direction</original>
+  </edit>
+  <edit end="682" index="0005-0004" start="671" type="RV">
+    <corrections>
+      <correction/>
+      <correction>investigating</correction>
+    </corrections>
+    <original>questioning</original>
+  </edit>
+  <edit end="715" index="0005-0005" start="683" type="CC">
+    <corrections>
+      <correction>a word as a basic translational unit</correction>
+      <correction>words as basic translational units</correction>
+      <correction>the word as the basic translational unit</correction>
+    </corrections>
+    <original>word as basic translational unit</original>
+  </edit>
+  <edit end="739" index="0005-0006" start="731" type="RV">
+    <corrections>
+      <correction>investigate</correction>
+    </corrections>
+    <original>question</original>
+  </edit>
+  <edit end="760" index="0005-0007" start="758" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>on</original>
+  </edit>
+  <edit end="864" index="0005-0008" start="829" type="CC">
+    <corrections>
+      <correction>Chinese-to-English translation tasks</correction>
+      <correction>a Chinese-to-English translation task</correction>
+    </corrections>
+    <original>Chinese-to-English translation task</original>
+  </edit>
+  <edit end="864" index="0005-0009" start="864" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="933" index="0005-0010" start="933" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1006" index="0005-0011" start="998" type="FN">
+    <corrections>
+      <correction>sentences</correction>
+    </corrections>
+    <original>sentence</original>
+  </edit>
+  <edit end="1078" index="0005-0012" start="1078" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1114" index="0005-0013" start="1114" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1243" index="0005-0014" start="1224" type="CC">
+    <corrections>
+      <correction>is also research</correction>
+      <correction>has also been research</correction>
+    </corrections>
+    <original>are also researches</original>
+  </edit>
+  <edit end="1330" index="0005-0015" start="1330" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1349" index="0005-0016" start="1349" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1368" index="0005-0017" start="1368" type="MP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1471" index="0005-0018" start="1470" type="RP">
+    <corrections>
+      <correction>,</correction>
+    </corrections>
+    <original>.</original>
+  </edit>
+  <edit end="1492" index="0005-0019" start="1479" type="W">
+    <corrections>
+      <correction/>
+      <correction>focusing only</correction>
+    </corrections>
+    <original>only focusing</original>
+  </edit>
+  <edit end="1536" index="0005-0020" start="1496" type="CC">
+    <corrections>
+      <correction>a Chinese word as a basic translational unit</correction>
+      <correction>Chinese words as basic translational units</correction>
+    </corrections>
+    <original>Chinese word as basic translational unit</original>
+  </edit>
+  <edit end="1561" index="0005-0021" start="1553" type="CC">
+    <corrections>
+      <correction>for modeling</correction>
+    </corrections>
+    <original>to model</original>
+  </edit>
+  <edit end="1630" index="0005-0022" start="1630" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1873" index="0005-0023" start="1873" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="1985" index="0005-0024" start="1966" type="CC">
+    <corrections>
+      <correction>are other</correction>
+      <correction>are</correction>
+    </corrections>
+    <original>are another kind of</original>
+  </edit>
+  <edit end="2056" index="0005-0025" start="2046" type="RV">
+    <corrections>
+      <correction/>
+      <correction>investigated</correction>
+    </corrections>
+    <original>questioned</original>
+  </edit>
+  <edit end="2059" index="0005-0026" start="2057" type="RC">
+    <corrections>
+      <correction>whether</correction>
+    </corrections>
+    <original>if</original>
+  </edit>
+  <edit end="2084" index="0005-0027" start="2082" type="RT">
+    <corrections>
+      <correction>at</correction>
+    </corrections>
+    <original>in</original>
+  </edit>
+  <edit end="2095" index="0005-0028" start="2090" type="FN">
+    <corrections>
+      <correction>unit</correction>
+    </corrections>
+    <original>units</original>
+  </edit>
+  <edit end="2134" index="0005-0029" start="2124" type="RV">
+    <corrections>
+      <correction/>
+      <correction>investigated</correction>
+    </corrections>
+    <original>questioned</original>
+  </edit>
+  <edit end="2167" index="0005-0030" start="2135" type="CC">
+    <corrections>
+      <correction>words as basic translational units</correction>
+      <correction>the word as the basic translational unit</correction>
+    </corrections>
+    <original>word as basic translational unit</original>
+  </edit>
+  <edit end="2302" index="0005-0031" start="2280" type="R">
+    <corrections>
+      <correction>in both languages</correction>
+    </corrections>
+    <original>on both language sides</original>
+  </edit>
+  <edit end="2317" index="0005-0032" start="2317" type="MD">
+    <corrections>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2355" index="0005-0033" start="2355" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit cset="1" end="2409" index="0005-0034" start="2385" type="CC">
+    <corrections>
+      <correction>a basic translational unit</correction>
+      <correction>basic translational units</correction>
+    </corrections>
+    <original>basic translational unit</original>
+  </edit>
+  <edit end="2413" index="0005-0035" start="2410" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>as </original>
+  </edit>
+  <edit cset="1" end="2424" index="0005-0036" start="2413" type="CC">
+    <corrections>
+      <correction>a pseudo-word</correction>
+      <correction>pseudo-words</correction>
+    </corrections>
+    <original>pseudo-word</original>
+  </edit>
+  <edit end="2427" index="0005-0037" start="2425" type="R">
+    <corrections>
+      <correction/>
+      <correction>in order to</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit cset="1" end="2442" index="0005-0038" start="2442" type="MA">
+    <corrections>
+      <correction>it </correction>
+      <correction>them </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2446" index="0005-0039" start="2442" type="RT">
+    <corrections>
+      <correction>from</correction>
+    </corrections>
+    <original>with</original>
+  </edit>
+  <edit cset="1" end="2451" index="0005-0040" start="2447" type="CC">
+    <corrections>
+      <correction>a word</correction>
+      <correction>words</correction>
+    </corrections>
+    <original>word</original>
+  </edit>
+  <edit end="2464" index="0005-0041" start="2453" type="MD">
+    <corrections>
+      <correction>A pseudo-word</correction>
+    </corrections>
+    <original>Pseudo-word</original>
+  </edit>
+  <edit end="2509" index="0005-0042" start="2501" type="CC">
+    <corrections>
+      <correction>it includes</correction>
+      <correction>including</correction>
+      <correction>which includes</correction>
+    </corrections>
+    <original>includes</original>
+  </edit>
+  <edit end="2525" index="0005-0043" start="2521" type="FN">
+    <corrections>
+      <correction>words</correction>
+    </corrections>
+    <original>word</original>
+  </edit>
+  <edit end="2540" index="0005-0044" start="2530" type="FN">
+    <corrections>
+      <correction>multi-words</correction>
+    </corrections>
+    <original>multi-word</original>
+  </edit>
+  <edit end="2554" index="0005-0045" start="2543" type="MD">
+    <corrections>
+      <correction>The pseudo-word</correction>
+    </corrections>
+    <original>Pseudo-word</original>
+  </edit>
+  <edit end="2587" index="0005-0046" start="2585" type="RT">
+    <corrections>
+      <correction>as</correction>
+    </corrections>
+    <original>to</original>
+  </edit>
+  <edit end="2661" index="0005-0047" start="2661" type="MD">
+    <corrections>
+      <correction/>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2726" index="0005-0048" start="2725" type="UP">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>,</original>
+  </edit>
+  <edit cset="2" end="2758" index="0005-0049" start="2747" type="CC">
+    <corrections>
+      <correction>a pseudo-word</correction>
+      <correction>pseudo-words</correction>
+    </corrections>
+    <original>pseudo-word</original>
+  </edit>
+  <edit cset="2" end="2778" index="0005-0050" start="2762" type="CC">
+    <corrections>
+      <correction>a minimal sequence</correction>
+      <correction>minimal sequences</correction>
+    </corrections>
+    <original>minimal sequence</original>
+  </edit>
+  <edit end="2811" index="0005-0051" start="2800" type="R">
+    <original>in sense of</original>
+  </edit>
+  <edit cset="2" end="2846" index="0005-0052" start="2828" type="CC">
+    <corrections>
+      <correction>a potential function</correction>
+      <correction>potential functions</correction>
+    </corrections>
+    <original>potential function</original>
+  </edit>
+  <edit end="2850" index="0005-0053" start="2850" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="2907" index="0005-0054" start="2894" type="AGN">
+    <corrections>
+      <correction>decompositions</correction>
+    </corrections>
+    <original>decomposition</original>
+  </edit>
+  <edit end="2995" index="0005-0055" start="2995" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3022" index="0005-0056" start="3022" type="MD">
+    <corrections>
+      <correction>the </correction>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3081" index="0005-0057" start="3053" type="CC">
+    <corrections>
+      <correction>an optimal pseudo-word sequence</correction>
+      <correction>optimal pseudo-word sequences</correction>
+    </corrections>
+    <original>optimal pseudo-word sequence</original>
+  </edit>
+  <edit end="3133" index="0005-0058" start="3133" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3242" index="0005-0059" start="3238" type="R">
+    <corrections>
+      <correction>better than</correction>
+      <correction>more than</correction>
+    </corrections>
+    <original>over</original>
+  </edit>
+  <edit end="3310" index="0005-0060" start="3299" type="CC">
+    <corrections>
+      <correction>removing</correction>
+      <correction>which remove</correction>
+    </corrections>
+    <original>of removing</original>
+  </edit>
+  <edit end="3351" index="0005-0061" start="3324" type="CC">
+    <corrections>
+      <correction>a higher order language model</correction>
+      <correction>higher order language models</correction>
+    </corrections>
+    <original>higher order language model</original>
+  </edit>
+  <edit end="3366" index="0005-0062" start="3363" type="R">
+    <corrections>
+      <correction>maximum</correction>
+    </corrections>
+    <original>max</original>
+  </edit>
+  <edit end="3499" index="0005-0063" start="3495" type="RT">
+    <corrections>
+      <correction>compared to</correction>
+      <correction>compared with</correction>
+    </corrections>
+    <original>over</original>
+  </edit>
+  <edit end="3550" index="0005-0064" start="3549" type="RP">
+    <corrections>
+      <correction>.</correction>
+    </corrections>
+    <original>:</original>
+  </edit>
+  <edit end="3702" index="0005-0065" start="3702" type="MD">
+    <corrections>
+      <correction>the </correction>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="3759" index="0005-0066" start="3757" type="RT">
+    <corrections>
+      <correction>in</correction>
+    </corrections>
+    <original>at</original>
+  </edit>
+  <edit end="3910" index="0005-0067" start="3902" type="FN">
+    <corrections>
+      <correction>sentences</correction>
+    </corrections>
+    <original>sentence</original>
+  </edit>
+  <edit end="4053" index="0005-0068" start="4049" type="FN">
+    <corrections>
+      <correction>pairs</correction>
+    </corrections>
+    <original>pair</original>
+  </edit>
+  <edit end="4127" index="0005-0069" start="4120" type="RY">
+    <corrections>
+      <correction>first</correction>
+    </corrections>
+    <original>firstly</original>
+  </edit>
+  <edit end="4189" index="0005-0070" start="4185" type="FN">
+    <corrections>
+      <correction>sides</correction>
+    </corrections>
+    <original>side</original>
+  </edit>
+  <edit end="4331" index="0005-0071" start="4327" type="L">
+    <corrections>
+      <correction>adequately</correction>
+      <correction>well</correction>
+    </corrections>
+    <original>fine</original>
+  </edit>
+  <edit end="4366" index="0005-0072" start="4366" type="MN">
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4461" index="0005-0073" start="4450" type="MD">
+    <corrections>
+      <correction>The pseudo-word</correction>
+    </corrections>
+    <original>Pseudo-word</original>
+  </edit>
+  <edit end="4488" index="0005-0074" start="4483" type="RJ">
+    <corrections>
+      <correction>equivalent</correction>
+    </corrections>
+    <original>equal</original>
+  </edit>
+  <edit end="4492" index="0005-0075" start="4492" type="MD">
+    <corrections>
+      <correction/>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4626" index="0005-0076" start="4622" type="UD">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>the </original>
+  </edit>
+  <edit end="4650" index="0005-0077" start="4650" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4675" index="0005-0078" start="4675" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4705" index="0005-0079" start="4698" type="RV">
+    <corrections>
+      <correction>putting</correction>
+    </corrections>
+    <original>casting</original>
+  </edit>
+  <edit end="4732" index="0005-0080" start="4706" type="CC">
+    <corrections>
+      <correction>the decomposition problem</correction>
+      <correction>such a decomposition problem</correction>
+      <correction>such decomposition problems</correction>
+    </corrections>
+    <original>such decomposition problem</original>
+  </edit>
+  <edit end="4738" index="0005-0081" start="4738" type="MD">
+    <corrections>
+      <correction>the </correction>
+      <correction>a </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="4789" index="0005-0082" start="4769" type="CC">
+    <corrections>
+      <correction>a pseudo-word sequence</correction>
+      <correction>pseudo-word sequences</correction>
+    </corrections>
+    <original>pseudo-word sequence</original>
+  </edit>
+  <edit end="5206" index="0005-0083" start="5206" type="MD">
+    <corrections>
+      <correction>the </correction>
+    </corrections>
+    <original>
+      <empty/>
+    </original>
+  </edit>
+  <edit end="5417" index="0005-0084" start="5411" type="R">
+    <corrections>
+      <correction>does not have the</correction>
+    </corrections>
+    <original>has no</original>
+  </edit>
+  <edit end="5503" index="0005-0085" start="5492" type="RV">
+    <corrections>
+      <correction>is concerned with</correction>
+      <correction>focuses on</correction>
+    </corrections>
+    <original>cares about</original>
+  </edit>
+  <edit end="5670" index="0005-0086" start="5622" type="W">
+    <corrections>
+      <correction>the bilingual sequence significances of all span-pairs</correction>
+    </corrections>
+    <original>all span-pairs' bilingual sequence significances</original>
+  </edit>
+  <edit end="5692" index="0005-0087" start="5685" type="MD">
+    <corrections>
+      <correction>A maximal</correction>
+    </corrections>
+    <original>Maximal</original>
+  </edit>
+  <edit end="5795" index="0005-0088" start="5792" type="RN">
+    <corrections>
+      <correction>method</correction>
+    </corrections>
+    <original>way</original>
+  </edit>
+  <edit end="5997" index="0005-0089" start="5993" type="FN">
+    <corrections>
+      <correction>words</correction>
+    </corrections>
+    <original>word</original>
+  </edit>
+  <edit end="6233" index="0005-0090" start="6229" type="FN">
+    <corrections>
+      <correction>words</correction>
+    </corrections>
+    <original>word</original>
+  </edit>
+  <edit end="6355" index="0005-0091" start="6351" type="FN">
+    <corrections>
+      <correction>words</correction>
+    </corrections>
+    <original>word</original>
+  </edit>
+  <edit end="6481" index="0005-0092" start="6478" type="UT">
+    <corrections>
+      <correction>
+        <empty/>
+      </correction>
+    </corrections>
+    <original>as </original>
+  </edit>
+  <edit end="6707" index="0005-0093" start="6697" type="AGN">
+    <corrections>
+      <correction>alignment</correction>
+    </corrections>
+    <original>alignments</original>
+  </edit>
+  <edit end="6725" index="0005-0094" start="6718" type="RP">
+    <corrections>
+      <correction>cannot</correction>
+    </corrections>
+    <original>can not</original>
+  </edit>
+  <edit end="6734" index="0005-0095" start="6726" type="R">
+    <corrections>
+      <correction/>
+      <correction>address</correction>
+      <correction>take into account</correction>
+    </corrections>
+    <original>consider</original>
+  </edit>
+</edits>

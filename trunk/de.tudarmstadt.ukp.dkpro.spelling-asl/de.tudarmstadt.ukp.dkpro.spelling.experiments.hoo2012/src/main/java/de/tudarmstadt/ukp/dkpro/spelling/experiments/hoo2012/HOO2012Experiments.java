@@ -35,9 +35,8 @@ import de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.PP;
 import de.tudarmstadt.ukp.dkpro.core.api.resources.DKProContext;
 import de.tudarmstadt.ukp.dkpro.core.frequency.resources.Web1TFrequencyCountResource;
 import de.tudarmstadt.ukp.dkpro.core.io.tei.TEIReader;
+import de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpPosTagger;
 import de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter;
-import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerChunkerTT4J;
-import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosLemmaTT4J;
 import de.tudarmstadt.ukp.dkpro.lab.Lab;
 import de.tudarmstadt.ukp.dkpro.lab.engine.TaskContext;
 import de.tudarmstadt.ukp.dkpro.lab.storage.StorageService.AccessMode;
@@ -178,9 +177,9 @@ public class HOO2012Experiments {
 		        return createAggregateDescription(
 						createPrimitiveDescription(BreakIteratorSegmenter.class),
 						createPrimitiveDescription(
-		                        TreeTaggerPosLemmaTT4J.class,
-		                        TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, langCode
-		                ),
+								OpenNlpPosTagger.class,
+								OpenNlpPosTagger.PARAM_LANGUAGE, langCode
+						),
 		                createPrimitiveDescription(
 		                        FixedCandidateAnnotator.class,
 		                        FixedCandidateAnnotator.PARAM_TYPE, targetType,
@@ -250,10 +249,10 @@ public class HOO2012Experiments {
 		        return createAggregateDescription(
 						createPrimitiveDescription(BreakIteratorSegmenter.class),
 						createPrimitiveDescription(
-		                        TreeTaggerPosLemmaTT4J.class,
-		                        TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, langCode
-		                ),
-		                createPrimitiveDescription(
+								OpenNlpPosTagger.class,
+								OpenNlpPosTagger.PARAM_LANGUAGE, langCode
+						),
+						createPrimitiveDescription(
 		                        FixedCandidateAnnotator.class,
 		                        FixedCandidateAnnotator.PARAM_TYPE, targetType,
 		                        FixedCandidateAnnotator.PARAM_CANDIDATE_FILE, confusionSetFile
@@ -324,10 +323,9 @@ public class HOO2012Experiments {
 		        return createAggregateDescription(
 		        		createPrimitiveDescription(BreakIteratorSegmenter.class),
 						createPrimitiveDescription(
-		                        TreeTaggerPosLemmaTT4J.class,
-		                        TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, langCode
-		                ),
-		        		createPrimitiveDescription(TreeTaggerChunkerTT4J.class),
+								OpenNlpPosTagger.class,
+								OpenNlpPosTagger.PARAM_LANGUAGE, langCode
+						),
 		        		createPrimitiveDescription(
 		        				MetaCollector.class,
 		        				MetaCollector.PARAM_META_FILE, metaDir + "/metaRT.xml",
@@ -376,10 +374,9 @@ public class HOO2012Experiments {
 		    	return createAggregateDescription(
 						createPrimitiveDescription(BreakIteratorSegmenter.class),
 						createPrimitiveDescription(
-		                        TreeTaggerPosLemmaTT4J.class,
-		                        TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, langCode
-		                ),
-						createPrimitiveDescription(TreeTaggerChunkerTT4J.class),
+								OpenNlpPosTagger.class,
+								OpenNlpPosTagger.PARAM_LANGUAGE, langCode
+						),
 						createPrimitiveDescription(
 								CorrectionAnnotator.class,
 								CorrectionAnnotator.PARAM_CATEGORY_CLASS, "RT",
@@ -512,10 +509,9 @@ public class HOO2012Experiments {
 		    	return createAggregateDescription(
 						createPrimitiveDescription(BreakIteratorSegmenter.class),
 						createPrimitiveDescription(
-		                        TreeTaggerPosLemmaTT4J.class,
-		                        TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, langCode
-		                ),
-						createPrimitiveDescription(TreeTaggerChunkerTT4J.class),
+								OpenNlpPosTagger.class,
+								OpenNlpPosTagger.PARAM_LANGUAGE, langCode
+						),
 						createPrimitiveDescription(
 								CorrectionAnnotator.class,
 								CorrectionAnnotator.PARAM_CATEGORY_CLASS, "RT",

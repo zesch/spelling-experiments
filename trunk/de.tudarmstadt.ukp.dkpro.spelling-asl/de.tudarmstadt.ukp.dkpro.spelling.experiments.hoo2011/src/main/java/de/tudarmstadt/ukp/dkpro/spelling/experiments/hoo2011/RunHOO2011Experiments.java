@@ -66,12 +66,14 @@ public class RunHOO2011Experiments
 //    public final static String DATASET =  "classpath:/hoo2011/test/Raw_old/";				
   
     // ISO
-    public final static String DATASET = "classpath:/hoo2011/test/Raw/";  
+//    public final static String DATASET = "classpath:/hoo2011/test/Raw/";  
+    public final static String DATASET = "src/test/resources/test_data/Raw/";  
     
   
     
 //    private final static String GOLD_PATH = "classpath:/hoo2011/develop/Gold/";
-    private final static String GOLD_PATH =   "classpath:/hoo2011/test/Gold/";
+//    private final static String GOLD_PATH =   "classpath:/hoo2011/test/Gold/";
+    private final static String GOLD_PATH =   "src/test/resources/test_data/Gold/";
 
     private final static String OUTPUT_PATH     = "target/hoo_output/";
     private final static String EXTRACTION_PATH = "target/hoo_extraction/";

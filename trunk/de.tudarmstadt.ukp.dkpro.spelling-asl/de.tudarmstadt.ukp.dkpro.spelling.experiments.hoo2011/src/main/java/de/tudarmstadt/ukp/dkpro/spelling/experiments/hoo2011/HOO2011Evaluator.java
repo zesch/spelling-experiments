@@ -1,5 +1,7 @@
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2011;
 
+import static de.tudarmstadt.ukp.dkpro.core.api.resources.ResourceUtils.resolveLocation;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -42,6 +44,7 @@ public class HOO2011Evaluator
 
     public static final String PARAM_GOLD_PATH = "GoldPath";
     @ConfigurationParameter(name = PARAM_GOLD_PATH, mandatory=true)
+	private String goldPathString;
     private File goldPath;
 
     public static final String PARAM_TEAM_ID = "TeamID";
@@ -62,6 +65,12 @@ public class HOO2011Evaluator
     {
         super.initialize(context);
 
+		try {
+			goldPath = new File(resolveLocation(goldPathString, this, context).getFile());
+		} catch (IOException e) {
+			throw new ResourceInitializationException(e);
+		}
+        
         outputPath.delete();
         outputPath.mkdirs();
     }

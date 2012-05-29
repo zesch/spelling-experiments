@@ -1,0 +1,41 @@
+As mentioned in Section 1, the objective of sentiment classification is to classify a specific binary relation: X's evaluation on Y, where X is an object set including different kinds of persons and Y is another object set including the target objects to be evaluated. First of all, we focus on an analysis on sentences in product reviews regarding the two views: personal and impersonal views.
+
+The personal view consists of personal sentences (i.e. X's sentences) exemplified below:
+I. Personal preference:
+E1: I love this breadmaker!
+E2: I disliked it from the beginning.
+II. Personal emotion description:
+E3: Very disappointed!
+E4: I am happy with the product.
+III. Personal actions:
+E5: Do not waste your money.
+E6: I have recommended this machine to all my friends.
+The impersonal view consists of impersonal sentences (i.e. Y's sentences) exemplified below:
+I. Impersonal feature description:
+E7: They are too thin to start with.
+E8: This product is extremely quiet.
+II. Impersonal evaluation:
+E9: It's great.
+E10: The product is a waste of time and money.
+III. Impersonal actions:
+E11: This product not even worth a penny.
+E12: It broke down again and again.
+We find that the subject of a sentence presents important cues for personal/impersonal views, even though a formal and computable definition of this contrast cannot be found. Here, subject refers to one of the two main constituents in the traditional English grammar (the other constituent being the predicate) (Crystal, 2003). For example, the subjects in the above examples of E1, E7 and E11 are 'I', 'they', and 'this product' respectively. For automatic mining the two views, personal/impersonal sentences can be defined according to their subjects:
+Personal sentence: the sentence whose subject is (or represents) a person.
+Impersonal sentence: the sentence whose subject is not (does not represent) a person.
+
+In this study, we mainly focus on product review classification where the target object in the set Y is not a person. The definitions need to be adjusted when the evaluation target itself is a person, e.g. the political sentiment classification by Durant and Smith (2007).
+
+Our unsupervised mining approach for mining personal and impersonal sentences consists of two main steps. First, we extract an initial set of personal and impersonal sentences with some heuristic rules: If the first word of one sentence is (or implies) a personal pronoun including 'I', 'we', and 'do', then the sentence is extracted as a personal sentence; If the first word of one sentence is an impersonal pronoun including 'it', 'they', 'this', and 'these', then the sentence is extracted as an impersonal sentence. Second, we apply the classifier which is trained with the initial set of personal and impersonal sentences to classify the remaining sentences. This step aims to classify the sentences without pronouns (e.g. E3). Figure 1 shows the unsupervised mining algorithm.
+
+After unsupervised mining of personal and impersonal sentences, the training data is divided into two views: the personal view, which contains personal sentences, and the impersonal view, which contains impersonal sentences. Obviously, these two views can be used to train two different classifiers, f1 and f2, for sentiment classification respectively.
+
+Since our mining approach is unsupervised, there inevitably exist some noises. In addition, the sentences of different views may share the same information for sentiment classification. For example, consider the following two sentences: 'It is a waste of money.' and 'Do not waste your money.' Apparently, the first one belongs to the impersonal view while the second one belongs to personal view, according to our heuristic rules. However, these two sentences share the same word, 'waste', which conveys strong negative sentiment information. This suggests that training a single-view classifier f3 with all sentences should help. Therefore, three base classifiers, f1, f2, and f3, are eventually derived from the personal view, the impersonal view and the single view, respectively. Each base classifier provides not only the class label outputs but also some kinds of confidence measurements, e.g. posterior probabilities of the testing sample belonging to each class.
+
+In the ensemble learning literature, various methods have been presented for combining base classifiers. The combining methods are categorized into two groups (Duin, 2002): fixed rules such as voting rule, product rule, and sum rule (Kittler et al., 1998), and trained rules such as weighted sum rule (Fumera and Roli, 2005) and meta-learning approaches (Vilalta and Drissi, 2002). In this study, we choose a fixed rule and a trained rule to combine the three base classifiers f1, f2, and f3.
+
+Semi-supervised learning is a strategy which combines unlabeled data with labeled training data to improve the models. Given the two-view classifiers f1 and f2 and along with the single-view classifier f3, we perform a co-training algorithm for semi-supervised sentiment classification. The co-training algorithm is a specific semi-supervised learning approach which starts with a set of labeled data and increases the amount of labeled data using the unlabeled data by bootstrapping (Blum and Mitchell, 1998). Figure 2 shows the co-training algorithm in our semi-supervised sentiment classification.
+
+We have systematically explored our method on product reviews from eight domains: book, DVD, electronic appliances, kitchen appliances, health, network, pet and software.
+
+The product reviews on the first four domains (book, DVD, electronic, and kitchen appliances) come from the multi-domain sentiment classification corpus, collected from http://www.amazon.com/ by Blitzer et al. (2007). Besides, we also collect the product views from http://www.amazon.com/ on other four domains (health, network, pet and software). Each of the eight domains contains 1000 positive and 1000 negative reviews. Figure 3 gives the distribution of personal and impersonal sentences in the training data (75% labeled data of all data). It shows that there are more impersonal sentences than personal ones in each domain, in particular in the DVD domain, where the number of impersonal sentences is at least twice as many as that of personal sentences. This unusual phenomenon is mainly attributed to the fact that many objective descriptions, e.g. the movie plot introductions, are expressed in the DVD domain which makes the extracted personal and impersonal sentences rather unbalanced.
