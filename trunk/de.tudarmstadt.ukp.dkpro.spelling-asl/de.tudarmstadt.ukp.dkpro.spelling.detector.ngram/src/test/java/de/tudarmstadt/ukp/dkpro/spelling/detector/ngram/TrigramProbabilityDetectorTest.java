@@ -33,8 +33,8 @@ import org.uimafit.util.JCasUtil;
 import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SpellingAnomaly;
 import de.tudarmstadt.ukp.dkpro.core.api.frequency.TestFrequencyCountResource;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
+import de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpPosTagger;
 import de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter;
-import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosLemmaTT4J;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.type.RWSECandidate;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.RWSECandidateAnnotator;
 
@@ -50,8 +50,7 @@ public class TrigramProbabilityDetectorTest
         );
 
         AnalysisEngineDescription tagger = createPrimitiveDescription(
-                TreeTaggerPosLemmaTT4J.class,
-                TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, "en"
+                OpenNlpPosTagger.class
         );
 
         AnalysisEngineDescription candidates = createPrimitiveDescription(
@@ -84,6 +83,7 @@ public class TrigramProbabilityDetectorTest
         
         String text = "aaa bbb ccc ddd ee fff";
         JCas jcas = engine.newJCas();
+        jcas.setDocumentLanguage("en");
         jcas.setDocumentText(text);
         
         engine.process(jcas);
