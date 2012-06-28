@@ -33,8 +33,8 @@ import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.type.RWSECandidate;
 import de.tudarmstadt.ukp.dkpro.spelling.api.detector.Detector_Base;
-import de.tudarmstadt.ukp.relatedness.api.RelatednessException;
-import de.tudarmstadt.ukp.relatedness.api.TextRelatednessMeasure;
+import de.tudarmstadt.ukp.similarity.algorithms.api.SimilarityException;
+import de.tudarmstadt.ukp.similarity.algorithms.api.TermSimilarityMeasure;
 
 /**
  * An abstract base class for knowledge-based RWSE detectors.
@@ -51,7 +51,7 @@ public abstract class KnowledgeBasedDetector
     
     public final static String SR_RESOURCE = "SemanticRelatednessResource";
     @ExternalResource(key = SR_RESOURCE)
-    protected TextRelatednessMeasure measure;
+    protected TermSimilarityMeasure measure;
 
     /**
      * The relatedness threshold for the given measure.
@@ -164,17 +164,17 @@ public abstract class KnowledgeBasedDetector
                 
                 try {
                     if (measure.isDistanceMeasure()) {
-                        if (measure.getRelatedness(lemma, item) < this.threshold) {
+                        if (measure.getSimilarity(lemma, item) < this.threshold) {
                             return true;
                         }
                     }
                     else {
-                        if (measure.getRelatedness(lemma, item) > this.threshold) {
+                        if (measure.getSimilarity(lemma, item) > this.threshold) {
                             return true;
                         }
                     }
                 }
-                catch (RelatednessException e) {
+                catch (SimilarityException e) {
                     throw new AnalysisEngineProcessException(e);
                 }
                 

@@ -36,7 +36,7 @@ import de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter;
 import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosLemmaTT4J;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.type.RWSECandidate;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.RWSECandidateAnnotator;
-import de.tudarmstadt.ukp.relatedness.api.resource.TestRelatednessResource;
+import de.tudarmstadt.ukp.similarity.dkpro.resource.TestSimilarityResource;
 
 public class LexCohesionAnnotatorTest
 {
@@ -66,7 +66,7 @@ public class LexCohesionAnnotatorTest
                 LexCohesionDetector.PARAM_MIN_LENGTH, 2,
                 LexCohesionDetector.PARAM_THRESHOLD, 0.35f,
                 LexCohesionDetector.SR_RESOURCE, ExternalResourceFactory.createExternalResourceDescription(
-                        TestRelatednessResource.class
+                        TestSimilarityResource.class
                 )
         );
         

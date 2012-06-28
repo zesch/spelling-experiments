@@ -27,7 +27,7 @@ import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SpellingAnomaly;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.type.RWSECandidate;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.utils.SpellingUtils;
-import de.tudarmstadt.ukp.relatedness.api.RelatednessException;
+import de.tudarmstadt.ukp.similarity.algorithms.api.SimilarityException;
 
 /**
  * Detects whether a RWSECandidate has sufficient lexical cohesion with its context
@@ -87,9 +87,9 @@ public class SRDetector
         double score = 0;
         for (Lemma l : JCasUtil.select(jcas, Lemma.class)) {
             try {
-                score += measure.getRelatedness(term, l.getValue());
+                score += measure.getSimilarity(term, l.getValue());
             }
-            catch (RelatednessException e) {
+            catch (SimilarityException e) {
                 throw new AnalysisEngineProcessException(e);
             }
         }
