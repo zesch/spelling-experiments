@@ -53,11 +53,6 @@
 			<version>2010111500</version>
 		</dependency>
 		<dependency>
-			<groupId>de.tudarmstadt.ukp.relatedness</groupId>
-			<artifactId>de.tudarmstadt.ukp.relatedness.lsr</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
-		</dependency>
-		<dependency>
 			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
 			<artifactId>de.tudarmstadt.ukp.dkpro.core.io.text-asl</artifactId>
 		</dependency>
@@ -69,6 +64,11 @@
 			<groupId>de.tudarmstadt.ukp.lexsemresource</groupId>
 			<artifactId>de.tudarmstadt.ukp.lexsemresource.wordnet</artifactId>
 			<version>0.5.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.relatedness</groupId>
+			<artifactId>de.tudarmstadt.ukp.relatedness.lsr-asl</artifactId>
+			<version>0.1.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>

@@ -75,8 +75,8 @@ import de.tudarmstadt.ukp.lexsemresource.LexicalSemanticResource.SemanticRelatio
 import de.tudarmstadt.ukp.lexsemresource.exception.LexicalSemanticResourceException;
 import de.tudarmstadt.ukp.lexsemresource.exception.ResourceLoaderException;
 import de.tudarmstadt.ukp.lexsemresource.resource.ResourceFactory;
-import de.tudarmstadt.ukp.relatedness.secondstring.LevenshteinSecondStringComparator;
-import de.tudarmstadt.ukp.relatedness.secondstring.SecondStringComparator_ImplBase;
+import de.tudarmstadt.ukp.similarity.algorithms.lexical.string.LevenshteinSecondStringComparator;
+import de.tudarmstadt.ukp.similarity.algorithms.lexical.string.SecondStringComparator_ImplBase;
 
 /**
  * Filters aligned sentences according to some heuristics.
@@ -348,7 +348,7 @@ public class SpellingErrorFilter
                 freq1 = frequencyProvider.getFrequency(token1);
                 freq2 = frequencyProvider.getFrequency(token2);
                 ratio = (double) freq1 / freq2;
-                distance = levenshteinComparator.getRelatedness(token1, token2);
+                distance = levenshteinComparator.getSimilarity(token1, token2);
             }
             catch (Exception e) {
                 throw new AnalysisEngineProcessException(e);

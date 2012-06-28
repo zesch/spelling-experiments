@@ -34,9 +34,9 @@ import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaRevisionPairReader;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.type.ChangedToken;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.type.RevisionSentencePair;
-import de.tudarmstadt.ukp.relatedness.api.RelatednessException;
-import de.tudarmstadt.ukp.relatedness.api.TermRelatednessMeasure;
-import de.tudarmstadt.ukp.relatedness.secondstring.JaroSecondStringComparator;
+import de.tudarmstadt.ukp.similarity.algorithms.api.SimilarityException;
+import de.tudarmstadt.ukp.similarity.algorithms.api.TermSimilarityMeasure;
+import de.tudarmstadt.ukp.similarity.algorithms.lexical.string.JaroWinklerSecondStringComparator;
 
 /**
  * Aligns sentences from two revisions if their distance
@@ -77,7 +77,7 @@ public class SentenceAligner
 // disabled possibility to change measure for now. All simple string based measures worked almost equally well.    
 //    public final static String SR_RESOURCE = "SemanticRelatednessResource";
 //    @ExternalResource(key = SR_RESOURCE)
-    protected TermRelatednessMeasure measure;
+    protected TermSimilarityMeasure measure;
     
     @Override
     public void initialize(UimaContext context)
@@ -85,7 +85,7 @@ public class SentenceAligner
     {
         super.initialize(context);
         
-        measure = new JaroSecondStringComparator();
+        measure = new JaroWinklerSecondStringComparator();
     }
     
     @Override
@@ -138,7 +138,7 @@ public class SentenceAligner
                         }
                             
                         try {
-                            double relatedness = measure.getRelatedness(s1.getCoveredText(), s2.getCoveredText());
+                            double relatedness = measure.getSimilarity(s1.getCoveredText(), s2.getCoveredText());
 
                             if (isSmallEdit(relatedness)) {
                                 if (addChangedTokens(revView1, revView2, s1, s2)) {
@@ -146,7 +146,7 @@ public class SentenceAligner
                                 }
                             }
                         }
-                        catch (RelatednessException e) {
+                        catch (SimilarityException e) {
                             throw new AnalysisEngineProcessException(e);
                         }
                     }
