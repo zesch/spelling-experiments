@@ -66,28 +66,6 @@
 		</dependency>
 		<dependency>
 			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
-			<artifactId>de.tudarmstadt.ukp.dkpro.core.treetagger-asl</artifactId>
-		</dependency>
-        <dependency>
-            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
-            <artifactId>de.tudarmstadt.ukp.dkpro.core.treetagger-bin</artifactId>
-            <version>20120425.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
-            <artifactId>de.tudarmstadt.ukp.dkpro.core.treetagger-model-en</artifactId>
-            <version>20111109.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
-            <artifactId>de.tudarmstadt.ukp.dkpro.core.treetagger-model-de</artifactId>
-            <version>20120417.0</version>
-            <scope>test</scope>
-        </dependency>
-		<dependency>
-			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
 			<artifactId>de.tudarmstadt.ukp.dkpro.core.frequency-asl</artifactId>
 		</dependency>
 		<dependency>
@@ -116,4 +94,32 @@
 			<artifactId>de.tudarmstadt.ukp.similarity.algorithms.lexical-asl</artifactId>
 		</dependency>
 	</dependencies>
+    <profiles>
+        <profile>
+            <id>use-proprietary-resources</id>
+            <dependencies>
+                <dependency>
+                    <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+                    <artifactId>de.tudarmstadt.ukp.dkpro.core.treetagger-model-de</artifactId>
+                    <version>20120417.0</version>
+                    <scope>test</scope>
+                    <optional>true</optional>
+                </dependency>
+                <dependency>
+                    <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+                    <artifactId>de.tudarmstadt.ukp.dkpro.core.treetagger-model-en</artifactId>
+                    <version>20111109.0</version>
+                    <scope>test</scope>
+                    <optional>true</optional>
+                </dependency>
+                <dependency>
+                    <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+                    <artifactId>de.tudarmstadt.ukp.dkpro.core.treetagger-bin</artifactId>
+                    <version>20120425.0</version>
+                    <scope>test</scope>
+                    <optional>true</optional>
+                </dependency>
+            </dependencies>
+        </profile>
+    </profiles>
 </project>
