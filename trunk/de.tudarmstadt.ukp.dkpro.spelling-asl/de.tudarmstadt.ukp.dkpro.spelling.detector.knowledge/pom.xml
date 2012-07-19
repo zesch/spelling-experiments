@@ -86,7 +86,7 @@
 			<artifactId>de.tudarmstadt.ukp.similarity.dkpro.core-asl</artifactId>
 		</dependency>
 	</dependencies>
-	   <profiles>
+	<profiles>
         <profile>
             <id>use-proprietary-resources</id>
             <dependencies>
