@@ -27,9 +27,9 @@ import de.tudarmstadt.ukp.dkpro.spelling.detector.ngram.TrigramProbabilityDetect
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.RWSECandidateAnnotator;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.RWSECandidateFilter;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingErrorCombinator;
-import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingPipeline_Base;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingErrorCombinator.CombinationStrategy;
-import de.tudarmstadt.ukp.relatedness.lsr.resources.JiangConrathRelatednessResource;
+import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingPipeline_Base;
+import de.tudarmstadt.ukp.similarity.dkpro.resource.lsr.JiangConrathRelatednessResource;
 
 public class RunHOO2011Experiments
 	extends SpellingPipeline_Base

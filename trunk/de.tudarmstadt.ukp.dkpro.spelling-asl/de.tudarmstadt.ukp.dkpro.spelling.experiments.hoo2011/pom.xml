@@ -26,8 +26,7 @@
 		<dependency>
 			<groupId>de.tudarmstadt.ukp.dkpro.lab</groupId>
 			<artifactId>de.tudarmstadt.ukp.dkpro.lab.uima.engine.simple</artifactId>
-			<version>0.7.0</version>
-		</dependency>
+			</dependency>
 		<dependency>
 			<groupId>de.tudarmstadt.ukp.dkpro.spelling</groupId>
 			<artifactId>de.tudarmstadt.ukp.dkpro.spelling.io</artifactId>
@@ -66,9 +65,11 @@
 			<version>0.5.0</version>
 		</dependency>
 		<dependency>
-			<groupId>de.tudarmstadt.ukp.relatedness</groupId>
-			<artifactId>de.tudarmstadt.ukp.relatedness.lsr-asl</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
+			<groupId>de.tudarmstadt.ukp.similarity.algorithms</groupId>
+			<artifactId>
+				de.tudarmstadt.ukp.similarity.algorithms.lsr-asl
+			</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<profiles>

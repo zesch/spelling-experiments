@@ -29,10 +29,10 @@ import de.tudarmstadt.ukp.dkpro.core.api.resources.DKProContext;
 import de.tudarmstadt.ukp.dkpro.core.frequency.resources.Web1TFrequencyCountResource;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingPipeline_Base;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.util.MeasureConfig;
-import de.tudarmstadt.ukp.relatedness.lsr.resources.GlossOverlapRelatednessResource;
-import de.tudarmstadt.ukp.relatedness.lsr.resources.JiangConrathRelatednessResource;
-import de.tudarmstadt.ukp.relatedness.lsr.resources.LinRelatednessResource;
-import de.tudarmstadt.ukp.relatedness.vsm.resource.VectorIndexSourceRelatednessResource;
+import de.tudarmstadt.ukp.similarity.dkpro.resource.lsr.GlossOverlapRelatednessResource;
+import de.tudarmstadt.ukp.similarity.dkpro.resource.lsr.JiangConrathRelatednessResource;
+import de.tudarmstadt.ukp.similarity.dkpro.resource.lsr.LinRelatednessResource;
+import de.tudarmstadt.ukp.similarity.dkpro.resource.vsm.VectorIndexSourceRelatednessResource;
 
 public abstract class EACL_ExperimentsBase
     extends SpellingPipeline_Base
