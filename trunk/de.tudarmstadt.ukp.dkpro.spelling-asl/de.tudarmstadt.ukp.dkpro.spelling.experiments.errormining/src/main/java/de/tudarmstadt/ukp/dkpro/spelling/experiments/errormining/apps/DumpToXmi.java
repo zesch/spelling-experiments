@@ -24,6 +24,7 @@ import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReader;
 import org.uimafit.pipeline.SimplePipeline;
 
+import de.tudarmstadt.ukp.dkpro.core.api.resources.CompressionMethod;
 import de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaReaderBase;
 import de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaRevisionPairReader;
 import de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiWriter;
@@ -53,7 +54,7 @@ public class DumpToXmi
         AnalysisEngineDescription dumperDe = createPrimitiveDescription(
                 XmiWriter.class,
                 XmiWriter.PARAM_PATH, "target/de/xmi",
-                XmiWriter.PARAM_COMPRESS, true
+                XmiWriter.PARAM_COMPRESSION, CompressionMethod.GZIP
         );
 
         SimplePipeline.runPipeline(
@@ -76,7 +77,7 @@ public class DumpToXmi
         AnalysisEngineDescription dumperEn = createPrimitiveDescription(
                 XmiWriter.class,
                 XmiWriter.PARAM_PATH, "target/en/xmi",
-                XmiWriter.PARAM_COMPRESS, true
+                XmiWriter.PARAM_COMPRESSION, CompressionMethod.GZIP
         );
 
         SimplePipeline.runPipeline(

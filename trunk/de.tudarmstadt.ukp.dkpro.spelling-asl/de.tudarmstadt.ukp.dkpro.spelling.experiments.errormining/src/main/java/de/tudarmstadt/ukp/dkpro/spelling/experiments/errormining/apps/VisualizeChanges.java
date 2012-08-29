@@ -27,6 +27,7 @@ import org.apache.uima.collection.CollectionReader;
 import org.uimafit.factory.AggregateBuilder;
 import org.uimafit.pipeline.SimplePipeline;
 
+import de.tudarmstadt.ukp.dkpro.core.api.resources.CompressionMethod;
 import de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaRevisionPairReader;
 import de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiReader;
 import de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiWriter;
@@ -84,7 +85,7 @@ public class VisualizeChanges
           AnalysisEngineDescription segmenter = createPrimitiveDescription(
                   XmiWriter.class,
                   XmiWriter.PARAM_PATH, "target/xmi",
-                  XmiWriter.PARAM_COMPRESS, true
+                  XmiWriter.PARAM_COMPRESSION, CompressionMethod.GZIP
           );
 
           AnalysisEngineDescription tokenFilter = createPrimitiveDescription(
