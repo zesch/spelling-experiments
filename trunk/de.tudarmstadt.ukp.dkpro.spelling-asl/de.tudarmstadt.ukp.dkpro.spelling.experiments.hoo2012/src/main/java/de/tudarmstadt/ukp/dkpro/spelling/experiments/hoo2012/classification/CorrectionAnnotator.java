@@ -33,7 +33,6 @@ import de.tudarmstadt.ukp.dkpro.core.api.frequency.provider.FrequencyCountProvid
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.utils.SpellingUtils;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.featureextraction.SpellingCorrectionFeatureBuilder;
-import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.util.MyJCasUtil;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.weka.WekaSequenceAnnotator;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.weka.feature.ClassFeature;
 
@@ -94,7 +93,7 @@ public class CorrectionAnnotator extends WekaSequenceAnnotator {
 						if (res != null) {
 							if (!t.getCoveredText().equals(res)) {
 								boolean nextWithVowel = false;
-								Token next = MyJCasUtil.selectRelative(cas, Token.class, t, 1);
+								Token next = JCasUtil.selectSingleRelative(cas, Token.class, t, 1);
 								if (next != null && next.getCoveredText().toLowerCase().matches("^[aeiou].*$")) {
 									nextWithVowel = true;
 								}

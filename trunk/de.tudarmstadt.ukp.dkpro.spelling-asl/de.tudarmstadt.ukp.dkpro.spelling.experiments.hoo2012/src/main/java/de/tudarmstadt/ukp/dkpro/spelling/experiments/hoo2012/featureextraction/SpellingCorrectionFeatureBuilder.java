@@ -33,7 +33,6 @@ import org.uimafit.util.JCasUtil;
 import de.tudarmstadt.ukp.dkpro.core.api.frequency.provider.FrequencyCountProvider;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk;
-import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.util.MyJCasUtil;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.weka.WekaFeature;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.weka.feature.ClassFeature;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.weka.feature.FloatFeature;
@@ -105,7 +104,7 @@ public class SpellingCorrectionFeatureBuilder {
 	 */
 	private List<Feature> extractFirstChar(JCas jcas,
 			Annotation target) {
-		Token t = MyJCasUtil.selectRelative(jcas, Token.class, target, +1);
+		Token t = JCasUtil.selectSingleRelative(jcas, Token.class, target, +1);
 		
 		List<Feature> xs = new ArrayList<Feature>();
 		xs.add(new NominalFeature("vowel_+1", (t.getCoveredText().toLowerCase().matches("^[aeiou].*")) ? "t" : "f"));
@@ -129,10 +128,10 @@ public class SpellingCorrectionFeatureBuilder {
 		for (String a: getConfusionSet()) {
 			for (String b: getConfusionSet()) {
 				if (!a.equals(b)) {
-					Token tm2 = MyJCasUtil.selectRelative(jcas, Token.class, target, -2);
-					Token tm1 = MyJCasUtil.selectRelative(jcas, Token.class, target, -1);
-					Token tp1 = MyJCasUtil.selectRelative(jcas, Token.class, target, 1);
-					Token tp2 = MyJCasUtil.selectRelative(jcas, Token.class, target, 2);
+					Token tm2 = JCasUtil.selectSingleRelative(jcas, Token.class, target, -2);
+					Token tm1 = JCasUtil.selectSingleRelative(jcas, Token.class, target, -1);
+					Token tp1 = JCasUtil.selectSingleRelative(jcas, Token.class, target, 1);
+					Token tp2 = JCasUtil.selectSingleRelative(jcas, Token.class, target, 2);
 					
 					float f1;
 					if (tm1 != null && tp1 != null) {
@@ -230,7 +229,7 @@ public class SpellingCorrectionFeatureBuilder {
 	 * @return
 	 */
 	private String getChunk(JCas jcas, Annotation target, int i) {
-		Token t = MyJCasUtil.selectRelative(jcas, Token.class, target, i);
+		Token t = JCasUtil.selectSingleRelative(jcas, Token.class, target, i);
 		List<Chunk> chunks = JCasUtil.selectCovering(jcas, Chunk.class, t.getBegin(), t.getEnd());
 		
 		if (chunks.size() < 1) {
@@ -268,7 +267,7 @@ public class SpellingCorrectionFeatureBuilder {
 	}
 	
 	private String getPos(JCas jcas, Annotation target, int i) {
-		Token t = MyJCasUtil.selectRelative(jcas, Token.class, target, i);
+		Token t = JCasUtil.selectSingleRelative(jcas, Token.class, target, i);
 		return (t != null) ? t.getPos().getPosValue() : "XXX";
 	}
 }
