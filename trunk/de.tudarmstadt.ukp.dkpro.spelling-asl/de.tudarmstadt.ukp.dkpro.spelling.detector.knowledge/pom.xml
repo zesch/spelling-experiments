@@ -54,18 +54,6 @@
 			<scope>test</scope>
 		</dependency>
         <dependency>
-            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
-            <artifactId>de.tudarmstadt.ukp.dkpro.core.treetagger-bin</artifactId>
-            <version>20120803.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
-            <artifactId>de.tudarmstadt.ukp.dkpro.core.treetagger-model-en</artifactId>
-            <version>20111109.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
 			<groupId>de.tudarmstadt.ukp.dkpro.spelling</groupId>
 			<artifactId>de.tudarmstadt.ukp.dkpro.spelling.experiments.core</artifactId>
 			<version>0.1.0-SNAPSHOT</version>
