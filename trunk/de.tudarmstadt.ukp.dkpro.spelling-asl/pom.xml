@@ -101,5 +101,6 @@
   	<module>de.tudarmstadt.ukp.dkpro.spelling.experiments.eacl2012</module>
   	<module>de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2011</module>
   	<module>de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012</module>
+  	<module>de.tudarmstadt.ukp.dkpro.spelling.experiments.rte</module>
   </modules>
 </project>
