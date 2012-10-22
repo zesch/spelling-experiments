@@ -46,21 +46,6 @@
 			<artifactId>de.tudarmstadt.ukp.dkpro.core.jazzy-asl</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>de.tudarmstadt.ukp.lexsemresource</groupId>
-			<artifactId>de.tudarmstadt.ukp.lexsemresource.api</artifactId>
-			<version>0.5.0</version>
-		</dependency>
-		<dependency>
-			<groupId>de.tudarmstadt.ukp.lexsemresource</groupId>
-			<artifactId>de.tudarmstadt.ukp.lexsemresource.wordnet</artifactId>
-			<version>0.5.0</version>
-		</dependency>
-		<dependency>
-			<groupId>de.tudarmstadt.ukp.lexsemresource</groupId>
-			<artifactId>de.tudarmstadt.ukp.lexsemresource.germanet</artifactId>
-			<version>0.5.0</version>
-		</dependency>
-		<dependency>
 			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
 			<artifactId>de.tudarmstadt.ukp.dkpro.core.tokit-asl</artifactId>
 		</dependency>
@@ -93,6 +78,24 @@
 			<groupId>de.tudarmstadt.ukp.similarity.algorithms</groupId>
 			<artifactId>de.tudarmstadt.ukp.similarity.algorithms.lexical-asl</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.lexsemresource</groupId>
+			<artifactId>
+				de.tudarmstadt.ukp.dkpro.lexsemresource.api-asl
+			</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.lexsemresource</groupId>
+			<artifactId>
+				de.tudarmstadt.ukp.dkpro.lexsemresource.wordnet-asl
+			</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.lexsemresource</groupId>
+			<artifactId>
+				de.tudarmstadt.ukp.dkpro.lexsemresource.core-asl
+			</artifactId>
+		</dependency>
 	</dependencies>
     <profiles>
         <profile>
@@ -122,4 +125,19 @@
             </dependencies>
         </profile>
     </profiles>
+    <dependencyManagement>
+    	<dependencies>
+    		<dependency>
+    			<groupId>
+    				de.tudarmstadt.ukp.dkpro.lexsemresource
+    			</groupId>
+    			<artifactId>
+    				de.tudarmstadt.ukp.dkpro.lexsemresource.api-asl
+    			</artifactId>
+    			<version>0.8.0</version>
+    			<type>pom</type>
+    			<scope>import</scope>
+    		</dependency>
+    	</dependencies>
+    </dependencyManagement>
 </project>
