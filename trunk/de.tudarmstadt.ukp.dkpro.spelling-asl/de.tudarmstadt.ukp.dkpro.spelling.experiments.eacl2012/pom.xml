@@ -64,11 +64,6 @@
 			<version>0.5.0</version>
 		</dependency>
 		<dependency>
-			<groupId>de.tudarmstadt.ukp.lexsemresource</groupId>
-			<artifactId>de.tudarmstadt.ukp.lexsemresource.germanet</artifactId>
-			<version>0.5.0</version>
-		</dependency>
-		<dependency>
 			<groupId>de.tudarmstadt.ukp.similarity.algorithms</groupId>
 			<artifactId>
 				de.tudarmstadt.ukp.similarity.algorithms.vsm-asl
