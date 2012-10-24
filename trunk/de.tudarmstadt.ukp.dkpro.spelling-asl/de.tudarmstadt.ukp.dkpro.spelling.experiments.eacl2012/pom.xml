@@ -58,11 +58,6 @@
 			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
 			<artifactId>de.tudarmstadt.ukp.dkpro.core.treetagger-asl</artifactId>
 		</dependency>
-        <dependency>
-			<groupId>de.tudarmstadt.ukp.lexsemresource</groupId>
-			<artifactId>de.tudarmstadt.ukp.lexsemresource.wordnet</artifactId>
-			<version>0.5.0</version>
-		</dependency>
 		<dependency>
 			<groupId>de.tudarmstadt.ukp.similarity.algorithms</groupId>
 			<artifactId>
@@ -75,6 +70,13 @@
 				de.tudarmstadt.ukp.similarity.algorithms.lsr-asl
 			</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.lexsemresource</groupId>
+			<artifactId>
+				de.tudarmstadt.ukp.dkpro.lexsemresource.wordnet-asl
+			</artifactId>
+			<version>0.8.0</version>
 		</dependency>
 	</dependencies>
 	<profiles>
