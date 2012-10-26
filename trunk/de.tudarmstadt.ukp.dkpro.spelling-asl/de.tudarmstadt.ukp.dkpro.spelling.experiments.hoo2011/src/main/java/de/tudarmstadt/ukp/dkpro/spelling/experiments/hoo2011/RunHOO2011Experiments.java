@@ -30,6 +30,8 @@ import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingErrorCombinato
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingErrorCombinator.CombinationStrategy;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingPipeline_Base;
 import de.tudarmstadt.ukp.similarity.dkpro.resource.lsr.JiangConrathRelatednessResource;
+import de.tudarmstadt.ukp.similarity.dkpro.resource.lsr.LinRelatednessResource;
+import de.tudarmstadt.ukp.similarity.dkpro.resource.vsm.VectorIndexSourceRelatednessResource;
 
 public class RunHOO2011Experiments
 	extends SpellingPipeline_Base
@@ -39,7 +41,8 @@ public class RunHOO2011Experiments
 
     protected static boolean WRITE_EDITS = true;
 
-    private static final float HB2005_THRESHOLD = 0.5f;
+    private static final float ESA_THRESHOLD = 0.1f;
+    private static final float PATH_THRESHOLD = 0.5f;
     private static final float ALPHA = 0.7f;
 
 	private final static String MIN_NGRAM_LEVEL = "1";
@@ -47,10 +50,17 @@ public class RunHOO2011Experiments
     
 	private final static int MIN_LENGTH = 2;
     
-	private final static String NGRAM_MODEL_GOOGLE = "en";
-//	private final static String NGRAM_MODEL_WIKI   = "wiki_en";
-	private final static String NGRAM_MODEL_ACL    = "acl";
+	private final static String NGRAM_MODEL_WEB1T = "en";
+//	private final static String NGRAM_MODEL_WIKI  = "wiki_en";
+	private final static String NGRAM_MODEL_ACL   = "ACL_ANTHOLOGY";
 	
+	private enum SRMeasures {
+	    JiangConrath,
+	    Lin,
+	    EsaWkt,
+	    EsaWP,
+	    EsaWN
+	}
 	
 // ----------------
 // There have been some problem with the encoding of the test files which resulted in wrong offsets.
@@ -66,14 +76,14 @@ public class RunHOO2011Experiments
 //    public final static String DATASET =  "classpath:/hoo2011/test/Raw_old/";				
   
     // ISO
-//    public final static String DATASET = "classpath:/hoo2011/test/Raw/";  
-    public final static String DATASET = "src/test/resources/test_data/Raw/";  
+    public final static String DATASET = "classpath:/hoo2011/test/Raw/";  
+//    public final static String DATASET = "src/test/resources/test_data/Raw/";  
     
   
     
 //    private final static String GOLD_PATH = "classpath:/hoo2011/develop/Gold/";
-//    private final static String GOLD_PATH =   "classpath:/hoo2011/test/Gold/";
-    private final static String GOLD_PATH =   "src/test/resources/test_data/Gold/";
+    private final static String GOLD_PATH =   "classpath:/hoo2011/test/Gold/";
+//    private final static String GOLD_PATH =   "src/test/resources/test_data/Gold/";
 
     private final static String OUTPUT_PATH     = "target/hoo_output/";
     private final static String EXTRACTION_PATH = "target/hoo_extraction/";
@@ -112,14 +122,70 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
-                        LexCohesionDetector.PARAM_THRESHOLD, HB2005_THRESHOLD,
+                        LexCohesionDetector.PARAM_THRESHOLD, PATH_THRESHOLD,
                         LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
-                        LexCohesionDetector.SR_RESOURCE, createExternalResourceDescription(
-                    			JiangConrathRelatednessResource.class,
-                    			JiangConrathRelatednessResource.PARAM_RESOURCE_NAME, "wordnet",
-                    			JiangConrathRelatednessResource.PARAM_RESOURCE_LANGUAGE, "en"
-                    	)
-                )
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.Lin)
+                 )
+        );
+
+        // HB2005
+        runSingleDetectorPipeline(
+                runId++,
+                DATASET,
+                CANDIDATE_TOKEN,
+                createPrimitiveDescription(
+                        LexCohesionDetector.class,
+                        LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
+                        LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
+                        LexCohesionDetector.PARAM_THRESHOLD, PATH_THRESHOLD,
+                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.JiangConrath)
+                 )
+        );
+
+        // HB2005
+        runSingleDetectorPipeline(
+                runId++,
+                DATASET,
+                CANDIDATE_TOKEN,
+                createPrimitiveDescription(
+                        LexCohesionDetector.class,
+                        LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
+                        LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
+                        LexCohesionDetector.PARAM_THRESHOLD, ESA_THRESHOLD,
+                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.EsaWP)
+                 )
+        );
+
+        // HB2005
+        runSingleDetectorPipeline(
+                runId++,
+                DATASET,
+                CANDIDATE_TOKEN,
+                createPrimitiveDescription(
+                        LexCohesionDetector.class,
+                        LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
+                        LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
+                        LexCohesionDetector.PARAM_THRESHOLD, ESA_THRESHOLD,
+                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.EsaWkt)
+                 )
+        );
+
+        // HB2005
+        runSingleDetectorPipeline(
+                runId++,
+                DATASET,
+                CANDIDATE_TOKEN,
+                createPrimitiveDescription(
+                        LexCohesionDetector.class,
+                        LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
+                        LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
+                        LexCohesionDetector.PARAM_THRESHOLD, ESA_THRESHOLD,
+                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.EsaWN)
+                 )
         );
 
         //  WOHB2008
@@ -133,7 +199,7 @@ public class RunHOO2011Experiments
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
                         TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
-                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_GOOGLE)
+                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T)
                 )
         );
         
@@ -167,8 +233,9 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
-                        LexCohesionDetector.PARAM_THRESHOLD, HB2005_THRESHOLD,
-                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH
+                        LexCohesionDetector.PARAM_THRESHOLD, PATH_THRESHOLD,
+                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.JiangConrath)
                 ),
                 createPrimitiveDescription(
                         TrigramProbabilityDetector.class,
@@ -176,7 +243,30 @@ public class RunHOO2011Experiments
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
                         TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
-                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_GOOGLE)
+                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T)
+                )
+        );
+
+        runMultipleDetectorPipeline(
+                runId++,
+                DATASET,
+                CombinationStrategy.join,
+                CANDIDATE_TOKEN,
+                createPrimitiveDescription(
+                        LexCohesionDetector.class,
+                        LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
+                        LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
+                        LexCohesionDetector.PARAM_THRESHOLD, PATH_THRESHOLD,
+                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.JiangConrath)
+                ),
+                createPrimitiveDescription(
+                        TrigramProbabilityDetector.class,
+                        TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
+                        TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
+                        TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
+                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T)
                 )
         );
 
@@ -193,8 +283,9 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
-                        LexCohesionDetector.PARAM_THRESHOLD, HB2005_THRESHOLD,
-                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH
+                        LexCohesionDetector.PARAM_THRESHOLD, PATH_THRESHOLD,
+                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.JiangConrath)
                 ),
                 createPrimitiveDescription(
                         TrigramProbabilityDetector.class,
@@ -202,21 +293,22 @@ public class RunHOO2011Experiments
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
                         TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
-                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_GOOGLE)
+                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T)
                 )
         );
-
+        
         runMultipleDetectorPipeline(
                 runId++,
                 DATASET,
-                CombinationStrategy.join,
+                CombinationStrategy.onlyKeepMultiple,
                 CANDIDATE_TOKEN,
                 createPrimitiveDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
-                        LexCohesionDetector.PARAM_THRESHOLD, HB2005_THRESHOLD,
-                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH
+                        LexCohesionDetector.PARAM_THRESHOLD, PATH_THRESHOLD,
+                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.JiangConrath)
                 ),
                 createPrimitiveDescription(
                         TrigramProbabilityDetector.class,
@@ -224,32 +316,10 @@ public class RunHOO2011Experiments
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
                         TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
-                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_GOOGLE)
+                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T)
                 )
         );
 
-        runMultipleDetectorPipeline(
-                runId++,
-                DATASET,
-                CombinationStrategy.join,
-                CANDIDATE_TOKEN,
-                createPrimitiveDescription(
-                        TrigramProbabilityDetector.class,
-                        TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
-                        TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
-                        TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
-                        TrigramProbabilityDetector.PARAM_ALPHA, 0.5f,
-                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_GOOGLE)
-                ),
-                createPrimitiveDescription(
-                        TrigramProbabilityDetector.class,
-                        TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
-                        TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
-                        TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
-                        TrigramProbabilityDetector.PARAM_ALPHA, 0.5f,
-                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_ACL)
-                )
-        );
     }
 
     protected static CollectionReader getReader(String dataset) throws ResourceInitializationException {
@@ -307,7 +377,7 @@ public class RunHOO2011Experiments
                 ),
                 createPrimitiveDescription(
                 		RWSECandidateFilter.class,
-                        RWSECandidateFilter.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_GOOGLE),
+                        RWSECandidateFilter.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T),
                         RWSECandidateFilter.PARAM_STOPWORD_LIST, blacklistMap.get(LANG),
                         RWSECandidateFilter.PARAM_MIN_LENGTH, MIN_LENGTH
                 ),
@@ -339,7 +409,7 @@ public class RunHOO2011Experiments
                 ),
                 createPrimitiveDescription(
                 		RWSECandidateFilter.class,
-                        RWSECandidateFilter.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_GOOGLE),
+                        RWSECandidateFilter.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T),
                         RWSECandidateFilter.PARAM_STOPWORD_LIST, blacklistMap.get(LANG),
                         RWSECandidateFilter.PARAM_MIN_LENGTH, MIN_LENGTH
                 ),
@@ -350,5 +420,50 @@ public class RunHOO2011Experiments
                 ),
                 getEvaluator(runId)
         );
+    }
+
+    private static ExternalResourceDescription getExternalResource(SRMeasures measure)
+        throws IOException
+    {
+        if (measure.equals(SRMeasures.JiangConrath)) {
+            return createExternalResourceDescription(
+                    JiangConrathRelatednessResource.class,
+                    JiangConrathRelatednessResource.PARAM_RESOURCE_NAME, "wordnet",
+                    JiangConrathRelatednessResource.PARAM_RESOURCE_LANGUAGE, "en"
+            );
+        }
+        else if (measure.equals(SRMeasures.Lin)) {
+            return createExternalResourceDescription(
+                    LinRelatednessResource.class,
+                    LinRelatednessResource.PARAM_RESOURCE_NAME, "wordnet",
+                    LinRelatednessResource.PARAM_RESOURCE_LANGUAGE, "en"
+            );
+        }
+        else if (measure.equals(SRMeasures.EsaWP)) {
+            return createExternalResourceDescription(
+                    VectorIndexSourceRelatednessResource.class,
+                    VectorIndexSourceRelatednessResource.PARAM_MODEL_LOCATION,
+                    DKProContext.getContext().getWorkspace("esaIndexesVector" + "/en/wp/").getAbsolutePath()
+            );
+
+        }
+        else if (measure.equals(SRMeasures.EsaWkt)) {
+            return createExternalResourceDescription(
+                    VectorIndexSourceRelatednessResource.class,
+                    VectorIndexSourceRelatednessResource.PARAM_MODEL_LOCATION,
+                    DKProContext.getContext().getWorkspace("esaIndexesVector" + "/en/wkt/").getAbsolutePath()
+            );
+
+        }
+        else if (measure.equals(SRMeasures.EsaWN)) {
+            return createExternalResourceDescription(
+                    VectorIndexSourceRelatednessResource.class,
+                    VectorIndexSourceRelatednessResource.PARAM_MODEL_LOCATION,
+                    DKProContext.getContext().getWorkspace("esaIndexesVector" + "/en/wordnet/").getAbsolutePath()
+            );
+        }
+        else {
+            throw new IOException();
+        }
     }
 }
