@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.io;
+package de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.lab.report;
 
 import java.io.File;
 import java.io.InputStream;
@@ -37,7 +37,7 @@ public class HOO2012ResultsReport
         for (TaskContextMetadata subcontext : getSubtasks()) {
             File folder = getContext().getStorageService().getStorageFolder(
             		subcontext.getId(),
-            		HOO2012Experiments.KEY_OUTPUT
+            		HOO2012Experiments.OUTPUT_KEY
             );
             for (File resultFile : folder.listFiles()) {
             	if (resultFile.isFile()) {
