@@ -22,6 +22,7 @@ import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescripti
 import java.io.IOException;
 
 import org.apache.uima.UIMAException;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.uimafit.factory.CollectionReaderFactory;
 import org.uimafit.pipeline.SimplePipeline;
@@ -54,6 +55,30 @@ public class ComputeDatasetStatistics
                     ),
                     createPrimitiveDescription(
                             DatasetStatisticsCollector.class
+                    )
+            );
+        }
+    }
+
+    @Ignore
+    @Test
+    public void computeStatisticsWithFd() throws UIMAException, IOException
+    {
+        
+        for (String dataset : DataUtil.getAllDatasets("classpath*:/datasets/", new String[]{"txt"}).keySet()) {
+            System.out.println(dataset);
+            
+            SimplePipeline.runPipeline(
+                    CollectionReaderFactory.createCollectionReader(
+                            SpellingErrorInContextReader_LongFormat.class,
+                            SpellingErrorInContextReader.PARAM_INPUT_FILE, dataset
+                    ),
+                    createPrimitiveDescription(
+                            BreakIteratorSegmenter.class
+                    ),
+                    createPrimitiveDescription(
+                            DatasetStatisticsCollector.class,
+                            DatasetStatisticsCollector.PARAM_INCLUDE_FD, true
                     )
             );
         }
