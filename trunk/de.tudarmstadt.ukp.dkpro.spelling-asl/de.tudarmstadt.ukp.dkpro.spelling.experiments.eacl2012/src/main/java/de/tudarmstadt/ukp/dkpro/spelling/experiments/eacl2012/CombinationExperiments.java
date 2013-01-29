@@ -47,6 +47,7 @@ import de.tudarmstadt.ukp.dkpro.spelling.experiments.data.util.DataUtil;
 import de.tudarmstadt.ukp.dkpro.spelling.io.SpellingErrorInContextEvaluator;
 import de.tudarmstadt.ukp.dkpro.spelling.io.SpellingErrorInContextReader;
 import de.tudarmstadt.ukp.dkpro.spelling.io.SpellingErrorInContextReader_LongFormat;
+import de.tudarmstadt.ukp.similarity.dkpro.resource.vsm.VectorIndexSourceRelatednessResource;
 
 public class CombinationExperiments extends EACL_ExperimentsBase
 {
@@ -57,6 +58,7 @@ public class CombinationExperiments extends EACL_ExperimentsBase
         @Discriminator private String languageCode;
         @Discriminator private float alpha;
         @Discriminator private float threshold;
+        @Discriminator private boolean lowerCase;
         @Discriminator private SupportedFrequencyProviders freqProvider;
         @Discriminator private int downscaleFactor;
         @Discriminator private String candidateType;
@@ -114,6 +116,7 @@ public class CombinationExperiments extends EACL_ExperimentsBase
                             KnowledgeBasedDetector.PARAM_VOCABULARY, vocabularyMap.get(languageCode),
                             KnowledgeBasedDetector.PARAM_THRESHOLD, threshold,
                             KnowledgeBasedDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                            KnowledgeBasedDetector.PARAM_LOWER_CASE, lowerCase,
                             KnowledgeBasedDetector.SR_RESOURCE, getSRResource(measure)
                     ),
                     createEngine(
@@ -136,16 +139,38 @@ public class CombinationExperiments extends EACL_ExperimentsBase
         
         ParameterSpace enPspace = new ParameterSpace(
                 Dimension.createBundle("dataset", datasetMap2datasetArray(
-                        DataUtil.getAllDatasets("classpath*:/special/en", new String[]{"txt"}),
+                        DataUtil.getAllDatasets("classpath*:/datasets/en", new String[]{"txt"}),
                         "en")
                 ),
                 Dimension.create("combinationStrategy", CombinationStrategy.join, CombinationStrategy.onlyKeepMultiple),
-                Dimension.create("threshold",           KnowledgeBased.SR_THRESHOLD_ESA, KnowledgeBased.SR_THRESHOLD_PATH),
+                Dimension.create("threshold",           0.05f),
+                Dimension.create("lowerCase",           true),
                 Dimension.create("freqProvider",        SupportedFrequencyProviders.google),
                 Dimension.create("alpha",               StatisticalApproach.ALPHA),
                 Dimension.create("downscaleFactor",     1),
                 Dimension.create("candidateType",       N.class.getName()),
-                Dimension.create("measure",             enMeasures.toArray())             
+                Dimension.create("measure",             new MeasureConfig(
+                        VectorIndexSourceRelatednessResource.class,
+                        VectorIndexSourceRelatednessResource.PARAM_MODEL_LOCATION,
+                        getWorkspacePath("esaIndexesVector" + "/en/wkt/")))
+        );
+
+        ParameterSpace dePspace = new ParameterSpace(
+                Dimension.createBundle("dataset", datasetMap2datasetArray(
+                        DataUtil.getAllDatasets("classpath*:/datasets/de", new String[]{"txt"}),
+                        "de")
+                ),
+                Dimension.create("combinationStrategy", CombinationStrategy.join, CombinationStrategy.onlyKeepMultiple),
+                Dimension.create("threshold",           0.01f),
+                Dimension.create("lowerCase",           true),
+                Dimension.create("freqProvider",        SupportedFrequencyProviders.google),
+                Dimension.create("alpha",               StatisticalApproach.ALPHA),
+                Dimension.create("downscaleFactor",     1),
+                Dimension.create("candidateType",       N.class.getName()),
+                Dimension.create("measure",             new MeasureConfig(
+                        VectorIndexSourceRelatednessResource.class,
+                        VectorIndexSourceRelatednessResource.PARAM_MODEL_LOCATION,
+                        getWorkspacePath("esaIndexesVector" + "/de/wp/")))
         );
 
         BatchTask batchTaskEn = new BatchTask();
@@ -153,6 +178,12 @@ public class CombinationExperiments extends EACL_ExperimentsBase
         batchTaskEn.addTask(new ExperimentTask());
         batchTaskEn.addReport(RwseBatchResultReport.class);
 
+        BatchTask batchTaskDe = new BatchTask();
+        batchTaskDe.setParameterSpace(dePspace);
+        batchTaskDe.addTask(new ExperimentTask());
+        batchTaskDe.addReport(RwseBatchResultReport.class);
+
         Lab.getInstance().run(batchTaskEn);
+        Lab.getInstance().run(batchTaskDe);
     }
 }

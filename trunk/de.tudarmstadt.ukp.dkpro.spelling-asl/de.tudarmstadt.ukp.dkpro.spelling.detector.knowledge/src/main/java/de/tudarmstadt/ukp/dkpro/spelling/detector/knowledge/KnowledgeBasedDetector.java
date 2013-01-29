@@ -78,10 +78,18 @@ public abstract class KnowledgeBasedDetector
         freqDistTokens = new FrequencyDistribution<String>();
         freqDistLemmas = new FrequencyDistribution<String>();
         for (Token t : JCasUtil.select(jcas, Token.class)) {
-            freqDistTokens.inc(t.getCoveredText());
+            String token = t.getCoveredText();
+            if (lowerCase) {
+                token.toLowerCase();
+            }
+            freqDistTokens.inc(token);
         }
         for (Lemma l : JCasUtil.select(jcas, Lemma.class)) {
-            freqDistLemmas.inc(l.getValue());
+            String lemmaString = l.getValue(); 
+            if (lowerCase) {
+                lemmaString.toLowerCase();
+            }
+            freqDistLemmas.inc(lemmaString);
         }
         
         // first step
@@ -136,6 +144,10 @@ public abstract class KnowledgeBasedDetector
     
     protected boolean tokenAppearsInContext(String term) {
         if (term != null) {
+            if (lowerCase) {
+                term = term.toLowerCase();
+            }
+            
             if (freqDistTokens.getCount(term) > 1) {
                 return true;
             }
@@ -146,6 +158,10 @@ public abstract class KnowledgeBasedDetector
     // > 1 as the term/lemma itself is always in the freqDist too
     protected boolean lemmaAppearsInContext(String term) {
         if (term != null) {
+            if (lowerCase) {
+                term = term.toLowerCase();
+            }
+            
             if (freqDistLemmas.getCount(term) > 1) {
                 return true;
             }
@@ -155,6 +171,9 @@ public abstract class KnowledgeBasedDetector
 
     protected boolean isSemanticallyRelated(String lemma) throws AnalysisEngineProcessException {
         if (lemma != null) {
+            if (lowerCase) {
+                lemma = lemma.toLowerCase();
+            }
             for (String item : freqDistLemmas.getKeys()) {
 
                 // should not match with itself - this was already tested

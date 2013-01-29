@@ -45,6 +45,10 @@ public abstract class Detector_Base
     @ConfigurationParameter(name = PARAM_LANGUAGE_CODE, mandatory=true)
     protected String languageCode;
 
+    public static final String PARAM_LOWER_CASE = "LowerCase";
+    @ConfigurationParameter(name = PARAM_LOWER_CASE, mandatory=true, defaultValue="false")
+    protected boolean lowerCase;
+
     /** The minimum length of a candidate in characters. **/
     public static final String PARAM_MIN_LENGTH = "MinLength";
     @ConfigurationParameter(name = PARAM_MIN_LENGTH, mandatory = true, defaultValue="2")

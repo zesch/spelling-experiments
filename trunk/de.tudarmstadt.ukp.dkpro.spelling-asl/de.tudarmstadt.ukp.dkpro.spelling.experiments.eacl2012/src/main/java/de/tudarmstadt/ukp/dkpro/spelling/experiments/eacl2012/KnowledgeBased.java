@@ -55,6 +55,7 @@ public class KnowledgeBased extends EACL_ExperimentsBase
     {
         @Discriminator private String datasetPath;
         @Discriminator private String languageCode;
+        @Discriminator private boolean lowerCase;
         @Discriminator private float threshold;
         @Discriminator private SupportedFrequencyProviders freqProvider;
         @Discriminator private MeasureConfig measure;
@@ -98,6 +99,7 @@ public class KnowledgeBased extends EACL_ExperimentsBase
                             KnowledgeBasedDetector.PARAM_LANGUAGE_CODE, languageCode,
                             KnowledgeBasedDetector.PARAM_VOCABULARY, vocabularyMap.get(languageCode),
                             KnowledgeBasedDetector.PARAM_THRESHOLD, threshold,
+                            KnowledgeBasedDetector.PARAM_LOWER_CASE, lowerCase,
                             KnowledgeBasedDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                             KnowledgeBasedDetector.SR_RESOURCE, getSRResource(measure)
                     ),
@@ -120,7 +122,9 @@ public class KnowledgeBased extends EACL_ExperimentsBase
                         "en")
                 ),
                 Dimension.create("freqProvider", SupportedFrequencyProviders.google),
-                Dimension.create("threshold", SR_THRESHOLD_ESA, SR_THRESHOLD_PATH),
+//                Dimension.create("threshold", SR_THRESHOLD_ESA, SR_THRESHOLD_PATH),
+                Dimension.create("threshold", 0.005f, 0.01f, 0.05f, 0.1f, 0.3f, 0.5f),
+                Dimension.create("lowerCase", true, false),
                 Dimension.create("candidateType", N.class.getName()),
                 Dimension.create("measure", enMeasures.toArray())             
         );
@@ -131,26 +135,12 @@ public class KnowledgeBased extends EACL_ExperimentsBase
                         "de")
                 ),
                 Dimension.create("freqProvider", SupportedFrequencyProviders.google),
-                Dimension.create("threshold", SR_THRESHOLD_ESA, SR_THRESHOLD_PATH),
+//                Dimension.create("threshold", SR_THRESHOLD_ESA, SR_THRESHOLD_PATH),
+                Dimension.create("threshold", 0.0005f, 0.001f, 0.005f, 0.01f, 0.05f, 0.1f, 0.3f),
+                Dimension.create("lowerCase", true, false),
                 Dimension.create("candidateType", N.class.getName()),
                 Dimension.create("measure", deMeasures.toArray())             
         );
-
-//        ParameterSpace enPspace = new ParameterSpace(
-//              Dimension.createBundle("dataset", getDatasets("en")),
-//              Dimension.create("freqProvider", SupportedFrequencyProviders.google),
-//              Dimension.create("threshold", 0.01f, 0.05f, 0.1f, 0.3f, 0.5f, 0.7f, 0.9f),
-//              Dimension.create("candidateType", Token.class.getName(), N.class.getName(), V.class.getName()),
-//              Dimension.create("measure", enMeasures.toArray())             
-//      );
-//
-//      ParameterSpace dePspace = new ParameterSpace(
-//              Dimension.createBundle("dataset", getDatasets("de")),
-//              Dimension.create("freqProvider", SupportedFrequencyProviders.google),
-//              Dimension.create("threshold", 0.01f, 0.05f, 0.1f, 0.3f, 0.5f, 0.7f, 0.9f),
-//              Dimension.create("candidateType", Token.class.getName(), N.class.getName(), V.class.getName()),
-//              Dimension.create("measure", deMeasures.toArray())             
-//      );
 
         BatchTask batchTaskEn = new BatchTask();
         batchTaskEn.setParameterSpace(enPspace);
@@ -163,6 +153,6 @@ public class KnowledgeBased extends EACL_ExperimentsBase
         batchTaskDe.addReport(RwseBatchResultReport.class);
 
         Lab.getInstance().run(batchTaskEn);
-        Lab.getInstance().run(batchTaskDe);
+//        Lab.getInstance().run(batchTaskDe);
     }
 }

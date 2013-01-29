@@ -24,8 +24,10 @@ import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.uimafit.component.JCasAnnotator_ImplBase;
+import org.uimafit.descriptor.ConfigurationParameter;
 import org.uimafit.util.JCasUtil;
 
+import de.tudarmstadt.ukp.dkpro.core.api.frequency.util.FrequencyDistribution;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.type.GoldSpellingAnomaly;
@@ -40,9 +42,15 @@ public class DatasetStatisticsCollector
     extends JCasAnnotator_ImplBase
 {
     
+    public static final String PARAM_INCLUDE_FD = "IncludeFD";
+    @ConfigurationParameter(name = PARAM_INCLUDE_FD, mandatory = true, defaultValue="false")
+    private boolean includeFD;
+
+    
     private static final String LF = System.getProperty("line.separator");
     
     private LevenshteinDistance levenshteinComparator;
+    private FrequencyDistribution<String> fd;
 
     private int nrOfItems;
     private int nrOfTokens;
@@ -56,6 +64,7 @@ public class DatasetStatisticsCollector
         super.initialize(context);
 
         levenshteinComparator = new LevenshteinDistance();
+        fd = new FrequencyDistribution<String>();
         
         nrOfItems = 0;
         nrOfTokens = 0;
@@ -70,6 +79,7 @@ public class DatasetStatisticsCollector
     {
         GoldSpellingAnomaly anomaly = JCasUtil.selectSingle(jcas, GoldSpellingAnomaly.class);
         
+        fd.inc(anomaly.getCoveredText() + "-" + anomaly.getSuggestions(0).getReplacement());
         distanceSum += levenshteinComparator.computeLevenshteinDistance(
                 anomaly.getCoveredText(),
                 anomaly.getSuggestions(0).getReplacement()
@@ -100,6 +110,11 @@ public class DatasetStatisticsCollector
         sb.append("avg. edit distance:  " + avgEditDistance); sb.append(LF);
         sb.append(LF);
         
+        if (includeFD) {
+            sb.append(fd);
+            sb.append(LF);
+        }
+        
         System.out.println(sb.toString());
     }
     
@@ -112,19 +127,23 @@ public class DatasetStatisticsCollector
         public int computeLevenshteinDistance(CharSequence str1, CharSequence str2) {
                 int[][] distance = new int[str1.length() + 1][str2.length() + 1];
  
-                for (int i = 0; i <= str1.length(); i++)
-                        distance[i][0] = i;
-                for (int j = 0; j <= str2.length(); j++)
-                        distance[0][j] = j;
+                for (int i = 0; i <= str1.length(); i++) {
+                    distance[i][0] = i;
+                }
+                for (int j = 0; j <= str2.length(); j++) {
+                    distance[0][j] = j;
+                }
  
-                for (int i = 1; i <= str1.length(); i++)
-                        for (int j = 1; j <= str2.length(); j++)
-                                distance[i][j] = minimum(
-                                                distance[i - 1][j] + 1,
-                                                distance[i][j - 1] + 1,
-                                                distance[i - 1][j - 1]
-                                                                + ((str1.charAt(i - 1) == str2.charAt(j - 1)) ? 0
-                                                                                : 1));
+                for (int i = 1; i <= str1.length(); i++) {
+                    for (int j = 1; j <= str2.length(); j++) {
+                        distance[i][j] = minimum(
+                                        distance[i - 1][j] + 1,
+                                        distance[i][j - 1] + 1,
+                                        distance[i - 1][j - 1]
+                                                        + ((str1.charAt(i - 1) == str2.charAt(j - 1)) ? 0
+                                                                        : 1));
+                    }
+                }
  
                 return distance[str1.length()][str2.length()];
         }

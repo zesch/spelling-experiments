@@ -46,36 +46,6 @@ public abstract class EACL_ExperimentsBase
     }
     
     @SuppressWarnings("serial")
-    protected static final List<Object[]> datasets = new ArrayList<Object[]>() {{
-        add(new Object[] {
-                "datasetPath",  "classpath*:/datasets/de/de_artificial_noun.txt",
-                "languageCode", "de"});
-    }};
-
-    public static Object[][] getDatasets() {
-        Object[][] datasetArray = new Object[datasets.size()][];
-        for (int i=0; i<datasets.size(); i++) {
-            datasetArray[i] = datasets.get(i);
-        }
-        return datasetArray;
-    }
-        
-    public static Object[][] getDatasets(String languageCode) {
-        List<Object[]> tmpDatasets = new ArrayList<Object[]>();
-        for (int i=0; i<datasets.size(); i++) {
-            if (datasets.get(i)[3].equals(languageCode)) {
-                tmpDatasets.add(datasets.get(i));
-            }
-        }
-        Object[][] datasetArray = new Object[tmpDatasets.size()][];
-        for (int i=0; i<tmpDatasets.size(); i++) {
-            datasetArray[i] = tmpDatasets.get(i);
-        }
-        
-        return datasetArray;
-    }
-    
-    @SuppressWarnings("serial")
     protected static final List<MeasureConfig> enMeasures = new ArrayList<MeasureConfig>() {{
         add(new MeasureConfig(
                 JiangConrathRelatednessResource.class,
@@ -108,16 +78,16 @@ public abstract class EACL_ExperimentsBase
     protected static final List<MeasureConfig> deMeasures = new ArrayList<MeasureConfig>() {{
         add(new MeasureConfig(
                 JiangConrathRelatednessResource.class,
-                JiangConrathRelatednessResource.PARAM_RESOURCE_NAME, "germanet",
+                JiangConrathRelatednessResource.PARAM_RESOURCE_NAME, "germanet7",
                 JiangConrathRelatednessResource.PARAM_RESOURCE_LANGUAGE, "de"));
         add(new MeasureConfig(
                 LinRelatednessResource.class,
-                LinRelatednessResource.PARAM_RESOURCE_NAME, "germanet",
+                LinRelatednessResource.PARAM_RESOURCE_NAME, "germanet7",
                 LinRelatednessResource.PARAM_RESOURCE_LANGUAGE, "de"));
         add(new MeasureConfig(
                 GlossOverlapRelatednessResource.class,
                 GlossOverlapRelatednessResource.PARAM_USE_PSEUDO_GLOSSES, "true",
-                GlossOverlapRelatednessResource.PARAM_RESOURCE_NAME, "germanet",
+                GlossOverlapRelatednessResource.PARAM_RESOURCE_NAME, "germanet7",
                 GlossOverlapRelatednessResource.PARAM_RESOURCE_LANGUAGE, "de"));
         add(new MeasureConfig(
                 VectorIndexSourceRelatednessResource.class,
@@ -138,7 +108,7 @@ public abstract class EACL_ExperimentsBase
     {
         return ExternalResourceFactory.createExternalResourceDescription(
                 measure.getResourceClass(),
-                measure.getConfigParameters()
+                (Object[]) measure.getConfigParameters()
         );
     }
     

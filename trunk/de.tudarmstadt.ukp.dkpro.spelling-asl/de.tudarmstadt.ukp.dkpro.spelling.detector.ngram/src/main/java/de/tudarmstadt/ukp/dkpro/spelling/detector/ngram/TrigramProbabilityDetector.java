@@ -96,6 +96,8 @@ public class TrigramProbabilityDetector
                 int nrOfSpellingVariations = spellingVariations.size();
                 for (String variation : spellingVariations) {
 
+                    // TODO do not consider if variation is in DT of candidate
+                    
                     List<String> changedWords = getChangedWords(variation, words, candidatePosition);
                     
                     double changedSentenceProb = 
