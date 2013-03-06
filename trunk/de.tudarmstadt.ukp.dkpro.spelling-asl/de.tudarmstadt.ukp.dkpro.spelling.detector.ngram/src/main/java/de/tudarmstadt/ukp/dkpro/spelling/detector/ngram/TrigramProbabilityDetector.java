@@ -17,6 +17,10 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.detector.ngram;
 
+import static de.tudarmstadt.ukp.dkpro.spelling.detector.ngram.NGramDetectorUtils.getCandidatePosition;
+import static de.tudarmstadt.ukp.dkpro.spelling.detector.ngram.NGramDetectorUtils.getChangedWords;
+import static de.tudarmstadt.ukp.dkpro.spelling.detector.ngram.NGramDetectorUtils.limitToContextWindow;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -65,16 +69,10 @@ public class TrigramProbabilityDetector
             List<Token> tokens = JCasUtil.selectCovered(jcas, Token.class, s);
             List<String> words = JCasUtil.toText(tokens);
         
-            double targetSentenceProb = getSentenceProbability(words) * alpha;
-//            System.out.println(words);
-//            System.out.println(targetSentenceProb);
-            
-            double maxSentenceProb = targetSentenceProb;
-            SpellingAnomaly anomaly = null;
             double oneMinusAlpha = 1 - alpha;
             for (RWSECandidate candidate : candidates) {
-                
-                int candidatePosition = NGramDetectorUtils.getCandidatePosition(candidate, tokens);
+
+                int candidatePosition = getCandidatePosition(candidate, tokens);
                 
                 if (candidatePosition == -1) {
                     throw new AnalysisEngineProcessException(new Throwable("Could not find matching token for candidate: " + candidate));
@@ -84,6 +82,11 @@ public class TrigramProbabilityDetector
                 if ((candidate.getEnd() - candidate.getBegin()) < minLength) {
                     continue;
                 }
+
+                double targetProb = alpha * getSentenceProbability(limitToContextWindow(words, candidatePosition, 3));
+                double maxProb = targetProb;
+                
+                SpellingAnomaly anomaly = null;
                 
                 List<String> spellingVariations = getSpellingVariations(candidate);
                 int nrOfSpellingVariations = spellingVariations.size();
@@ -91,31 +94,25 @@ public class TrigramProbabilityDetector
 
                     // TODO do not consider if variation is in DT of candidate
                     
-                    List<String> changedWords = NGramDetectorUtils.getChangedWords(variation, words, candidatePosition);
+                    List<String> changedWords = limitToContextWindow(getChangedWords(variation, words, candidatePosition), candidatePosition, 3);
                     
-                    double changedSentenceProb = 
-                        getSentenceProbability(changedWords) * (oneMinusAlpha / nrOfSpellingVariations);
+                    double changedSentenceProb = getSentenceProbability(changedWords) * (oneMinusAlpha / nrOfSpellingVariations);
                     
-//                    System.out.println(changedWords.get(candidatePosition));
-//                    System.out.println(changedSentenceProb);
-
-                    if (changedSentenceProb > maxSentenceProb) {
-                        maxSentenceProb = changedSentenceProb;
+                    if (changedSentenceProb > maxProb) {
+                        maxProb = changedSentenceProb;
                         anomaly = getAnomaly(
                                 tokens.get(candidatePosition),
-                                changedWords.get(candidatePosition)
+                                variation
                         );
                     }
                 }
-            }
-
-            // we found a sentence that has a higher probability
-            if (maxSentenceProb > targetSentenceProb) {
-                // add spelling anomaly 
-                anomaly.addToIndexes();
-            }
-            
-            // TODO if we aggregate all sentences with probability higher than we can use the same "permitting multiple corrections" variant from WOH_H_B
+                
+                // we found a sentence that has a higher probability
+                if (maxProb > targetProb) {
+                    // add spelling anomaly 
+                    anomaly.addToIndexes();
+                }
+            }            
         }
     }
 

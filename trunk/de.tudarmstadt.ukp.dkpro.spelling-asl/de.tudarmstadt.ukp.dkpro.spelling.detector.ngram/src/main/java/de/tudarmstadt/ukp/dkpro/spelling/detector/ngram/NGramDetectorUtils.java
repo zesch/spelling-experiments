@@ -31,6 +31,22 @@ public class NGramDetectorUtils
         return changedWords;
     }
 
+    public static List<String> limitToContextWindow(List<String> words, int offset, int windowSize) {
+        int minOffset = offset - windowSize;
+        if (minOffset < 0) {
+            minOffset = 0;
+        }
+        
+        int maxOffset = offset + windowSize;
+        if (maxOffset >= words.size()) {
+            maxOffset = words.size()-1;
+        }
+        
+        List<String> changedWords = words.subList(minOffset, maxOffset+1);
+            
+        return changedWords;
+    }
+
     public static String getTrigram(String s1, String s2, String s3) {
         StringBuilder sb = new StringBuilder();
         sb.append(s1);
