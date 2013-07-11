@@ -83,7 +83,7 @@ public class CombinationExperiments extends EACL_ExperimentsBase
                     createEngine(BreakIteratorSegmenter.class),
                     createEngine(
                             TreeTaggerPosLemmaTT4J.class,
-                            TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, languageCode
+                            TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, languageCode
                     ),
                     createEngine(
                             RWSECandidateAnnotator.class,

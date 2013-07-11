@@ -17,14 +17,14 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.core;
 
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitive;
 import static org.junit.Assert.assertEquals;
-import static org.uimafit.factory.AnalysisEngineFactory.createPrimitive;
 
 import org.apache.uima.analysis_engine.AnalysisEngine;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.cas.FSArray;
 import org.junit.Test;
-import org.uimafit.util.JCasUtil;
 
 import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SpellingAnomaly;
 import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SuggestedAction;

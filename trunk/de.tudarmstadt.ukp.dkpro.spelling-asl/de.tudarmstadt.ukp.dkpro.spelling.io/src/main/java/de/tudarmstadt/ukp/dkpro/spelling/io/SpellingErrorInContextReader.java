@@ -24,11 +24,11 @@ import java.net.URL;
 import java.util.zip.GZIPInputStream;
 
 import org.apache.uima.UimaContext;
+import org.apache.uima.fit.component.JCasCollectionReader_ImplBase;
+import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Progress;
 import org.apache.uima.util.ProgressImpl;
-import org.uimafit.component.JCasCollectionReader_ImplBase;
-import org.uimafit.descriptor.ConfigurationParameter;
 
 import de.tudarmstadt.ukp.dkpro.core.api.resources.ResourceUtils;
 
@@ -99,6 +99,7 @@ public abstract class SpellingErrorInContextReader extends JCasCollectionReader_
     public void close() throws IOException {
     }
 
+    @Override
     public Progress[] getProgress() {
         return new Progress[] { new ProgressImpl(currentIndex, currentIndex, Progress.ENTITIES) };
     }

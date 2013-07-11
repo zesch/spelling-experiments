@@ -17,15 +17,15 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.data.analysis;
 
-import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescription;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.uima.collection.CollectionReader;
-import org.uimafit.component.NoOpAnnotator;
-import org.uimafit.factory.CollectionReaderFactory;
-import org.uimafit.pipeline.SimplePipeline;
+import org.apache.uima.fit.component.NoOpAnnotator;
+import org.apache.uima.fit.factory.CollectionReaderFactory;
+import org.apache.uima.fit.pipeline.SimplePipeline;
 
 public class Csv2Dataset
 {

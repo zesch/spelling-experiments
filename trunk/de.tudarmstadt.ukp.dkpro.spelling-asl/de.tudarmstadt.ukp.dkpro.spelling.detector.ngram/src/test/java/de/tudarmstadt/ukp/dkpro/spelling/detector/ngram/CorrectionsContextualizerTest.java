@@ -1,21 +1,20 @@
 package de.tudarmstadt.ukp.dkpro.spelling.detector.ngram;
 
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createAggregate;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createAggregateDescription;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
 import static org.junit.Assert.assertEquals;
-import static org.uimafit.factory.AnalysisEngineFactory.createAggregate;
-import static org.uimafit.factory.AnalysisEngineFactory.createAggregateDescription;
-import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescription;
-import static org.uimafit.factory.ExternalResourceFactory.createExternalResourceDescription;
-import static org.uimafit.util.JCasUtil.select;
 
 import java.io.File;
 
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
+import org.apache.uima.fit.factory.ExternalResourceFactory;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.cas.FSArray;
 import org.apache.uima.resource.ExternalResourceDescription;
 import org.junit.Test;
-import org.uimafit.factory.ExternalResourceFactory;
 
 import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SpellingAnomaly;
 import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SuggestedAction;
@@ -49,16 +48,18 @@ public class CorrectionsContextualizerTest
         AnalysisEngineDescription desc = createAggregateDescription(
                 createPrimitiveDescription(
                         BreakIteratorSegmenter.class
-                ),
+                )
+                ,
                 createPrimitiveDescription(
                         SpellChecker.class,
-                        SpellChecker.PARAM_DICT_PATH, "src/test/resources/dict/testdict.txt"
+                        SpellChecker.PARAM_MODEL_LOCATION, "src/test/resources/dict/testdict.txt"
 //                        SpellChecker.PARAM_DICT_PATH, "classpath:/vocabulary/en_US_dict.txt"
-                ),
+                )
+                ,
                 createPrimitiveDescription(
                         CorrectionsContextualizer.class,
                         CorrectionsContextualizer.FREQUENCY_PROVIDER_RESOURCE,
-                            createExternalResourceDescription(TestFrequencyCountResource.class)
+                            ExternalResourceFactory.createExternalResourceDescription(TestFrequencyCountResource.class)
 //                            web1tResource
                 )
         );
@@ -70,7 +71,7 @@ public class CorrectionsContextualizerTest
         engine.process(jcas);
 
         int j = 0;
-        for (SpellingAnomaly anomaly : select(jcas, SpellingAnomaly.class)) {
+        for (SpellingAnomaly anomaly : JCasUtil.select(jcas, SpellingAnomaly.class)) {
             System.out.println(anomaly.getCoveredText());
             FSArray suggestedAction = anomaly.getSuggestions();
             for (int i=0; i<suggestedAction.size(); i++) {

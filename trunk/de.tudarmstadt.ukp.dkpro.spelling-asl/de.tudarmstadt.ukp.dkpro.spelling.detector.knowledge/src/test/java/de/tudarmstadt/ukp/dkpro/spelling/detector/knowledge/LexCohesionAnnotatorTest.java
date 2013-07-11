@@ -51,7 +51,7 @@ public class LexCohesionAnnotatorTest
 
         AnalysisEngineDescription tagger = createPrimitiveDescription(
                 TreeTaggerPosLemmaTT4J.class,
-                TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, "en"
+                TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, "en"
         );
 
         AnalysisEngineDescription candidates = createPrimitiveDescription(

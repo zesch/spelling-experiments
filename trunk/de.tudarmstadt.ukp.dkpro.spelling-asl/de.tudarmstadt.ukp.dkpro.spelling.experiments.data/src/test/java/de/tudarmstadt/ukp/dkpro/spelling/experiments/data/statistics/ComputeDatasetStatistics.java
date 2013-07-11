@@ -17,15 +17,15 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.data.statistics;
 
-import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescription;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
 
 import java.io.IOException;
 
 import org.apache.uima.UIMAException;
+import org.apache.uima.fit.factory.CollectionReaderFactory;
+import org.apache.uima.fit.pipeline.SimplePipeline;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.uimafit.factory.CollectionReaderFactory;
-import org.uimafit.pipeline.SimplePipeline;
 
 import de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingPipeline_Base;

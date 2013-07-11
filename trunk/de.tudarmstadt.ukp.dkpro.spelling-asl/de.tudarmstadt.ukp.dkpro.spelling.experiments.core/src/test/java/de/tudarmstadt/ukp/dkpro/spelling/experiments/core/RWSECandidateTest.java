@@ -17,18 +17,18 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.core;
 
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitive;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
 import static org.junit.Assert.assertEquals;
-import static org.uimafit.factory.AnalysisEngineFactory.createPrimitive;
-import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescription;
-import static org.uimafit.factory.ExternalResourceFactory.bindResource;
 
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
+import org.apache.uima.fit.factory.ExternalResourceFactory;
+import org.apache.uima.fit.testing.factory.TokenBuilder;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.junit.Test;
-import org.uimafit.testing.factory.TokenBuilder;
-import org.uimafit.util.JCasUtil;
 
 import de.tudarmstadt.ukp.dkpro.core.api.frequency.TestFrequencyCountResource;
 import de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity;
@@ -68,13 +68,10 @@ public class RWSECandidateTest
         
         AnalysisEngineDescription filter = createPrimitiveDescription(
                         RWSECandidateFilter.class,
-                        RWSECandidateFilter.PARAM_LOW_FREQ, 1000
-        );
-        
-        bindResource(
-                filter,
-                RWSECandidateFilter.FREQUENCY_PROVIDER_RESOURCE,
-                TestFrequencyCountResource.class
+                        RWSECandidateFilter.PARAM_LOW_FREQ, 1000,
+                        RWSECandidateFilter.FREQUENCY_PROVIDER_RESOURCE,
+                            ExternalResourceFactory.createExternalResourceDependencies(TestFrequencyCountResource.class)
+
         );
         
         AnalysisEngine engine = createPrimitive(filter);

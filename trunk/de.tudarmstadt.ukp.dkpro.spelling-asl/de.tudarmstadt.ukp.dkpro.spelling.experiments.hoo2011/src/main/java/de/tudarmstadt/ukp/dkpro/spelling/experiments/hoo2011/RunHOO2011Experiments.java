@@ -109,7 +109,7 @@ public class RunHOO2011Experiments
                 CANDIDATE_TOKEN,
                 createPrimitiveDescription(
                         SpellChecker.class,
-                        SpellChecker.PARAM_DICT_PATH, vocabularyMap.get(LANG)
+                        SpellChecker.PARAM_MODEL_LOCATION, vocabularyMap.get(LANG)
                 )
         );
 
@@ -227,7 +227,7 @@ public class RunHOO2011Experiments
                 CANDIDATE_TOKEN,
                 createPrimitiveDescription(
                         SpellChecker.class,
-                        SpellChecker.PARAM_DICT_PATH, vocabularyMap.get(LANG)
+                        SpellChecker.PARAM_MODEL_LOCATION, vocabularyMap.get(LANG)
                 ),
                 createPrimitiveDescription(
                         LexCohesionDetector.class,
@@ -238,12 +238,28 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.JiangConrath)
                 ),
                 createPrimitiveDescription(
+                        LexCohesionDetector.class,
+                        LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
+                        LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
+                        LexCohesionDetector.PARAM_THRESHOLD, ESA_THRESHOLD,
+                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.EsaWN)
+                 ),
+                 createPrimitiveDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
                         TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
                         TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T)
+                ),
+                createPrimitiveDescription(
+                        TrigramProbabilityDetector.class,
+                        TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
+                        TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
+                        TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
+                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_ACL)
                 )
         );
 
@@ -261,12 +277,28 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.JiangConrath)
                 ),
                 createPrimitiveDescription(
+                        LexCohesionDetector.class,
+                        LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
+                        LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
+                        LexCohesionDetector.PARAM_THRESHOLD, ESA_THRESHOLD,
+                        LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.EsaWN)
+                 ),
+                 createPrimitiveDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
                         TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
                         TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T)
+                ),
+                createPrimitiveDescription(
+                        TrigramProbabilityDetector.class,
+                        TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
+                        TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
+                        TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
+                        TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
+                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_ACL)
                 )
         );
 
@@ -277,23 +309,23 @@ public class RunHOO2011Experiments
                 CANDIDATE_TOKEN,
                 createPrimitiveDescription(
                         SpellChecker.class,
-                        SpellChecker.PARAM_DICT_PATH, vocabularyMap.get(LANG)
+                        SpellChecker.PARAM_MODEL_LOCATION, vocabularyMap.get(LANG)
                 ),
                 createPrimitiveDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
-                        LexCohesionDetector.PARAM_THRESHOLD, PATH_THRESHOLD,
+                        LexCohesionDetector.PARAM_THRESHOLD, ESA_THRESHOLD,
                         LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
-                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.JiangConrath)
-                ),
-                createPrimitiveDescription(
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.EsaWN)
+                 ),
+                 createPrimitiveDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
                         TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
-                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T)
+                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_ACL)
                 )
         );
         
@@ -306,17 +338,17 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
-                        LexCohesionDetector.PARAM_THRESHOLD, PATH_THRESHOLD,
+                        LexCohesionDetector.PARAM_THRESHOLD, ESA_THRESHOLD,
                         LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
-                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.JiangConrath)
-                ),
-                createPrimitiveDescription(
+                        LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.EsaWN)
+                 ),
+                 createPrimitiveDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
                         TrigramProbabilityDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
-                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T)
+                        TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_ACL)
                 )
         );
 
@@ -369,7 +401,7 @@ public class RunHOO2011Experiments
 				createPrimitiveDescription(BreakIteratorSegmenter.class),
 				createPrimitiveDescription(
                         TreeTaggerPosLemmaTT4J.class,
-                        TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, LANG
+                        TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, LANG
                 ),
                 createPrimitiveDescription(
                         RWSECandidateAnnotator.class,
@@ -401,7 +433,7 @@ public class RunHOO2011Experiments
 				createPrimitiveDescription(BreakIteratorSegmenter.class),
 				createPrimitiveDescription(
                         TreeTaggerPosLemmaTT4J.class,
-                        TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, LANG
+                        TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, LANG
                 ),
                 createPrimitiveDescription(
                         RWSECandidateAnnotator.class,

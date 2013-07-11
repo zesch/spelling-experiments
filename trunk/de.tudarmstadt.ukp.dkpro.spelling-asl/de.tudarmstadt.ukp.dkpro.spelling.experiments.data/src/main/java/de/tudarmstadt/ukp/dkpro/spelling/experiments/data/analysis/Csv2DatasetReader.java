@@ -27,12 +27,12 @@ import java.io.InputStreamReader;
 
 import org.apache.uima.UimaContext;
 import org.apache.uima.collection.CollectionException;
+import org.apache.uima.fit.component.JCasCollectionReader_ImplBase;
+import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Progress;
 import org.apache.uima.util.ProgressImpl;
-import org.uimafit.component.JCasCollectionReader_ImplBase;
-import org.uimafit.descriptor.ConfigurationParameter;
 
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.DatasetItem;
 
@@ -86,6 +86,7 @@ public class Csv2DatasetReader
         currentIndex = 0;
     }
 
+    @Override
     public boolean hasNext()
         throws IOException 
     {
@@ -143,6 +144,7 @@ public class Csv2DatasetReader
     {
     }
 
+    @Override
     public Progress[] getProgress()
     {
         return new Progress[] { new ProgressImpl(currentIndex, currentIndex, Progress.ENTITIES) };
