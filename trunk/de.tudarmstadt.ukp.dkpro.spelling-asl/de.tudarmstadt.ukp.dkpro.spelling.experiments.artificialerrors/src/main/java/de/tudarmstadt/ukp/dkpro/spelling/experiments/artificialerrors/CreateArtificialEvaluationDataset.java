@@ -17,12 +17,12 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.artificialerrors;
 
-import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescription;
-import static org.uimafit.factory.CollectionReaderFactory.createCollectionReader;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createCollectionReader;
 
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReader;
-import org.uimafit.pipeline.SimplePipeline;
+import org.apache.uima.fit.pipeline.SimplePipeline;
 
 import de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.NN;
 import de.tudarmstadt.ukp.dkpro.core.toolbox.corpus.BrownTEICorpus;
@@ -69,7 +69,7 @@ public class CreateArtificialEvaluationDataset
         
         AnalysisEngineDescription tagger = createPrimitiveDescription(
                 TreeTaggerPosLemmaTT4J.class,
-                TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, "en"
+                TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, "en"
         );
         
         AnalysisEngineDescription errorAdder = createPrimitiveDescription(
@@ -105,7 +105,7 @@ public class CreateArtificialEvaluationDataset
         
         AnalysisEngineDescription tagger = createPrimitiveDescription(
                 TreeTaggerPosLemmaTT4J.class,
-                TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, "de"
+                TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, "de"
         );
 
         AnalysisEngineDescription errorAdder = createPrimitiveDescription(
