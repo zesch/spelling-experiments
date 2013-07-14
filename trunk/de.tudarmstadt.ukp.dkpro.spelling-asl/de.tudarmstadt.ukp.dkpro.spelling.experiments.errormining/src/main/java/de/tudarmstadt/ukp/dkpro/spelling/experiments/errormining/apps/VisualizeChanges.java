@@ -28,10 +28,11 @@ import org.uimafit.factory.AggregateBuilder;
 import org.uimafit.pipeline.SimplePipeline;
 
 import de.tudarmstadt.ukp.dkpro.core.api.resources.CompressionMethod;
+import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaRevisionPairReader;
 import de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiReader;
 import de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiWriter;
-import de.tudarmstadt.ukp.dkpro.core.tokit.TokenFilter;
+import de.tudarmstadt.ukp.dkpro.core.tokit.AnnotationByLengthFilter;
 import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosLemmaTT4J;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.ChangeVisualizer;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.SentenceAligner;
@@ -84,13 +85,14 @@ public class VisualizeChanges
           
           AnalysisEngineDescription segmenter = createPrimitiveDescription(
                   XmiWriter.class,
-                  XmiWriter.PARAM_PATH, "target/xmi",
+                  XmiWriter.PARAM_TARGET_LOCATION, "target/xmi",
                   XmiWriter.PARAM_COMPRESSION, CompressionMethod.GZIP
           );
 
           AnalysisEngineDescription tokenFilter = createPrimitiveDescription(
-                  TokenFilter.class,
-                  TokenFilter.PARAM_MAX_TOKEN_LENGTH, 30
+                  AnnotationByLengthFilter.class,
+                  AnnotationByLengthFilter.PARAM_FILTER_ANNOTATION_TYPES, Token.class.toString(),
+                  AnnotationByLengthFilter.PARAM_MAX_LENGTH, 30
           );
 
           AnalysisEngineDescription sentenceFilter = createPrimitiveDescription(
@@ -100,7 +102,7 @@ public class VisualizeChanges
           TreeTaggerWrapper.TRACE = false;
           AnalysisEngineDescription tagger = createPrimitiveDescription(
                   TreeTaggerPosLemmaTT4J.class,
-                  TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE_CODE, LANGUAGE_CODE
+                  TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, LANGUAGE_CODE
           );
 
           AnalysisEngineDescription analyzer = createPrimitiveDescription(

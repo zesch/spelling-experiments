@@ -222,7 +222,7 @@ public class SpellingErrorFilter
             }
             spellChecker = createPrimitive(
                     SpellChecker.class,
-                    SpellChecker.PARAM_DICT_PATH, dictionaryMap.get(languageCode)
+                    SpellChecker.PARAM_MODEL_LOCATION, dictionaryMap.get(languageCode)
             );
         
             if (!lsrMap.containsKey(languageCode)) {

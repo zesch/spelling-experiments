@@ -53,7 +53,7 @@ public class DumpToXmi
         
         AnalysisEngineDescription dumperDe = createPrimitiveDescription(
                 XmiWriter.class,
-                XmiWriter.PARAM_PATH, "target/de/xmi",
+                XmiWriter.PARAM_TARGET_LOCATION, "target/de/xmi",
                 XmiWriter.PARAM_COMPRESSION, CompressionMethod.GZIP
         );
 
@@ -76,7 +76,7 @@ public class DumpToXmi
         
         AnalysisEngineDescription dumperEn = createPrimitiveDescription(
                 XmiWriter.class,
-                XmiWriter.PARAM_PATH, "target/en/xmi",
+                XmiWriter.PARAM_TARGET_LOCATION, "target/en/xmi",
                 XmiWriter.PARAM_COMPRESSION, CompressionMethod.GZIP
         );
 
