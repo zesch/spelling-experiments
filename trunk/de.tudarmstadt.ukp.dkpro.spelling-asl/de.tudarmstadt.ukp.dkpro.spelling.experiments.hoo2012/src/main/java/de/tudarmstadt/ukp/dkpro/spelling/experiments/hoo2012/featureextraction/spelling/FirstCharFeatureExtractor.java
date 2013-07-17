@@ -3,29 +3,18 @@ package de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.featureextraction.
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.uima.UimaContext;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
-import org.apache.uima.resource.ResourceInitializationException;
 import org.cleartk.classifier.Feature;
 import org.cleartk.classifier.feature.extractor.CleartkExtractorException;
 import org.cleartk.classifier.feature.extractor.simple.SimpleFeatureExtractor;
-import org.uimafit.factory.initializable.Initializable;
 import org.uimafit.util.JCasUtil;
 
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 
 public class FirstCharFeatureExtractor
-    implements SimpleFeatureExtractor, Initializable
+    implements SimpleFeatureExtractor
 {
-
-    @Override
-    public void initialize(UimaContext context)
-        throws ResourceInitializationException
-    {
-        // TODO Auto-generated method stub
-        
-    }
 
     @Override
     public List<Feature> extract(JCas jcas, Annotation focusAnnotation)

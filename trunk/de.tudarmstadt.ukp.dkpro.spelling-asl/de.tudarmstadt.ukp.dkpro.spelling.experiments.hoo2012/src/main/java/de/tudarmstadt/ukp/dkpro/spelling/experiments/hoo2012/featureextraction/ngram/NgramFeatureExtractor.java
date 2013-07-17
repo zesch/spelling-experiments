@@ -25,9 +25,11 @@ import org.cleartk.classifier.Feature;
 import org.cleartk.classifier.feature.extractor.CleartkExtractorException;
 import org.cleartk.classifier.feature.extractor.simple.SimpleFeatureExtractor;
 import org.uimafit.factory.initializable.Initializable;
+import org.uimafit.util.JCasUtil;
 
 import de.tudarmstadt.ukp.dkpro.core.api.frequency.util.FrequencyDistribution;
 import de.tudarmstadt.ukp.dkpro.core.api.resources.ResourceUtils;
+import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.util.NGramUtils;
 
 public class NgramFeatureExtractor
@@ -42,6 +44,9 @@ public class NgramFeatureExtractor
     public static final String PARAM_LOWER_CASE = "LowerCaseNGrams";
     public static final String PARAM_MIN_TOKEN_LENGTH_THRESHOLD = "MinTokenLengthThreshold";
     
+    private static final Integer UNKNOWN_TOKEN_INDEX = -1;
+    
+    private static final Integer CONTEXT_SIZE = 2;
     
     private int minN = 1;
     private int maxN = 3;
@@ -63,20 +68,44 @@ public class NgramFeatureExtractor
     {
         List<Feature> features = new ArrayList<Feature>();
         
-        FrequencyDistribution<String> documentNgrams = NGramUtils.getDocumentNgrams(jcas, lowerCaseNGrams, minN, maxN, stopwords);
-        for (String topNgram : topKSet) {
-            if (documentNgrams.getKeys().contains(topNgram)) {
-    //            features.add(new Feature(prefix + "_" + topNgram, documentNgrams.getCount(topNgram)));
-                features.add(new Feature(prefix + "_" + topNgram, 1));
-            }
-            else {
-                features.add(new Feature(prefix + "_" + topNgram, 0));
-            }
-        }
-        
-    //    documentNgrams.clear();
-    
+        Map<String, Integer> documentNgrams = NGramUtils.getDocumentNgramsMap(jcas, lowerCaseNGrams, minN, maxN, stopwords);
+
+        List<Token> tokensLeft = JCasUtil.selectPreceding(jcas, Token.class, focusAnnotation, CONTEXT_SIZE);
+        List<Token> tokensRight = JCasUtil.selectFollowing(jcas, Token.class, focusAnnotation, CONTEXT_SIZE);
+
+        addFeatures(jcas, "l", tokensLeft, documentNgrams, features);
+        addFeatures(jcas, "r", tokensRight, documentNgrams, features);
+            
         return features;
+    }
+    
+    private void addFeatures(
+            JCas jcas,
+            String direction,
+            List<Token> tokens,
+            Map<String, Integer> documentNgrams,
+            List<Feature> features)
+    {
+        int offset = 0;
+        for (Token token : tokens) {
+            if (token != null) {
+                
+                String tokenString = token.getCoveredText();
+
+                int index = UNKNOWN_TOKEN_INDEX;
+                if (documentNgrams.containsKey(tokenString)) {
+                    index = documentNgrams.get(tokenString);
+                }
+                
+                if (lowerCaseNGrams) {
+                    tokenString = tokenString.toLowerCase();
+                }
+                if (topKSet.contains(tokenString)) {
+                    features.add(new Feature(prefix + "_" + direction + "_" + offset, index));
+                }
+            }
+            offset++;
+        }
     }
     
     @Override

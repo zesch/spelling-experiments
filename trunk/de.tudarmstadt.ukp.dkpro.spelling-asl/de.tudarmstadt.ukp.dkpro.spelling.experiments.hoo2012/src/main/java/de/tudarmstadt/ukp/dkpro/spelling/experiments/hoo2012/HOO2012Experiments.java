@@ -193,9 +193,9 @@ public class HOO2012Experiments {
 		Task metaInfoTask = new MetaInfoTask(
 		        getBrownCorpusReader("brown_tei_small", "en"),  params);
 		Task trainingTaskRT = new ExtractFeaturesTrainingTask(
-		        getBrownCorpusReader("brown_tei_small", "en"), "RT", PREP_CONFUSION_SET, NGRAM_MODEL);
+		        getBrownCorpusReader("brown_tei_small", "en"), "RT", PREP_CONFUSION_SET, params);
         Task trainingTaskRD = new ExtractFeaturesTrainingTask(
-                getBrownCorpusReader("brown_tei_small", "en"), "RD", DET_CONFUSION_SET, NGRAM_MODEL);
+                getBrownCorpusReader("brown_tei_small", "en"), "RD", DET_CONFUSION_SET, params);
 		Task testTaskRT     = new ExtractFeaturesTestTask(
 		        getReader(TEST_DATA), "RT", PREP_CONFUSION_SET, NGRAM_MODEL);
         Task testTaskRD     = new ExtractFeaturesTestTask(

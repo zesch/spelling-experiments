@@ -5,13 +5,16 @@ import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescripti
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReaderDescription;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.cleartk.classifier.CleartkAnnotator;
 import org.cleartk.classifier.jar.DefaultDataWriterFactory;
-import org.cleartk.classifier.weka.StringWekaDataWriter;
+import org.cleartk.classifier.weka.singlelabel.StringWekaSerializedDataWriter;
 
 import de.tudarmstadt.ukp.dkpro.lab.engine.TaskContext;
 import de.tudarmstadt.ukp.dkpro.lab.storage.StorageService.AccessMode;
@@ -19,7 +22,9 @@ import de.tudarmstadt.ukp.dkpro.lab.task.Discriminator;
 import de.tudarmstadt.ukp.dkpro.lab.uima.task.impl.UimaTaskBase;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.HOO2012Experiments;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.featureextraction.AllFeaturesExtractor;
+import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.featureextraction.ngram.NgramFeatureExtractor;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.io.HOO2012Evaluator;
+import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.meta.NGramMetaCollector;
 
 public class ExtractFeaturesTestTask
     extends UimaTaskBase
@@ -28,6 +33,9 @@ public class ExtractFeaturesTestTask
     public static final String TEST_KEY = "test";
 
     @Discriminator String langCode;
+    @Discriminator Integer topNgramsK;
+    @Discriminator Boolean lowerCase;
+    @Discriminator String stopwordList;
     @Discriminator String teamId;
     @Discriminator String testDataPath;
     @Discriminator String goldDataPath;
@@ -80,19 +88,34 @@ public class ExtractFeaturesTestTask
                 AccessMode.READWRITE
         );
 
+        List<Object> parameters = new ArrayList<Object>();
+        
+        parameters.addAll(Arrays.asList(
+                NgramFeatureExtractor.PARAM_NGRAM_FD_FILE, metaDir.getAbsolutePath() + "/" + NGramMetaCollector.NGRAM_FD_KEY));
+        parameters.addAll(Arrays.asList(
+                NgramFeatureExtractor.PARAM_USE_TOP_K, topNgramsK));
+        parameters.addAll(Arrays.asList(
+                NgramFeatureExtractor.PARAM_LOWER_CASE, lowerCase));
+        parameters.addAll(Arrays.asList(
+                NgramFeatureExtractor.PARAM_STOPWORD_LIST, stopwordList));
+
+        parameters.addAll(Arrays.asList(
+                AllFeaturesExtractor.PARAM_IS_TRAINING, true,
+                AllFeaturesExtractor.PARAM_IS_TEST, true,   // training and test need both to be true here -> it's a hack :/
+                AllFeaturesExtractor.PARAM_TRAINING_ARFF, trainingArffDir + "/training-data.arff.gz",
+                AllFeaturesExtractor.PARAM_CLASSIFIER, classifier,
+                AllFeaturesExtractor.PARAM_ERROR_CLASS, errorClass,
+                AllFeaturesExtractor.PARAM_CONFUSION_SET, confusionSet,
+                CleartkAnnotator.PARAM_DATA_WRITER_FACTORY_CLASS_NAME, DefaultDataWriterFactory.class.getName(),
+                DefaultDataWriterFactory.PARAM_DATA_WRITER_CLASS_NAME, StringWekaSerializedDataWriter.class.getName(),
+                DefaultDataWriterFactory.PARAM_OUTPUT_DIRECTORY, testArffDir.getAbsolutePath()
+        ));
+        
         return createAggregateDescription(
                 HOO2012Experiments.getPreprocessing(langCode),
                 createPrimitiveDescription(
                         AllFeaturesExtractor.class,
-                        AllFeaturesExtractor.PARAM_IS_TRAINING, true,
-                        AllFeaturesExtractor.PARAM_IS_TEST, true,   // training and test need both to be true here -> it's a hack :/
-                        AllFeaturesExtractor.PARAM_TRAINING_ARFF, trainingArffDir + "/training-data.arff.gz",
-                        AllFeaturesExtractor.PARAM_CLASSIFIER, classifier,
-                        AllFeaturesExtractor.PARAM_ERROR_CLASS, errorClass,
-                        AllFeaturesExtractor.PARAM_CONFUSION_SET, confusionSet,
-                        CleartkAnnotator.PARAM_DATA_WRITER_FACTORY_CLASS_NAME, DefaultDataWriterFactory.class.getName(),
-                        DefaultDataWriterFactory.PARAM_DATA_WRITER_CLASS_NAME, StringWekaDataWriter.class.getName(),
-                        DefaultDataWriterFactory.PARAM_OUTPUT_DIRECTORY, testArffDir.getAbsolutePath()
+                        parameters.toArray()
                 ),
                 createPrimitiveDescription(
                         HOO2012Evaluator.class,

@@ -39,7 +39,7 @@ public class NGramMetaCollector
     public void process(JCas jcas)
         throws AnalysisEngineProcessException
     {
-        FrequencyDistribution<String> documentNGrams = NGramUtils.getDocumentNgrams(jcas, lowerCase, minN, maxN, stopwords); 
+        FrequencyDistribution<String> documentNGrams = NGramUtils.getDocumentNgramsFD(jcas, lowerCase, minN, maxN, stopwords); 
         for (String ngram : documentNGrams.getKeys()) {
             fd.addSample(ngram, documentNGrams.getCount(ngram));
         }

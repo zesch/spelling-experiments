@@ -25,7 +25,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 import org.apache.commons.io.IOUtils;
@@ -46,6 +45,7 @@ import de.tudarmstadt.ukp.dkpro.core.ngrams.util.NGramStringIterable;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.type.RWSECandidate;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.utils.SpellingUtils;
 import de.tudarmstadt.ukp.dkpro.spelling.detector.ngram.LMBasedDetector;
+import de.tudarmstadt.ukp.dkpro.spelling.detector.ngram.NGramDetectorUtils;
 
 public class FixedCandidateTrigramProbabilityDetector
     extends LMBasedDetector
@@ -61,9 +61,6 @@ public class FixedCandidateTrigramProbabilityDetector
     
     private JCas jcas;
 
-    // local cache, global cache for all files would be too big
-    private Map<String,Long> countCache;
-    
     protected Set<String> candidateSet;
     
     @Override
@@ -179,7 +176,8 @@ public class FixedCandidateTrigramProbabilityDetector
         
     }
     
-    private double getSentenceProbability(List<String> words) throws AnalysisEngineProcessException  {
+    @Override
+    protected double getSentenceProbability(List<String> words) throws AnalysisEngineProcessException  {
         double sentenceProbability = 0.0;
         
         if (words.size() < 1) {
@@ -198,10 +196,10 @@ public class FixedCandidateTrigramProbabilityDetector
 
         // in the google n-grams this is not represented (only single BOS markers)
         // but I leave it in place in case we add another n-gram provider
-        trigrams.add(getTrigram(BOS, BOS, words.get(0)));
+        trigrams.add(NGramDetectorUtils.getTrigram(BOS, BOS, words.get(0)));
         
         if (words.size() > 1) {
-            trigrams.add(getTrigram(BOS, words.get(0), words.get(1)));
+            trigrams.add(NGramDetectorUtils.getTrigram(BOS, words.get(0), words.get(1)));
         }
         
         for (String trigram : new NGramStringIterable(words, 3, 3)) {
@@ -243,16 +241,6 @@ public class FixedCandidateTrigramProbabilityDetector
         return Math.exp(sentenceProbability);
     }
 
-    private String getTrigram(String s1, String s2, String s3) {
-        StringBuilder sb = new StringBuilder();
-        sb.append(s1);
-        sb.append(" ");
-        sb.append(s2);
-        sb.append(" ");
-        sb.append(s3);
-        return sb.toString();
-    }
-    
     private List<String> getChangedWords(String edit, List<String> words, int offset) {
         List<String> changedWords = new ArrayList<String>(words);
         changedWords.set(offset, edit);
@@ -282,18 +270,5 @@ public class FixedCandidateTrigramProbabilityDetector
         }
 
         return position;
-    }
-    
-    private long getNGramCount(String ngram) throws AnalysisEngineProcessException {
-        if (!countCache.containsKey(ngram)) {
-            try {
-                countCache.put(ngram, provider.getFrequency(ngram));
-            }
-            catch (Exception e) {
-                throw new AnalysisEngineProcessException(e);
-            }
-        }
-        
-        return countCache.get(ngram);
-    }
+    }    
 }

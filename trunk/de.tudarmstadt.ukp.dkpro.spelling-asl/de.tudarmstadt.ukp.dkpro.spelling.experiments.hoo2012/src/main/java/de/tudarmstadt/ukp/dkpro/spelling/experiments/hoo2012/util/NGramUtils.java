@@ -6,7 +6,9 @@ import static org.uimafit.util.JCasUtil.toText;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.apache.commons.lang.StringUtils;
@@ -20,12 +22,12 @@ import de.tudarmstadt.ukp.dkpro.core.ngrams.util.NGramStringListIterable;
 public class NGramUtils
 {
 
-    public static FrequencyDistribution<String> getDocumentNgrams(JCas jcas, boolean lowerCaseNGrams, int minN, int maxN) {
+    public static FrequencyDistribution<String> getDocumentNgramsFD(JCas jcas, boolean lowerCaseNGrams, int minN, int maxN) {
         Set<String> empty = Collections.emptySet();
-        return getDocumentNgrams(jcas, lowerCaseNGrams, minN, maxN, empty);
+        return getDocumentNgramsFD(jcas, lowerCaseNGrams, minN, maxN, empty);
     }
     
-    public static FrequencyDistribution<String> getDocumentNgrams(JCas jcas, boolean lowerCaseNGrams, int minN, int maxN, Set<String> stopwords) {
+    public static FrequencyDistribution<String> getDocumentNgramsFD(JCas jcas, boolean lowerCaseNGrams, int minN, int maxN, Set<String> stopwords) {
         FrequencyDistribution<String> documentNgrams = new FrequencyDistribution<String>();
         for (Sentence s : select(jcas, Sentence.class)) {
             // TODO parameterize type
@@ -36,6 +38,32 @@ public class NGramUtils
                 // filter might have reduced size to zero => don't add in this case
                 if (ngram.size() > 0) {
                     documentNgrams.inc(StringUtils.join(ngram, "_"));
+                }
+            }
+        }
+        return documentNgrams;
+    }
+    public static Map<String, Integer> getDocumentNgramsMap(JCas jcas, boolean lowerCaseNGrams, int minN, int maxN) {
+        Set<String> empty = Collections.emptySet();
+        return getDocumentNgramsMap(jcas, lowerCaseNGrams, minN, maxN, empty);
+    }
+    
+    public static Map<String, Integer> getDocumentNgramsMap(JCas jcas, boolean lowerCaseNGrams, int minN, int maxN, Set<String> stopwords) {
+        Map<String, Integer> documentNgrams = new HashMap<String, Integer>();
+        Integer id = 0;
+        for (Sentence s : select(jcas, Sentence.class)) {
+            // TODO parameterize type
+            for (List<String> ngram : new NGramStringListIterable(toText(selectCovered(Token.class, s)), minN, maxN)) {
+
+                ngram = filterNgram(ngram, lowerCaseNGrams, stopwords);
+                
+                // filter might have reduced size to zero => don't add in this case
+                if (ngram.size() > 0) {
+                    String ngramString = StringUtils.join(ngram, "_");
+                    if (!documentNgrams.containsKey(ngramString)) {
+                        documentNgrams.put(ngramString, id);
+                        id++;
+                    }
                 }
             }
         }

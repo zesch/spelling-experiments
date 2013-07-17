@@ -68,11 +68,6 @@
 			<artifactId>weka</artifactId>
 		    <version>3.7.5</version>
     	</dependency>
-        <dependency>
-		    <groupId>org.cleartk</groupId>
-		    <artifactId>cleartk-ml</artifactId>
-		    <version>1.2.1-SNAPSHOT</version>
-		</dependency>
 		<dependency>
 			<groupId>de.tudarmstadt.ukp.dkpro.spelling</groupId>
 			<artifactId>de.tudarmstadt.ukp.dkpro.spelling.experiments.data</artifactId>
@@ -87,16 +82,18 @@
 			<artifactId>commons-lang</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>cleartk-ml-weka</groupId>
-			<artifactId>cleartk-ml-weka-ukp</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
-		</dependency>
-		<dependency>
 			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
 			<artifactId>
 				de.tudarmstadt.ukp.dkpro.core.opennlp-model-tagger-en-maxent
 			</artifactId>
 			<version>20120616.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.tc</groupId>
+			<artifactId>
+				de.tudarmstadt.ukp.dkpro.tc.cleartk-ml-weka-ukp
+			</artifactId>
+			<version>0.2.0</version>
 		</dependency>
 	</dependencies>
 </project>

@@ -56,6 +56,7 @@ import weka.core.Utils;
 import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SpellingAnomaly;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.utils.SpellingUtils;
+import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.featureextraction.ngram.NgramFeatureExtractor;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2012.featureextraction.spelling.FirstCharFeatureExtractor;
 
 public class AllFeaturesExtractor
@@ -98,8 +99,9 @@ public class AllFeaturesExtractor
         confusionSet.addAll(Arrays.asList(confusionSetArray));
         
         featureExtractors = new ArrayList<SimpleFeatureExtractor>();
-//        featureExtractors.add(new NgramFeatureExtractor());
+        featureExtractors.add(new NgramFeatureExtractor());
         featureExtractors.add(new FirstCharFeatureExtractor());
+//        featureExtractors.add(new PosContextFeatureExtractor());
 //        featureExtractors.add(new IdentityExtractor(confusionSet));
 
         for (SimpleFeatureExtractor featExt : featureExtractors) {
@@ -153,6 +155,7 @@ public class AllFeaturesExtractor
                     // build classifier from training arff and classify
                     try {
                         weka.core.Instance wekaInstance = CleartkInstanceConverter.toWekaInstance(instance, classValues);
+                        System.out.println(wekaInstance);
                         double prediction = cl.classifyInstance(wekaInstance);
 
                         // prediction is the index in the class labels, not the class label itself!
