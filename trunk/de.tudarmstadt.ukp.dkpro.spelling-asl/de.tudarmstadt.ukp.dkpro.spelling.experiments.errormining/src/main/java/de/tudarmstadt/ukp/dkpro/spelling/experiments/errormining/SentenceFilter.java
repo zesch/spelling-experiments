@@ -17,15 +17,14 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining;
 
-import static org.uimafit.util.JCasUtil.select;
-
 import java.util.ArrayList;
 import java.util.Collection;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
+import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
-import org.uimafit.component.JCasAnnotator_ImplBase;
 
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence;
 
@@ -39,7 +38,7 @@ public class SentenceFilter
 	{
 	    
 		Collection<Sentence> toRemove = new ArrayList<Sentence>();
-		for (Sentence s : select(aJCas, Sentence.class)) {
+		for (Sentence s : JCasUtil.select(aJCas, Sentence.class)) {
 		    String text = s.getCoveredText();
 			
 		    // too many ":" -> likely to be Wikipedia language link list

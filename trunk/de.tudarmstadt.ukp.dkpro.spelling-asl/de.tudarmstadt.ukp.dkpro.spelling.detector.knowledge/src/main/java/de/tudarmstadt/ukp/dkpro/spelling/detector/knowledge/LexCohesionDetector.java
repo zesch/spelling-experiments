@@ -20,8 +20,8 @@ package de.tudarmstadt.ukp.dkpro.spelling.detector.knowledge;
 import java.util.Set;
 
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
-import org.uimafit.util.JCasUtil;
 
 import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SpellingAnomaly;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.type.RWSECandidate;

@@ -17,18 +17,18 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.detector.knowledge;
 
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createAggregate;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createAggregateDescription;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static org.uimafit.factory.AnalysisEngineFactory.createAggregate;
-import static org.uimafit.factory.AnalysisEngineFactory.createAggregateDescription;
-import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescription;
 
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
+import org.apache.uima.fit.factory.ExternalResourceFactory;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.junit.Test;
-import org.uimafit.factory.ExternalResourceFactory;
-import org.uimafit.util.JCasUtil;
 
 import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SpellingAnomaly;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
@@ -37,7 +37,6 @@ import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosLemmaTT4J;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.type.RWSECandidate;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.RWSECandidateAnnotator;
 import de.tudarmstadt.ukp.similarity.dkpro.resource.test.TestSimilarityResource;
-
 public class LexCohesionAnnotatorTest
 {
 

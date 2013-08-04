@@ -18,9 +18,9 @@
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.apps;
 
 import static de.tudarmstadt.ukp.dkpro.core.api.io.ResourceCollectionReaderBase.INCLUDE_PREFIX;
-import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescription;
-import static org.uimafit.factory.CollectionReaderFactory.createCollectionReader;
-import static org.uimafit.factory.ExternalResourceFactory.createExternalResourceDescription;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createCollectionReader;
+import static org.apache.uima.fit.factory.ExternalResourceFactory.createExternalResourceDescription;
 
 import java.io.File;
 import java.util.HashMap;
@@ -29,9 +29,9 @@ import java.util.Map;
 import org.annolab.tt4j.TreeTaggerWrapper;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReader;
+import org.apache.uima.fit.factory.AggregateBuilder;
+import org.apache.uima.fit.pipeline.SimplePipeline;
 import org.apache.uima.resource.ExternalResourceDescription;
-import org.uimafit.factory.AggregateBuilder;
-import org.uimafit.pipeline.SimplePipeline;
 
 import de.tudarmstadt.ukp.dkpro.core.api.resources.DKProContext;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
