@@ -27,12 +27,14 @@ import org.apache.uima.fit.factory.CollectionReaderFactory;
 import org.apache.uima.fit.pipeline.JCasIterable;
 import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.SpellingAnomaly;
 
 public class SpellingErrorInContextReaderTest
 {
+    @Ignore
     @Test
     public void shortFormatTest() throws Exception {
         runTest("classpath:/io/test_shortFormat.txt", false);

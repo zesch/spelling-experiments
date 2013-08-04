@@ -17,12 +17,11 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.core;
 
-import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitive;
-import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
 import static org.junit.Assert.assertEquals;
 
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
+import org.apache.uima.fit.factory.AnalysisEngineFactory;
 import org.apache.uima.fit.factory.ExternalResourceFactory;
 import org.apache.uima.fit.testing.factory.TokenBuilder;
 import org.apache.uima.fit.util.JCasUtil;
@@ -42,7 +41,7 @@ public class RWSECandidateTest
     public void testProcess()
         throws Exception
     {
-        AnalysisEngine annotator = createPrimitive(
+        AnalysisEngine annotator = AnalysisEngineFactory.createEngine(
                 RWSECandidateAnnotator.class,
                 RWSECandidateAnnotator.PARAM_TYPE, Token.class.getName()
         );
@@ -66,15 +65,15 @@ public class RWSECandidateTest
         ne.setEnd(23);
         ne.addToIndexes();
         
-        AnalysisEngineDescription filter = createPrimitiveDescription(
+        AnalysisEngineDescription filter = AnalysisEngineFactory.createEngineDescription(
                         RWSECandidateFilter.class,
                         RWSECandidateFilter.PARAM_LOW_FREQ, 1000,
                         RWSECandidateFilter.FREQUENCY_PROVIDER_RESOURCE,
-                            ExternalResourceFactory.createExternalResourceDependencies(TestFrequencyCountResource.class)
+                            ExternalResourceFactory.createExternalResourceDescription(TestFrequencyCountResource.class)
 
         );
         
-        AnalysisEngine engine = createPrimitive(filter);
+        AnalysisEngine engine = AnalysisEngineFactory.createEngine(filter);
         
         engine.process(jcas);
 
