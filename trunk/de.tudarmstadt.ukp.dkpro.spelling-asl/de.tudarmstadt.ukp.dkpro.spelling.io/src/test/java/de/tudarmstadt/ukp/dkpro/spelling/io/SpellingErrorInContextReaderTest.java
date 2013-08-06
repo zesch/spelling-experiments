@@ -22,7 +22,7 @@ import static org.junit.Assert.assertEquals;
 import java.io.IOException;
 
 import org.apache.uima.UIMAException;
-import org.apache.uima.collection.CollectionReader;
+import org.apache.uima.collection.CollectionReaderDescription;
 import org.apache.uima.fit.factory.CollectionReaderFactory;
 import org.apache.uima.fit.pipeline.JCasIterable;
 import org.apache.uima.fit.util.JCasUtil;
@@ -70,15 +70,15 @@ public class SpellingErrorInContextReaderTest
         };
 
         
-        CollectionReader reader;
+        CollectionReaderDescription reader;
         if (isLongFormat) {
-            reader = CollectionReaderFactory.createCollectionReader(
+            reader = CollectionReaderFactory.createReaderDescription(
                     SpellingErrorInContextReader_LongFormat.class,
                     SpellingErrorInContextReader.PARAM_INPUT_FILE, inputFile
             );
         }
         else {
-            reader = CollectionReaderFactory.createCollectionReader(
+            reader = CollectionReaderFactory.createReaderDescription(
                     SpellingErrorInContextReader_ShortFormat.class,
                     SpellingErrorInContextReader.PARAM_INPUT_FILE, inputFile
             );

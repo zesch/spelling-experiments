@@ -20,7 +20,7 @@ package de.tudarmstadt.ukp.dkpro.spelling.io;
 import static org.junit.Assert.assertEquals;
 
 import org.apache.uima.analysis_engine.AnalysisEngine;
-import org.apache.uima.collection.CollectionReader;
+import org.apache.uima.collection.CollectionReaderDescription;
 import org.apache.uima.fit.factory.AnalysisEngineFactory;
 import org.apache.uima.fit.factory.CollectionReaderFactory;
 import org.apache.uima.fit.pipeline.JCasIterable;
@@ -62,15 +62,15 @@ public class SpellingErrorInContextEvaluatorTest
         "wrong"
     };
 
-    private CollectionReader getReader() throws ResourceInitializationException {
-        return CollectionReaderFactory.createCollectionReader(
+    private CollectionReaderDescription getReader() throws ResourceInitializationException {
+        return CollectionReaderFactory.createReaderDescription(
                 SpellingErrorInContextReader_LongFormat.class,
                 SpellingErrorInContextReader.PARAM_INPUT_FILE, "classpath:/io/test_longFormat.txt"
         );
     }
 
     private AnalysisEngine getEngine() throws ResourceInitializationException {
-        return AnalysisEngineFactory.createPrimitive(
+        return AnalysisEngineFactory.createEngine(
                 SpellingErrorInContextEvaluator.class
         );
     }

@@ -18,7 +18,7 @@
 package de.tudarmstadt.ukp.dkpro.spelling.io;
 import static org.junit.Assert.assertEquals;
 
-import org.apache.uima.collection.CollectionReader;
+import org.apache.uima.collection.CollectionReaderDescription;
 import org.apache.uima.fit.factory.CollectionReaderFactory;
 import org.apache.uima.fit.pipeline.JCasIterable;
 import org.apache.uima.fit.util.JCasUtil;
@@ -38,7 +38,7 @@ public class HOOReaderTest {
 
 	@Test
 	public void hooReaderTest() throws Exception {
-		CollectionReader reader = CollectionReaderFactory.createCollectionReader(
+		CollectionReaderDescription reader = CollectionReaderFactory.createReaderDescription(
 		        HOOReader.class,
 				HOOReader.PARAM_LANGUAGE, "en",
 				HOOReader.PARAM_PATH,       "src/test/resources/hoo/text/",
@@ -65,7 +65,7 @@ public class HOOReaderTest {
 	@Test(expected=RuntimeException.class)
 	public void hooReaderTest_noEdits() throws Exception {
 
-        CollectionReader reader = CollectionReaderFactory.createCollectionReader(
+        CollectionReaderDescription reader = CollectionReaderFactory.createReaderDescription(
                 HOOReader.class,
                 HOOReader.PARAM_LANGUAGE, "en",
                 HOOReader.PARAM_PATH,       "src/test/resources/hoo/text/",
