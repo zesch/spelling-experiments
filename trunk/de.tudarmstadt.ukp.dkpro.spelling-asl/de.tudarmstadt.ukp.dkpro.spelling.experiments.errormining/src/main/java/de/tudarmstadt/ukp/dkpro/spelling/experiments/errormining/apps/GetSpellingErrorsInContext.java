@@ -18,8 +18,8 @@
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.apps;
 
 import static de.tudarmstadt.ukp.dkpro.core.api.io.ResourceCollectionReaderBase.INCLUDE_PREFIX;
-import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
-import static org.apache.uima.fit.factory.CollectionReaderFactory.createCollectionReader;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.factory.ExternalResourceFactory.createExternalResourceDescription;
 
 import java.io.File;
@@ -33,7 +33,7 @@ import org.apache.uima.fit.factory.AggregateBuilder;
 import org.apache.uima.fit.pipeline.SimplePipeline;
 import org.apache.uima.resource.ExternalResourceDescription;
 
-import de.tudarmstadt.ukp.dkpro.core.api.resources.DKProContext;
+import de.tudarmstadt.ukp.dkpro.core.api.resources.DkproContext;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.core.frequency.resources.Web1TFrequencyCountResource;
 import de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaRevisionPairReader;
@@ -79,9 +79,9 @@ public class GetSpellingErrorsInContext
 //                    WikipediaReaderBase.PARAM_PASSWORD,   "",
 //                    WikipediaReaderBase.PARAM_LANGUAGE,   Language.german.name()
 //            );
-            reader = createCollectionReader(
+            reader = createReader(
                     XmiReader.class,
-                    XmiReader.PARAM_PATH, "classpath:/wikirevision_data/de/",
+                    XmiReader.PARAM_SOURCE_LOCATION, "classpath:/wikirevision_data/de/",
                     XmiReader.PARAM_PATTERNS, new String[] { INCLUDE_PREFIX + "*.xmi.gz" }
             );
         }
@@ -96,9 +96,9 @@ public class GetSpellingErrorsInContext
 //                    WikipediaReaderBase.PARAM_PASSWORD,   "",
 //                    WikipediaReaderBase.PARAM_LANGUAGE,   Language.english.name()
 //            );
-            reader = createCollectionReader(
+            reader = createReader(
                     XmiReader.class,
-                    XmiReader.PARAM_PATH, "classpath:/wikirevision_data/en/",
+                    XmiReader.PARAM_SOURCE_LOCATION, "classpath:/wikirevision_data/en/",
                     XmiReader.PARAM_PATTERNS, new String[] { INCLUDE_PREFIX + "*.xmi.gz" }
             );
         }
@@ -109,38 +109,38 @@ public class GetSpellingErrorsInContext
             Web1TFrequencyCountResource.PARAM_MAX_NGRAM_LEVEL, "1",
             Web1TFrequencyCountResource.PARAM_INDEX_PATH,
                 new File(
-                    DKProContext.getContext().getWorkspace("web1t"), LANGUAGE_CODE
+                    DkproContext.getContext().getWorkspace("web1t"), LANGUAGE_CODE
                 ).getAbsolutePath()
         );
         
-        AnalysisEngineDescription segmenter = createPrimitiveDescription(
+        AnalysisEngineDescription segmenter = createEngineDescription(
                 BreakIteratorSegmenter.class
         );
 
-        AnalysisEngineDescription tokenFilter = createPrimitiveDescription(
+        AnalysisEngineDescription tokenFilter = createEngineDescription(
                 AnnotationByLengthFilter.class,
                 AnnotationByLengthFilter.PARAM_FILTER_ANNOTATION_TYPES, Token.class.toString(),
                 AnnotationByLengthFilter.PARAM_MAX_LENGTH, 30
         );
 
-        AnalysisEngineDescription sentenceFilter = createPrimitiveDescription(
+        AnalysisEngineDescription sentenceFilter = createEngineDescription(
                 SentenceFilter.class
         );
 
         TreeTaggerWrapper.TRACE = false;
-        AnalysisEngineDescription tagger = createPrimitiveDescription(
+        AnalysisEngineDescription tagger = createEngineDescription(
                 TreeTaggerPosLemmaTT4J.class,
                 TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, LANGUAGE_CODE
         );
 
-        AnalysisEngineDescription analyzer = createPrimitiveDescription(
+        AnalysisEngineDescription analyzer = createEngineDescription(
                 SentenceAligner.class,
                 SentenceAligner.PARAM_THRESHOLD, 0.95f,
                 SentenceAligner.PARAM_MAX_DIFF, 3,
                 SentenceAligner.PARAM_MIN_LENGTH, 3
         );
         
-        AnalysisEngineDescription filter = createPrimitiveDescription(
+        AnalysisEngineDescription filter = createEngineDescription(
                 SpellingErrorFilter.class,
                 SpellingErrorFilter.FREQUENCY_COUNT_RESOURCE, web1tResource,
                 SpellingErrorFilter.PARAM_LANG, LANGUAGE_CODE,

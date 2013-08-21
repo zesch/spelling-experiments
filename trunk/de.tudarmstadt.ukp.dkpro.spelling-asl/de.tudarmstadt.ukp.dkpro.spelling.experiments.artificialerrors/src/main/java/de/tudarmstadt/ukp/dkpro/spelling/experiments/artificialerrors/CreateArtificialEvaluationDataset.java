@@ -17,15 +17,15 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.artificialerrors;
 
-import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
-import static org.apache.uima.fit.factory.CollectionReaderFactory.createCollectionReader;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.fit.pipeline.SimplePipeline;
 
 import de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.NN;
-import de.tudarmstadt.ukp.dkpro.core.toolbox.corpus.BrownTEICorpus;
+import de.tudarmstadt.ukp.dkpro.core.toolbox.corpus.BrownTeiCorpus;
 import de.tudarmstadt.ukp.dkpro.core.toolbox.corpus.CorpusReader;
 import de.tudarmstadt.ukp.dkpro.core.toolbox.corpus.TigerCorpus;
 import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosLemmaTT4J;
@@ -62,17 +62,17 @@ public class CreateArtificialEvaluationDataset
     private static void createEnglish(int nrOfItems, String name)
         throws Exception 
     {
-        CollectionReader reader = createCollectionReader(
+        CollectionReader reader = createReader(
                 CorpusReader.class,
-                CorpusReader.PARAM_CORPUS, BrownTEICorpus.class.getName()
+                CorpusReader.PARAM_CORPUS, BrownTeiCorpus.class.getName()
         );
         
-        AnalysisEngineDescription tagger = createPrimitiveDescription(
+        AnalysisEngineDescription tagger = createEngineDescription(
                 TreeTaggerPosLemmaTT4J.class,
                 TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, "en"
         );
         
-        AnalysisEngineDescription errorAdder = createPrimitiveDescription(
+        AnalysisEngineDescription errorAdder = createEngineDescription(
                 SpellingErrorAdder.class,
                 SpellingErrorAdder.PARAM_VOCABULARY, "classpath:/vocabulary/brown_tei.txt",
                 SpellingErrorAdder.PARAM_TARGET_ANNOTATION_TYPE, TYPE,
@@ -82,7 +82,7 @@ public class CreateArtificialEvaluationDataset
                 SpellingErrorAdder.PARAM_MAX_EDIT_DISTANCE, 2
         );
         
-        AnalysisEngineDescription writer = createPrimitiveDescription(
+        AnalysisEngineDescription writer = createEngineDescription(
                 EvaluationDatasetWriter.class,
                 EvaluationDatasetWriter.PARAM_OUTPUT_FILE, "target/brown_artificial" + name + ".txt"
         );
@@ -98,17 +98,17 @@ public class CreateArtificialEvaluationDataset
     private static void createGerman(int nrOfItems, String name)
         throws Exception 
     {
-        CollectionReader reader = createCollectionReader(
+        CollectionReader reader = createReader(
                 CorpusReader.class,
                 CorpusReader.PARAM_CORPUS, TigerCorpus.class.getName()
         );
         
-        AnalysisEngineDescription tagger = createPrimitiveDescription(
+        AnalysisEngineDescription tagger = createEngineDescription(
                 TreeTaggerPosLemmaTT4J.class,
                 TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, "de"
         );
 
-        AnalysisEngineDescription errorAdder = createPrimitiveDescription(
+        AnalysisEngineDescription errorAdder = createEngineDescription(
                 SpellingErrorAdder.class,
                 SpellingErrorAdder.PARAM_VOCABULARY, "classpath:/vocabulary/tiger_export.txt",
                 SpellingErrorAdder.PARAM_TARGET_ANNOTATION_TYPE, TYPE,
@@ -117,7 +117,7 @@ public class CreateArtificialEvaluationDataset
                 SpellingErrorAdder.PARAM_MIN_SENTENCE_LENGTH, 10
         );
 
-        AnalysisEngineDescription writer = createPrimitiveDescription(
+        AnalysisEngineDescription writer = createEngineDescription(
                 EvaluationDatasetWriter.class,
                 EvaluationDatasetWriter.PARAM_OUTPUT_FILE, "target/tiger_artificial" + name + ".txt"
         );

@@ -23,7 +23,7 @@ import java.util.TreeSet;
 
 import org.apache.commons.io.FileUtils;
 
-import de.tudarmstadt.ukp.dkpro.core.toolbox.corpus.BrownTEICorpus;
+import de.tudarmstadt.ukp.dkpro.core.toolbox.corpus.BrownTeiCorpus;
 import de.tudarmstadt.ukp.dkpro.core.toolbox.corpus.Corpus;
 
 /**
@@ -37,7 +37,7 @@ public class CreateVocabularyFromCorpus
     
     public static void main(String[] args) throws Exception
     {
-        Corpus brown = new BrownTEICorpus();
+        Corpus brown = new BrownTeiCorpus();
 //        Corpus tiger = new TigerCorpus();
      
         createVocabulary(brown);

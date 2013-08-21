@@ -25,7 +25,7 @@ import java.util.List;
 import org.apache.uima.resource.ExternalResourceDescription;
 import org.uimafit.factory.ExternalResourceFactory;
 
-import de.tudarmstadt.ukp.dkpro.core.api.resources.DKProContext;
+import de.tudarmstadt.ukp.dkpro.core.api.resources.DkproContext;
 import de.tudarmstadt.ukp.dkpro.core.frequency.resources.Web1TFrequencyCountResource;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingPipeline_Base;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.util.MeasureConfig;
@@ -149,7 +149,7 @@ public abstract class EACL_ExperimentsBase
             }
         }
         
-        File context = DKProContext.getContext().getWorkspace("web1t");
+        File context = DkproContext.getContext().getWorkspace("web1t");
         
         return ExternalResourceFactory.createExternalResourceDescription(
                 Web1TFrequencyCountResource.class,
@@ -162,7 +162,7 @@ public abstract class EACL_ExperimentsBase
     
     public static String getWorkspacePath(String name) {
         try {
-            return DKProContext.getContext().getWorkspace(name).getAbsolutePath();
+            return DkproContext.getContext().getWorkspace(name).getAbsolutePath();
         }
         catch (IOException e) {
             System.out.println("Probably wrong workspace: " + name);

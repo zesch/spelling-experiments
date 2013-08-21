@@ -16,7 +16,7 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.uimafit.component.NoOpAnnotator;
 import org.uimafit.pipeline.SimplePipeline;
 
-import de.tudarmstadt.ukp.dkpro.core.api.resources.DKProContext;
+import de.tudarmstadt.ukp.dkpro.core.api.resources.DkproContext;
 import de.tudarmstadt.ukp.dkpro.core.frequency.resources.Web1TFrequencyCountResource;
 import de.tudarmstadt.ukp.dkpro.core.io.text.TextReader;
 import de.tudarmstadt.ukp.dkpro.core.jazzy.SpellChecker;
@@ -357,7 +357,7 @@ public class RunHOO2011Experiments
     protected static CollectionReader getReader(String dataset) throws ResourceInitializationException {
         return createCollectionReader(
                 TextReader.class,
-                TextReader.PARAM_PATH, dataset,
+                TextReader.PARAM_SOURCE_LOCATION, dataset,
                 TextReader.PARAM_ENCODING, ENCODING,
                 TextReader.PARAM_PATTERNS, new String[] { TextReader.INCLUDE_PREFIX + "*.txt" }
         );
@@ -376,7 +376,7 @@ public class RunHOO2011Experiments
     }
     
 	private static ExternalResourceDescription getNGramProvider(String ngramModel) throws IOException {
-		File context = DKProContext.getContext().getWorkspace("web1t");
+		File context = DkproContext.getContext().getWorkspace("web1t");
 		System.out.println(new File(context, ngramModel).getAbsolutePath());
 		
 		return createExternalResourceDescription(
@@ -475,7 +475,7 @@ public class RunHOO2011Experiments
             return createExternalResourceDescription(
                     VectorIndexSourceRelatednessResource.class,
                     VectorIndexSourceRelatednessResource.PARAM_MODEL_LOCATION,
-                    DKProContext.getContext().getWorkspace("esaIndexesVector" + "/en/wp/").getAbsolutePath()
+                    DkproContext.getContext().getWorkspace("esaIndexesVector" + "/en/wp/").getAbsolutePath()
             );
 
         }
@@ -483,7 +483,7 @@ public class RunHOO2011Experiments
             return createExternalResourceDescription(
                     VectorIndexSourceRelatednessResource.class,
                     VectorIndexSourceRelatednessResource.PARAM_MODEL_LOCATION,
-                    DKProContext.getContext().getWorkspace("esaIndexesVector" + "/en/wkt/").getAbsolutePath()
+                    DkproContext.getContext().getWorkspace("esaIndexesVector" + "/en/wkt/").getAbsolutePath()
             );
 
         }
@@ -491,7 +491,7 @@ public class RunHOO2011Experiments
             return createExternalResourceDescription(
                     VectorIndexSourceRelatednessResource.class,
                     VectorIndexSourceRelatednessResource.PARAM_MODEL_LOCATION,
-                    DKProContext.getContext().getWorkspace("esaIndexesVector" + "/en/wordnet/").getAbsolutePath()
+                    DkproContext.getContext().getWorkspace("esaIndexesVector" + "/en/wordnet/").getAbsolutePath()
             );
         }
         else {
