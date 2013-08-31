@@ -17,31 +17,30 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.apps;
 
-import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
-import static org.apache.uima.fit.factory.CollectionReaderFactory.createCollectionReader;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.fit.pipeline.SimplePipeline;
 
-import de.tudarmstadt.ukp.dkpro.core.api.resources.CompressionMethod;
+import de.tudarmstadt.ukp.dkpro.core.io.bincas.BinaryCasWriter;
 import de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaReaderBase;
 import de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaRevisionPairReader;
-import de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiWriter;
 import de.tudarmstadt.ukp.wikipedia.api.WikiConstants.Language;
 
-public class DumpToXmi
+public class DumpCAS
 {
 
     public static void main(String[] args)
         throws Exception
     {
-        dumpDe();
+//        dumpDe();
         dumpEn();
     }
     
     private static void dumpDe() throws Exception {
-        CollectionReader readerDe = createCollectionReader(
+        CollectionReader readerDe = createReader(
                 WikipediaRevisionPairReader.class,
                 WikipediaReaderBase.PARAM_HOST,       "bender.ukp.informatik.tu-darmstadt.de",
                 WikipediaReaderBase.PARAM_DB,         "wiki_de_20100813_rev",
@@ -51,10 +50,9 @@ public class DumpToXmi
                 WikipediaRevisionPairReader.PARAM_MAX_CHANGE, 3
         );
         
-        AnalysisEngineDescription dumperDe = createPrimitiveDescription(
-                XmiWriter.class,
-                XmiWriter.PARAM_TARGET_LOCATION, "target/de/xmi",
-                XmiWriter.PARAM_COMPRESSION, CompressionMethod.GZIP
+        AnalysisEngineDescription dumperDe = createEngineDescription(
+                BinaryCasWriter.class,
+                BinaryCasWriter.PARAM_TARGET_LOCATION, "target/de/bincas"
         );
 
         SimplePipeline.runPipeline(
@@ -64,7 +62,7 @@ public class DumpToXmi
     }
 
     private static void dumpEn() throws Exception {
-        CollectionReader readerEn = createCollectionReader(
+        CollectionReader readerEn = createReader(
                 WikipediaRevisionPairReader.class,
                 WikipediaReaderBase.PARAM_HOST,       "bender.ukp.informatik.tu-darmstadt.de",
                 WikipediaReaderBase.PARAM_DB,         "wikiapi_simple_20090119",
@@ -74,10 +72,9 @@ public class DumpToXmi
                 WikipediaRevisionPairReader.PARAM_MAX_CHANGE, 3
         );
         
-        AnalysisEngineDescription dumperEn = createPrimitiveDescription(
-                XmiWriter.class,
-                XmiWriter.PARAM_TARGET_LOCATION, "target/en/xmi",
-                XmiWriter.PARAM_COMPRESSION, CompressionMethod.GZIP
+        AnalysisEngineDescription dumperEn = createEngineDescription(
+                BinaryCasWriter.class,
+                BinaryCasWriter.PARAM_TARGET_LOCATION, "target/en/bincas"
         );
 
         SimplePipeline.runPipeline(

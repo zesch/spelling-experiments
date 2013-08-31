@@ -19,16 +19,15 @@ package de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.apps;
 
 import static de.tudarmstadt.ukp.dkpro.core.api.io.ResourceCollectionReaderBase.INCLUDE_PREFIX;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
-import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 import static org.apache.uima.fit.factory.ExternalResourceFactory.createExternalResourceDescription;
 
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.annolab.tt4j.TreeTaggerWrapper;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
-import org.apache.uima.collection.CollectionReader;
+import org.apache.uima.collection.CollectionReaderDescription;
 import org.apache.uima.fit.factory.AggregateBuilder;
 import org.apache.uima.fit.pipeline.SimplePipeline;
 import org.apache.uima.resource.ExternalResourceDescription;
@@ -36,11 +35,13 @@ import org.apache.uima.resource.ExternalResourceDescription;
 import de.tudarmstadt.ukp.dkpro.core.api.resources.DkproContext;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.core.frequency.resources.Web1TFrequencyCountResource;
+import de.tudarmstadt.ukp.dkpro.core.gate.GateLemmatizer;
+import de.tudarmstadt.ukp.dkpro.core.io.bincas.BinaryCasReader;
 import de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaRevisionPairReader;
-import de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiReader;
+import de.tudarmstadt.ukp.dkpro.core.matetools.MateLemmatizer;
+import de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpPosTagger;
 import de.tudarmstadt.ukp.dkpro.core.tokit.AnnotationByLengthFilter;
 import de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter;
-import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosLemmaTT4J;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.SentenceAligner;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.SentenceFilter;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.SpellingErrorFilter;
@@ -69,9 +70,9 @@ public class GetSpellingErrorsInContext
         String outputPath = "target/test/";
 //        int skipFirstNRevisions = 2000;
         
-        CollectionReader reader = null;
+        CollectionReaderDescription reader = null;
         if (LANGUAGE_CODE.equals("de")) {
-//            reader = createCollectionReader(
+//            reader = createReaderDescription(
 //                    WikipediaRevisionPairReader.class,
 //                    WikipediaReaderBase.PARAM_HOST,       "",
 //                    WikipediaReaderBase.PARAM_DB,         "",
@@ -79,14 +80,14 @@ public class GetSpellingErrorsInContext
 //                    WikipediaReaderBase.PARAM_PASSWORD,   "",
 //                    WikipediaReaderBase.PARAM_LANGUAGE,   Language.german.name()
 //            );
-            reader = createReader(
-                    XmiReader.class,
-                    XmiReader.PARAM_SOURCE_LOCATION, "classpath:/wikirevision_data/de/",
-                    XmiReader.PARAM_PATTERNS, new String[] { INCLUDE_PREFIX + "*.xmi.gz" }
+            reader = createReaderDescription(
+                    BinaryCasReader.class,
+                    BinaryCasReader.PARAM_SOURCE_LOCATION, "classpath:/wikirevision_data/de/",
+                    BinaryCasReader.PARAM_PATTERNS, INCLUDE_PREFIX + "*.bin"
             );
         }
         else if (LANGUAGE_CODE.equals("en")) {
-//            reader = createCollectionReader(
+//            reader = createReaderDescription(
 //                    WikipediaRevisionPairReader.class,
 //                    WikipediaReaderBase.PARAM_HOST,       "",
 //                    WikipediaReaderBase.PARAM_DB,         "",
@@ -96,10 +97,10 @@ public class GetSpellingErrorsInContext
 //                    WikipediaReaderBase.PARAM_PASSWORD,   "",
 //                    WikipediaReaderBase.PARAM_LANGUAGE,   Language.english.name()
 //            );
-            reader = createReader(
-                    XmiReader.class,
-                    XmiReader.PARAM_SOURCE_LOCATION, "classpath:/wikirevision_data/en/",
-                    XmiReader.PARAM_PATTERNS, new String[] { INCLUDE_PREFIX + "*.xmi.gz" }
+            reader = createReaderDescription(
+                    BinaryCasReader.class,
+                    BinaryCasReader.PARAM_SOURCE_LOCATION, "classpath:/wikirevision_data/en/",
+                    BinaryCasReader.PARAM_PATTERNS, INCLUDE_PREFIX + "*.bin"
             );
         }
         
@@ -119,7 +120,7 @@ public class GetSpellingErrorsInContext
 
         AnalysisEngineDescription tokenFilter = createEngineDescription(
                 AnnotationByLengthFilter.class,
-                AnnotationByLengthFilter.PARAM_FILTER_ANNOTATION_TYPES, Token.class.toString(),
+                AnnotationByLengthFilter.PARAM_FILTER_ANNOTATION_TYPES, Token.class.getName(),
                 AnnotationByLengthFilter.PARAM_MAX_LENGTH, 30
         );
 
@@ -127,10 +128,18 @@ public class GetSpellingErrorsInContext
                 SentenceFilter.class
         );
 
-        TreeTaggerWrapper.TRACE = false;
         AnalysisEngineDescription tagger = createEngineDescription(
-                TreeTaggerPosLemmaTT4J.class,
-                TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, LANGUAGE_CODE
+                OpenNlpPosTagger.class,
+                OpenNlpPosTagger.PARAM_LANGUAGE, LANGUAGE_CODE
+        );
+        
+        AnalysisEngineDescription lemmatizerEn = createEngineDescription(
+                GateLemmatizer.class
+        );
+
+        AnalysisEngineDescription lemmatizerDe = createEngineDescription(
+                MateLemmatizer.class,
+                MateLemmatizer.PARAM_LANGUAGE, LANGUAGE_CODE
         );
 
         AnalysisEngineDescription analyzer = createEngineDescription(
@@ -150,23 +159,47 @@ public class GetSpellingErrorsInContext
                 SpellingErrorFilter.PARAM_TARGET_LOCATION, outputPath
         );
 
-        AggregateBuilder builder = new AggregateBuilder();
-        builder.add(segmenter, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
-        builder.add(segmenter, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
-        builder.add(tokenFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
-        builder.add(tokenFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
-        builder.add(sentenceFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
-        builder.add(sentenceFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
-        builder.add(tagger, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
-        builder.add(tagger, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
-        builder.add(analyzer);
-        builder.add(filter);
-        
-        AnalysisEngineDescription aggr = builder.createAggregateDescription();
-        
-        SimplePipeline.runPipeline(
-                reader,
-                aggr
-        );
+        AggregateBuilder builderEn = new AggregateBuilder();
+        builderEn.add(segmenter, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
+        builderEn.add(segmenter, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
+        builderEn.add(tokenFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
+        builderEn.add(tokenFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
+        builderEn.add(sentenceFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
+        builderEn.add(sentenceFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
+        builderEn.add(tagger, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
+        builderEn.add(tagger, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
+        builderEn.add(lemmatizerEn, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
+        builderEn.add(lemmatizerEn, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
+        builderEn.add(analyzer);
+        builderEn.add(filter);
+        AnalysisEngineDescription aggrEn = builderEn.createAggregateDescription();
+
+        AggregateBuilder builderDe = new AggregateBuilder();
+        builderDe.add(segmenter, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
+        builderDe.add(segmenter, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
+        builderDe.add(tokenFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
+        builderDe.add(tokenFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
+        builderDe.add(sentenceFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
+        builderDe.add(sentenceFilter, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
+        builderDe.add(tagger, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
+        builderDe.add(tagger, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
+        builderDe.add(lemmatizerDe, "_InitialView", WikipediaRevisionPairReader.REVISION_1);
+        builderDe.add(lemmatizerDe, "_InitialView", WikipediaRevisionPairReader.REVISION_2);
+        builderDe.add(analyzer);
+        builderDe.add(filter);
+        AnalysisEngineDescription aggrDe = builderDe.createAggregateDescription();
+
+        if (LANGUAGE_CODE.equals("en")) {
+            SimplePipeline.runPipeline(
+                    reader,
+                    aggrEn
+            ); 
+        }
+        else {
+            SimplePipeline.runPipeline(
+                    reader,
+                    aggrDe
+            );  
+        }
     }
 }
