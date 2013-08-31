@@ -20,7 +20,7 @@
   <parent>
     <artifactId>dkpro-parent-pom</artifactId>
     <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
-    <version>4</version>
+    <version>5-SNAPSHOT</version>
   </parent>
   <groupId>de.tudarmstadt.ukp.dkpro.spelling</groupId>
   <artifactId>de.tudarmstadt.ukp.dkpro.spelling-asl</artifactId>
