@@ -61,7 +61,7 @@ public class VisualizeChanges
 //            );
             reader = createReaderDescription(
                     BinaryCasReader.class,
-                    BinaryCasReader.PARAM_SOURCE_LOCATION, "classpath:/wikirevision_data/de/",
+                    BinaryCasReader.PARAM_SOURCE_LOCATION, "classpath*:/wikirevision_data/de/",
                     BinaryCasReader.PARAM_PATTERNS, INCLUDE_PREFIX + "*.bin"
             );
         }
@@ -78,7 +78,7 @@ public class VisualizeChanges
 //            );
             reader = createReaderDescription(
                     BinaryCasReader.class,
-                    BinaryCasReader.PARAM_SOURCE_LOCATION, "classpath:/wikirevision_data/en/",
+                    BinaryCasReader.PARAM_SOURCE_LOCATION, "classpath*:/wikirevision_data/en/",
                     BinaryCasReader.PARAM_PATTERNS, INCLUDE_PREFIX + "*.bin"
             );
         }
