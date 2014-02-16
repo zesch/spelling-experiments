@@ -34,9 +34,9 @@ import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaRevisionPairReader;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.type.ChangedToken;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.type.RevisionSentencePair;
-import de.tudarmstadt.ukp.similarity.algorithms.api.SimilarityException;
-import de.tudarmstadt.ukp.similarity.algorithms.api.TermSimilarityMeasure;
-import de.tudarmstadt.ukp.similarity.algorithms.lexical.string.JaroWinklerSecondStringComparator;
+import dkpro.similarity.algorithms.api.SimilarityException;
+import dkpro.similarity.algorithms.api.TermSimilarityMeasure;
+import dkpro.similarity.algorithms.lexical.string.JaroWinklerSecondStringComparator;
 
 /**
  * Aligns sentences from two revisions if their distance

@@ -1,9 +1,8 @@
 package de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2011;
 
-import static org.uimafit.factory.AnalysisEngineFactory.createAggregateDescription;
-import static org.uimafit.factory.AnalysisEngineFactory.createPrimitiveDescription;
-import static org.uimafit.factory.CollectionReaderFactory.createCollectionReader;
-import static org.uimafit.factory.ExternalResourceFactory.createExternalResourceDescription;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
+import static org.apache.uima.fit.factory.ExternalResourceFactory.createExternalResourceDescription;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,10 +10,10 @@ import java.io.IOException;
 import org.apache.uima.UIMAException;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReader;
+import org.apache.uima.fit.component.NoOpAnnotator;
+import org.apache.uima.fit.pipeline.SimplePipeline;
 import org.apache.uima.resource.ExternalResourceDescription;
 import org.apache.uima.resource.ResourceInitializationException;
-import org.uimafit.component.NoOpAnnotator;
-import org.uimafit.pipeline.SimplePipeline;
 
 import de.tudarmstadt.ukp.dkpro.core.api.resources.DkproContext;
 import de.tudarmstadt.ukp.dkpro.core.frequency.resources.Web1TFrequencyCountResource;
@@ -29,9 +28,9 @@ import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.RWSECandidateFilter;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingErrorCombinator;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingErrorCombinator.CombinationStrategy;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingPipeline_Base;
-import de.tudarmstadt.ukp.similarity.dkpro.resource.lsr.JiangConrathRelatednessResource;
-import de.tudarmstadt.ukp.similarity.dkpro.resource.lsr.LinRelatednessResource;
-import de.tudarmstadt.ukp.similarity.dkpro.resource.vsm.VectorIndexSourceRelatednessResource;
+import dkpro.similarity.algorithms.lsr.uima.path.JiangConrathRelatednessResource;
+import dkpro.similarity.algorithms.lsr.uima.path.LinRelatednessResource;
+import dkpro.similarity.algorithms.vsm.uima.VectorIndexSourceRelatednessResource;
 
 public class RunHOO2011Experiments
 	extends SpellingPipeline_Base
@@ -97,7 +96,7 @@ public class RunHOO2011Experiments
                 runId++,
                 DATASET,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                       NoOpAnnotator.class
                 )
         );
@@ -107,7 +106,7 @@ public class RunHOO2011Experiments
                 runId++,
                 DATASET,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         SpellChecker.class,
                         SpellChecker.PARAM_MODEL_LOCATION, vocabularyMap.get(LANG)
                 )
@@ -118,7 +117,7 @@ public class RunHOO2011Experiments
                 runId++,
                 DATASET,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -133,7 +132,7 @@ public class RunHOO2011Experiments
                 runId++,
                 DATASET,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -148,7 +147,7 @@ public class RunHOO2011Experiments
                 runId++,
                 DATASET,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -163,7 +162,7 @@ public class RunHOO2011Experiments
                 runId++,
                 DATASET,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -178,7 +177,7 @@ public class RunHOO2011Experiments
                 runId++,
                 DATASET,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -193,7 +192,7 @@ public class RunHOO2011Experiments
                 runId++,
                 DATASET,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -208,7 +207,7 @@ public class RunHOO2011Experiments
                 runId++,
                 DATASET,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -225,11 +224,11 @@ public class RunHOO2011Experiments
                 DATASET,
                 CombinationStrategy.join,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         SpellChecker.class,
                         SpellChecker.PARAM_MODEL_LOCATION, vocabularyMap.get(LANG)
                 ),
-                createPrimitiveDescription(
+                createEngineDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -237,7 +236,7 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.JiangConrath)
                 ),
-                createPrimitiveDescription(
+                createEngineDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -245,7 +244,7 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.EsaWN)
                  ),
-                 createPrimitiveDescription(
+                 createEngineDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -253,7 +252,7 @@ public class RunHOO2011Experiments
                         TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
                         TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T)
                 ),
-                createPrimitiveDescription(
+                createEngineDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -268,7 +267,7 @@ public class RunHOO2011Experiments
                 DATASET,
                 CombinationStrategy.join,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -276,7 +275,7 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.JiangConrath)
                 ),
-                createPrimitiveDescription(
+                createEngineDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -284,7 +283,7 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.EsaWN)
                  ),
-                 createPrimitiveDescription(
+                 createEngineDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -292,7 +291,7 @@ public class RunHOO2011Experiments
                         TrigramProbabilityDetector.PARAM_ALPHA, ALPHA,
                         TrigramProbabilityDetector.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T)
                 ),
-                createPrimitiveDescription(
+                createEngineDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -307,11 +306,11 @@ public class RunHOO2011Experiments
                 DATASET,
                 CombinationStrategy.onlyKeepMultiple,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         SpellChecker.class,
                         SpellChecker.PARAM_MODEL_LOCATION, vocabularyMap.get(LANG)
                 ),
-                createPrimitiveDescription(
+                createEngineDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -319,7 +318,7 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.EsaWN)
                  ),
-                 createPrimitiveDescription(
+                 createEngineDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -334,7 +333,7 @@ public class RunHOO2011Experiments
                 DATASET,
                 CombinationStrategy.onlyKeepMultiple,
                 CANDIDATE_TOKEN,
-                createPrimitiveDescription(
+                createEngineDescription(
                         LexCohesionDetector.class,
                         LexCohesionDetector.PARAM_LANGUAGE_CODE, LANG,
                         LexCohesionDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -342,7 +341,7 @@ public class RunHOO2011Experiments
                         LexCohesionDetector.PARAM_MIN_LENGTH, MIN_LENGTH,
                         LexCohesionDetector.SR_RESOURCE, getExternalResource(SRMeasures.EsaWN)
                  ),
-                 createPrimitiveDescription(
+                 createEngineDescription(
                         TrigramProbabilityDetector.class,
                         TrigramProbabilityDetector.PARAM_LANGUAGE_CODE, LANG,
                         TrigramProbabilityDetector.PARAM_VOCABULARY, vocabularyMap.get(LANG),
@@ -355,7 +354,7 @@ public class RunHOO2011Experiments
     }
 
     protected static CollectionReader getReader(String dataset) throws ResourceInitializationException {
-        return createCollectionReader(
+        return createReader(
                 TextReader.class,
                 TextReader.PARAM_SOURCE_LOCATION, dataset,
                 TextReader.PARAM_ENCODING, ENCODING,
@@ -364,7 +363,7 @@ public class RunHOO2011Experiments
     }
 
     protected static AnalysisEngineDescription getEvaluator(Integer runId) throws ResourceInitializationException {
-        return createPrimitiveDescription(
+        return createEngineDescription(
                 HOO2011Evaluator.class,
                 HOO2011Evaluator.PARAM_OUTPUT_PATH, OUTPUT_PATH + "/",
                 HOO2011Evaluator.PARAM_EXTRACTION_PATH, EXTRACTION_PATH + "/",
@@ -398,16 +397,16 @@ public class RunHOO2011Experiments
 
         SimplePipeline.runPipeline(
                 getReader(dataset),
-				createPrimitiveDescription(BreakIteratorSegmenter.class),
-				createPrimitiveDescription(
+				createEngineDescription(BreakIteratorSegmenter.class),
+				createEngineDescription(
                         TreeTaggerPosLemmaTT4J.class,
                         TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, LANG
                 ),
-                createPrimitiveDescription(
+                createEngineDescription(
                         RWSECandidateAnnotator.class,
                         RWSECandidateAnnotator.PARAM_TYPE, candidateType
                 ),
-                createPrimitiveDescription(
+                createEngineDescription(
                 		RWSECandidateFilter.class,
                         RWSECandidateFilter.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T),
                         RWSECandidateFilter.PARAM_STOPWORD_LIST, blacklistMap.get(LANG),
@@ -430,23 +429,23 @@ public class RunHOO2011Experiments
         
         SimplePipeline.runPipeline(
                 getReader(dataset),
-				createPrimitiveDescription(BreakIteratorSegmenter.class),
-				createPrimitiveDescription(
+				createEngineDescription(BreakIteratorSegmenter.class),
+				createEngineDescription(
                         TreeTaggerPosLemmaTT4J.class,
                         TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, LANG
                 ),
-                createPrimitiveDescription(
+                createEngineDescription(
                         RWSECandidateAnnotator.class,
                         RWSECandidateAnnotator.PARAM_TYPE, candidateType
                 ),
-                createPrimitiveDescription(
+                createEngineDescription(
                 		RWSECandidateFilter.class,
                         RWSECandidateFilter.FREQUENCY_PROVIDER_RESOURCE, getNGramProvider(NGRAM_MODEL_WEB1T),
                         RWSECandidateFilter.PARAM_STOPWORD_LIST, blacklistMap.get(LANG),
                         RWSECandidateFilter.PARAM_MIN_LENGTH, MIN_LENGTH
                 ),
-                createAggregateDescription(detectors),
-                createPrimitiveDescription(
+                createEngineDescription(detectors),
+                createEngineDescription(
                         SpellingErrorCombinator.class,
                         SpellingErrorCombinator.PARAM_COMBINATION_STRATEGY, strategy.name()
                 ),

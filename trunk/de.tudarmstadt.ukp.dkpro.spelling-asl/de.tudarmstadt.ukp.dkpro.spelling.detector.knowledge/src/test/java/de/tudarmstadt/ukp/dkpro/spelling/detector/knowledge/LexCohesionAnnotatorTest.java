@@ -17,9 +17,8 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.dkpro.spelling.detector.knowledge;
 
-import static org.apache.uima.fit.factory.AnalysisEngineFactory.createAggregate;
-import static org.apache.uima.fit.factory.AnalysisEngineFactory.createAggregateDescription;
-import static org.apache.uima.fit.factory.AnalysisEngineFactory.createPrimitiveDescription;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -36,7 +35,8 @@ import de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter;
 import de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosLemmaTT4J;
 import de.tudarmstadt.ukp.dkpro.semantics.spelling.type.RWSECandidate;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.RWSECandidateAnnotator;
-import de.tudarmstadt.ukp.similarity.dkpro.resource.test.TestSimilarityResource;
+import dkpro.similarity.uima.resource.test.TestSimilarityResource;
+
 public class LexCohesionAnnotatorTest
 {
 
@@ -44,21 +44,21 @@ public class LexCohesionAnnotatorTest
     public void testProcess()
         throws Exception
     {
-        AnalysisEngineDescription segmenter = createPrimitiveDescription(
+        AnalysisEngineDescription segmenter = createEngineDescription(
                 BreakIteratorSegmenter.class
         );
 
-        AnalysisEngineDescription tagger = createPrimitiveDescription(
+        AnalysisEngineDescription tagger = createEngineDescription(
                 TreeTaggerPosLemmaTT4J.class,
                 TreeTaggerPosLemmaTT4J.PARAM_LANGUAGE, "en"
         );
 
-        AnalysisEngineDescription candidates = createPrimitiveDescription(
+        AnalysisEngineDescription candidates = createEngineDescription(
                 RWSECandidateAnnotator.class,
                 RWSECandidateAnnotator.PARAM_TYPE, Token.class.getName()
         );
 
-        AnalysisEngineDescription cohesion= createPrimitiveDescription(
+        AnalysisEngineDescription cohesion= createEngineDescription(
                 LexCohesionDetector.class,
                 LexCohesionDetector.PARAM_VOCABULARY, "classpath:/vocabulary/en_US_dict.txt",
                 LexCohesionDetector.PARAM_LANGUAGE_CODE, "en",
@@ -69,14 +69,14 @@ public class LexCohesionAnnotatorTest
                 )
         );
         
-        AnalysisEngineDescription aggr = createAggregateDescription(
+        AnalysisEngineDescription aggr = createEngineDescription(
                 segmenter,
                 tagger,
                 candidates,
                 cohesion
         );
                 
-        AnalysisEngine engine = createAggregate(aggr);
+        AnalysisEngine engine = createEngine(aggr);
         
         String text = "This is not a construcdion.";
         JCas jcas = engine.newJCas();

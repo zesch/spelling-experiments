@@ -21,8 +21,8 @@ import java.io.IOException;
 
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReaderDescription;
+import org.apache.uima.fit.factory.CollectionReaderFactory;
 import org.apache.uima.resource.ResourceInitializationException;
-import org.uimafit.factory.CollectionReaderFactory;
 
 import de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.N;
 import de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter;
@@ -47,7 +47,7 @@ import de.tudarmstadt.ukp.dkpro.spelling.experiments.data.util.DataUtil;
 import de.tudarmstadt.ukp.dkpro.spelling.io.SpellingErrorInContextEvaluator;
 import de.tudarmstadt.ukp.dkpro.spelling.io.SpellingErrorInContextReader;
 import de.tudarmstadt.ukp.dkpro.spelling.io.SpellingErrorInContextReader_LongFormat;
-import de.tudarmstadt.ukp.similarity.dkpro.resource.vsm.VectorIndexSourceRelatednessResource;
+import dkpro.similarity.algorithms.vsm.uima.VectorIndexSourceRelatednessResource;
 
 public class CombinationExperiments extends EACL_ExperimentsBase
 {

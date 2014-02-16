@@ -56,9 +56,9 @@
         <dependency>
 			<groupId>de.tudarmstadt.ukp.dkpro.spelling</groupId>
 			<artifactId>de.tudarmstadt.ukp.dkpro.spelling.experiments.core</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
 			<scope>test</scope>
-		</dependency>
+			<version>0.1.0-SNAPSHOT</version>
+        </dependency>
 		<dependency>
 			<groupId>de.tudarmstadt.ukp.dkpro.spelling</groupId>
 			<artifactId>de.tudarmstadt.ukp.dkpro.spelling.experiments.data</artifactId>
@@ -66,12 +66,12 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>de.tudarmstadt.ukp.similarity.algorithms</groupId>
-			<artifactId>de.tudarmstadt.ukp.similarity.algorithms.api-asl</artifactId>
+			<groupId>dkpro.similarity</groupId>
+			<artifactId>dkpro.similarity.algorithms.api-asl</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>de.tudarmstadt.ukp.similarity.dkpro</groupId>
-			<artifactId>de.tudarmstadt.ukp.similarity.dkpro.core-asl</artifactId>
+			<groupId>dkpro.similarity</groupId>
+			<artifactId>dkpro.similarity.uima.core-asl</artifactId>
 		</dependency>
 	</dependencies>
 	<profiles>

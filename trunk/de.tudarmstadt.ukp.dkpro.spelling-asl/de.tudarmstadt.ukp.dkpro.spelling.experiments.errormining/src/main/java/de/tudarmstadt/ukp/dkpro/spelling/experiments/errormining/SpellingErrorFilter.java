@@ -74,8 +74,8 @@ import de.tudarmstadt.ukp.dkpro.lexsemresource.exception.ResourceLoaderException
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.DatasetItem;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.type.ChangedToken;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.errormining.type.RevisionSentencePair;
-import de.tudarmstadt.ukp.similarity.algorithms.lexical.string.LevenshteinSecondStringComparator;
-import de.tudarmstadt.ukp.similarity.algorithms.lexical.string.SecondStringComparator_ImplBase;
+import dkpro.similarity.algorithms.lexical.string.LevenshteinSecondStringComparator;
+import dkpro.similarity.algorithms.lexical.string.SecondStringComparator_ImplBase;
 
 /**
  * Filters aligned sentences according to some heuristics.

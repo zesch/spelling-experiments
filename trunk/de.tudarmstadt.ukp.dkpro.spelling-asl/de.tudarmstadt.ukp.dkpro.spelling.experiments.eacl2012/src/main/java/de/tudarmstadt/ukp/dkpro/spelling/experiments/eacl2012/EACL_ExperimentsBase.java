@@ -22,17 +22,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.uima.fit.factory.ExternalResourceFactory;
 import org.apache.uima.resource.ExternalResourceDescription;
-import org.uimafit.factory.ExternalResourceFactory;
 
 import de.tudarmstadt.ukp.dkpro.core.api.resources.DkproContext;
 import de.tudarmstadt.ukp.dkpro.core.frequency.resources.Web1TFrequencyCountResource;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.SpellingPipeline_Base;
 import de.tudarmstadt.ukp.dkpro.spelling.experiments.core.util.MeasureConfig;
-import de.tudarmstadt.ukp.similarity.dkpro.resource.lsr.JiangConrathRelatednessResource;
-import de.tudarmstadt.ukp.similarity.dkpro.resource.lsr.LinRelatednessResource;
-import de.tudarmstadt.ukp.similarity.dkpro.resource.lsr.gloss.GlossOverlapRelatednessResource;
-import de.tudarmstadt.ukp.similarity.dkpro.resource.vsm.VectorIndexSourceRelatednessResource;
+import dkpro.similarity.algorithms.lsr.uima.gloss.GlossOverlapRelatednessResource;
+import dkpro.similarity.algorithms.lsr.uima.path.JiangConrathRelatednessResource;
+import dkpro.similarity.algorithms.lsr.uima.path.LinRelatednessResource;
+import dkpro.similarity.algorithms.vsm.uima.VectorIndexSourceRelatednessResource;
 
 public abstract class EACL_ExperimentsBase
     extends SpellingPipeline_Base

@@ -3,7 +3,7 @@ package de.tudarmstadt.ukp.dkpro.spelling.experiments.hoo2011;
 import java.io.IOException;
 
 import org.apache.uima.UIMAException;
-import org.uimafit.pipeline.SimplePipeline;
+import org.apache.uima.fit.pipeline.SimplePipeline;
 
 
 public class RunHOO2011Evaluator extends RunHOO2011Experiments {
